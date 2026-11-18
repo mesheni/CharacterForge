@@ -1,0 +1,5347 @@
+{
+  "species": [
+    {
+      "id": "aasimar",
+      "name": "Aasimar",
+      "ru": "Аасимар",
+      "url": "https://next.dnd.su/species/aasimar",
+      "source": "PH24",
+      "speed": 30,
+      "size": "Маленький или средний",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Небесное сопротивление",
+        "Тёмное зрение",
+        "Исцеляющие руки",
+        "Несущий свет",
+        "Небесное откровение",
+        "Небесные крылья",
+        "Сияющая душа",
+        "Саван смерти"
+      ],
+      "innateSpells": [
+        {
+          "id": "light",
+          "level": 1,
+          "ability": "cha"
+        }
+      ]
+    },
+    {
+      "id": "gnome",
+      "name": "Gnome",
+      "ru": "Гном",
+      "url": "https://next.dnd.su/species/gnome",
+      "source": "PH24",
+      "speed": 30,
+      "size": "Маленький",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Тёмное зрение",
+        "Гномья хитрость",
+        "Гномий род"
+      ],
+      "lineages": [
+        {
+          "id": "forest",
+          "name": "Лесной гном",
+          "url": "https://next.dnd.su/species/gnome/forest",
+          "traits": [
+            "Тёмное зрение",
+            "Гномья хитрость",
+            "Гномий род"
+          ]
+        },
+        {
+          "id": "rock",
+          "name": "Скальный гном",
+          "url": "https://next.dnd.su/species/gnome/rock",
+          "traits": [
+            "Тёмное зрение",
+            "Гномья хитрость",
+            "Гномий род"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goliath",
+      "name": "Goliath",
+      "ru": "Голиаф",
+      "url": "https://next.dnd.su/species/goliath",
+      "source": "PH24",
+      "speed": 35,
+      "size": "Средний",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Наследие великанов",
+        "Большая форма",
+        "Мощное телосложение"
+      ]
+    },
+    {
+      "id": "dwarf",
+      "name": "Dwarf",
+      "ru": "Дварф",
+      "url": "https://next.dnd.su/species/dwarf",
+      "source": "PH24",
+      "speed": 30,
+      "size": "Средний",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Тёмное зрение",
+        "Дварфийская устойчивость",
+        "Дварфийская крепость",
+        "Знание камня"
+      ]
+    },
+    {
+      "id": "dragonborn",
+      "name": "Dragonborn",
+      "ru": "Драконорождённый",
+      "url": "https://next.dnd.su/species/dragonborn",
+      "source": "PH24",
+      "speed": 30,
+      "size": "Средний",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Наследие драконов",
+        "Оружие дыхания",
+        "Сопротивление урону",
+        "Тёмное зрение",
+        "Драконий полёт"
+      ]
+    },
+    {
+      "id": "orc",
+      "name": "Orc",
+      "ru": "Орк",
+      "url": "https://next.dnd.su/species/orc",
+      "source": "PH24",
+      "speed": 30,
+      "size": "Средний",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Выброс адреналина",
+        "Тёмное зрение",
+        "Непоколебимая стойкость"
+      ]
+    },
+    {
+      "id": "halfling",
+      "name": "Halfling",
+      "ru": "Полурослик",
+      "url": "https://next.dnd.su/species/halfling",
+      "source": "PH24",
+      "speed": 30,
+      "size": "Маленький",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Храбрый",
+        "Проворство полуросликов",
+        "Удача",
+        "Естественная скрытность"
+      ]
+    },
+    {
+      "id": "tiefling",
+      "name": "Tiefling",
+      "ru": "Тифлинг",
+      "url": "https://next.dnd.su/species/tiefling",
+      "source": "PH24",
+      "speed": 30,
+      "size": "Маленький или средний",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Тёмное зрение",
+        "Наследие исчадий",
+        "Потустороннее присутствие"
+      ],
+      "lineages": [
+        {
+          "id": "abyssal",
+          "name": "Наследие бездны",
+          "url": "https://next.dnd.su/species/tiefling/abyssal",
+          "traits": [
+            "Тёмное зрение",
+            "Наследие исчадий",
+            "Потустороннее присутствие"
+          ]
+        },
+        {
+          "id": "infernal",
+          "name": "Инфернальное наследие",
+          "url": "https://next.dnd.su/species/tiefling/infernal",
+          "traits": [
+            "Тёмное зрение",
+            "Наследие исчадий",
+            "Потустороннее присутствие"
+          ]
+        },
+        {
+          "id": "chthonic",
+          "name": "Хтоническое наследие",
+          "url": "https://next.dnd.su/species/tiefling/chthonic",
+          "traits": [
+            "Тёмное зрение",
+            "Наследие исчадий",
+            "Потустороннее присутствие"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "human",
+      "name": "Human",
+      "ru": "Человек",
+      "url": "https://next.dnd.su/species/human",
+      "source": "PH24",
+      "speed": 30,
+      "size": "Маленький или средний",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Находчивый",
+        "Умелый",
+        "Гибкий"
+      ]
+    },
+    {
+      "id": "elf",
+      "name": "Elf",
+      "ru": "Эльф",
+      "url": "https://next.dnd.su/species/elf",
+      "source": "PH24",
+      "speed": 30,
+      "size": "Средний",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Тёмное зрение",
+        "Эльфийский род",
+        "Наследие фей",
+        "Обострённые чувства",
+        "Транс"
+      ],
+      "lineages": [
+        {
+          "id": "high",
+          "name": "Высший эльф",
+          "url": "https://next.dnd.su/species/elf/high",
+          "traits": [
+            "Тёмное зрение",
+            "Эльфийский род",
+            "Наследие фей",
+            "Обострённые чувства",
+            "Транс"
+          ]
+        },
+        {
+          "id": "wood",
+          "name": "Лесной эльф",
+          "url": "https://next.dnd.su/species/elf/wood",
+          "traits": [
+            "Тёмное зрение",
+            "Эльфийский род",
+            "Наследие фей",
+            "Обострённые чувства",
+            "Транс"
+          ]
+        },
+        {
+          "id": "drow",
+          "name": "Дроу",
+          "url": "https://next.dnd.su/species/elf/drow",
+          "traits": [
+            "Тёмное зрение",
+            "Эльфийский род",
+            "Наследие фей",
+            "Обострённые чувства",
+            "Транс"
+          ]
+        },
+        {
+          "id": "lorwyn",
+          "name": "Эльф Лорвина",
+          "url": "https://next.dnd.su/species/elf/lorwyn",
+          "traits": [
+            "Тёмное зрение",
+            "Эльфийский род",
+            "Наследие фей",
+            "Обострённые чувства",
+            "Транс"
+          ]
+        },
+        {
+          "id": "shadowmoor",
+          "name": "Эльф Шэдоумура",
+          "url": "https://next.dnd.su/species/elf/shadowmoor",
+          "traits": [
+            "Тёмное зрение",
+            "Эльфийский род",
+            "Наследие фей",
+            "Обострённые чувства",
+            "Транс"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hexblood",
+      "name": "Hexblood",
+      "ru": "Ведьмовская кровь",
+      "url": "https://next.dnd.su/species/hexblood",
+      "source": "RTW",
+      "speed": 30,
+      "size": "Маленький или средний",
+      "creatureType": "Фея",
+      "traits": [
+        "Тёмное зрение",
+        "Мистический маркер",
+        "Ведьмовская магия"
+      ],
+      "innateSpells": [
+        {
+          "id": "disguise-self",
+          "level": 1
+        },
+        {
+          "id": "hex",
+          "level": 1
+        }
+      ],
+      "innateAbilityOptions": [
+        "int",
+        "wis",
+        "cha"
+      ]
+    },
+    {
+      "id": "reborn",
+      "name": "Reborn",
+      "ru": "Возрождённый",
+      "url": "https://next.dnd.su/species/reborn",
+      "source": "RTW",
+      "speed": 30,
+      "size": "Маленький или средний",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Избежаший Смерти",
+        "Небренный",
+        "Знание прошлой жизни",
+        "Сверхъестественная устойчивость"
+      ]
+    },
+    {
+      "id": "lupin",
+      "name": "Lupin",
+      "ru": "Волколак",
+      "url": "https://next.dnd.su/species/lupin",
+      "source": "RTW",
+      "speed": 30,
+      "size": "Маленький или средний",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Тёмное зрение",
+        "Звериный наскок",
+        "Вой",
+        "Инстинкты оборотня"
+      ]
+    },
+    {
+      "id": "dhampir",
+      "name": "Dhampir",
+      "ru": "Дампир",
+      "url": "https://next.dnd.su/species/dhampir",
+      "source": "RTW, ABH",
+      "speed": 35,
+      "size": "Маленький или средний",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Тёмное зрение",
+        "Паучье лазание",
+        "След не-жизни",
+        "Укус вампира"
+      ]
+    },
+    {
+      "id": "kalashtar",
+      "name": "Kalashtar",
+      "ru": "Калаштар",
+      "url": "https://next.dnd.su/species/kalashtar",
+      "source": "EFA",
+      "speed": 30,
+      "size": "Средний",
+      "creatureType": "Аберрация",
+      "traits": [
+        "Двойственность разума",
+        "Ментальная дисциплина",
+        "Связь разумов",
+        "Отделённый от снов"
+      ]
+    },
+    {
+      "id": "warforged",
+      "name": "Warforged",
+      "ru": "Кованый",
+      "url": "https://next.dnd.su/species/warforged",
+      "source": "EFA",
+      "speed": 30,
+      "size": "Маленький или средний",
+      "creatureType": "Конструкт",
+      "traits": [
+        "Устойчивость конструкта",
+        "Встроенная защита",
+        "Отдых часового",
+        "Специальная сборка",
+        "Неустанность"
+      ]
+    },
+    {
+      "id": "khoravar",
+      "name": "Khoravar",
+      "ru": "Кхоравар",
+      "url": "https://next.dnd.su/species/khoravar",
+      "source": "EFA",
+      "speed": 30,
+      "size": "Маленький или средний",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Тёмное зрение",
+        "Наследие фей",
+        "Дар фей",
+        "Сопротивление летаргии",
+        "Универсальные умения"
+      ]
+    },
+    {
+      "id": "changeling",
+      "name": "Changeling",
+      "ru": "Ченжлинг",
+      "url": "https://next.dnd.su/species/changeling",
+      "source": "EFA",
+      "speed": 30,
+      "size": "Маленький или средний",
+      "creatureType": "Фея",
+      "traits": [
+        "Инстинкты подменыша",
+        "Перевёртыш"
+      ]
+    },
+    {
+      "id": "shifter",
+      "name": "Shifter",
+      "ru": "Шифтер",
+      "url": "https://next.dnd.su/species/shifter",
+      "source": "EFA",
+      "speed": 30,
+      "size": "Маленький или средний",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Звериные инстинкты",
+        "Тёмное зрение",
+        "Переворот",
+        "Звериная шкура",
+        "Длинные зубы",
+        "Быстрая поступь",
+        "Дикая охота"
+      ]
+    },
+    {
+      "id": "boggart",
+      "name": "Boggart",
+      "ru": "Боггарт",
+      "url": "https://next.dnd.su/species/boggart",
+      "source": "LFL",
+      "speed": 30,
+      "size": "Маленький",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Тип существа",
+        "Тёмное зрение",
+        "Наследие фей",
+        "Мелкая ярость",
+        "Шустрый побег"
+      ]
+    },
+    {
+      "id": "rimekin",
+      "name": "Rimekin",
+      "ru": "Измороз",
+      "url": "https://next.dnd.su/species/rimekin",
+      "source": "LFL",
+      "speed": 30,
+      "size": "Маленький или средний",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Тёмное зрение",
+        "Магия ледяного огня",
+        "Сопротивление холоду"
+      ]
+    },
+    {
+      "id": "flamekin",
+      "name": "Flamekin",
+      "ru": "Огневик",
+      "url": "https://next.dnd.su/species/flamekin",
+      "source": "LFL",
+      "speed": 30,
+      "size": "Маленький или средний",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Тёмное зрение",
+        "Сопротивление огню",
+        "Предел пламени"
+      ]
+    },
+    {
+      "id": "lorwyn-changeling",
+      "name": "Lorwyn Changeling",
+      "ru": "Пересад Лорвина",
+      "url": "https://next.dnd.su/species/lorwyn-changeling",
+      "source": "LFL",
+      "speed": 30,
+      "size": "Маленький или средний",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Тёмное зрение",
+        "Формование",
+        "Очаровательный подражатель",
+        "Непредсказуемые движения"
+      ]
+    },
+    {
+      "id": "kithkin",
+      "name": "Kithkin",
+      "ru": "Свояк",
+      "url": "https://next.dnd.su/species/kithkin",
+      "source": "LFL",
+      "speed": 30,
+      "size": "Маленький или средний",
+      "creatureType": "Гуманоид",
+      "traits": [
+        "Храбрый",
+        "Проворство полуросликов",
+        "Удача",
+        "Естественная скрытность",
+        "Тёмное зрение"
+      ],
+      "lineages": [
+        {
+          "id": "lorwyn",
+          "name": "Свояк Лорвина",
+          "url": "https://next.dnd.su/species/kithkin/lorwyn",
+          "traits": [
+            "Храбрый",
+            "Проворство полуросликов",
+            "Удача",
+            "Естественная скрытность"
+          ]
+        },
+        {
+          "id": "shadowmoor",
+          "name": "Свояк Шэдоумура",
+          "url": "https://next.dnd.su/species/kithkin/shadowmoor",
+          "traits": [
+            "Тёмное зрение",
+            "Храбрый",
+            "Проворство полуросликов",
+            "Удача",
+            "Естественная скрытность"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faerie",
+      "name": "Faerie",
+      "ru": "Феери",
+      "url": "https://next.dnd.su/species/faerie",
+      "source": "LFL",
+      "speed": 30,
+      "size": "Маленький",
+      "creatureType": "Фея",
+      "traits": [
+        "Магия фей",
+        "Полёт"
+      ]
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": "entertainer",
+      "name": "Entertainer",
+      "ru": "Артист",
+      "url": "https://next.dnd.su/backgrounds/895-entertainer/",
+      "source": "PH24",
+      "scores": [
+        "str",
+        "dex",
+        "cha"
+      ],
+      "feat": "musician",
+      "skills": [
+        "acrobatics",
+        "performance"
+      ],
+      "tool": "instrument",
+      "cashGold": 50,
+      "gold": 11,
+      "items": [
+        "instrument",
+        "costume*2",
+        "mirror",
+        "perfume",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "wayfarer",
+      "name": "Wayfarer",
+      "ru": "Бродяга",
+      "url": "https://next.dnd.su/backgrounds/906-wayfarer/",
+      "source": "PH24",
+      "scores": [
+        "dex",
+        "wis",
+        "cha"
+      ],
+      "feat": "lucky",
+      "skills": [
+        "insight",
+        "stealth"
+      ],
+      "tool": "Воровские инструменты",
+      "cashGold": 50,
+      "gold": 16,
+      "items": [
+        "dagger*2",
+        "thieves-tools",
+        "game",
+        "bedroll",
+        "pouch*2",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "noble",
+      "name": "Noble",
+      "ru": "Дворянин",
+      "url": "https://next.dnd.su/backgrounds/901-noble/",
+      "source": "PH24",
+      "scores": [
+        "str",
+        "int",
+        "cha"
+      ],
+      "feat": "skilled",
+      "skills": [
+        "history",
+        "persuasion"
+      ],
+      "tool": "game",
+      "cashGold": 50,
+      "gold": 29,
+      "items": [
+        "game",
+        "fine-clothes",
+        "perfume"
+      ]
+    },
+    {
+      "id": "sailor",
+      "name": "Sailor",
+      "ru": "Моряк",
+      "url": "https://next.dnd.su/backgrounds/903-sailor/",
+      "source": "PH24",
+      "scores": [
+        "str",
+        "dex",
+        "wis"
+      ],
+      "feat": "tavern-brawler",
+      "skills": [
+        "acrobatics",
+        "perception"
+      ],
+      "tool": "Инструменты навигатора",
+      "cashGold": 50,
+      "gold": 20,
+      "items": [
+        "dagger",
+        "navigators-tools",
+        "rope",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "sage",
+      "name": "Sage",
+      "ru": "Мудрец",
+      "url": "https://next.dnd.su/backgrounds/902-sage/",
+      "source": "PH24",
+      "scores": [
+        "con",
+        "int",
+        "wis"
+      ],
+      "feat": "initiate-wizard",
+      "skills": [
+        "history",
+        "arcana"
+      ],
+      "tool": "Инструменты каллиграфа",
+      "cashGold": 50,
+      "gold": 8,
+      "items": [
+        "quarterstaff",
+        "calligraphers-supplies",
+        "book",
+        "parchment",
+        "robe"
+      ]
+    },
+    {
+      "id": "hermit",
+      "name": "Hermit",
+      "ru": "Отшельник",
+      "url": "https://next.dnd.su/backgrounds/899-hermit/",
+      "source": "PH24",
+      "scores": [
+        "con",
+        "wis",
+        "cha"
+      ],
+      "feat": "healer",
+      "skills": [
+        "medicine",
+        "religion"
+      ],
+      "tool": "Набор травника",
+      "cashGold": 50,
+      "gold": 16,
+      "items": [
+        "quarterstaff",
+        "herbalism-kit",
+        "bedroll",
+        "book",
+        "lamp",
+        "oil",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "scribe",
+      "name": "Scribe",
+      "ru": "Писарь",
+      "url": "https://next.dnd.su/backgrounds/904-scribe/",
+      "source": "PH24",
+      "scores": [
+        "dex",
+        "int",
+        "wis"
+      ],
+      "feat": "skilled",
+      "skills": [
+        "perception",
+        "investigation"
+      ],
+      "tool": "Инструменты каллиграфа",
+      "cashGold": 50,
+      "gold": 23,
+      "items": [
+        "calligraphers-supplies",
+        "fine-clothes",
+        "lamp",
+        "oil",
+        "parchment"
+      ]
+    },
+    {
+      "id": "acolyte",
+      "name": "Acolyte",
+      "ru": "Послушник",
+      "url": "https://next.dnd.su/backgrounds/862-acolyte/",
+      "source": "PH24",
+      "scores": [
+        "int",
+        "wis",
+        "cha"
+      ],
+      "feat": "initiate-cleric",
+      "skills": [
+        "insight",
+        "religion"
+      ],
+      "tool": "Инструменты каллиграфа",
+      "cashGold": 50,
+      "gold": 8,
+      "items": [
+        "calligraphers-supplies",
+        "book",
+        "holy-symbol",
+        "parchment",
+        "robe"
+      ]
+    },
+    {
+      "id": "criminal",
+      "name": "Criminal",
+      "ru": "Преступник",
+      "url": "https://next.dnd.su/backgrounds/894-criminal/",
+      "source": "PH24",
+      "scores": [
+        "dex",
+        "con",
+        "int"
+      ],
+      "feat": "alert",
+      "skills": [
+        "sleight",
+        "stealth"
+      ],
+      "tool": "Воровские инструменты",
+      "cashGold": 50,
+      "gold": 16,
+      "items": [
+        "dagger*2",
+        "thieves-tools",
+        "crowbar",
+        "pouch*2",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "guide",
+      "name": "Guide",
+      "ru": "Проводник",
+      "url": "https://next.dnd.su/backgrounds/898-guide/",
+      "source": "PH24",
+      "scores": [
+        "dex",
+        "con",
+        "wis"
+      ],
+      "feat": "initiate-druid",
+      "skills": [
+        "survival",
+        "stealth"
+      ],
+      "tool": "Инструменты картографа",
+      "cashGold": 50,
+      "gold": 3,
+      "items": [
+        "shortbow",
+        "arrow*20",
+        "cartographers-tools",
+        "bedroll",
+        "quiver",
+        "tent",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "artisan",
+      "name": "Artisan",
+      "ru": "Ремесленник",
+      "url": "https://next.dnd.su/backgrounds/892-artisan/",
+      "source": "PH24",
+      "scores": [
+        "str",
+        "dex",
+        "int"
+      ],
+      "feat": "crafter",
+      "skills": [
+        "investigation",
+        "persuasion"
+      ],
+      "tool": "artisan",
+      "cashGold": 50,
+      "gold": 32,
+      "items": [
+        "artisan",
+        "pouch*2",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "soldier",
+      "name": "Soldier",
+      "ru": "Солдат",
+      "url": "https://next.dnd.su/backgrounds/905-soldier/",
+      "source": "PH24",
+      "scores": [
+        "str",
+        "dex",
+        "con"
+      ],
+      "feat": "savage-attacker",
+      "skills": [
+        "athletics",
+        "intimidation"
+      ],
+      "tool": "game",
+      "cashGold": 50,
+      "gold": 14,
+      "items": [
+        "spear",
+        "shortbow",
+        "arrow*20",
+        "game",
+        "healers-kit",
+        "quiver",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "guard",
+      "name": "Guard",
+      "ru": "Стражник",
+      "url": "https://next.dnd.su/backgrounds/897-guard/",
+      "source": "PH24",
+      "scores": [
+        "str",
+        "int",
+        "wis"
+      ],
+      "feat": "alert",
+      "skills": [
+        "athletics",
+        "perception"
+      ],
+      "tool": "game",
+      "cashGold": 50,
+      "gold": 12,
+      "items": [
+        "spear",
+        "light-crossbow",
+        "bolts*20",
+        "game",
+        "hooded-lantern",
+        "manacles",
+        "quiver",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "merchant",
+      "name": "Merchant",
+      "ru": "Торговец",
+      "url": "https://next.dnd.su/backgrounds/900-merchant/",
+      "source": "PH24",
+      "scores": [
+        "con",
+        "int",
+        "cha"
+      ],
+      "feat": "lucky",
+      "skills": [
+        "persuasion",
+        "animals"
+      ],
+      "tool": "Инструменты навигатора",
+      "cashGold": 50,
+      "gold": 22,
+      "items": [
+        "navigators-tools",
+        "pouch*2",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "farmer",
+      "name": "Farmer",
+      "ru": "Фермер",
+      "url": "https://next.dnd.su/backgrounds/896-farmer/",
+      "source": "PH24",
+      "scores": [
+        "str",
+        "con",
+        "wis"
+      ],
+      "feat": "tough",
+      "skills": [
+        "nature",
+        "animals"
+      ],
+      "tool": "Инструменты плотника",
+      "cashGold": 50,
+      "gold": 30,
+      "items": [
+        "sickle",
+        "carpenters-tools",
+        "healers-kit",
+        "pot-iron",
+        "shovel",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "charlatan",
+      "name": "Charlatan",
+      "ru": "Шарлатан",
+      "url": "https://next.dnd.su/backgrounds/893-charlatan/",
+      "source": "PH24",
+      "scores": [
+        "dex",
+        "con",
+        "cha"
+      ],
+      "feat": "skilled",
+      "skills": [
+        "sleight",
+        "deception"
+      ],
+      "tool": "Набор для фальсификации",
+      "cashGold": 50,
+      "gold": 15,
+      "items": [
+        "forgery-kit",
+        "costume",
+        "fine-clothes"
+      ]
+    },
+    {
+      "id": "agent-of-the-ninth-quill",
+      "name": "Agent of the Ninth Quill",
+      "ru": "Агент Девятого пера",
+      "url": "https://next.dnd.su/backgrounds/954-agent-of-the-ninth-quill/",
+      "source": "AU",
+      "scores": [
+        "dex",
+        "int",
+        "cha"
+      ],
+      "feat": "arcane-infiltrator",
+      "skills": [
+        "sleight",
+        "arcana"
+      ],
+      "tool": "Воровские инструменты",
+      "cashGold": 50,
+      "gold": 17,
+      "items": [
+        "dagger",
+        "light-hammer",
+        "thieves-tools",
+        "Железные шипы",
+        "rope",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "familiar-trainer",
+      "name": "Familiar Trainer",
+      "ru": "Дрессировщик фамильяров",
+      "url": "https://next.dnd.su/backgrounds/959-familiar-trainer/",
+      "source": "AU",
+      "scores": [
+        "con",
+        "int",
+        "wis"
+      ],
+      "feat": "familiar-friend",
+      "skills": [
+        "animals",
+        "arcana"
+      ],
+      "tool": "game",
+      "cashGold": 50,
+      "gold": 44,
+      "items": [
+        "quarterstaff",
+        "game",
+        "bedroll",
+        "bell",
+        "string",
+        "tinderbox",
+        "travelers-clothes",
+        "waterskin"
+      ]
+    },
+    {
+      "id": "crucible-storm-chaser",
+      "name": "Crucible Storm Chaser",
+      "ru": "Ищущий бурю Горнила",
+      "url": "https://next.dnd.su/backgrounds/958-crucible-storm-chaser/",
+      "source": "AU",
+      "scores": [
+        "str",
+        "con",
+        "int"
+      ],
+      "feat": "arcane-overload",
+      "skills": [
+        "athletics",
+        "nature"
+      ],
+      "tool": "Инструменты стеклодува",
+      "cashGold": 50,
+      "gold": 15,
+      "items": [
+        "glassblowers-tools",
+        "backpack",
+        "rope",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "ward-of-the-sheltering-hands",
+      "name": "Ward of the Sheltering Hands",
+      "ru": "Подопечный Оберегающих дланей",
+      "url": "https://next.dnd.su/backgrounds/963-ward-of-the-sheltering-hands/",
+      "source": "AU",
+      "scores": [
+        "con",
+        "wis",
+        "cha"
+      ],
+      "feat": "arcane-safeguard",
+      "skills": [
+        "medicine",
+        "insight"
+      ],
+      "tool": "Инструменты повара",
+      "cashGold": 50,
+      "gold": 40,
+      "items": [
+        "cooks-utensils",
+        "blanket",
+        "healers-kit",
+        "lamp",
+        "фляги Масла*3",
+        "tinderbox",
+        "travelers-clothes",
+        "waterskin"
+      ]
+    },
+    {
+      "id": "horizon-weaver-initiate",
+      "name": "Horizon Weaver Initiate",
+      "ru": "Посвящённый Плетущих горизонты",
+      "url": "https://next.dnd.su/backgrounds/960-horizon-weaver-initiate/",
+      "source": "AU",
+      "scores": [
+        "dex",
+        "con",
+        "wis"
+      ],
+      "feat": "portal-jumper",
+      "skills": [
+        "acrobatics",
+        "survival"
+      ],
+      "tool": "Инструменты ткача",
+      "cashGold": 50,
+      "gold": 18,
+      "items": [
+        "shortbow",
+        "arrow*20",
+        "weavers-tools",
+        "map",
+        "quiver",
+        "rope",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "covenant-of-the-grave-recruit",
+      "name": "Covenant of the Grave Recruit",
+      "ru": "Рекрут Могильного ковенанта",
+      "url": "https://next.dnd.su/backgrounds/957-covenant-of-the-grave-recruit/",
+      "source": "AU",
+      "scores": [
+        "str",
+        "int",
+        "wis"
+      ],
+      "feat": "arcane-undertaker",
+      "skills": [
+        "history",
+        "medicine"
+      ],
+      "tool": "Набор травника",
+      "cashGold": 50,
+      "gold": 16,
+      "items": [
+        "dagger",
+        "herbalism-kit",
+        "book",
+        "shovel"
+      ]
+    },
+    {
+      "id": "seer-apprentice",
+      "name": "Seer Apprentice",
+      "ru": "Ученик Провидцев",
+      "url": "https://next.dnd.su/backgrounds/962-seer-apprentice/",
+      "source": "AU",
+      "scores": [
+        "int",
+        "wis",
+        "cha"
+      ],
+      "feat": "arcane-omens",
+      "skills": [
+        "history",
+        "insight"
+      ],
+      "tool": "Инструменты навигатора",
+      "cashGold": 50,
+      "gold": 11,
+      "items": [
+        "navigators-tools",
+        "candle*8",
+        "ink",
+        "ink-pen",
+        "листов Пергамента*9",
+        "pouch",
+        "tinderbox",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "phantasmic-circus-trouper",
+      "name": "Phantasmic Circus Trouper",
+      "ru": "Член труппы Театра фантазмов",
+      "url": "https://next.dnd.su/backgrounds/961-phantasmic-circus-trouper/",
+      "source": "AU",
+      "scores": [
+        "dex",
+        "con",
+        "cha"
+      ],
+      "feat": "arcane-artist",
+      "skills": [
+        "performance",
+        "deception"
+      ],
+      "tool": "Набор для грима",
+      "cashGold": 50,
+      "gold": 12,
+      "items": [
+        "disguise-kit",
+        "game",
+        "costume",
+        "mirror",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "bejeweled-conclave-spy",
+      "name": "Bejeweled Conclave Spy",
+      "ru": "Шпион Самоцветного конклава",
+      "url": "https://next.dnd.su/backgrounds/955-bejeweled-conclave-spy/",
+      "source": "AU",
+      "scores": [
+        "dex",
+        "wis",
+        "cha"
+      ],
+      "feat": "arcane-eloquence",
+      "skills": [
+        "perception",
+        "deception"
+      ],
+      "tool": "Набор для грима",
+      "cashGold": 50,
+      "gold": 5,
+      "items": [
+        "disguise-kit",
+        "fine-clothes",
+        "perfume"
+      ]
+    },
+    {
+      "id": "cosmic-dawn-experiment",
+      "name": "Cosmic Dawn Experiment",
+      "ru": "Эксперимент Зари мироздания",
+      "url": "https://next.dnd.su/backgrounds/956-cosmic-dawn-experiment/",
+      "source": "AU",
+      "scores": [
+        "str",
+        "dex",
+        "con"
+      ],
+      "feat": "transmuted-anatomy",
+      "skills": [
+        "athletics",
+        "survival"
+      ],
+      "tool": "artisan",
+      "cashGold": 50,
+      "gold": 30,
+      "items": [
+        "artisan",
+        "backpack",
+        "robe",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "aberrant-heir",
+      "name": "Aberrant Heir",
+      "ru": "Аберрантный наследник",
+      "url": "https://next.dnd.su/backgrounds/932-aberrant-heir/",
+      "source": "EFA",
+      "scores": [
+        "str",
+        "con",
+        "cha"
+      ],
+      "feat": "aberrant-dragonmark",
+      "skills": [
+        "intimidation",
+        "history"
+      ],
+      "tool": "Набор для грима",
+      "cashGold": 50,
+      "gold": 16,
+      "items": [
+        "dagger",
+        "disguise-kit",
+        "costume",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "house-agent",
+      "name": "House Agent",
+      "ru": "Агент дома",
+      "url": "https://next.dnd.su/backgrounds/934-house-agent/",
+      "source": "EFA",
+      "scores": [
+        "str",
+        "int",
+        "cha"
+      ],
+      "feat": "lucky",
+      "skills": [
+        "investigation",
+        "persuasion"
+      ],
+      "tool": "artisan",
+      "cashGold": 50,
+      "gold": 20,
+      "items": [
+        "artisan",
+        "fine-clothes"
+      ]
+    },
+    {
+      "id": "archaeologist",
+      "name": "Archaeologist",
+      "ru": "Археолог",
+      "url": "https://next.dnd.su/backgrounds/933-archaeologist/",
+      "source": "EFA",
+      "scores": [
+        "dex",
+        "int",
+        "wis"
+      ],
+      "feat": "skilled",
+      "skills": [
+        "survival",
+        "history"
+      ],
+      "tool": "Инструменты картографа",
+      "cashGold": 50,
+      "gold": 17,
+      "items": [
+        "cartographers-tools",
+        "Направленный фонарь",
+        "map",
+        "Тубус для карт и свитков",
+        "shovel",
+        "tent",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "house-vadalis-heir",
+      "name": "House Vadalis Heir",
+      "ru": "Наследник дома Вадалис",
+      "url": "https://next.dnd.su/backgrounds/947-house-vadalis-heir/",
+      "source": "EFA",
+      "scores": [
+        "con",
+        "wis",
+        "cha"
+      ],
+      "feat": "mark-of-handling",
+      "skills": [
+        "animals",
+        "nature"
+      ],
+      "tool": "Набор травника",
+      "cashGold": 50,
+      "gold": 29,
+      "items": [
+        "herbalism-kit",
+        "fine-clothes",
+        "net"
+      ]
+    },
+    {
+      "id": "house-ghallanda-heir",
+      "name": "House Ghallanda Heir",
+      "ru": "Наследник дома Галланда",
+      "url": "https://next.dnd.su/backgrounds/937-house-ghallanda-heir/",
+      "source": "EFA",
+      "scores": [
+        "dex",
+        "wis",
+        "cha"
+      ],
+      "feat": "mark-of-hospitality",
+      "skills": [
+        "insight",
+        "persuasion"
+      ],
+      "tool": "Инструменты повара",
+      "cashGold": 50,
+      "gold": 26,
+      "items": [
+        "cooks-utensils",
+        "fine-clothes",
+        "pot-iron",
+        "lamp",
+        "фляг Масла*5",
+        "perfume"
+      ]
+    },
+    {
+      "id": "house-deneith-heir",
+      "name": "House Deneith Heir",
+      "ru": "Наследник дома Денейт",
+      "url": "https://next.dnd.su/backgrounds/936-house-deneith-heir/",
+      "source": "EFA",
+      "scores": [
+        "str",
+        "con",
+        "wis"
+      ],
+      "feat": "mark-of-sentinel",
+      "skills": [
+        "perception",
+        "insight"
+      ],
+      "tool": "game",
+      "cashGold": 50,
+      "gold": 1,
+      "items": [
+        "spear",
+        "shortbow",
+        "arrow*20",
+        "game",
+        "fine-clothes",
+        "healers-kit",
+        "quiver"
+      ]
+    },
+    {
+      "id": "house-jorasco-heir",
+      "name": "House Jorasco Heir",
+      "ru": "Наследник дома Джораско",
+      "url": "https://next.dnd.su/backgrounds/938-house-jorasco-heir/",
+      "source": "EFA",
+      "scores": [
+        "dex",
+        "con",
+        "wis"
+      ],
+      "feat": "mark-of-healing",
+      "skills": [
+        "medicine",
+        "stealth"
+      ],
+      "tool": "Набор травника",
+      "cashGold": 50,
+      "gold": 25,
+      "items": [
+        "herbalism-kit",
+        "fine-clothes",
+        "healers-kit"
+      ]
+    },
+    {
+      "id": "house-cannith-heir",
+      "name": "House Cannith Heir",
+      "ru": "Наследник дома Каннит",
+      "url": "https://next.dnd.su/backgrounds/935-house-cannith-heir/",
+      "source": "EFA",
+      "scores": [
+        "str",
+        "dex",
+        "int"
+      ],
+      "feat": "mark-of-making",
+      "skills": [
+        "sleight",
+        "investigation"
+      ],
+      "tool": "artisan",
+      "cashGold": 50,
+      "gold": 17,
+      "items": [
+        "artisan",
+        "crowbar",
+        "fine-clothes",
+        "pouch*2"
+      ]
+    },
+    {
+      "id": "house-kundarak-heir",
+      "name": "House Kundarak Heir",
+      "ru": "Наследник дома Кундарак",
+      "url": "https://next.dnd.su/backgrounds/939-house-kundarak-heir/",
+      "source": "EFA",
+      "scores": [
+        "str",
+        "con",
+        "int"
+      ],
+      "feat": "mark-of-warding",
+      "skills": [
+        "investigation",
+        "arcana"
+      ],
+      "tool": "Воровские инструменты",
+      "cashGold": 50,
+      "gold": 10,
+      "items": [
+        "thieves-tools",
+        "fine-clothes"
+      ]
+    },
+    {
+      "id": "house-lyrandar-heir",
+      "name": "House Lyrandar Heir",
+      "ru": "Наследник дома Лирандар",
+      "url": "https://next.dnd.su/backgrounds/940-house-lyrandar-heir/",
+      "source": "EFA",
+      "scores": [
+        "str",
+        "dex",
+        "cha"
+      ],
+      "feat": "mark-of-storm",
+      "skills": [
+        "acrobatics",
+        "nature"
+      ],
+      "tool": "Инструменты навигатора",
+      "cashGold": 50,
+      "gold": 10,
+      "items": [
+        "navigators-tools",
+        "fine-clothes"
+      ]
+    },
+    {
+      "id": "house-medani-heir",
+      "name": "House Medani Heir",
+      "ru": "Наследник дома Медани",
+      "url": "https://next.dnd.su/backgrounds/941-house-medani-heir/",
+      "source": "EFA",
+      "scores": [
+        "dex",
+        "int",
+        "wis"
+      ],
+      "feat": "mark-of-detection",
+      "skills": [
+        "insight",
+        "investigation"
+      ],
+      "tool": "Набор для грима",
+      "cashGold": 50,
+      "gold": 10,
+      "items": [
+        "disguise-kit",
+        "fine-clothes"
+      ]
+    },
+    {
+      "id": "house-orien-heir",
+      "name": "House Orien Heir",
+      "ru": "Наследник дома Ориен",
+      "url": "https://next.dnd.su/backgrounds/942-house-orien-heir/",
+      "source": "EFA",
+      "scores": [
+        "dex",
+        "con",
+        "int"
+      ],
+      "feat": "mark-of-passage",
+      "skills": [
+        "acrobatics",
+        "athletics"
+      ],
+      "tool": "Инструменты картографа",
+      "cashGold": 50,
+      "gold": 18,
+      "items": [
+        "cartographers-tools",
+        "fine-clothes",
+        "map",
+        "Тубус для карт и свитков"
+      ]
+    },
+    {
+      "id": "house-sivis-heir",
+      "name": "House Sivis Heir",
+      "ru": "Наследник дома Сивис",
+      "url": "https://next.dnd.su/backgrounds/944-house-sivis-heir/",
+      "source": "EFA",
+      "scores": [
+        "int",
+        "wis",
+        "cha"
+      ],
+      "feat": "mark-of-scribing",
+      "skills": [
+        "perception",
+        "history"
+      ],
+      "tool": "Инструменты каллиграфа",
+      "cashGold": 50,
+      "gold": 8,
+      "items": [
+        "calligraphers-supplies",
+        "fine-clothes",
+        "ink",
+        "ink-pen*5",
+        "листов Бумаги*30",
+        "листов Пергамента*9"
+      ]
+    },
+    {
+      "id": "house-tharashk-heir",
+      "name": "House Tharashk Heir",
+      "ru": "Наследник дома Тарашк",
+      "url": "https://next.dnd.su/backgrounds/945-house-tharashk-heir/",
+      "source": "EFA",
+      "scores": [
+        "con",
+        "int",
+        "wis"
+      ],
+      "feat": "mark-of-finding",
+      "skills": [
+        "perception",
+        "survival"
+      ],
+      "tool": "game",
+      "cashGold": 50,
+      "gold": 2,
+      "items": [
+        "game",
+        "climbers-kit",
+        "fine-clothes",
+        "hunting-trap",
+        "manacles"
+      ]
+    },
+    {
+      "id": "house-thuranni-heir",
+      "name": "House Thuranni Heir",
+      "ru": "Наследник дома Туранни",
+      "url": "https://next.dnd.su/backgrounds/946-house-thuranni-heir/",
+      "source": "EFA",
+      "scores": [
+        "dex",
+        "int",
+        "cha"
+      ],
+      "feat": "mark-of-shadow",
+      "skills": [
+        "performance",
+        "stealth"
+      ],
+      "tool": "instrument",
+      "cashGold": 50,
+      "gold": 13,
+      "items": [
+        "instrument",
+        "costume",
+        "fine-clothes"
+      ]
+    },
+    {
+      "id": "house-phiarlan-heir",
+      "name": "House Phiarlan Heir",
+      "ru": "Наследник дома Фиарлан",
+      "url": "https://next.dnd.su/backgrounds/943-house-phiarlan-heir/",
+      "source": "EFA",
+      "scores": [
+        "dex",
+        "wis",
+        "cha"
+      ],
+      "feat": "mark-of-shadow",
+      "skills": [
+        "deception",
+        "stealth"
+      ],
+      "tool": "Набор для грима",
+      "cashGold": 50,
+      "gold": 10,
+      "items": [
+        "disguise-kit",
+        "fine-clothes"
+      ]
+    },
+    {
+      "id": "inquisitive",
+      "name": "Inquisitive",
+      "ru": "Сыскной",
+      "url": "https://next.dnd.su/backgrounds/948-inquisitive/",
+      "source": "EFA",
+      "scores": [
+        "con",
+        "int",
+        "cha"
+      ],
+      "feat": "alert",
+      "skills": [
+        "insight",
+        "investigation"
+      ],
+      "tool": "Воровские инструменты",
+      "cashGold": 50,
+      "gold": 10,
+      "items": [
+        "thieves-tools",
+        "Направленный фонарь",
+        "crowbar",
+        "фляг Масла*10",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "arfist",
+      "name": "Harper",
+      "ru": "Арфист",
+      "url": "https://next.dnd.su/backgrounds/913-arfist/",
+      "source": "FRHoF",
+      "scores": [
+        "dex",
+        "int",
+        "cha"
+      ],
+      "feat": "harper-agent",
+      "skills": [
+        "performance",
+        "sleight"
+      ],
+      "tool": "Набор для грима",
+      "cashGold": 50,
+      "gold": 14,
+      "items": [
+        "disguise-kit",
+        "bedroll",
+        "costume",
+        "grappling-hook",
+        "rope",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "lords-alliance-vassal",
+      "name": "Lords’ Alliance Vassal",
+      "ru": "Вассал Альянса лордов",
+      "url": "https://next.dnd.su/backgrounds/916-lords-alliance-vassal/",
+      "source": "FRHoF",
+      "scores": [
+        "str",
+        "int",
+        "cha"
+      ],
+      "feat": "lords-alliance-agent",
+      "skills": [
+        "insight",
+        "persuasion"
+      ],
+      "tool": "Инструменты каллиграфа",
+      "cashGold": 50,
+      "gold": 13,
+      "items": [
+        "javelin*2",
+        "calligraphers-supplies",
+        "fine-clothes",
+        "ink",
+        "ink-pen*5",
+        "листов Пергамента*9"
+      ]
+    },
+    {
+      "id": "genie-touched",
+      "name": "Genie Touched",
+      "ru": "Затронутый гением",
+      "url": "https://next.dnd.su/backgrounds/912-genie-touched/",
+      "source": "FRHoF",
+      "scores": [
+        "dex",
+        "wis",
+        "cha"
+      ],
+      "feat": "initiate-wizard",
+      "skills": [
+        "perception",
+        "persuasion"
+      ],
+      "tool": "Инструменты стеклодува",
+      "cashGold": 50,
+      "gold": 2,
+      "items": [
+        "light-hammer",
+        "glassblowers-tools",
+        "fine-clothes",
+        "lamp",
+        "фляги Масла*3",
+        "waterskin"
+      ]
+    },
+    {
+      "id": "shadowmasters-exile",
+      "name": "Shadowmasters Exile",
+      "ru": "Изгнанник Владык теней",
+      "url": "https://next.dnd.su/backgrounds/922-shadowmasters-exile/",
+      "source": "FRHoF",
+      "scores": [
+        "dex",
+        "int",
+        "cha"
+      ],
+      "feat": "savage-attacker",
+      "skills": [
+        "acrobatics",
+        "stealth"
+      ],
+      "tool": "Воровские инструменты",
+      "cashGold": 50,
+      "gold": 3,
+      "items": [
+        "dagger*2",
+        "thieves-tools",
+        "caltrops",
+        "grappling-hook",
+        "Железные шипы",
+        "mirror",
+        "pouch*2",
+        "rope",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "dragon-cultist",
+      "name": "Dragon Cultist",
+      "ru": "Культист Дракона",
+      "url": "https://next.dnd.su/backgrounds/909-dragon-cultist/",
+      "source": "FRHoF",
+      "scores": [
+        "dex",
+        "con",
+        "int"
+      ],
+      "feat": "cult-of-the-dragon-initiate",
+      "skills": [
+        "deception",
+        "stealth"
+      ],
+      "tool": "Инструменты каллиграфа",
+      "cashGold": 50,
+      "gold": 30,
+      "items": [
+        "calligraphers-supplies",
+        "dagger",
+        "Стеклянная бутылка",
+        "lamp",
+        "manacles",
+        "фляг Масла*5",
+        "pouch*2",
+        "robe",
+        "rope"
+      ]
+    },
+    {
+      "id": "zhentarim-mercenary",
+      "name": "Zhentarim Mercenary",
+      "ru": "Наёмник Жентарима",
+      "url": "https://next.dnd.su/backgrounds/924-zhentarim-mercenary/",
+      "source": "FRHoF",
+      "scores": [
+        "str",
+        "dex",
+        "cha"
+      ],
+      "feat": "zhentarim-ruffian",
+      "skills": [
+        "perception",
+        "intimidation"
+      ],
+      "tool": "Набор для фальсификации",
+      "cashGold": 50,
+      "gold": 11,
+      "items": [
+        "club",
+        "dagger",
+        "forgery-kit",
+        "fine-clothes",
+        "Направленный фонарь",
+        "фляги Масла*3",
+        "pouch*2",
+        "string",
+        "tinderbox"
+      ]
+    },
+    {
+      "id": "flaming-fist-mercenary",
+      "name": "Flaming Fist Mercenary",
+      "ru": "Наёмник Пламенного кулака",
+      "url": "https://next.dnd.su/backgrounds/911-flaming-fist-mercenary/",
+      "source": "FRHoF",
+      "scores": [
+        "str",
+        "con",
+        "cha"
+      ],
+      "feat": "tough",
+      "skills": [
+        "perception",
+        "intimidation"
+      ],
+      "tool": "Инструменты кузнеца",
+      "cashGold": 50,
+      "gold": 4,
+      "items": [
+        "mace",
+        "smiths-tools",
+        "fine-clothes",
+        "manacles",
+        "Портативный таран"
+      ]
+    },
+    {
+      "id": "dead-magic-dweller",
+      "name": "Dead Magic Dweller",
+      "ru": "Обитатель зон мёртвой магии",
+      "url": "https://next.dnd.su/backgrounds/908-dead-magic-dweller/",
+      "source": "FRHoF",
+      "scores": [
+        "str",
+        "con",
+        "wis"
+      ],
+      "feat": "healer",
+      "skills": [
+        "survival",
+        "medicine"
+      ],
+      "tool": "Инструменты кожевника",
+      "cashGold": 50,
+      "gold": 32,
+      "items": [
+        "greatclub",
+        "leatherworkers-tools",
+        "bedroll",
+        "blanket",
+        "healers-kit",
+        "pole",
+        "Рационы на 3 дня",
+        "tent",
+        "Огниво",
+        "torch*5",
+        "travelers-clothes",
+        "waterskin"
+      ]
+    },
+    {
+      "id": "purple-dragon-squire",
+      "name": "Purple Dragon Squire",
+      "ru": "Оруженосец Пурпурного дракона",
+      "url": "https://next.dnd.su/backgrounds/920-purple-dragon-squire/",
+      "source": "FRHoF",
+      "scores": [
+        "str",
+        "wis",
+        "cha"
+      ],
+      "feat": "purple-dragon-rook",
+      "skills": [
+        "animals",
+        "insight"
+      ],
+      "tool": "Инструменты навигатора",
+      "cashGold": 50,
+      "gold": 9,
+      "items": [
+        "spear",
+        "navigators-tools",
+        "fine-clothes"
+      ]
+    },
+    {
+      "id": "moonwell-pilgrim",
+      "name": "Moonwell Pilgrim",
+      "ru": "Пилигрим лунного колодца",
+      "url": "https://next.dnd.su/backgrounds/917-moonwell-pilgrim/",
+      "source": "FRHoF",
+      "scores": [
+        "con",
+        "wis",
+        "cha"
+      ],
+      "feat": "initiate-druid",
+      "skills": [
+        "performance",
+        "nature"
+      ],
+      "tool": "Инструменты художника",
+      "cashGold": 50,
+      "gold": 34,
+      "items": [
+        "quarterstaff",
+        "painters-supplies",
+        "bedroll",
+        "bell",
+        "pouch",
+        "robe",
+        "string",
+        "travelers-clothes",
+        "waterskin"
+      ]
+    },
+    {
+      "id": "ice-fisher",
+      "name": "Ice Fisher",
+      "ru": "Подлёдный рыболов",
+      "url": "https://next.dnd.su/backgrounds/914-ice-fisher/",
+      "source": "FRHoF",
+      "scores": [
+        "str",
+        "dex",
+        "con"
+      ],
+      "feat": "alert",
+      "skills": [
+        "athletics",
+        "animals"
+      ],
+      "tool": "Инструменты резчика по дереву",
+      "cashGold": 50,
+      "gold": 32,
+      "items": [
+        "woodcarvers-tools",
+        "basket",
+        "block-and-tackle",
+        "bucket",
+        "chain",
+        "hunting-trap",
+        "net",
+        "pole",
+        "Рационы на 3 дня",
+        "rope",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "spellfire-initiate",
+      "name": "Spellfire Initiate",
+      "ru": "Посвящённый чаропламени",
+      "url": "https://next.dnd.su/backgrounds/923-spellfire-initiate/",
+      "source": "FRHoF",
+      "scores": [
+        "con",
+        "int",
+        "cha"
+      ],
+      "feat": "spellfire-spark",
+      "skills": [
+        "perception",
+        "arcana"
+      ],
+      "tool": "game",
+      "cashGold": 50,
+      "gold": 36,
+      "items": [
+        "game",
+        "Магическая фокусировка (Кристалл или Волшебная палочка)",
+        "pouch*2",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "mulhorandi-tomb-raider",
+      "name": "Mulhorandi Tomb Raider",
+      "ru": "Расхититель гробниц Мулхоранда",
+      "url": "https://next.dnd.su/backgrounds/918-mulhorandi-tomb-raider/",
+      "source": "FRHoF",
+      "scores": [
+        "dex",
+        "con",
+        "int"
+      ],
+      "feat": "lucky",
+      "skills": [
+        "investigation",
+        "religion"
+      ],
+      "tool": "Инструменты каменщика",
+      "cashGold": 50,
+      "gold": 26,
+      "items": [
+        "dagger",
+        "light-hammer",
+        "masons-tools",
+        "backpack",
+        "bedroll",
+        "crowbar",
+        "ladder",
+        "pole",
+        "pouch*2",
+        "rope",
+        "string",
+        "tinderbox",
+        "torch*5",
+        "travelers-clothes",
+        "waterskin"
+      ]
+    },
+    {
+      "id": "rashemi-wanderer",
+      "name": "Rashemi Wanderer",
+      "ru": "Рашеменский странник",
+      "url": "https://next.dnd.su/backgrounds/921-rashemi-wanderer/",
+      "source": "FRHoF",
+      "scores": [
+        "str",
+        "con",
+        "cha"
+      ],
+      "feat": "tough",
+      "skills": [
+        "perception",
+        "intimidation"
+      ],
+      "tool": "Инструменты картографа",
+      "cashGold": 50,
+      "gold": 23,
+      "items": [
+        "cartographers-tools",
+        "backpack",
+        "bedroll",
+        "Направленный фонарь",
+        "фляги Масла*3",
+        "rope",
+        "tinderbox",
+        "travelers-clothes",
+        "waterskin"
+      ]
+    },
+    {
+      "id": "knight-of-the-gauntlet",
+      "name": "Knight of the Gauntlet",
+      "ru": "Рыцарь Латной перчатки",
+      "url": "https://next.dnd.su/backgrounds/915-knight-of-the-gauntlet/",
+      "source": "FRHoF",
+      "scores": [
+        "str",
+        "int",
+        "wis"
+      ],
+      "feat": "tyro-of-the-gauntlet",
+      "skills": [
+        "athletics",
+        "medicine"
+      ],
+      "tool": "Инструменты кузнеца",
+      "cashGold": 50,
+      "gold": 9,
+      "items": [
+        "spear",
+        "smiths-tools",
+        "Направленный фонарь",
+        "holy-symbol",
+        "manacles",
+        "фляг Масла*5",
+        "tinderbox",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "emerald-enclave-caretaker",
+      "name": "Emerald Enclave Caretaker",
+      "ru": "Смотритель Изумрудного анклава",
+      "url": "https://next.dnd.su/backgrounds/910-emerald-enclave-caretaker/",
+      "source": "FRHoF",
+      "scores": [
+        "con",
+        "int",
+        "wis"
+      ],
+      "feat": "emerald-enclave-fledgling",
+      "skills": [
+        "survival",
+        "nature"
+      ],
+      "tool": "Набор травника",
+      "cashGold": 50,
+      "gold": 13,
+      "items": [
+        "shortbow",
+        "arrow*20",
+        "herbalism-kit",
+        "bedroll",
+        "blanket",
+        "pouch",
+        "tent",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "mythalkeeper",
+      "name": "Mythalkeeper",
+      "ru": "Хранитель мифала",
+      "url": "https://next.dnd.su/backgrounds/919-mythalkeeper/",
+      "source": "FRHoF",
+      "scores": [
+        "int",
+        "wis",
+        "cha"
+      ],
+      "feat": "crafter",
+      "skills": [
+        "history",
+        "arcana"
+      ],
+      "tool": "Инструменты ювелира",
+      "cashGold": 50,
+      "gold": 16,
+      "items": [
+        "quarterstaff",
+        "jewelers-tools",
+        "perfume",
+        "pouch",
+        "robe",
+        "shovel",
+        "string",
+        "waterskin"
+      ]
+    },
+    {
+      "id": "chondathan-freebooter",
+      "name": "Chondathan Freebooter",
+      "ru": "Чондатский флибустьер",
+      "url": "https://next.dnd.su/backgrounds/907-chondathan-freebooter/",
+      "source": "FRHoF",
+      "scores": [
+        "str",
+        "dex",
+        "wis"
+      ],
+      "feat": "skilled",
+      "skills": [
+        "athletics",
+        "sleight"
+      ],
+      "tool": "Инструменты ткача",
+      "cashGold": 50,
+      "gold": 38,
+      "items": [
+        "dagger",
+        "weavers-tools",
+        "backpack",
+        "ball-bearings",
+        "basket",
+        "bedroll",
+        "bucket",
+        "Рационы на 3 дня",
+        "rope",
+        "signal-whistle",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "spirit-medium",
+      "name": "Spirit Medium",
+      "ru": "Медиум",
+      "url": "https://next.dnd.su/backgrounds/953-spirit-medium/",
+      "source": "RTW",
+      "scores": [
+        "con",
+        "int",
+        "wis"
+      ],
+      "skills": [
+        "insight",
+        "religion"
+      ],
+      "tool": "game",
+      "cashGold": 50,
+      "gold": 32,
+      "items": [
+        "dagger",
+        "game",
+        "basket",
+        "bell",
+        "candle*8",
+        "ink",
+        "ink-pen",
+        "листов Бумаги*5",
+        "tinderbox",
+        "travelers-clothes"
+      ],
+      "featCategory": "Dark Gift"
+    },
+    {
+      "id": "haunted-one",
+      "name": "Haunted One",
+      "ru": "Преследуемый",
+      "url": "https://next.dnd.su/backgrounds/950-haunted-one/",
+      "source": "RTW",
+      "scores": [
+        "con",
+        "wis",
+        "cha"
+      ],
+      "feat": "survivor",
+      "skills": [
+        "survival",
+        "arcana"
+      ],
+      "tool": "game",
+      "cashGold": 50,
+      "gold": 14,
+      "items": [
+        "game",
+        "crowbar",
+        "holy-water",
+        "mirror",
+        "фляги Масла*2",
+        "signal-whistle",
+        "tinderbox",
+        "travelers-clothes",
+        "Факелов*5",
+        "waterskin"
+      ]
+    },
+    {
+      "id": "investigator",
+      "name": "Investigator",
+      "ru": "Следователь",
+      "url": "https://next.dnd.su/backgrounds/951-investigator/",
+      "source": "RTW",
+      "scores": [
+        "int",
+        "wis",
+        "cha"
+      ],
+      "feat": "sharp-eye",
+      "skills": [
+        "insight",
+        "investigation"
+      ],
+      "tool": "Набор для грима",
+      "cashGold": 50,
+      "gold": 16,
+      "items": [
+        "disguise-kit",
+        "manacles",
+        "shovel",
+        "travelers-clothes",
+        "Флакона*3"
+      ]
+    },
+    {
+      "id": "mist-wanderer",
+      "name": "Mist Wanderer",
+      "ru": "Странник Туманов",
+      "url": "https://next.dnd.su/backgrounds/952-mist-wanderer/",
+      "source": "RTW",
+      "scores": [
+        "dex",
+        "con",
+        "wis"
+      ],
+      "skills": [
+        "survival",
+        "stealth"
+      ],
+      "tool": "artisan",
+      "cashGold": 50,
+      "gold": 30,
+      "items": [
+        "artisan",
+        "lamp",
+        "фляг Масла*5",
+        "pouch",
+        "rope",
+        "tinderbox",
+        "travelers-clothes"
+      ],
+      "featCategory": "Dark Gift"
+    },
+    {
+      "id": "carouser",
+      "name": "Carouser",
+      "ru": "Кутила",
+      "url": "https://next.dnd.su/backgrounds/926-carouser/",
+      "source": "ABH",
+      "scores": [
+        "dex",
+        "int",
+        "cha"
+      ],
+      "feat": "tireless-reveler",
+      "skills": [
+        "deception",
+        "persuasion"
+      ],
+      "tool": "game",
+      "cashGold": 50,
+      "gold": 19,
+      "items": [
+        "dagger",
+        "game",
+        "fine-clothes",
+        "Стеклянная бутылка",
+        "mirror",
+        "perfume",
+        "pouch",
+        "tinderbox"
+      ]
+    },
+    {
+      "id": "vampire-survivor",
+      "name": "Vampire Survivor",
+      "ru": "Переживший атаку вампира",
+      "url": "https://next.dnd.su/backgrounds/928-vampire-survivor/",
+      "source": "ABH",
+      "scores": [
+        "dex",
+        "con",
+        "wis"
+      ],
+      "feat": "vampire-hunter",
+      "skills": [
+        "insight",
+        "religion"
+      ],
+      "tool": "Инструменты резчика по дереву",
+      "cashGold": 50,
+      "gold": 4,
+      "items": [
+        "woodcarvers-tools",
+        "crowbar",
+        "hooded-lantern",
+        "holy-symbol",
+        "holy-water",
+        "mirror",
+        "фляги Масла*3",
+        "tinderbox",
+        "travelers-clothes",
+        "waterskin"
+      ]
+    },
+    {
+      "id": "vampire-devotee",
+      "name": "Vampire Devotee",
+      "ru": "Посвящённый вампира",
+      "url": "https://next.dnd.su/backgrounds/927-vampire-devotee/",
+      "source": "ABH",
+      "scores": [
+        "str",
+        "con",
+        "cha"
+      ],
+      "feat": "vampires-plaything",
+      "skills": [
+        "stealth",
+        "persuasion"
+      ],
+      "tool": "Инструменты повара",
+      "cashGold": 50,
+      "gold": 19,
+      "items": [
+        "cooks-utensils",
+        "fine-clothes",
+        "Стеклянных бутылки*2",
+        "healers-kit",
+        "perfume",
+        "lamp",
+        "фляги Масла*3",
+        "waterskin"
+      ]
+    },
+    {
+      "id": "lorwyn-expert",
+      "name": "Lorwyn Expert",
+      "ru": "Эксперт Лорвина",
+      "url": "https://next.dnd.su/backgrounds/931-lorwyn-expert/",
+      "source": "LFL",
+      "scores": [
+        "str",
+        "con",
+        "wis"
+      ],
+      "feat": "child-of-the-sun",
+      "skills": [
+        "athletics",
+        "nature"
+      ],
+      "tool": "Инструменты картографа",
+      "cashGold": 50,
+      "gold": 29,
+      "items": [
+        "quarterstaff",
+        "cartographers-tools",
+        "backpack",
+        "basket",
+        "листа Пергамента*4",
+        "rope",
+        "travelers-clothes"
+      ]
+    },
+    {
+      "id": "shadowmoor-expert",
+      "name": "Shadowmoor Expert",
+      "ru": "Эксперт Шэдоумура",
+      "url": "https://next.dnd.su/backgrounds/930-shadowmoor-expert/",
+      "source": "LFL",
+      "scores": [
+        "dex",
+        "int",
+        "cha"
+      ],
+      "feat": "shadowmoor-hexer",
+      "skills": [
+        "acrobatics",
+        "deception"
+      ],
+      "tool": "Инструменты стеклодува",
+      "cashGold": 50,
+      "gold": 8,
+      "items": [
+        "dagger",
+        "glassblowers-tools",
+        "backpack",
+        "hunting-trap",
+        "lamp",
+        "фляги Масла*3",
+        "travelers-clothes",
+        "waterskin"
+      ]
+    }
+  ],
+  "feats": [
+    {
+      "id": "alert",
+      "name": "Alert",
+      "ru": "Бдительный",
+      "url": "https://next.dnd.su/feats/310-alert",
+      "source": "PH24",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "crafter",
+      "name": "Crafter",
+      "ru": "Мастеровой",
+      "url": "https://next.dnd.su/feats/311-crafter",
+      "source": "PH24",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "healer",
+      "name": "Healer",
+      "ru": "Лекарь",
+      "url": "https://next.dnd.su/feats/312-healer",
+      "source": "PH24",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "lucky",
+      "name": "Lucky",
+      "ru": "Везучий",
+      "url": "https://next.dnd.su/feats/313-lucky",
+      "source": "PH24",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "magic-initiate",
+      "name": "Magic Initiate",
+      "ru": "Посвящённый в магию",
+      "url": "https://next.dnd.su/feats/314-magic-initiate",
+      "source": "PH24",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "musician",
+      "name": "Musician",
+      "ru": "Музыкант",
+      "url": "https://next.dnd.su/feats/315-musician",
+      "source": "PH24",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "savage-attacker",
+      "name": "Savage Attacker",
+      "ru": "Неистово атакующий",
+      "url": "https://next.dnd.su/feats/316-savage-attacker",
+      "source": "PH24",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "skilled",
+      "name": "Skilled",
+      "ru": "Одарённый",
+      "url": "https://next.dnd.su/feats/317-skilled",
+      "source": "PH24",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "tavern-brawler",
+      "name": "Tavern Brawler",
+      "ru": "Дебошир",
+      "url": "https://next.dnd.su/feats/318-tavern-brawler",
+      "source": "PH24",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "tough",
+      "name": "Tough",
+      "ru": "Крепкий",
+      "url": "https://next.dnd.su/feats/319-tough",
+      "source": "PH24",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "ability-score-improvement",
+      "name": "Ability Score Improvement",
+      "ru": "Увеличение характеристик",
+      "url": "https://next.dnd.su/feats/320-ability-score-improvement",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "actor",
+      "name": "Actor",
+      "ru": "Актёр",
+      "url": "https://next.dnd.su/feats/321-actor",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha"
+      ],
+      "requirementTags": [
+        "requires.ability.CHA"
+      ],
+      "prerequisite": "4 уровень, Харизма 13+"
+    },
+    {
+      "id": "athlete",
+      "name": "Athlete",
+      "ru": "Атлет",
+      "url": "https://next.dnd.su/feats/322-athlete",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "str"
+      ],
+      "requirementTags": [
+        "requires.ability.DEX",
+        "requires.ability.STR"
+      ],
+      "prerequisite": "4 уровень, Сила или Ловкость 13+"
+    },
+    {
+      "id": "charger",
+      "name": "Charger",
+      "ru": "Налётчик",
+      "url": "https://next.dnd.su/feats/323-charger",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "str"
+      ],
+      "requirementTags": [
+        "requires.ability.DEX",
+        "requires.ability.STR"
+      ],
+      "prerequisite": "4 уровень, Сила или Ловкость 13+"
+    },
+    {
+      "id": "chef",
+      "name": "Chef",
+      "ru": "Шеф-повар",
+      "url": "https://next.dnd.su/feats/324-chef",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "con",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "crossbow-expert",
+      "name": "Crossbow Expert",
+      "ru": "Эксперт по арбалетам",
+      "url": "https://next.dnd.su/feats/325-crossbow-expert",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex"
+      ],
+      "requirementTags": [
+        "requires.ability.DEX"
+      ],
+      "prerequisite": "4 уровень, Ловкость 13+"
+    },
+    {
+      "id": "crusher",
+      "name": "Crusher",
+      "ru": "Крушитель",
+      "url": "https://next.dnd.su/feats/326-crusher",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "con",
+        "str"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "defensive-duelist",
+      "name": "Defensive Duelist",
+      "ru": "Парирующий дуэлянт",
+      "url": "https://next.dnd.su/feats/327-defensive-duelist",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex"
+      ],
+      "requirementTags": [
+        "requires.ability.DEX"
+      ],
+      "prerequisite": "4 уровень, Ловкость 13+"
+    },
+    {
+      "id": "dual-wielder",
+      "name": "Dual Wielder",
+      "ru": "Мастер боя двумя оружиями",
+      "url": "https://next.dnd.su/feats/328-dual-wielder",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "str"
+      ],
+      "requirementTags": [
+        "requires.ability.DEX",
+        "requires.ability.STR"
+      ],
+      "prerequisite": "4 уровень, Сила или Ловкость 13+"
+    },
+    {
+      "id": "durable",
+      "name": "Durable",
+      "ru": "Стойкий",
+      "url": "https://next.dnd.su/feats/329-durable",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "con"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "elemental-adept",
+      "name": "Elemental Adept",
+      "ru": "Стихийный адепт",
+      "url": "https://next.dnd.su/feats/330-elemental-adept",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "requirementTags": [
+        "requires.spellcasting"
+      ],
+      "prerequisite": "4 уровень, умение Сотворение заклинаний или Магия договора"
+    },
+    {
+      "id": "fey-touched",
+      "name": "Fey-Touched",
+      "ru": "Затронутый феями",
+      "url": "https://next.dnd.su/feats/331-fey-touched",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "grappler",
+      "name": "Grappler",
+      "ru": "Борец",
+      "url": "https://next.dnd.su/feats/332-grappler",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "str"
+      ],
+      "requirementTags": [
+        "requires.ability.DEX",
+        "requires.ability.STR"
+      ],
+      "prerequisite": "4 уровень, Сила или Ловкость 13+"
+    },
+    {
+      "id": "great-weapon-master",
+      "name": "Great Weapon Master",
+      "ru": "Мастер тяжёлого оружия",
+      "url": "https://next.dnd.su/feats/333-great-weapon-master",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "str"
+      ],
+      "requirementTags": [
+        "requires.ability.STR"
+      ],
+      "prerequisite": "4 уровень, Сила 13+"
+    },
+    {
+      "id": "heavily-armored",
+      "name": "Heavily Armored",
+      "ru": "Знаток тяжёлых доспехов",
+      "url": "https://next.dnd.su/feats/334-heavily-armored",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "con",
+        "str"
+      ],
+      "prerequisite": "4 уровень, тренированность со Средними доспехами"
+    },
+    {
+      "id": "heavy-armor-master",
+      "name": "Heavy Armor Master",
+      "ru": "Мастер тяжёлых доспехов",
+      "url": "https://next.dnd.su/feats/335-heavy-armor-master",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "con",
+        "str"
+      ],
+      "prerequisite": "4 уровень, тренированность с Тяжёлыми доспехами"
+    },
+    {
+      "id": "inspiring-leader",
+      "name": "Inspiring Leader",
+      "ru": "Воодушевляющий лидер",
+      "url": "https://next.dnd.su/feats/336-inspiring-leader",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "wis"
+      ],
+      "requirementTags": [
+        "requires.ability.CHA",
+        "requires.ability.WIS"
+      ],
+      "prerequisite": "4 уровень, Мудрость или Харизма 13+"
+    },
+    {
+      "id": "keen-mind",
+      "name": "Keen Mind",
+      "ru": "Острый ум",
+      "url": "https://next.dnd.su/feats/337-keen-mind",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "int"
+      ],
+      "requirementTags": [
+        "requires.ability.INT"
+      ],
+      "prerequisite": "4 уровень, Интеллект 13+"
+    },
+    {
+      "id": "lightly-armored",
+      "name": "Lightly Armored",
+      "ru": "Знаток лёгких доспехов",
+      "url": "https://next.dnd.su/feats/338-lightly-armored",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "str"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "mage-slayer",
+      "name": "Mage Slayer",
+      "ru": "Убийца магов",
+      "url": "https://next.dnd.su/feats/339-mage-slayer",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "str"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "martial-weapon-training",
+      "name": "Martial Weapon Training",
+      "ru": "Обученность воинскому оружию",
+      "url": "https://next.dnd.su/feats/340-martial-weapon-training",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "str"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "medium-armor-master",
+      "name": "Medium Armor Master",
+      "ru": "Мастер средних доспехов",
+      "url": "https://next.dnd.su/feats/341-medium-armor-master",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "str"
+      ],
+      "prerequisite": "4 уровень, тренированность со Средними доспехами"
+    },
+    {
+      "id": "moderately-armored",
+      "name": "Moderately Armored",
+      "ru": "Знаток средних доспехов",
+      "url": "https://next.dnd.su/feats/342-moderately-armored",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "str"
+      ],
+      "prerequisite": "4 уровень, тренированность с Лёгкими доспехами"
+    },
+    {
+      "id": "mounted-combatant",
+      "name": "Mounted Combatant",
+      "ru": "Верховой боец",
+      "url": "https://next.dnd.su/feats/343-mounted-combatant",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "observant",
+      "name": "Observant",
+      "ru": "Внимательный",
+      "url": "https://next.dnd.su/feats/344-observant",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "int",
+        "wis"
+      ],
+      "requirementTags": [
+        "requires.ability.INT",
+        "requires.ability.WIS"
+      ],
+      "prerequisite": "4 уровень, Интеллект или Мудрость 13+"
+    },
+    {
+      "id": "piercer",
+      "name": "Piercer",
+      "ru": "Пронзатель",
+      "url": "https://next.dnd.su/feats/345-piercer",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "str"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "poisoner",
+      "name": "Poisoner",
+      "ru": "Отравитель",
+      "url": "https://next.dnd.su/feats/346-poisoner",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "int"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "polearm-master",
+      "name": "Polearm Master",
+      "ru": "Мастер древкового оружия",
+      "url": "https://next.dnd.su/feats/347-polearm-master",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "str"
+      ],
+      "requirementTags": [
+        "requires.ability.DEX",
+        "requires.ability.STR"
+      ],
+      "prerequisite": "4 уровень, Сила или Ловкость 13+"
+    },
+    {
+      "id": "resilient",
+      "name": "Resilient",
+      "ru": "Устойчивый",
+      "url": "https://next.dnd.su/feats/348-resilient",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "ritual-caster",
+      "name": "Ritual Caster",
+      "ru": "Ритуальный заклинатель",
+      "url": "https://next.dnd.su/feats/349-ritual-caster",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "requirementTags": [
+        "requires.ability.CHA",
+        "requires.ability.INT",
+        "requires.ability.WIS"
+      ],
+      "prerequisite": "4 уровень, Интеллект, Мудрость или Харизма 13+"
+    },
+    {
+      "id": "sentinel",
+      "name": "Sentinel",
+      "ru": "Страж",
+      "url": "https://next.dnd.su/feats/350-sentinel",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "str"
+      ],
+      "requirementTags": [
+        "requires.ability.DEX",
+        "requires.ability.STR"
+      ],
+      "prerequisite": "4 уровень, Сила или Ловкость 13+"
+    },
+    {
+      "id": "shadow-touched",
+      "name": "Shadow-Touched",
+      "ru": "Затронутый тенью",
+      "url": "https://next.dnd.su/feats/351-shadow-touched",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "sharpshooter",
+      "name": "Sharpshooter",
+      "ru": "Меткий стрелок",
+      "url": "https://next.dnd.su/feats/352-sharpshooter",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex"
+      ],
+      "requirementTags": [
+        "requires.ability.DEX"
+      ],
+      "prerequisite": "4 уровень, Ловкость 13+"
+    },
+    {
+      "id": "shield-master",
+      "name": "Shield Master",
+      "ru": "Мастер щита",
+      "url": "https://next.dnd.su/feats/353-shield-master",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "str"
+      ],
+      "prerequisite": "4 уровень, тренированность с Щитами"
+    },
+    {
+      "id": "skill-expert",
+      "name": "Skill Expert",
+      "ru": "Эксперт в навыке",
+      "url": "https://next.dnd.su/feats/354-skill-expert",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "skulker",
+      "name": "Skulker",
+      "ru": "Проныра",
+      "url": "https://next.dnd.su/feats/355-skulker",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex"
+      ],
+      "requirementTags": [
+        "requires.ability.DEX"
+      ],
+      "prerequisite": "4 уровень, Ловкость 13+"
+    },
+    {
+      "id": "slasher",
+      "name": "Slasher",
+      "ru": "Рубака",
+      "url": "https://next.dnd.su/feats/356-slasher",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "str"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "speedy",
+      "name": "Speedy",
+      "ru": "Быстрый",
+      "url": "https://next.dnd.su/feats/357-speedy",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "con",
+        "dex"
+      ],
+      "requirementTags": [
+        "requires.ability.CON",
+        "requires.ability.DEX"
+      ],
+      "prerequisite": "4 уровень, Ловкость или Телосложение 13+"
+    },
+    {
+      "id": "spell-sniper",
+      "name": "Spell Sniper",
+      "ru": "Меткий заклинатель",
+      "url": "https://next.dnd.su/feats/358-spell-sniper",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "requirementTags": [
+        "requires.spellcasting"
+      ],
+      "prerequisite": "4 уровень, умение Сотворение заклинаний или Магия договора"
+    },
+    {
+      "id": "telekinetic",
+      "name": "Telekinetic",
+      "ru": "Телекинетик",
+      "url": "https://next.dnd.su/feats/359-telekinetic",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "telepathic",
+      "name": "Telepathic",
+      "ru": "Телепат",
+      "url": "https://next.dnd.su/feats/360-telepathic",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "war-caster",
+      "name": "War Caster",
+      "ru": "Боевой заклинатель",
+      "url": "https://next.dnd.su/feats/361-war-caster",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "requirementTags": [
+        "requires.spellcasting"
+      ],
+      "prerequisite": "4 уровень, умение Сотворение заклинаний или Магия договора"
+    },
+    {
+      "id": "weapon-master",
+      "name": "Weapon Master",
+      "ru": "Мастер оружия",
+      "url": "https://next.dnd.su/feats/362-weapon-master",
+      "source": "PH24",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "str"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "archery",
+      "name": "Archery",
+      "ru": "Стрельба",
+      "url": "https://next.dnd.su/feats/363-archery",
+      "source": "PH24",
+      "category": "Fighting Style",
+      "minimumLevel": 1,
+      "prerequisite": "умение Боевой стиль"
+    },
+    {
+      "id": "blind-fighting",
+      "name": "Blind Fighting",
+      "ru": "Сражение вслепую",
+      "url": "https://next.dnd.su/feats/364-blind-fighting",
+      "source": "PH24",
+      "category": "Fighting Style",
+      "minimumLevel": 1,
+      "prerequisite": "умение Боевой стиль"
+    },
+    {
+      "id": "defense",
+      "name": "Defense",
+      "ru": "Оборона",
+      "url": "https://next.dnd.su/feats/365-defense",
+      "source": "PH24",
+      "category": "Fighting Style",
+      "minimumLevel": 1,
+      "prerequisite": "умение Боевой стиль"
+    },
+    {
+      "id": "dueling",
+      "name": "Dueling",
+      "ru": "Дуэлянт",
+      "url": "https://next.dnd.su/feats/366-dueling",
+      "source": "PH24",
+      "category": "Fighting Style",
+      "minimumLevel": 1,
+      "prerequisite": "умение Боевой стиль"
+    },
+    {
+      "id": "great-weapon-fighting",
+      "name": "Great Weapon Fighting",
+      "ru": "Сражение большим оружием",
+      "url": "https://next.dnd.su/feats/367-great-weapon-fighting",
+      "source": "PH24",
+      "category": "Fighting Style",
+      "minimumLevel": 1,
+      "prerequisite": "умение Боевой стиль"
+    },
+    {
+      "id": "interception",
+      "name": "Interception",
+      "ru": "Перехват",
+      "url": "https://next.dnd.su/feats/368-interception",
+      "source": "PH24",
+      "category": "Fighting Style",
+      "minimumLevel": 1,
+      "prerequisite": "умение Боевой стиль"
+    },
+    {
+      "id": "protection",
+      "name": "Protection",
+      "ru": "Защита",
+      "url": "https://next.dnd.su/feats/369-protection",
+      "source": "PH24",
+      "category": "Fighting Style",
+      "minimumLevel": 1,
+      "prerequisite": "умение Боевой стиль"
+    },
+    {
+      "id": "thrown-weapon-fighting",
+      "name": "Thrown Weapon Fighting",
+      "ru": "Сражение метательным оружием",
+      "url": "https://next.dnd.su/feats/370-thrown-weapon-fighting",
+      "source": "PH24",
+      "category": "Fighting Style",
+      "minimumLevel": 1,
+      "prerequisite": "умение Боевой стиль"
+    },
+    {
+      "id": "two-weapon-fighting",
+      "name": "Two-Weapon Fighting",
+      "ru": "Сражение двумя оружиями",
+      "url": "https://next.dnd.su/feats/371-two-weapon-fighting",
+      "source": "PH24",
+      "category": "Fighting Style",
+      "minimumLevel": 1,
+      "prerequisite": "умение Боевой стиль"
+    },
+    {
+      "id": "unarmed-fighting",
+      "name": "Unarmed Fighting",
+      "ru": "Сражение без оружия",
+      "url": "https://next.dnd.su/feats/372-unarmed-fighting",
+      "source": "PH24",
+      "category": "Fighting Style",
+      "minimumLevel": 1,
+      "prerequisite": "умение Боевой стиль"
+    },
+    {
+      "id": "boon-of-combat-prowess",
+      "name": "Boon of Combat Prowess",
+      "ru": "Дар боевой удали",
+      "url": "https://next.dnd.su/feats/373-boon-of-combat-prowess",
+      "source": "PH24",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-dimensional-travel",
+      "name": "Boon of Dimensional Travel",
+      "ru": "Дар межпространственного перемещения",
+      "url": "https://next.dnd.su/feats/374-boon-of-dimensional-travel",
+      "source": "PH24",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-energy-resistance",
+      "name": "Boon of Energy Resistance",
+      "ru": "Дар сопротивления энергии",
+      "url": "https://next.dnd.su/feats/375-boon-of-energy-resistance",
+      "source": "PH24",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-fate",
+      "name": "Boon of Fate",
+      "ru": "Дар судьбы",
+      "url": "https://next.dnd.su/feats/376-boon-of-fate",
+      "source": "PH24",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-fortitude",
+      "name": "Boon of Fortitude",
+      "ru": "Дар стойкости",
+      "url": "https://next.dnd.su/feats/377-boon-of-fortitude",
+      "source": "PH24",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-irresistible-offense",
+      "name": "Boon of Irresistible Offense",
+      "ru": "Дар неотразимого нападения",
+      "url": "https://next.dnd.su/feats/378-boon-of-irresistible-offense",
+      "source": "PH24",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "dex",
+        "str"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-recovery",
+      "name": "Boon of Recovery",
+      "ru": "Дар восстановления",
+      "url": "https://next.dnd.su/feats/379-boon-of-recovery",
+      "source": "PH24",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-skill",
+      "name": "Boon of Skill",
+      "ru": "Дар умелости",
+      "url": "https://next.dnd.su/feats/380-boon-of-skill",
+      "source": "PH24",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-speed",
+      "name": "Boon of Speed",
+      "ru": "Дар скорости",
+      "url": "https://next.dnd.su/feats/381-boon-of-speed",
+      "source": "PH24",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-spell-recall",
+      "name": "Boon of Spell Recall",
+      "ru": "Дар восстановления заклинаний",
+      "url": "https://next.dnd.su/feats/382-boon-of-spell-recall",
+      "source": "PH24",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "requirementTags": [
+        "requires.spellcasting"
+      ],
+      "prerequisite": "19 уровень, умение Сотворение заклинаний"
+    },
+    {
+      "id": "boon-of-the-night-spirit",
+      "name": "Boon of the Night Spirit",
+      "ru": "Дар ночного духа",
+      "url": "https://next.dnd.su/feats/383-boon-of-the-night-spirit",
+      "source": "PH24",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-truesight",
+      "name": "Boon of Truesight",
+      "ru": "Дар истинного зрения",
+      "url": "https://next.dnd.su/feats/384-boon-of-truesight",
+      "source": "PH24",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "cult-of-the-dragon-initiate",
+      "name": "Cult of the Dragon Initiate",
+      "ru": "Посвящённый Культа дракона",
+      "url": "https://next.dnd.su/feats/385-cult-of-the-dragon-initiate",
+      "source": "FRHoF",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "emerald-enclave-fledgling",
+      "name": "Emerald Enclave Fledgling",
+      "ru": "Птенец Изумрудного анклава",
+      "url": "https://next.dnd.su/feats/386-emerald-enclave-fledgling",
+      "source": "FRHoF",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "harper-agent",
+      "name": "Harper Agent",
+      "ru": "Агент Арфистов",
+      "url": "https://next.dnd.su/feats/387-harper-agent",
+      "source": "FRHoF",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "lords-alliance-agent",
+      "name": "Lords’ Alliance Agent",
+      "ru": "Агент Альянса лордов",
+      "url": "https://next.dnd.su/feats/388-lords-alliance-agent",
+      "source": "FRHoF",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "purple-dragon-rook",
+      "name": "Purple Dragon Rook",
+      "ru": "Новобранец Пурпурного дракона",
+      "url": "https://next.dnd.su/feats/389-purple-dragon-rook",
+      "source": "FRHoF",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "spellfire-spark",
+      "name": "Spellfire Spark",
+      "ru": "Искра чаропламени",
+      "url": "https://next.dnd.su/feats/390-spellfire-spark",
+      "source": "FRHoF",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "tyro-of-the-gauntlet",
+      "name": "Tyro of the Gauntlet",
+      "ru": "Новичок Латной перчатки",
+      "url": "https://next.dnd.su/feats/391-tyro-of-the-gauntlet",
+      "source": "FRHoF",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "zhentarim-ruffian",
+      "name": "Zhentarim Ruffian",
+      "ru": "Бандит Жентарима",
+      "url": "https://next.dnd.su/feats/392-zhentarim-ruffian",
+      "source": "FRHoF",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "cold-caster",
+      "name": "Cold Caster",
+      "ru": "Холодный заклинатель",
+      "url": "https://next.dnd.su/feats/393-cold-caster",
+      "source": "FRHoF",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "dragonscarred",
+      "name": "Dragonscarred",
+      "ru": "Изуродованный драконом",
+      "url": "https://next.dnd.su/feats/394-dragonscarred",
+      "source": "FRHoF",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con"
+      ],
+      "prerequisite": "4 уровень, черта Посвящённый Культа дракона"
+    },
+    {
+      "id": "enclave-magic",
+      "name": "Enclave Magic",
+      "ru": "Магия Анклава",
+      "url": "https://next.dnd.su/feats/395-enclave-magic",
+      "source": "FRHoF",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "prerequisite": "4 уровень, черта Птенец Изумрудного анклава"
+    },
+    {
+      "id": "fairy-trickster",
+      "name": "Fairy Trickster",
+      "ru": "Фейский хитрец",
+      "url": "https://next.dnd.su/feats/396-fairy-trickster",
+      "source": "FRHoF",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "dex"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "genie-magic",
+      "name": "Genie Magic",
+      "ru": "Магия гениев",
+      "url": "https://next.dnd.su/feats/397-genie-magic",
+      "source": "FRHoF",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "harper-teamwork",
+      "name": "Harper Teamwork",
+      "ru": "Командная работа Арфистов",
+      "url": "https://next.dnd.su/feats/398-harper-teamwork",
+      "source": "FRHoF",
+      "category": "General",
+      "minimumLevel": 4,
+      "prerequisite": "4 уровень, черта Агент Арфистов"
+    },
+    {
+      "id": "lordly-resolve",
+      "name": "Lordly Resolve",
+      "ru": "Решимость лордов",
+      "url": "https://next.dnd.su/feats/399-lordly-resolve",
+      "source": "FRHoF",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "str"
+      ],
+      "requirementTags": [
+        "requires.feat"
+      ],
+      "prerequisite": "4 уровень, черта Агент Альянса лордов"
+    },
+    {
+      "id": "mythal-touched",
+      "name": "Mythal Touched",
+      "ru": "Затронутый мифалом",
+      "url": "https://next.dnd.su/feats/400-mythal-touched",
+      "source": "FRHoF",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "orders-resilience",
+      "name": "Order’s Resilience",
+      "ru": "Устойчивость Ордена",
+      "url": "https://next.dnd.su/feats/401-orders-resilience",
+      "source": "FRHoF",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "4 уровень, черта Новичок Латной перчатки"
+    },
+    {
+      "id": "purple-dragon-commandant",
+      "name": "Purple Dragon Commandant",
+      "ru": "Командир Пурпурного дракона",
+      "url": "https://next.dnd.su/feats/402-purple-dragon-commandant",
+      "source": "FRHoF",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "str"
+      ],
+      "prerequisite": "4 уровень, черта Новобранец Пурпурного дракона или владение Воинским оружием"
+    },
+    {
+      "id": "spellfire-adept",
+      "name": "Spellfire Adept",
+      "ru": "Адепт чаропламени",
+      "url": "https://next.dnd.su/feats/403-spellfire-adept",
+      "source": "FRHoF",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "prerequisite": "4 уровень, черта Искра чаропламени или умение Магия договора или умение Сотворение заклинаний"
+    },
+    {
+      "id": "zhentarim-tactics",
+      "name": "Zhentarim Tactics",
+      "ru": "Тактика Жентарима",
+      "url": "https://next.dnd.su/feats/404-zhentarim-tactics",
+      "source": "FRHoF",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "dex"
+      ],
+      "prerequisite": "4 уровень, черта Бандит Жентарима"
+    },
+    {
+      "id": "street-justice",
+      "name": "Street Justice",
+      "ru": "Уличная справедливость",
+      "url": "https://next.dnd.su/feats/405-street-justice",
+      "source": "FRHoF",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "str"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "boon-of-bloodshed",
+      "name": "Boon of Bloodshed",
+      "ru": "Дар кровопролития",
+      "url": "https://next.dnd.su/feats/406-boon-of-bloodshed",
+      "source": "FRHoF",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-the-furious-storm",
+      "name": "Boon of the Furious Storm",
+      "ru": "Дар неистовой бури",
+      "url": "https://next.dnd.su/feats/408-boon-of-the-furious-storm",
+      "source": "FRHoF",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "requirementTags": [
+        "requires.spellcasting"
+      ],
+      "prerequisite": "19 уровень, умение Сотворение заклинаний или Магия договора"
+    },
+    {
+      "id": "boon-of-the-soul-drinker",
+      "name": "Boon of the Soul Drinker",
+      "ru": "Дар пьющего души",
+      "url": "https://next.dnd.su/feats/409-boon-of-the-soul-drinker",
+      "source": "FRHoF",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-the-bright-sun",
+      "name": "Boon of the Bright Sun",
+      "ru": "Дар яркого солнца",
+      "url": "https://next.dnd.su/feats/410-boon-of-the-bright-sun",
+      "source": "FRHoF",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-terror",
+      "name": "Boon of Terror",
+      "ru": "Дар устрашения",
+      "url": "https://next.dnd.su/feats/411-boon-of-terror",
+      "source": "FRHoF",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-revelry",
+      "name": "Boon of Revelry",
+      "ru": "Дар безудержного веселья",
+      "url": "https://next.dnd.su/feats/412-boon-of-revelry",
+      "source": "FRHoF",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-poison-mastery",
+      "name": "Boon of Poison Mastery",
+      "ru": "Дар владения ядами",
+      "url": "https://next.dnd.su/feats/413-boon-of-poison-mastery",
+      "source": "FRHoF",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-fortunes-favor",
+      "name": "Boon of Fortune’s Favor",
+      "ru": "Дар благоволения судьбы",
+      "url": "https://next.dnd.su/feats/414-boon-of-fortunes-favor",
+      "source": "FRHoF",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-exquisite-radiance",
+      "name": "Boon of Exquisite Radiance",
+      "ru": "Дар совершенного излучения",
+      "url": "https://next.dnd.su/feats/415-boon-of-exquisite-radiance",
+      "source": "FRHoF",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-fluid-forms",
+      "name": "Boon of Fluid Forms",
+      "ru": "Дар изменчивых форм",
+      "url": "https://next.dnd.su/feats/416-boon-of-fluid-forms",
+      "source": "FRHoF",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-desperate-resilience",
+      "name": "Boon of Desperate Resilience",
+      "ru": "Дар отчаянного упорства",
+      "url": "https://next.dnd.su/feats/417-boon-of-desperate-resilience",
+      "source": "FRHoF",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "con",
+        "str"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-communication",
+      "name": "Boon of Communication",
+      "ru": "Дар общения",
+      "url": "https://next.dnd.su/feats/418-boon-of-communication",
+      "source": "FRHoF",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-bountiful-health",
+      "name": "Boon of Bountiful Health",
+      "ru": "Дар изобильного здоровья",
+      "url": "https://next.dnd.su/feats/419-boon-of-bountiful-health",
+      "source": "FRHoF",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "tireless-reveler",
+      "name": "Tireless Reveler",
+      "ru": "Неустанный гуляка",
+      "url": "https://next.dnd.su/feats/421-tireless-reveler",
+      "source": "ABH",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "vampire-hunter",
+      "name": "Vampire Hunter",
+      "ru": "Охотник на вампиров",
+      "url": "https://next.dnd.su/feats/422-vampire-hunter",
+      "source": "ABH",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "vampires-plaything",
+      "name": "Vampire’s Plaything",
+      "ru": "Игрушка вампира",
+      "url": "https://next.dnd.su/feats/423-vampires-plaything",
+      "source": "ABH",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "bloodlust",
+      "name": "Bloodlust",
+      "ru": "Жажда крови",
+      "url": "https://next.dnd.su/feats/424-bloodlust",
+      "source": "ABH",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "con",
+        "dex",
+        "str"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "bomber",
+      "name": "Bomber",
+      "ru": "Бомбометатель",
+      "url": "https://next.dnd.su/feats/425-bomber",
+      "source": "ABH",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "cloying-mists",
+      "name": "Cloying Mists",
+      "ru": "Ползучий туман",
+      "url": "https://next.dnd.su/feats/426-cloying-mists",
+      "source": "ABH",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "delicious-pain",
+      "name": "Delicious Pain",
+      "ru": "Сладкая боль",
+      "url": "https://next.dnd.su/feats/427-delicious-pain",
+      "source": "ABH",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "light-bringer",
+      "name": "Light Bringer",
+      "ru": "Несущий свет",
+      "url": "https://next.dnd.su/feats/428-light-bringer",
+      "source": "ABH",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "love-bites",
+      "name": "Love Bites",
+      "ru": "Укус любви",
+      "url": "https://next.dnd.su/feats/429-love-bites",
+      "source": "ABH",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "putrefy",
+      "name": "Putrefy",
+      "ru": "Гниение",
+      "url": "https://next.dnd.su/feats/430-putrefy",
+      "source": "ABH",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "rebuke",
+      "name": "Rebuke",
+      "ru": "Осуждение",
+      "url": "https://next.dnd.su/feats/431-rebuke",
+      "source": "ABH",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "treacherous-allure",
+      "name": "Treacherous Allure",
+      "ru": "Обманчивая привлекательность",
+      "url": "https://next.dnd.su/feats/432-treacherous-allure",
+      "source": "ABH",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "vampire-touched",
+      "name": "Vampire Touched",
+      "ru": "Затронутый вампиром",
+      "url": "https://next.dnd.su/feats/433-vampire-touched",
+      "source": "ABH",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "boon-of-blazing-dawn",
+      "name": "Boon of Blazing Dawn",
+      "ru": "Дар опаляющего рассвета",
+      "url": "https://next.dnd.su/feats/434-boon-of-blazing-dawn",
+      "source": "ABH",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-looming-shadows",
+      "name": "Boon of Looming Shadows",
+      "ru": "Дар движущихся теней",
+      "url": "https://next.dnd.su/feats/435-boon-of-looming-shadows",
+      "source": "ABH",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-misty-escape",
+      "name": "Boon of Misty Escape",
+      "ru": "Дар туманного побега",
+      "url": "https://next.dnd.su/feats/436-boon-of-misty-escape",
+      "source": "ABH",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "shadowmoor-hexer",
+      "name": "Shadowmoor Hexer",
+      "ru": "Проклинатель Шэдоумура",
+      "url": "https://next.dnd.su/feats/437-shadowmoor-hexer",
+      "source": "LFL",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "child-of-the-sun",
+      "name": "Child of the Sun",
+      "ru": "Дитя солнца",
+      "url": "https://next.dnd.su/feats/438-child-of-the-sun",
+      "source": "LFL",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "aberrant-dragonmark",
+      "name": "Aberrant Dragonmark",
+      "ru": "Аберрантная метка",
+      "url": "https://next.dnd.su/feats/439-aberrant-dragonmark",
+      "source": "EFA",
+      "category": "Dragonmark",
+      "minimumLevel": 1
+    },
+    {
+      "id": "mark-of-detection",
+      "name": "Mark of Detection",
+      "ru": "Метка обнаружения",
+      "url": "https://next.dnd.su/feats/440-mark-of-detection",
+      "source": "EFA",
+      "category": "Dragonmark",
+      "minimumLevel": 1,
+      "prerequisite": "кампания в Эберроне, не можете иметь другую черту Драконьей метки"
+    },
+    {
+      "id": "mark-of-finding",
+      "name": "Mark of Finding",
+      "ru": "Метка поиска",
+      "url": "https://next.dnd.su/feats/441-mark-of-finding",
+      "source": "EFA",
+      "category": "Dragonmark",
+      "minimumLevel": 1,
+      "prerequisite": "кампания в Эберроне, не можете иметь другую черту Драконьей метки"
+    },
+    {
+      "id": "mark-of-handling",
+      "name": "Mark of Handling",
+      "ru": "Метка обхождения",
+      "url": "https://next.dnd.su/feats/442-mark-of-handling",
+      "source": "EFA",
+      "category": "Dragonmark",
+      "minimumLevel": 1,
+      "prerequisite": "кампания в Эберроне, не можете иметь другую черту Драконьей метки"
+    },
+    {
+      "id": "mark-of-healing",
+      "name": "Mark of Healing",
+      "ru": "Метка исцеления",
+      "url": "https://next.dnd.su/feats/443-mark-of-healing",
+      "source": "EFA",
+      "category": "Dragonmark",
+      "minimumLevel": 1,
+      "prerequisite": "кампания в Эберроне, не можете иметь другую черту Драконьей метки"
+    },
+    {
+      "id": "mark-of-hospitality",
+      "name": "Mark of Hospitality",
+      "ru": "Метка гостеприимства",
+      "url": "https://next.dnd.su/feats/444-mark-of-hospitality",
+      "source": "EFA",
+      "category": "Dragonmark",
+      "minimumLevel": 1,
+      "prerequisite": "кампания в Эберроне, не можете иметь другую черту Драконьей метки"
+    },
+    {
+      "id": "mark-of-making",
+      "name": "Mark of Making",
+      "ru": "Метка создания",
+      "url": "https://next.dnd.su/feats/445-mark-of-making",
+      "source": "EFA",
+      "category": "Dragonmark",
+      "minimumLevel": 1,
+      "prerequisite": "кампания в Эберроне, не можете иметь другую черту Драконьей метки"
+    },
+    {
+      "id": "mark-of-passage",
+      "name": "Mark of Passage",
+      "ru": "Метка прохода",
+      "url": "https://next.dnd.su/feats/446-mark-of-passage",
+      "source": "EFA",
+      "category": "Dragonmark",
+      "minimumLevel": 1,
+      "prerequisite": "кампания в Эберроне, не можете иметь другую черту Драконьей метки"
+    },
+    {
+      "id": "mark-of-scribing",
+      "name": "Mark of Scribing",
+      "ru": "Метка письма",
+      "url": "https://next.dnd.su/feats/447-mark-of-scribing",
+      "source": "EFA",
+      "category": "Dragonmark",
+      "minimumLevel": 1,
+      "prerequisite": "кампания в Эберроне, не можете иметь другую черту Драконьей метки"
+    },
+    {
+      "id": "mark-of-sentinel",
+      "name": "Mark of Sentinel",
+      "ru": "Метка стража",
+      "url": "https://next.dnd.su/feats/448-mark-of-sentinel",
+      "source": "EFA",
+      "category": "Dragonmark",
+      "minimumLevel": 1,
+      "prerequisite": "кампания в Эберроне, не можете иметь другую черту Драконьей метки"
+    },
+    {
+      "id": "mark-of-shadow",
+      "name": "Mark of Shadow",
+      "ru": "Метка тени",
+      "url": "https://next.dnd.su/feats/449-mark-of-shadow",
+      "source": "EFA",
+      "category": "Dragonmark",
+      "minimumLevel": 1,
+      "prerequisite": "кампания в Эберроне, не можете иметь другую черту Драконьей метки"
+    },
+    {
+      "id": "mark-of-storm",
+      "name": "Mark of Storm",
+      "ru": "Метка бури",
+      "url": "https://next.dnd.su/feats/450-mark-of-storm",
+      "source": "EFA",
+      "category": "Dragonmark",
+      "minimumLevel": 1,
+      "prerequisite": "кампания в Эберроне, не можете иметь другую черту Драконьей метки"
+    },
+    {
+      "id": "mark-of-warding",
+      "name": "Mark of Warding",
+      "ru": "Метка охранения",
+      "url": "https://next.dnd.su/feats/451-mark-of-warding",
+      "source": "EFA",
+      "category": "Dragonmark",
+      "minimumLevel": 1,
+      "prerequisite": "кампания в Эберроне, не можете иметь другую черту Драконьей метки"
+    },
+    {
+      "id": "greater-aberrant-mark",
+      "name": "Greater Aberrant Mark",
+      "ru": "Старшая аберрантная метка",
+      "url": "https://next.dnd.su/feats/452-greater-aberrant-mark",
+      "source": "EFA",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "con"
+      ],
+      "prerequisite": "кампания в Эберроне, 4 уровень, черта Аберрантная метка"
+    },
+    {
+      "id": "greater-mark-of-detection",
+      "name": "Greater Mark of Detection",
+      "ru": "Старшая метка обнаружения",
+      "url": "https://next.dnd.su/feats/453-greater-mark-of-detection",
+      "source": "EFA",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "кампания в Эберроне, 4 уровень, черта Метка обнаружения"
+    },
+    {
+      "id": "greater-mark-of-finding",
+      "name": "Greater Mark of Finding",
+      "ru": "Старшая метка поиска",
+      "url": "https://next.dnd.su/feats/454-greater-mark-of-finding",
+      "source": "EFA",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "кампания в Эберроне, 4 уровень, черта Метка поиска"
+    },
+    {
+      "id": "greater-mark-of-handling",
+      "name": "Greater Mark of Handling",
+      "ru": "Старшая метка обхождения",
+      "url": "https://next.dnd.su/feats/455-greater-mark-of-handling",
+      "source": "EFA",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "кампания в Эберроне, 4 уровень, черта Метка обхождения"
+    },
+    {
+      "id": "greater-mark-of-healing",
+      "name": "Greater Mark of Healing",
+      "ru": "Старшая метка исцеления",
+      "url": "https://next.dnd.su/feats/456-greater-mark-of-healing",
+      "source": "EFA",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "кампания в Эберроне, 4 уровень, черта Метка исцеления"
+    },
+    {
+      "id": "greater-mark-of-hospitality",
+      "name": "Greater Mark of Hospitality",
+      "ru": "Старшая метка гостеприимства",
+      "url": "https://next.dnd.su/feats/457-greater-mark-of-hospitality",
+      "source": "EFA",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "кампания в Эберроне, 4 уровень, черта Метка гостеприимства"
+    },
+    {
+      "id": "greater-mark-of-making",
+      "name": "Greater Mark of Making",
+      "ru": "Старшая метка создания",
+      "url": "https://next.dnd.su/feats/458-greater-mark-of-making",
+      "source": "EFA",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ]
+    },
+    {
+      "id": "greater-mark-of-passage",
+      "name": "Greater Mark of Passage",
+      "ru": "Старшая метка прохода",
+      "url": "https://next.dnd.su/feats/459-greater-mark-of-passage",
+      "source": "EFA",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "кампания в Эберроне, 4 уровень, черта Метка прохода"
+    },
+    {
+      "id": "greater-mark-of-scribing",
+      "name": "Greater Mark of Scribing",
+      "ru": "Старшая метка письма",
+      "url": "https://next.dnd.su/feats/460-greater-mark-of-scribing",
+      "source": "EFA",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "кампания в Эберроне, 4 уровень, черта Метка письма"
+    },
+    {
+      "id": "greater-mark-of-sentinel",
+      "name": "Greater Mark of Sentinel",
+      "ru": "Старшая метка стража",
+      "url": "https://next.dnd.su/feats/461-greater-mark-of-sentinel",
+      "source": "EFA",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "кампания в Эберроне, 4 уровень, черта Метка стража"
+    },
+    {
+      "id": "greater-mark-of-shadow",
+      "name": "Greater Mark of Shadow",
+      "ru": "Старшая метка тени",
+      "url": "https://next.dnd.su/feats/462-greater-mark-of-shadow",
+      "source": "EFA",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "кампания в Эберроне, 4 уровень, черта Метка тени"
+    },
+    {
+      "id": "greater-mark-of-storm",
+      "name": "Greater Mark of Storm",
+      "ru": "Старшая метка бури",
+      "url": "https://next.dnd.su/feats/463-greater-mark-of-storm",
+      "source": "EFA",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ]
+    },
+    {
+      "id": "greater-mark-of-warding",
+      "name": "Greater Mark of Warding",
+      "ru": "Старшая метка охранения",
+      "url": "https://next.dnd.su/feats/464-greater-mark-of-warding",
+      "source": "EFA",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ]
+    },
+    {
+      "id": "potent-dragonmark",
+      "name": "Potent Dragonmark",
+      "ru": "Могущественная драконья метка",
+      "url": "https://next.dnd.su/feats/465-potent-dragonmark",
+      "source": "EFA",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ]
+    },
+    {
+      "id": "boon-of-siberys",
+      "name": "Boon of Siberys",
+      "ru": "Дар Сибериса",
+      "url": "https://next.dnd.su/feats/466-boon-of-siberys",
+      "source": "EFA",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "кампания в Эберроне, 19 уровень"
+    },
+    {
+      "id": "sharp-eye",
+      "name": "Sharp Eye",
+      "ru": "Остроглазый",
+      "url": "https://next.dnd.su/feats/481-sharp-eye",
+      "source": "RTW",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "survivor",
+      "name": "Survivor",
+      "ru": "Выживший",
+      "url": "https://next.dnd.su/feats/482-survivor",
+      "source": "RTW",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "aberrant-anatomy",
+      "name": "Aberrant Anatomy",
+      "ru": "Аберрантная анатомия",
+      "url": "https://next.dnd.su/feats/483-aberrant-anatomy",
+      "source": "RTW",
+      "category": "Dark Gift",
+      "minimumLevel": 1
+    },
+    {
+      "id": "echoing-soul",
+      "name": "Echoing Soul",
+      "ru": "Эхо прошлых жизней",
+      "url": "https://next.dnd.su/feats/484-echoing-soul",
+      "source": "RTW",
+      "category": "Dark Gift",
+      "minimumLevel": 1
+    },
+    {
+      "id": "gathered-whispers",
+      "name": "Gathered Whispers",
+      "ru": "Сонм голосов",
+      "url": "https://next.dnd.su/feats/485-gathered-whispers",
+      "source": "RTW",
+      "category": "Dark Gift",
+      "minimumLevel": 1
+    },
+    {
+      "id": "living-shadow",
+      "name": "Living Shadow",
+      "ru": "Живая тень",
+      "url": "https://next.dnd.su/feats/486-living-shadow",
+      "source": "RTW",
+      "category": "Dark Gift",
+      "minimumLevel": 1,
+      "prerequisite": "кампания в Равенлофте"
+    },
+    {
+      "id": "mist-walker",
+      "name": "Mist Walker",
+      "ru": "Ходок Туманов",
+      "url": "https://next.dnd.su/feats/487-mist-walker",
+      "source": "RTW",
+      "category": "Dark Gift",
+      "minimumLevel": 1,
+      "prerequisite": "кампания в Равенлофте"
+    },
+    {
+      "id": "second-skin",
+      "name": "Second Skin",
+      "ru": "Волк среди овец",
+      "url": "https://next.dnd.su/feats/488-second-skin",
+      "source": "RTW",
+      "category": "Dark Gift",
+      "minimumLevel": 1
+    },
+    {
+      "id": "symbiotic-being",
+      "name": "Symbiotic Being",
+      "ru": "Симбионт",
+      "url": "https://next.dnd.su/feats/489-symbiotic-being",
+      "source": "RTW",
+      "category": "Dark Gift",
+      "minimumLevel": 1
+    },
+    {
+      "id": "touch-of-death",
+      "name": "Touch of Death",
+      "ru": "Касание смерти",
+      "url": "https://next.dnd.su/feats/490-touch-of-death",
+      "source": "RTW",
+      "category": "Dark Gift",
+      "minimumLevel": 1,
+      "prerequisite": "кампания в Равенлофте"
+    },
+    {
+      "id": "watchers",
+      "name": "Watchers",
+      "ru": "Наблюдаемый",
+      "url": "https://next.dnd.su/feats/491-watchers",
+      "source": "RTW",
+      "category": "Dark Gift",
+      "minimumLevel": 1
+    },
+    {
+      "id": "arcane-artist",
+      "name": "Arcane Artist",
+      "ru": "Мистический артист",
+      "url": "https://next.dnd.su/feats/509-arcane-artist",
+      "source": "AU",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "arcane-eloquence",
+      "name": "Arcane Eloquence",
+      "ru": "Колдовское красноречие",
+      "url": "https://next.dnd.su/feats/510-arcane-eloquence",
+      "source": "AU",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "arcane-infiltrator",
+      "name": "Arcane Infiltrator",
+      "ru": "Мистический лазутчик",
+      "url": "https://next.dnd.su/feats/511-arcane-infiltrator",
+      "source": "AU",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "arcane-omens",
+      "name": "Arcane Omens",
+      "ru": "Мистические предвестия",
+      "url": "https://next.dnd.su/feats/512-arcane-omens",
+      "source": "AU",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "arcane-overload",
+      "name": "Arcane Overload",
+      "ru": "Магическая перегрузка",
+      "url": "https://next.dnd.su/feats/513-arcane-overload",
+      "source": "AU",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "arcane-safeguard",
+      "name": "Arcane Safeguard",
+      "ru": "Магический заслон",
+      "url": "https://next.dnd.su/feats/514-arcane-safeguard",
+      "source": "AU",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "arcane-undertaker",
+      "name": "Arcane Undertaker",
+      "ru": "Колдовской могильщик",
+      "url": "https://next.dnd.su/feats/515-arcane-undertaker",
+      "source": "AU",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "familiar-friend",
+      "name": "Familiar Friend",
+      "ru": "Друг-фамильяр",
+      "url": "https://next.dnd.su/feats/516-familiar-friend",
+      "source": "AU",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "portal-jumper",
+      "name": "Portal Jumper",
+      "ru": "Портальный прыгун",
+      "url": "https://next.dnd.su/feats/517-portal-jumper",
+      "source": "AU",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "transmuted-anatomy",
+      "name": "Transmuted Anatomy",
+      "ru": "Преобразованная анатомия",
+      "url": "https://next.dnd.su/feats/518-transmuted-anatomy",
+      "source": "AU",
+      "category": "Origin",
+      "minimumLevel": 1
+    },
+    {
+      "id": "abjuration-adept",
+      "name": "Abjuration Adept",
+      "ru": "Адепт Ограждения",
+      "url": "https://next.dnd.su/feats/519-abjuration-adept",
+      "source": "AU",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "requirementTags": [
+        "requires.spellcasting"
+      ],
+      "prerequisite": "4 уровень, умение Сотворение заклинаний или Магия договора"
+    },
+    {
+      "id": "conjuration-adept",
+      "name": "Conjuration Adept",
+      "ru": "Адепт Призыва",
+      "url": "https://next.dnd.su/feats/520-conjuration-adept",
+      "source": "AU",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "requirementTags": [
+        "requires.spellcasting"
+      ],
+      "prerequisite": "4 уровень, умение Сотворение заклинаний или Магия договора"
+    },
+    {
+      "id": "divination-adept",
+      "name": "Divination Adept",
+      "ru": "Адепт Прорицания",
+      "url": "https://next.dnd.su/feats/521-divination-adept",
+      "source": "AU",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "requirementTags": [
+        "requires.spellcasting"
+      ],
+      "prerequisite": "4 уровень, умение Сотворение заклинаний или Магия договора"
+    },
+    {
+      "id": "enchantment-adept",
+      "name": "Enchantment Adept",
+      "ru": "Адепт Очарования",
+      "url": "https://next.dnd.su/feats/522-enchantment-adept",
+      "source": "AU",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "requirementTags": [
+        "requires.spellcasting"
+      ],
+      "prerequisite": "4 уровень, умение Сотворение заклинаний или Магия договора"
+    },
+    {
+      "id": "elemental-familiar",
+      "name": "Elemental Familiar",
+      "ru": "Стихийный фамильяр",
+      "url": "https://next.dnd.su/feats/523-elemental-familiar",
+      "source": "AU",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ]
+    },
+    {
+      "id": "evocation-adept",
+      "name": "Evocation Adept",
+      "ru": "Адепт Воплощения",
+      "url": "https://next.dnd.su/feats/524-evocation-adept",
+      "source": "AU",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "requirementTags": [
+        "requires.spellcasting"
+      ],
+      "prerequisite": "4 уровень, умение Сотворение заклинаний или Магия договора"
+    },
+    {
+      "id": "illusion-adept",
+      "name": "Illusion Adept",
+      "ru": "Адепт Иллюзии",
+      "url": "https://next.dnd.su/feats/525-illusion-adept",
+      "source": "AU",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "requirementTags": [
+        "requires.spellcasting"
+      ],
+      "prerequisite": "4 уровень, умение Сотворение заклинаний или Магия договора"
+    },
+    {
+      "id": "necromancy-adept",
+      "name": "Necromancy Adept",
+      "ru": "Адепт Некромантии",
+      "url": "https://next.dnd.su/feats/526-necromancy-adept",
+      "source": "AU",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "requirementTags": [
+        "requires.spellcasting"
+      ]
+    },
+    {
+      "id": "transmutation-adept",
+      "name": "Transmutation Adept",
+      "ru": "Адепт Преобразования",
+      "url": "https://next.dnd.su/feats/527-transmutation-adept",
+      "source": "AU",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "requirementTags": [
+        "requires.spellcasting"
+      ]
+    },
+    {
+      "id": "magic-connoisseur",
+      "name": "Magic Connoisseur",
+      "ru": "Сведущий в магии",
+      "url": "https://next.dnd.su/feats/528-magic-connoisseur",
+      "source": "AU",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "prerequisite": "4 уровень, черта Посвящённый в магию"
+    },
+    {
+      "id": "otherworldly-familiar",
+      "name": "Otherworldly Familiar",
+      "ru": "Потусторонний фамильяр",
+      "url": "https://next.dnd.su/feats/529-otherworldly-familiar",
+      "source": "AU",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "4 уровень, черта Друг-фамильяр"
+    },
+    {
+      "id": "soothing-familiar",
+      "name": "Soothing Familiar",
+      "ru": "Благодатный фамильяр",
+      "url": "https://next.dnd.su/feats/530-soothing-familiar",
+      "source": "AU",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "4 уровень, черта Друг-фамильяр"
+    },
+    {
+      "id": "spell-resistant",
+      "name": "Spell Resistant",
+      "ru": "Сопротивление заклинаниям",
+      "url": "https://next.dnd.su/feats/531-spell-resistant",
+      "source": "AU",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "con",
+        "dex"
+      ]
+    },
+    {
+      "id": "spell-subterfuge",
+      "name": "Spell Subterfuge",
+      "ru": "Хитрый заклинатель",
+      "url": "https://next.dnd.su/feats/532-spell-subterfuge",
+      "source": "AU",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ]
+    },
+    {
+      "id": "warlike-familiar",
+      "name": "Warlike Familiar",
+      "ru": "Воинственный фамильяр",
+      "url": "https://next.dnd.su/feats/533-warlike-familiar",
+      "source": "AU",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "requirementTags": [
+        "requires.feat"
+      ]
+    },
+    {
+      "id": "arcane-warrior",
+      "name": "Arcane Warrior",
+      "ru": "Воин-маг",
+      "url": "https://next.dnd.su/feats/534-arcane-warrior",
+      "source": "AU",
+      "category": "Fighting Style",
+      "minimumLevel": 1,
+      "requirementTags": [
+        "requires.feat"
+      ]
+    },
+    {
+      "id": "boon-of-erupting-spellpower",
+      "name": "Boon of Erupting Spellpower",
+      "ru": "Дар заклинательной мощи",
+      "url": "https://next.dnd.su/feats/535-boon-of-erupting-spellpower",
+      "source": "AU",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "requirementTags": [
+        "requires.spellcasting"
+      ]
+    },
+    {
+      "id": "boon-of-the-iron-mind",
+      "name": "Boon of the Iron Mind",
+      "ru": "Дар железного разума",
+      "url": "https://next.dnd.su/feats/536-boon-of-the-iron-mind",
+      "source": "AU",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "con",
+        "dex",
+        "int",
+        "str",
+        "wis"
+      ],
+      "prerequisite": "19 уровень"
+    },
+    {
+      "id": "boon-of-magic-school-mastery",
+      "name": "Boon of Magic School Mastery",
+      "ru": "Дар мастерства школы магии",
+      "url": "https://next.dnd.su/feats/537-boon-of-magic-school-mastery",
+      "source": "AU",
+      "category": "Epic Boon",
+      "minimumLevel": 19,
+      "abilityOptions": [
+        "cha",
+        "int",
+        "wis"
+      ],
+      "requirementTags": [
+        "requires.spellcasting"
+      ],
+      "prerequisite": "19 уровень, умение Сотворение заклинаний или Магия договора"
+    },
+    {
+      "id": "clearcasting",
+      "name": "Clearcasting",
+      "ru": "Ясность мысли",
+      "url": "https://next.dnd.su/feats/541-clearcasting",
+      "source": "WoW",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "int"
+      ],
+      "prerequisite": "4 уровень"
+    },
+    {
+      "id": "fingers-of-frost",
+      "name": "Fingers of Frost",
+      "ru": "Ледяные пальцы",
+      "url": "https://next.dnd.su/feats/542-fingers-of-frost",
+      "source": "WoW",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "int"
+      ]
+    },
+    {
+      "id": "hot-streak",
+      "name": "Hot Streak",
+      "ru": "Путь огня",
+      "url": "https://next.dnd.su/feats/543-hot-streak",
+      "source": "WoW",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "int"
+      ]
+    },
+    {
+      "id": "elusive-brawler",
+      "name": "Elusive Brawler",
+      "ru": "Вёрткий задира",
+      "url": "https://next.dnd.su/feats/544-elusive-brawler",
+      "source": "WoW",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "wis"
+      ],
+      "prerequisite": "4 уровень, Ловкость и Мудрость не менее 13"
+    },
+    {
+      "id": "enveloping-mist",
+      "name": "Enveloping Mist",
+      "ru": "Окутывающий туман",
+      "url": "https://next.dnd.su/feats/545-enveloping-mist",
+      "source": "WoW",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "wis"
+      ]
+    },
+    {
+      "id": "fists-of-fury",
+      "name": "Fists of Fury",
+      "ru": "Неистовые кулаки",
+      "url": "https://next.dnd.su/feats/546-fists-of-fury",
+      "source": "WoW",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "wis"
+      ],
+      "prerequisite": "4 уровень, Ловкость и Мудрость не менее 13"
+    },
+    {
+      "id": "stagger-and-sway",
+      "name": "Stagger and Sway",
+      "ru": "Пошатывание",
+      "url": "https://next.dnd.su/feats/547-stagger-and-sway",
+      "source": "WoW",
+      "category": "General",
+      "minimumLevel": 4,
+      "abilityOptions": [
+        "dex",
+        "wis"
+      ],
+      "prerequisite": "4 уровень, Ловкость и Мудрость не менее 13"
+    }
+  ]
+}
