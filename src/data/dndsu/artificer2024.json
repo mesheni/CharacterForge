@@ -1,0 +1,1155 @@
+{
+  "id": "artificer",
+  "edition": "2024",
+  "name": "Artificer",
+  "ru": "Артефактор",
+  "source": "Eberron: Forge of the Artificer",
+  "url": "https://next.dnd.su/class/artificer",
+  "hp": 8,
+  "primary": [
+    "int"
+  ],
+  "saves": [
+    "con",
+    "int"
+  ],
+  "skillCount": 2,
+  "skills": [
+    "perception",
+    "history",
+    "sleight",
+    "medicine",
+    "nature",
+    "investigation",
+    "arcana"
+  ],
+  "profs": [
+    "light",
+    "medium",
+    "shield",
+    "simple",
+    "thieves",
+    "tinker"
+  ],
+  "tools": [
+    "thieves-tools",
+    "tinkers-tools"
+  ],
+  "artisanToolCount": 1,
+  "multiclass": [
+    "light",
+    "medium",
+    "shield",
+    "tinker"
+  ],
+  "multiclassSkillCount": 1,
+  "caster": "half-up",
+  "spellAbility": "int",
+  "pack": {
+    "gold": 16,
+    "items": [
+      "studded-leather-armor",
+      "dagger",
+      "thieves-tools",
+      "tinkers-tools",
+      "dungeoneers-pack"
+    ]
+  },
+  "cash": 150,
+  "subclassAt": 3,
+  "subclassLevels": [
+    3,
+    5,
+    9,
+    15
+  ],
+  "features": {
+    "1": [
+      {
+        "id": "spellcasting",
+        "name": "Spellcasting",
+        "ru": "Сотворение заклинаний",
+        "url": "https://next.dnd.su/class/artificer#feature.spellcasting",
+        "detail": "Интеллект определяет модификатор магии. Для сотворения заклинаний нужны освоенные инструменты. Все ячейки восстанавливаются после долгого отдыха."
+      },
+      {
+        "id": "tinkers-magic",
+        "name": "Tinker's Magic",
+        "ru": "Магия вещей",
+        "url": "https://next.dnd.su/class/artificer#feature.tinkers-magic",
+        "detail": "Вы знаете заговор «Починка». Инструменты ремонтника помогают временно создать один из обыденных предметов."
+      }
+    ],
+    "2": [
+      {
+        "id": "replicate-magic-item",
+        "name": "Replicate Magic Item",
+        "ru": "Реплики магических предметов",
+        "url": "https://next.dnd.su/class/artificer#feature.replicate-magic-item",
+        "detail": "На 2-м уровне выберите четыре схемы. После долгого отдыха можно создавать предметы по известным схемам в пределах указанного количества. Один экземпляр каждой схемы одновременно."
+      }
+    ],
+    "3": [
+      {
+        "id": "artificer-subclass",
+        "name": "Artificer Subclass",
+        "ru": "Подкласс Артефактора",
+        "url": "https://next.dnd.su/class/artificer#feature.artificer-subclass"
+      }
+    ],
+    "4": [
+      {
+        "id": "asi-4",
+        "name": "Ability Score Improvement",
+        "ru": "Увеличение характеристик",
+        "url": "https://next.dnd.su/class/artificer#feature.ASI-4"
+      }
+    ],
+    "5": [
+      {
+        "id": "subclass-5",
+        "name": "Subclass feature",
+        "ru": "Умение подкласса",
+        "url": "https://next.dnd.su/class/artificer#feature.subclass-5"
+      }
+    ],
+    "6": [
+      {
+        "id": "magic-item-tinker",
+        "name": "Magic Item Tinker",
+        "ru": "Магический мастеровой",
+        "url": "https://next.dnd.su/class/artificer#feature.magic-item-tinker",
+        "detail": "Вы можете подзарядить отдельные реплики, превратить реплику в ячейку заклинания или заменить предмет другой репликой."
+      }
+    ],
+    "7": [
+      {
+        "id": "flash-of-genius",
+        "name": "Flash of Genius",
+        "ru": "Проблеск гениальности",
+        "url": "https://next.dnd.su/class/artificer#feature.flash-of-genius",
+        "detail": "Реакция на неудачную проверку характеристики или спасбросок. Добавьте свой модификатор Интеллекта к результату."
+      }
+    ],
+    "8": [
+      {
+        "id": "asi-8",
+        "name": "Ability Score Improvement",
+        "ru": "Увеличение характеристик",
+        "url": "https://next.dnd.su/class/artificer#feature.ASI-8"
+      }
+    ],
+    "9": [
+      {
+        "id": "subclass-9",
+        "name": "Subclass feature",
+        "ru": "Умение подкласса",
+        "url": "https://next.dnd.su/class/artificer#feature.subclass-9"
+      }
+    ],
+    "10": [
+      {
+        "id": "magic-item-adept",
+        "name": "Magic Item Adept",
+        "ru": "Искусник магических предметов",
+        "url": "https://next.dnd.su/class/artificer#feature.magic-item-adept",
+        "detail": "Вы можете одновременно настроиться на четыре магических предмета."
+      }
+    ],
+    "11": [
+      {
+        "id": "spell-storing-item",
+        "name": "Spell-Storing Item",
+        "ru": "Хранящий заклинания предмет",
+        "url": "https://next.dnd.su/class/artificer#feature.spell-storing-item",
+        "detail": "После долгого отдыха сохраните подходящее заклинание Артефактора 1–3-го уровня в предмете."
+      }
+    ],
+    "12": [
+      {
+        "id": "asi-12",
+        "name": "Ability Score Improvement",
+        "ru": "Увеличение характеристик",
+        "url": "https://next.dnd.su/class/artificer#feature.ASI-12"
+      }
+    ],
+    "14": [
+      {
+        "id": "advanced-artifice",
+        "name": "Advanced Artifice",
+        "ru": "Изобретательность",
+        "url": "https://next.dnd.su/class/artificer#feature.advanced-artifice",
+        "detail": "Улучшает восстановление использований «Проблеска гениальности». Одновременно можно настроиться на пять магических предметов."
+      }
+    ],
+    "15": [
+      {
+        "id": "subclass-15",
+        "name": "Subclass feature",
+        "ru": "Умение подкласса",
+        "url": "https://next.dnd.su/class/artificer#feature.subclass-15"
+      }
+    ],
+    "16": [
+      {
+        "id": "asi-16",
+        "name": "Ability Score Improvement",
+        "ru": "Увеличение характеристик",
+        "url": "https://next.dnd.su/class/artificer#feature.ASI-16"
+      }
+    ],
+    "18": [
+      {
+        "id": "magic-item-master",
+        "name": "Magic Item Master",
+        "ru": "Мастер магических предметов",
+        "url": "https://next.dnd.su/class/artificer#feature.magic-item-master",
+        "detail": "Вы можете одновременно настроиться на шесть магических предметов."
+      }
+    ],
+    "19": [
+      {
+        "id": "epic-boon",
+        "name": "Epic Boon",
+        "ru": "Эпический дар",
+        "url": "https://next.dnd.su/class/artificer#feature.epic-boon",
+        "detail": "Получите эпический дар или другую доступную черту."
+      }
+    ],
+    "20": [
+      {
+        "id": "soul-of-artifice",
+        "name": "Soul of Artifice",
+        "ru": "Душа творения",
+        "url": "https://next.dnd.su/class/artificer#feature.soul-of-artifice",
+        "detail": "Созданные реплики могут помочь остаться в сознании. При настройке хотя бы на один магический предмет короткий отдых восстанавливает «Проблеск гениальности»."
+      }
+    ]
+  },
+  "progression": {
+    "1": {
+      "proficiency": 2,
+      "plans": 0,
+      "replicas": 0,
+      "cantrips": 2,
+      "prepared": 2,
+      "slots": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "2": {
+      "proficiency": 2,
+      "plans": 4,
+      "replicas": 2,
+      "cantrips": 2,
+      "prepared": 3,
+      "slots": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "3": {
+      "proficiency": 2,
+      "plans": 4,
+      "replicas": 2,
+      "cantrips": 2,
+      "prepared": 4,
+      "slots": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "4": {
+      "proficiency": 2,
+      "plans": 4,
+      "replicas": 2,
+      "cantrips": 2,
+      "prepared": 5,
+      "slots": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "5": {
+      "proficiency": 3,
+      "plans": 4,
+      "replicas": 2,
+      "cantrips": 2,
+      "prepared": 6,
+      "slots": [
+        4,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    "6": {
+      "proficiency": 3,
+      "plans": 5,
+      "replicas": 3,
+      "cantrips": 2,
+      "prepared": 6,
+      "slots": [
+        4,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    "7": {
+      "proficiency": 3,
+      "plans": 5,
+      "replicas": 3,
+      "cantrips": 2,
+      "prepared": 7,
+      "slots": [
+        4,
+        3,
+        0,
+        0,
+        0
+      ]
+    },
+    "8": {
+      "proficiency": 3,
+      "plans": 5,
+      "replicas": 3,
+      "cantrips": 2,
+      "prepared": 7,
+      "slots": [
+        4,
+        3,
+        0,
+        0,
+        0
+      ]
+    },
+    "9": {
+      "proficiency": 4,
+      "plans": 5,
+      "replicas": 3,
+      "cantrips": 2,
+      "prepared": 9,
+      "slots": [
+        4,
+        3,
+        2,
+        0,
+        0
+      ]
+    },
+    "10": {
+      "proficiency": 4,
+      "plans": 6,
+      "replicas": 4,
+      "cantrips": 3,
+      "prepared": 9,
+      "slots": [
+        4,
+        3,
+        2,
+        0,
+        0
+      ]
+    },
+    "11": {
+      "proficiency": 4,
+      "plans": 6,
+      "replicas": 4,
+      "cantrips": 3,
+      "prepared": 10,
+      "slots": [
+        4,
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "12": {
+      "proficiency": 4,
+      "plans": 6,
+      "replicas": 4,
+      "cantrips": 3,
+      "prepared": 10,
+      "slots": [
+        4,
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "13": {
+      "proficiency": 5,
+      "plans": 6,
+      "replicas": 4,
+      "cantrips": 3,
+      "prepared": 11,
+      "slots": [
+        4,
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "14": {
+      "proficiency": 5,
+      "plans": 7,
+      "replicas": 5,
+      "cantrips": 4,
+      "prepared": 11,
+      "slots": [
+        4,
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "15": {
+      "proficiency": 5,
+      "plans": 7,
+      "replicas": 5,
+      "cantrips": 4,
+      "prepared": 12,
+      "slots": [
+        4,
+        3,
+        3,
+        2,
+        0
+      ]
+    },
+    "16": {
+      "proficiency": 5,
+      "plans": 7,
+      "replicas": 5,
+      "cantrips": 4,
+      "prepared": 12,
+      "slots": [
+        4,
+        3,
+        3,
+        2,
+        0
+      ]
+    },
+    "17": {
+      "proficiency": 6,
+      "plans": 7,
+      "replicas": 5,
+      "cantrips": 4,
+      "prepared": 14,
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        1
+      ]
+    },
+    "18": {
+      "proficiency": 6,
+      "plans": 8,
+      "replicas": 6,
+      "cantrips": 4,
+      "prepared": 14,
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        1
+      ]
+    },
+    "19": {
+      "proficiency": 6,
+      "plans": 8,
+      "replicas": 6,
+      "cantrips": 4,
+      "prepared": 15,
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    "20": {
+      "proficiency": 6,
+      "plans": 8,
+      "replicas": 6,
+      "cantrips": 4,
+      "prepared": 15,
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2
+      ]
+    }
+  },
+  "spells": [
+    "greater-restoration",
+    "continual-flame",
+    "create-food-and-water",
+    "protection-from-energy",
+    "stoneskin",
+    "magic-weapon",
+    "guidance",
+    "aid",
+    "dispel-magic",
+    "freedom-of-movement",
+    "enhance-ability",
+    "haste",
+    "alarm",
+    "cure-wounds",
+    "darkvision",
+    "detect-magic",
+    "elemental-weapon",
+    "jump",
+    "lesser-restoration",
+    "longstrider",
+    "protection-from-poison",
+    "revivify",
+    "water-breathing",
+    "water-walk",
+    "acid-splash",
+    "alter-self",
+    "animate-objects",
+    "arcane-eye",
+    "arcane-lock",
+    "arcane-vigor",
+    "bigbys-hand",
+    "blink",
+    "blur",
+    "circle-of-power",
+    "creation",
+    "dancing-lights",
+    "disguise-self",
+    "dragons-breath",
+    "elementalism",
+    "enlarge-reduce",
+    "expeditious-retreat",
+    "fabricate",
+    "faerie-fire",
+    "false-life",
+    "feather-fall",
+    "fire-bolt",
+    "fly",
+    "glyph-of-warding",
+    "grease",
+    "heat-metal",
+    "identify",
+    "invisibility",
+    "leomunds-secret-chest",
+    "levitate",
+    "light",
+    "mage-hand",
+    "magic-mouth",
+    "mending",
+    "message",
+    "mordenkainens-faithful-hound",
+    "mordenkainens-private-sanctum",
+    "otilukes-resilient-sphere",
+    "poison-spray",
+    "prestidigitation",
+    "purify-food-and-drink",
+    "ray-of-frost",
+    "resistance",
+    "rope-trick",
+    "sanctuary",
+    "see-invisibility",
+    "shocking-grasp",
+    "spare-the-dying",
+    "spider-climb",
+    "stone-shape",
+    "summon-construct",
+    "thorn-whip",
+    "thunderclap",
+    "true-strike",
+    "wall-of-stone",
+    "web",
+    "homunculus-servant",
+    "catnap",
+    "distorted-distance",
+    "dueling-ground",
+    "spirit-lantern",
+    "uncertain-footing"
+  ],
+  "plans": [
+    {
+      "id": "alchemy-jug",
+      "name": "Alchemy Jug",
+      "ru": "Алхимический сосуд",
+      "url": "https://next.dnd.su/items/15831-alchemy-jug",
+      "kind": "item",
+      "itemId": 15831,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "rope-of-climbing",
+      "name": "Rope of Climbing",
+      "ru": "Верёвка лазания",
+      "url": "https://next.dnd.su/items/16084-rope-of-climbing",
+      "kind": "item",
+      "itemId": 16084,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "returning-weapon",
+      "name": "Returning Weapon",
+      "ru": "Возвращающееся оружие",
+      "url": "https://next.dnd.su/items/17576-returning-weapon",
+      "kind": "item",
+      "itemId": 17576,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "1-wand-of-the-war-mage",
+      "name": "+1 Wand of the War Mage",
+      "ru": "Волшебная палочка боевого мага +1",
+      "url": "https://next.dnd.su/items/17060-1-wand-of-the-war-mage",
+      "kind": "item",
+      "itemId": 17060,
+      "minLevel": 2,
+      "attunement": true
+    },
+    {
+      "id": "wand-of-magic-detection",
+      "name": "Wand of Magic Detection",
+      "ru": "Волшебная палочка обнаружения магии",
+      "url": "https://next.dnd.su/items/16156-wand-of-magic-detection",
+      "kind": "item",
+      "itemId": 16156,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "wand-of-secrets",
+      "name": "Wand of Secrets",
+      "ru": "Волшебная палочка секретов",
+      "url": "https://next.dnd.su/items/16162-wand-of-secrets",
+      "kind": "item",
+      "itemId": 16162,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "sending-stones",
+      "name": "Sending Stones",
+      "ru": "Камни послания",
+      "url": "https://next.dnd.su/items/16093-sending-stones",
+      "kind": "item",
+      "itemId": 16093,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "common-magic-item",
+      "name": "Common Magic Item",
+      "ru": "Магический предмет Обычной редкости, за исключением Зелий, Свитков и проклятых",
+      "url": "https://next.dnd.su/items/?type=5%7C8%7C6%7C3%7C9%7C7%7C1%7C10&rarity=6&sortBy=rarity_order",
+      "kind": "category",
+      "minLevel": 2
+    },
+    {
+      "id": "manifold-tool",
+      "name": "Manifold Tool",
+      "ru": "Многообразный инструмент",
+      "url": "https://next.dnd.su/items/17572-manifold-tool",
+      "kind": "item",
+      "itemId": 17572,
+      "minLevel": 2,
+      "attunement": true
+    },
+    {
+      "id": "goggles-of-night",
+      "name": "Goggles of Night",
+      "ru": "Ночные очки",
+      "url": "https://next.dnd.su/items/15947-goggles-of-night",
+      "kind": "item",
+      "itemId": 15947,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "1-wraps-of-unarmed-power",
+      "name": "+1 Wraps of Unarmed Power",
+      "ru": "Обмотки безоружной мощи +1",
+      "url": "https://next.dnd.su/items/17411-1-wraps-of-unarmed-power",
+      "kind": "item",
+      "itemId": 17411,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "weapon-1",
+      "name": "Weapon, +1",
+      "ru": "Оружие +1",
+      "url": "https://next.dnd.su/items/16817-weapon-1",
+      "kind": "item",
+      "itemId": 16817,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "repeating-shot",
+      "name": "Repeating Shot",
+      "ru": "Оружие повторного выстрела",
+      "url": "https://next.dnd.su/items/17574-repeating-shot",
+      "kind": "item",
+      "itemId": 17574,
+      "minLevel": 2,
+      "attunement": true
+    },
+    {
+      "id": "bag-of-holding",
+      "name": "Bag of Holding",
+      "ru": "Сумка хранения",
+      "url": "https://next.dnd.su/items/15848-bag-of-holding",
+      "kind": "item",
+      "itemId": 15848,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "cap-of-water-breathing",
+      "name": "Cap of Water Breathing",
+      "ru": "Шапка подводного дыхания",
+      "url": "https://next.dnd.su/items/15873-cap-of-water-breathing",
+      "kind": "item",
+      "itemId": 15873,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "shield-1",
+      "name": "Shield, +1, +2, or +3",
+      "ru": "Щит +1",
+      "url": "https://next.dnd.su/items/16095-shield-1-2-or-3",
+      "kind": "item",
+      "itemId": 16095,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "wand-of-web",
+      "name": "Wand of Web",
+      "ru": "Волшебная палочка паутины",
+      "url": "https://next.dnd.su/items/16164-wand-of-web",
+      "kind": "item",
+      "itemId": 16164,
+      "minLevel": 6,
+      "attunement": true
+    },
+    {
+      "id": "wand-of-magic-missiles",
+      "name": "Wand of Magic Missiles",
+      "ru": "Волшебная палочка стрел",
+      "url": "https://next.dnd.su/items/16157-wand-of-magic-missiles",
+      "kind": "item",
+      "itemId": 16157,
+      "minLevel": 6,
+      "attunement": false
+    },
+    {
+      "id": "1-armor",
+      "name": "+1 Armor",
+      "ru": "Доспех +1",
+      "url": "https://next.dnd.su/items/17408-1-armor",
+      "kind": "item",
+      "itemId": 17408,
+      "minLevel": 6,
+      "attunement": false
+    },
+    {
+      "id": "spell-refueling-ring",
+      "name": "Spell-Refueling Ring",
+      "ru": "Кольцо восстановления заклинаний",
+      "url": "https://next.dnd.su/items/17577-spell-refueling-ring",
+      "kind": "item",
+      "itemId": 17577,
+      "minLevel": 6,
+      "attunement": true
+    },
+    {
+      "id": "ring-of-swimming",
+      "name": "Ring of Swimming",
+      "ru": "Кольцо плавания",
+      "url": "https://next.dnd.su/items/16064-ring-of-swimming",
+      "kind": "item",
+      "itemId": 16064,
+      "minLevel": 6,
+      "attunement": false
+    },
+    {
+      "id": "ring-of-water-walking",
+      "name": "Ring of Water Walking",
+      "ru": "Кольцо хождения по воде",
+      "url": "https://next.dnd.su/items/16069-ring-of-water-walking",
+      "kind": "item",
+      "itemId": 16069,
+      "minLevel": 6,
+      "attunement": false
+    },
+    {
+      "id": "necklace-of-adaptation",
+      "name": "Necklace of Adaptation",
+      "ru": "Ожерелье адаптации",
+      "url": "https://next.dnd.su/items/15996-necklace-of-adaptation",
+      "kind": "item",
+      "itemId": 15996,
+      "minLevel": 6,
+      "attunement": true
+    },
+    {
+      "id": "dazzling-weapon",
+      "name": "Dazzling Weapon",
+      "ru": "Ослепительное оружие",
+      "url": "https://next.dnd.su/items/17570-dazzling-weapon",
+      "kind": "item",
+      "itemId": 17570,
+      "minLevel": 6,
+      "attunement": true
+    },
+    {
+      "id": "weapon-of-warning",
+      "name": "Weapon of Warning",
+      "ru": "Оружие предупреждения",
+      "url": "https://next.dnd.su/items/16168-weapon-of-warning",
+      "kind": "item",
+      "itemId": 16168,
+      "minLevel": 6,
+      "attunement": true
+    },
+    {
+      "id": "repulsion-shield",
+      "name": "Repulsion Shield",
+      "ru": "Отталкивающий щит",
+      "url": "https://next.dnd.su/items/17575-repulsion-shield",
+      "kind": "item",
+      "itemId": 17575,
+      "minLevel": 6,
+      "attunement": false
+    },
+    {
+      "id": "eyes-of-minute-seeing",
+      "name": "Eyes of Minute Seeing",
+      "ru": "Очки детального зрения",
+      "url": "https://next.dnd.su/items/15933-eyes-of-minute-seeing",
+      "kind": "item",
+      "itemId": 15933,
+      "minLevel": 6,
+      "attunement": false
+    },
+    {
+      "id": "eyes-of-charming",
+      "name": "Eyes of Charming",
+      "ru": "Очки очарования",
+      "url": "https://next.dnd.su/items/15932-eyes-of-charming",
+      "kind": "item",
+      "itemId": 15932,
+      "minLevel": 6,
+      "attunement": true
+    },
+    {
+      "id": "gloves-of-thievery",
+      "name": "Gloves of Thievery",
+      "ru": "Перчатки воровства",
+      "url": "https://next.dnd.su/items/15946-gloves-of-thievery",
+      "kind": "item",
+      "itemId": 15946,
+      "minLevel": 6,
+      "attunement": false
+    },
+    {
+      "id": "cloak-of-the-manta-ray",
+      "name": "Cloak of the Manta Ray",
+      "ru": "Плащ ската",
+      "url": "https://next.dnd.su/items/15890-cloak-of-the-manta-ray",
+      "kind": "item",
+      "itemId": 15890,
+      "minLevel": 6,
+      "attunement": true
+    },
+    {
+      "id": "boots-of-the-winding-path",
+      "name": "Boots of the Winding Path",
+      "ru": "Сапоги извилистого пути",
+      "url": "https://next.dnd.su/items/17569-boots-of-the-winding-path",
+      "kind": "item",
+      "itemId": 17569,
+      "minLevel": 6,
+      "attunement": true
+    },
+    {
+      "id": "pipes-of-haunting",
+      "name": "Pipes of Haunting",
+      "ru": "Свирель ужаса",
+      "url": "https://next.dnd.su/items/16015-pipes-of-haunting",
+      "kind": "item",
+      "itemId": 16015,
+      "minLevel": 6,
+      "attunement": false
+    },
+    {
+      "id": "mind-sharpener",
+      "name": "Mind Sharpener",
+      "ru": "Усилитель разума",
+      "url": "https://next.dnd.su/items/17573-mind-sharpener",
+      "kind": "item",
+      "itemId": 17573,
+      "minLevel": 6,
+      "attunement": true
+    },
+    {
+      "id": "lantern-of-revealing",
+      "name": "Lantern of Revealing",
+      "ru": "Фонарь обнаружения",
+      "url": "https://next.dnd.su/items/15976-lantern-of-revealing",
+      "kind": "item",
+      "itemId": 15976,
+      "minLevel": 6,
+      "attunement": false
+    },
+    {
+      "id": "helm-of-awareness",
+      "name": "Helm of Awareness",
+      "ru": "Шлем осведомлённости",
+      "url": "https://next.dnd.su/items/17571-helm-of-awareness",
+      "kind": "item",
+      "itemId": 17571,
+      "minLevel": 6,
+      "attunement": false
+    },
+    {
+      "id": "sentinel-shield",
+      "name": "Sentinel Shield",
+      "ru": "Щит часового",
+      "url": "https://next.dnd.su/items/16094-sentinel-shield",
+      "kind": "item",
+      "itemId": 16094,
+      "minLevel": 6,
+      "attunement": false
+    },
+    {
+      "id": "cloak-of-elvenkind",
+      "name": "Cloak of Elvenkind",
+      "ru": "Эльфийский плащ",
+      "url": "https://next.dnd.su/items/15885-cloak-of-elvenkind",
+      "kind": "item",
+      "itemId": 15885,
+      "minLevel": 6,
+      "attunement": true
+    },
+    {
+      "id": "boots-of-elvenkind",
+      "name": "Boots of Elvenkind",
+      "ru": "Эльфийские сапоги",
+      "url": "https://next.dnd.su/items/15859-boots-of-elvenkind",
+      "kind": "item",
+      "itemId": 15859,
+      "minLevel": 6,
+      "attunement": false
+    },
+    {
+      "id": "2-wand-of-the-war-mage",
+      "name": "+2 Wand of the War Mage",
+      "ru": "Волшебная палочка боевого мага + 2",
+      "url": "https://next.dnd.su/items/17061-2-wand-of-the-war-mage",
+      "kind": "item",
+      "itemId": 17061,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "armor-of-resistance",
+      "name": "Armor of Resistance",
+      "ru": "Доспех сопротивления",
+      "url": "https://next.dnd.su/items/15842-armor-of-resistance",
+      "kind": "item",
+      "itemId": 15842,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "dagger-of-venom",
+      "name": "Dagger of Venom",
+      "ru": "Кинжал яда",
+      "url": "https://next.dnd.su/items/15898-dagger-of-venom",
+      "kind": "item",
+      "itemId": 15898,
+      "minLevel": 10,
+      "attunement": false
+    },
+    {
+      "id": "ring-of-feather-falling",
+      "name": "Ring of Feather Falling",
+      "ru": "Кольцо падения пёрышком",
+      "url": "https://next.dnd.su/items/16053-ring-of-feather-falling",
+      "kind": "item",
+      "itemId": 16053,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "ring-of-jumping",
+      "name": "Ring of Jumping",
+      "ru": "Кольцо прыжков",
+      "url": "https://next.dnd.su/items/16056-ring-of-jumping",
+      "kind": "item",
+      "itemId": 16056,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "ring-of-mind-shielding",
+      "name": "Ring of Mind Shielding",
+      "ru": "Кольцо защиты разума",
+      "url": "https://next.dnd.su/items/16057-ring-of-mind-shielding",
+      "kind": "item",
+      "itemId": 16057,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "uncommon-wondrous-item",
+      "name": "Uncommon Wondrous Item",
+      "ru": "Необычный Чудесный предмет, за исключением проклятых",
+      "url": "https://next.dnd.su/items/?type=1&rarity=1&sortBy=rarity_order",
+      "kind": "category",
+      "minLevel": 10
+    },
+    {
+      "id": "2-wraps-of-unarmed-power",
+      "name": "+2 Wraps of Unarmed Power",
+      "ru": "Обмотки безоружной мощи +2",
+      "url": "https://next.dnd.su/items/17412-2-wraps-of-unarmed-power",
+      "kind": "item",
+      "itemId": 17412,
+      "minLevel": 10,
+      "attunement": false
+    },
+    {
+      "id": "weapon-2",
+      "name": "Weapon, +2",
+      "ru": "Оружие +2",
+      "url": "https://next.dnd.su/items/16818-weapon-2",
+      "kind": "item",
+      "itemId": 16818,
+      "minLevel": 10,
+      "attunement": false
+    },
+    {
+      "id": "shield-2",
+      "name": "Shield, +1, +2, or +3",
+      "ru": "Щит +2",
+      "url": "https://next.dnd.su/items/16095-shield-1-2-or-3",
+      "kind": "item",
+      "itemId": 16095,
+      "minLevel": 10,
+      "attunement": false
+    },
+    {
+      "id": "elven-chain",
+      "name": "Elven Chain",
+      "ru": "Эльфийская кольчуга",
+      "url": "https://next.dnd.su/items/15922-elven-chain",
+      "kind": "item",
+      "itemId": 15922,
+      "minLevel": 10,
+      "attunement": false
+    },
+    {
+      "id": "2-armor",
+      "name": "+2 Armor",
+      "ru": "Доспех +2",
+      "url": "https://next.dnd.su/items/17409-2-armor",
+      "kind": "item",
+      "itemId": 17409,
+      "minLevel": 14,
+      "attunement": false
+    },
+    {
+      "id": "ring-of-the-ram",
+      "name": "Ring of the Ram",
+      "ru": "Кольцо барана",
+      "url": "https://next.dnd.su/items/16066-ring-of-the-ram",
+      "kind": "item",
+      "itemId": 16066,
+      "minLevel": 14,
+      "attunement": true
+    },
+    {
+      "id": "ring-of-protection",
+      "name": "Ring of Protection",
+      "ru": "Кольцо защиты",
+      "url": "https://next.dnd.su/items/16058-ring-of-protection",
+      "kind": "item",
+      "itemId": 16058,
+      "minLevel": 14,
+      "attunement": true
+    },
+    {
+      "id": "ring-of-free-action",
+      "name": "Ring of Free Action",
+      "ru": "Кольцо свободных действий",
+      "url": "https://next.dnd.su/items/16054-ring-of-free-action",
+      "kind": "item",
+      "itemId": 16054,
+      "minLevel": 14,
+      "attunement": true
+    },
+    {
+      "id": "arrow-catching-shield",
+      "name": "Arrow-Catching Shield",
+      "ru": "Ловящий стрелы щит",
+      "url": "https://next.dnd.su/items/15844-arrow-catching-shield",
+      "kind": "item",
+      "itemId": 15844,
+      "minLevel": 14,
+      "attunement": true
+    },
+    {
+      "id": "rare-wondrous-item",
+      "name": "Rare Wondrous Item",
+      "ru": "Редкий Чудесный предмет, за исключением проклятых",
+      "url": "https://next.dnd.su/items/?type=1&rarity=2&sortBy=rarity_order",
+      "kind": "category",
+      "minLevel": 14
+    },
+    {
+      "id": "flame-tongue",
+      "name": "Flame Tongue",
+      "ru": "Язык пламени",
+      "url": "https://next.dnd.su/items/15936-flame-tongue",
+      "kind": "item",
+      "itemId": 15936,
+      "minLevel": 14,
+      "attunement": true
+    }
+  ]
+}

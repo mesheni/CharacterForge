@@ -1,0 +1,1212 @@
+{
+  "id": "artificer",
+  "edition": "2014",
+  "name": "Artificer",
+  "ru": "Изобретатель",
+  "source": "Tasha’s Cauldron of Everything",
+  "url": "https://dnd.su/class/137-artificer/",
+  "hp": 8,
+  "primary": [
+    "int"
+  ],
+  "saves": [
+    "con",
+    "int"
+  ],
+  "skillCount": 2,
+  "skills": [
+    "perception",
+    "history",
+    "sleight",
+    "medicine",
+    "nature",
+    "investigation",
+    "arcana"
+  ],
+  "profs": [
+    "light",
+    "medium",
+    "shield",
+    "simple",
+    "thieves",
+    "tinker"
+  ],
+  "tools": [
+    "thieves-tools",
+    "tinkers-tools"
+  ],
+  "artisanToolCount": 1,
+  "multiclass": [
+    "light",
+    "medium",
+    "shield",
+    "thieves",
+    "tinker"
+  ],
+  "caster": "half-up",
+  "spellAbility": "int",
+  "preparedFormula": "max(1, intMod + floor(classLevel / 2))",
+  "pack": {
+    "gold": 0,
+    "items": [
+      "light-crossbow",
+      "bolt*20",
+      "thieves-tools",
+      "dungeoneers-pack"
+    ],
+    "selects": [
+      [
+        "simple-weapon"
+      ],
+      [
+        "simple-weapon"
+      ],
+      [
+        "studded-leather-armor",
+        "scale-mail"
+      ]
+    ]
+  },
+  "wealthDice": 5,
+  "wealthMultiplier": 10,
+  "subclassAt": 3,
+  "subclassLevels": [
+    3,
+    5,
+    9,
+    15
+  ],
+  "features": {
+    "1": [
+      {
+        "id": "magical-tinkering",
+        "ru": "Магический мастеровой",
+        "url": "https://dnd.su/class/137-artificer/#feature.magical-tinkering"
+      },
+      {
+        "id": "spellcasting",
+        "ru": "Использование заклинаний",
+        "url": "https://dnd.su/class/137-artificer/#feature.spellcasting"
+      }
+    ],
+    "2": [
+      {
+        "id": "infuse-item",
+        "ru": "Инфузирование предмета",
+        "url": "https://dnd.su/class/137-artificer/#feature.infuse-item"
+      }
+    ],
+    "3": [
+      {
+        "id": "specialist",
+        "ru": "Специальность изобретателя",
+        "url": "https://dnd.su/class/137-artificer/#feature.specialist"
+      },
+      {
+        "id": "right-tool-for-the-job",
+        "ru": "Подходящий инструмент",
+        "url": "https://dnd.su/class/137-artificer/#feature.right-tool-for-the-job"
+      }
+    ],
+    "4": [
+      {
+        "id": "asi",
+        "ru": "Увеличение характеристик",
+        "url": "https://dnd.su/class/137-artificer/#feature.ASI"
+      }
+    ],
+    "5": [
+      {
+        "id": "specialist",
+        "ru": "Умение специальности",
+        "url": "https://dnd.su/class/137-artificer/#feature.specialist"
+      }
+    ],
+    "6": [
+      {
+        "id": "tool-expertise",
+        "ru": "Компетентность во владении инструментами",
+        "url": "https://dnd.su/class/137-artificer/#feature.tool-expertise"
+      }
+    ],
+    "7": [
+      {
+        "id": "flash-of-genius",
+        "ru": "Проблеск гениальности",
+        "url": "https://dnd.su/class/137-artificer/#feature.flash-of-genius"
+      }
+    ],
+    "8": [
+      {
+        "id": "asi",
+        "ru": "Увеличение характеристик",
+        "url": "https://dnd.su/class/137-artificer/#feature.ASI"
+      }
+    ],
+    "9": [
+      {
+        "id": "specialist",
+        "ru": "Умение специальности",
+        "url": "https://dnd.su/class/137-artificer/#feature.specialist"
+      }
+    ],
+    "10": [
+      {
+        "id": "magic-item-adept",
+        "ru": "Эксперт в обращении с магическими предметами",
+        "url": "https://dnd.su/class/137-artificer/#feature.magic-item-adept"
+      }
+    ],
+    "11": [
+      {
+        "id": "spell-storing-item",
+        "ru": "Хранящий заклинания предмет",
+        "url": "https://dnd.su/class/137-artificer/#feature.spell-storing-item"
+      }
+    ],
+    "12": [
+      {
+        "id": "asi",
+        "ru": "Увеличение характеристик",
+        "url": "https://dnd.su/class/137-artificer/#feature.ASI"
+      }
+    ],
+    "14": [
+      {
+        "id": "magic-item-savant",
+        "ru": "Учёный по магическим предметам",
+        "url": "https://dnd.su/class/137-artificer/#feature.magic-item-savant"
+      }
+    ],
+    "15": [
+      {
+        "id": "specialist",
+        "ru": "Умение специальности",
+        "url": "https://dnd.su/class/137-artificer/#feature.specialist"
+      }
+    ],
+    "16": [
+      {
+        "id": "asi",
+        "ru": "Увеличение характеристик",
+        "url": "https://dnd.su/class/137-artificer/#feature.ASI"
+      }
+    ],
+    "18": [
+      {
+        "id": "magic-item-master",
+        "ru": "Мастер в обращении с магическими предметами",
+        "url": "https://dnd.su/class/137-artificer/#feature.magic-item-master"
+      }
+    ],
+    "19": [
+      {
+        "id": "asi",
+        "ru": "Увеличение характеристик",
+        "url": "https://dnd.su/class/137-artificer/#feature.ASI"
+      }
+    ],
+    "20": [
+      {
+        "id": "soul-of-artifice",
+        "ru": "Душа изобретения",
+        "url": "https://dnd.su/class/137-artificer/#feature.soul-of-artifice"
+      }
+    ]
+  },
+  "progression": {
+    "1": {
+      "proficiency": 2,
+      "infusions": 0,
+      "infusedItems": 0,
+      "cantrips": 2,
+      "slots": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "2": {
+      "proficiency": 2,
+      "infusions": 4,
+      "infusedItems": 2,
+      "cantrips": 2,
+      "slots": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "3": {
+      "proficiency": 2,
+      "infusions": 4,
+      "infusedItems": 2,
+      "cantrips": 2,
+      "slots": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "4": {
+      "proficiency": 2,
+      "infusions": 4,
+      "infusedItems": 2,
+      "cantrips": 2,
+      "slots": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "5": {
+      "proficiency": 3,
+      "infusions": 4,
+      "infusedItems": 2,
+      "cantrips": 2,
+      "slots": [
+        4,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    "6": {
+      "proficiency": 3,
+      "infusions": 6,
+      "infusedItems": 3,
+      "cantrips": 2,
+      "slots": [
+        4,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    "7": {
+      "proficiency": 3,
+      "infusions": 6,
+      "infusedItems": 3,
+      "cantrips": 2,
+      "slots": [
+        4,
+        3,
+        0,
+        0,
+        0
+      ]
+    },
+    "8": {
+      "proficiency": 3,
+      "infusions": 6,
+      "infusedItems": 3,
+      "cantrips": 2,
+      "slots": [
+        4,
+        3,
+        0,
+        0,
+        0
+      ]
+    },
+    "9": {
+      "proficiency": 4,
+      "infusions": 6,
+      "infusedItems": 3,
+      "cantrips": 2,
+      "slots": [
+        4,
+        3,
+        2,
+        0,
+        0
+      ]
+    },
+    "10": {
+      "proficiency": 4,
+      "infusions": 8,
+      "infusedItems": 4,
+      "cantrips": 3,
+      "slots": [
+        4,
+        3,
+        2,
+        0,
+        0
+      ]
+    },
+    "11": {
+      "proficiency": 4,
+      "infusions": 8,
+      "infusedItems": 4,
+      "cantrips": 3,
+      "slots": [
+        4,
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "12": {
+      "proficiency": 4,
+      "infusions": 8,
+      "infusedItems": 4,
+      "cantrips": 3,
+      "slots": [
+        4,
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "13": {
+      "proficiency": 5,
+      "infusions": 8,
+      "infusedItems": 4,
+      "cantrips": 3,
+      "slots": [
+        4,
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "14": {
+      "proficiency": 5,
+      "infusions": 10,
+      "infusedItems": 5,
+      "cantrips": 4,
+      "slots": [
+        4,
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "15": {
+      "proficiency": 5,
+      "infusions": 10,
+      "infusedItems": 5,
+      "cantrips": 4,
+      "slots": [
+        4,
+        3,
+        3,
+        2,
+        0
+      ]
+    },
+    "16": {
+      "proficiency": 5,
+      "infusions": 10,
+      "infusedItems": 5,
+      "cantrips": 4,
+      "slots": [
+        4,
+        3,
+        3,
+        2,
+        0
+      ]
+    },
+    "17": {
+      "proficiency": 6,
+      "infusions": 10,
+      "infusedItems": 5,
+      "cantrips": 4,
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        1
+      ]
+    },
+    "18": {
+      "proficiency": 6,
+      "infusions": 12,
+      "infusedItems": 6,
+      "cantrips": 4,
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        1
+      ]
+    },
+    "19": {
+      "proficiency": 6,
+      "infusions": 12,
+      "infusedItems": 6,
+      "cantrips": 4,
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    "20": {
+      "proficiency": 6,
+      "infusions": 12,
+      "infusedItems": 6,
+      "cantrips": 4,
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2
+      ]
+    }
+  },
+  "spells": [
+    "acid-splash",
+    "mordenkainens-faithful-hound",
+    "continual-flame",
+    "see-invisibility",
+    "revivify",
+    "mage-hand",
+    "magic-mouth",
+    "arcane-lock",
+    "greater-restoration",
+    "bigbys-hand",
+    "poison-spray",
+    "shocking-grasp",
+    "water-walk",
+    "prestidigitation",
+    "spare-the-dying",
+    "haste",
+    "enhance-ability",
+    "guidance",
+    "protection-from-energy",
+    "protection-from-poison",
+    "fabricate",
+    "stone-shape",
+    "mordenkainens-private-sanctum",
+    "stoneskin",
+    "wall-of-stone",
+    "levitate",
+    "leomunds-secret-chest",
+    "cure-wounds",
+    "ray-of-frost",
+    "arcane-eye",
+    "magic-weapon",
+    "lesser-restoration",
+    "disguise-self",
+    "blink",
+    "invisibility",
+    "detect-magic",
+    "fire-bolt",
+    "faerie-fire",
+    "identify",
+    "otilukes-resilient-sphere",
+    "glyph-of-warding",
+    "purify-food-and-drink",
+    "feather-fall",
+    "spider-climb",
+    "web",
+    "dancing-lights",
+    "water-breathing",
+    "aid",
+    "fly",
+    "expeditious-retreat",
+    "mending",
+    "jump",
+    "false-life",
+    "blur",
+    "heat-metal",
+    "dispel-magic",
+    "light",
+    "freedom-of-movement",
+    "alarm",
+    "grease",
+    "longstrider",
+    "alter-self",
+    "message",
+    "resistance",
+    "create-food-and-water",
+    "elemental-weapon",
+    "thorn-whip",
+    "rope-trick",
+    "sanctuary",
+    "enlarge-reduce",
+    "animate-objects",
+    "creation",
+    "darkvision",
+    "magic-stone",
+    "catapult",
+    "skywrite",
+    "frostbite",
+    "pyrotechnics",
+    "absorb-elements",
+    "transmute-rock",
+    "elemental-bane",
+    "flame-arrows",
+    "thunderclap",
+    "create-bonfire",
+    "booming-blade",
+    "green-flame-blade",
+    "lightning-lure",
+    "sword-burst",
+    "snare",
+    "catnap",
+    "tiny-servant",
+    "skill-empowerment",
+    "tashas-caustic-brew",
+    "intellect-fortress",
+    "summon-construct",
+    "ashardalons-stride",
+    "kinetic-jaunt",
+    "vortex-warp",
+    "air-bubble",
+    "creating-spelljamming-helm"
+  ],
+  "infusions": [
+    {
+      "id": "returning-weapon",
+      "name": "Returning Weapon",
+      "ru": "Возвращающееся оружие",
+      "minLevel": 2,
+      "kind": "infusion",
+      "url": "https://dnd.su/class/137-artificer/#infusions"
+    },
+    {
+      "id": "arcane-propulsion-armor",
+      "name": "Arcane Propulsion Armor",
+      "ru": "Движимый магией доспех",
+      "minLevel": 14,
+      "kind": "infusion",
+      "url": "https://dnd.su/class/137-artificer/#infusions"
+    },
+    {
+      "id": "armor-of-magical-strength",
+      "name": "Armor of Magical Strength",
+      "ru": "Доспех магической силы",
+      "minLevel": 2,
+      "kind": "infusion",
+      "url": "https://dnd.su/class/137-artificer/#infusions"
+    },
+    {
+      "id": "resistant-armor",
+      "name": "Resistant Armor",
+      "ru": "Доспех сопротивления",
+      "minLevel": 6,
+      "kind": "infusion",
+      "url": "https://dnd.su/class/137-artificer/#infusions"
+    },
+    {
+      "id": "radiant-weapon",
+      "name": "Radiant Weapon",
+      "ru": "Излучающее свет оружие",
+      "minLevel": 6,
+      "kind": "infusion",
+      "url": "https://dnd.su/class/137-artificer/#infusions"
+    },
+    {
+      "id": "spell-refueling-ring",
+      "name": "Spell-Refueling Ring",
+      "ru": "Кольцо восстановления заклинаний",
+      "minLevel": 6,
+      "kind": "infusion",
+      "url": "https://dnd.su/class/137-artificer/#infusions"
+    },
+    {
+      "id": "replicate-magic-item",
+      "name": "Replicate Magic Item",
+      "ru": "Копия магического предмета",
+      "minLevel": 2,
+      "kind": "infusion",
+      "url": "https://dnd.su/class/137-artificer/#infusions",
+      "chooseReplica": true
+    },
+    {
+      "id": "repulsion-shield",
+      "name": "Repulsion Shield",
+      "ru": "Отталкивающий щит",
+      "minLevel": 6,
+      "kind": "infusion",
+      "url": "https://dnd.su/class/137-artificer/#infusions"
+    },
+    {
+      "id": "repeating-shot",
+      "name": "Repeating Shot",
+      "ru": "Повторный выстрел",
+      "minLevel": 2,
+      "kind": "infusion",
+      "url": "https://dnd.su/class/137-artificer/#infusions"
+    },
+    {
+      "id": "boots-of-the-winding-path",
+      "name": "Boots of the Winding Path",
+      "ru": "Сапоги извилистого пути",
+      "minLevel": 6,
+      "kind": "infusion",
+      "url": "https://dnd.su/class/137-artificer/#infusions"
+    },
+    {
+      "id": "homunculus-servant",
+      "name": "Homunculus Servant",
+      "ru": "Слуга-гомункул",
+      "minLevel": 2,
+      "kind": "infusion",
+      "url": "https://dnd.su/class/137-artificer/#infusions"
+    },
+    {
+      "id": "enhanced-defense",
+      "name": "Enhanced Defense",
+      "ru": "Улучшенная защита",
+      "minLevel": 2,
+      "kind": "infusion",
+      "url": "https://dnd.su/class/137-artificer/#infusions"
+    },
+    {
+      "id": "enhanced-arcane-focus",
+      "name": "Enhanced Arcane Focus",
+      "ru": "Улучшенная магическая фокусировка",
+      "minLevel": 2,
+      "kind": "infusion",
+      "url": "https://dnd.su/class/137-artificer/#infusions"
+    },
+    {
+      "id": "enhanced-weapon",
+      "name": "Enhanced Weapon",
+      "ru": "Улучшенное оружие",
+      "minLevel": 2,
+      "kind": "infusion",
+      "url": "https://dnd.su/class/137-artificer/#infusions"
+    },
+    {
+      "id": "mind-sharpener",
+      "name": "Mind Sharpener",
+      "ru": "Усилитель разума",
+      "minLevel": 2,
+      "kind": "infusion",
+      "url": "https://dnd.su/class/137-artificer/#infusions"
+    },
+    {
+      "id": "helm-of-awareness",
+      "name": "Helm of Awareness",
+      "ru": "Шлем осведомлённости",
+      "minLevel": 10,
+      "kind": "infusion",
+      "url": "https://dnd.su/class/137-artificer/#infusions"
+    }
+  ],
+  "replicas": [
+    {
+      "id": "alchemy-jug",
+      "name": "alchemy Jug",
+      "ru": "Алхимический сосуд",
+      "url": "https://dnd.su/items/2-alchemy_jug/",
+      "kind": "item",
+      "itemId": 2,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "rope-of-climbing",
+      "name": "rope of climbing",
+      "ru": "Верёвка лазания",
+      "url": "https://dnd.su/items/13-rope_of_climbing/",
+      "kind": "item",
+      "itemId": 13,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "wand-of-magic-detection",
+      "name": "wand of magic detection",
+      "ru": "Волшебная палочка обнаружения магии",
+      "url": "https://dnd.su/items/19-wand_of_magic_detection/",
+      "kind": "item",
+      "itemId": 19,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "wand-of-secrets",
+      "name": "wand of secrets",
+      "ru": "Волшебная палочка секретов",
+      "url": "https://dnd.su/items/24-wand_of_secrets/",
+      "kind": "item",
+      "itemId": 24,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "sending-stones",
+      "name": "sending stones",
+      "ru": "Камни послания",
+      "url": "https://dnd.su/items/84-sending_stones/",
+      "kind": "item",
+      "itemId": 84,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "goggles-of-night",
+      "name": "goggles of night",
+      "ru": "Ночные очки",
+      "url": "https://dnd.su/items/154-goggles_of_night/",
+      "kind": "item",
+      "itemId": 154,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "bag-of-holding",
+      "name": "bag of holding",
+      "ru": "Сумка хранения",
+      "url": "https://dnd.su/items/227-bag_of_holding/",
+      "kind": "item",
+      "itemId": 227,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "cap-of-water-breathing",
+      "name": "cap of water breathing",
+      "ru": "Шапка подводного дыхания",
+      "url": "https://dnd.su/items/249-cap_of_water_breathing/",
+      "kind": "item",
+      "itemId": 249,
+      "minLevel": 2,
+      "attunement": false
+    },
+    {
+      "id": "ring-of-water-walking",
+      "name": "ring of water walking",
+      "ru": "Кольцо хождения по воде",
+      "url": "https://dnd.su/items/113-ring_of_water_walking/",
+      "kind": "item",
+      "itemId": 113,
+      "minLevel": 6,
+      "attunement": false
+    },
+    {
+      "id": "eyes-of-charming",
+      "name": "eyes of charming",
+      "ru": "Очки очарования",
+      "url": "https://dnd.su/items/164-eyes_of_charming/",
+      "kind": "item",
+      "itemId": 164,
+      "minLevel": 6,
+      "attunement": true
+    },
+    {
+      "id": "gloves-of-thievery",
+      "name": "gloves of thievery",
+      "ru": "Перчатки воровства",
+      "url": "https://dnd.su/items/168-gloves_of_thievery/",
+      "kind": "item",
+      "itemId": 168,
+      "minLevel": 6,
+      "attunement": false
+    },
+    {
+      "id": "cloak-of-the-manta-ray",
+      "name": "cloak of the manta ray",
+      "ru": "Плащ ската",
+      "url": "https://dnd.su/items/175-cloak_of_the_manta_ray/",
+      "kind": "item",
+      "itemId": 175,
+      "minLevel": 6,
+      "attunement": false
+    },
+    {
+      "id": "pipes-of-haunting",
+      "name": "pipes of haunting",
+      "ru": "Свирель ужаса",
+      "url": "https://dnd.su/items/209-pipes_of_haunting/",
+      "kind": "item",
+      "itemId": 209,
+      "minLevel": 6,
+      "attunement": false
+    },
+    {
+      "id": "lantern-of-revealing",
+      "name": "lantern of revealing",
+      "ru": "Фонарь обнаружения",
+      "url": "https://dnd.su/items/244-lantern_of_revealing/",
+      "kind": "item",
+      "itemId": 244,
+      "minLevel": 6,
+      "attunement": false
+    },
+    {
+      "id": "boots-of-elvenkind",
+      "name": "boots of elvenkind",
+      "ru": "Эльфийские сапоги",
+      "url": "https://dnd.su/items/260-boots_of_elvenkind/",
+      "kind": "item",
+      "itemId": 260,
+      "minLevel": 6,
+      "attunement": false
+    },
+    {
+      "id": "cloak-of-elvenkind",
+      "name": "cloak of Elvenkind",
+      "ru": "Эльфийский плащ",
+      "url": "https://dnd.su/items/261-cloak_of_elvenkind/",
+      "kind": "item",
+      "itemId": 261,
+      "minLevel": 6,
+      "attunement": true
+    },
+    {
+      "id": "brooch-of-shielding",
+      "name": "brooch of shielding",
+      "ru": "Брошь защиты",
+      "url": "https://dnd.su/items/277-brooch_of_shielding/",
+      "kind": "item",
+      "itemId": 277,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "boots-of-winterlands",
+      "name": "boots of winterlands",
+      "ru": "Заполярные сапоги",
+      "url": "https://dnd.su/items/53-boots_of_winterlands/",
+      "kind": "item",
+      "itemId": 53,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "quiver-of-ehlonna",
+      "name": "quiver of Ehlonna",
+      "ru": "Колчан Элонны",
+      "url": "https://dnd.su/items/92-quiver_of_ehlonna/",
+      "kind": "item",
+      "itemId": 92,
+      "minLevel": 10,
+      "attunement": false
+    },
+    {
+      "id": "ring-of-mind-shielding",
+      "name": "ring of mind shielding",
+      "ru": "Кольцо защиты разума",
+      "url": "https://dnd.su/items/95-ring_of_mind_shielding/",
+      "kind": "item",
+      "itemId": 95,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "ring-of-jumping",
+      "name": "ring of jumping",
+      "ru": "Кольцо прыжков",
+      "url": "https://dnd.su/items/104-ring_of_jumping/",
+      "kind": "item",
+      "itemId": 104,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "winged-boots",
+      "name": "winged boots",
+      "ru": "Крылатые сапоги",
+      "url": "https://dnd.su/items/117-winged_boots/",
+      "kind": "item",
+      "itemId": 117,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "periapt-of-wound-closure",
+      "name": "periapt of wound closure",
+      "ru": "Медальон затягивающихся ран",
+      "url": "https://dnd.su/items/137-periapt_of_wound_closure/",
+      "kind": "item",
+      "itemId": 137,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "medallion-of-thoughts",
+      "name": "medallion of thoughts",
+      "ru": "Медальон мыслей",
+      "url": "https://dnd.su/items/140-medallion_of_thoughts/",
+      "kind": "item",
+      "itemId": 140,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "bracers-of-archery",
+      "name": "bracers of archery",
+      "ru": "Наручи стрельбы из лука",
+      "url": "https://dnd.su/items/152-bracers_of_archery/",
+      "kind": "item",
+      "itemId": 152,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "necklace-of-adaptation",
+      "name": "necklace of adaptation",
+      "ru": "Ожерелье адаптации",
+      "url": "https://dnd.su/items/156-necklace_of_adaptation/",
+      "kind": "item",
+      "itemId": 156,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "eyes-of-eagle",
+      "name": "eyes of eagle",
+      "ru": "Очки орлиного зрения",
+      "url": "https://dnd.su/items/163-eyes_of_eagle/",
+      "kind": "item",
+      "itemId": 163,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "gloves-of-missile-snaring",
+      "name": "gloves of missile snaring",
+      "ru": "Перчатки ловли снарядов",
+      "url": "https://dnd.su/items/169-gloves_of_missile_snaring/",
+      "kind": "item",
+      "itemId": 169,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "gloves-of-swimming-and-climbing",
+      "name": "gloves of swimming and climbing",
+      "ru": "Перчатки плавания и лазания",
+      "url": "https://dnd.su/items/170-gloves_of_swimming_and_climbing/",
+      "kind": "item",
+      "itemId": 170,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "cloak-of-protection",
+      "name": "cloak of protection",
+      "ru": "Плащ защиты",
+      "url": "https://dnd.su/items/171-cloak_of_protection/",
+      "kind": "item",
+      "itemId": 171,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "headband-of-intellect",
+      "name": "headband of intellect",
+      "ru": "Повязка интеллекта",
+      "url": "https://dnd.su/items/178-headband_of_intellect/",
+      "kind": "item",
+      "itemId": 178,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "gauntlets-of-ogre-power",
+      "name": "gauntlets of ogre power",
+      "ru": "Рукавицы силы огра",
+      "url": "https://dnd.su/items/203-gauntlets_of_ogre_power/",
+      "kind": "item",
+      "itemId": 203,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "boots-of-striding-and-springing",
+      "name": "boots of striding and springing",
+      "ru": "Сапоги ходьбы и прыжков",
+      "url": "https://dnd.su/items/206-boots_of_striding_and_springing/",
+      "kind": "item",
+      "itemId": 206,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "pipes-of-the-sewers",
+      "name": "pipes of the sewers",
+      "ru": "Свирель канализации",
+      "url": "https://dnd.su/items/208-pipes_of_the_sewers/",
+      "kind": "item",
+      "itemId": 208,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "slippers-of-spider-climbing",
+      "name": "slippers of spider climbing",
+      "ru": "Туфли паука",
+      "url": "https://dnd.su/items/239-slippers_of_spider_climbing/",
+      "kind": "item",
+      "itemId": 239,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "hat-of-disguise",
+      "name": "hat of disguise",
+      "ru": "Шапка маскировки",
+      "url": "https://dnd.su/items/248-hat_of_disguise/",
+      "kind": "item",
+      "itemId": 248,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "helm-of-telepathy",
+      "name": "helm of telepathy",
+      "ru": "Шлем телепатии",
+      "url": "https://dnd.su/items/252-helm_of_telepathy/",
+      "kind": "item",
+      "itemId": 252,
+      "minLevel": 10,
+      "attunement": true
+    },
+    {
+      "id": "amulet-of-health",
+      "name": "amulet of health",
+      "ru": "Амулет здоровья",
+      "url": "https://dnd.su/items/4-amulet_of_health/",
+      "kind": "item",
+      "itemId": 4,
+      "minLevel": 14,
+      "attunement": true
+    },
+    {
+      "id": "gem-of-seeing",
+      "name": "gem of seeing",
+      "ru": "Камень зрения",
+      "url": "https://dnd.su/items/78-gem_of_seeing/",
+      "kind": "item",
+      "itemId": 78,
+      "minLevel": 14,
+      "attunement": true
+    },
+    {
+      "id": "ring-of-protection",
+      "name": "ring of protection",
+      "ru": "Кольцо защиты",
+      "url": "https://dnd.su/items/94-ring_of_protection/",
+      "kind": "item",
+      "itemId": 94,
+      "minLevel": 14,
+      "attunement": true
+    },
+    {
+      "id": "ring-of-free-action",
+      "name": "ring of free action",
+      "ru": "Кольцо свободных действий",
+      "url": "https://dnd.su/items/106-ring_of_free_action/",
+      "kind": "item",
+      "itemId": 106,
+      "minLevel": 14,
+      "attunement": true
+    },
+    {
+      "id": "ring-of-the-ram",
+      "name": "ring of the ram",
+      "ru": "Кольцо тарана",
+      "url": "https://dnd.su/items/108-ring_of_the_ram/",
+      "kind": "item",
+      "itemId": 108,
+      "minLevel": 14,
+      "attunement": true
+    },
+    {
+      "id": "bracers-of-defense",
+      "name": "bracers of defense",
+      "ru": "Наручи защиты",
+      "url": "https://dnd.su/items/151-bracers_of_defense/",
+      "kind": "item",
+      "itemId": 151,
+      "minLevel": 14,
+      "attunement": true
+    },
+    {
+      "id": "dimensional-shackles",
+      "name": "dimensional Shackles",
+      "ru": "Оковы измерений",
+      "url": "https://dnd.su/items/159-dimensional_shackles/",
+      "kind": "item",
+      "itemId": 159,
+      "minLevel": 14,
+      "attunement": false
+    },
+    {
+      "id": "cloak-of-the-bat",
+      "name": "cloak of the bat",
+      "ru": "Плащ летучей мыши",
+      "url": "https://dnd.su/items/172-cloak_of_the_bat/",
+      "kind": "item",
+      "itemId": 172,
+      "minLevel": 14,
+      "attunement": true
+    },
+    {
+      "id": "belt-of-giant-strength",
+      "name": "belt of hill giant strength",
+      "ru": "Пояс силы холмового великана",
+      "url": "https://dnd.su/items/199-belt_of_giant_strength/",
+      "kind": "item",
+      "itemId": 199,
+      "minLevel": 14,
+      "attunement": true
+    },
+    {
+      "id": "horn-of-blasting",
+      "name": "horn of blasting",
+      "ru": "Рог взрыва",
+      "url": "https://dnd.su/items/202-horn_of_blasting/",
+      "kind": "item",
+      "itemId": 202,
+      "minLevel": 14,
+      "attunement": false
+    },
+    {
+      "id": "boots-of-levitation",
+      "name": "boots of levitation",
+      "ru": "Сапоги левитации",
+      "url": "https://dnd.su/items/204-boots_of_levitation/",
+      "kind": "item",
+      "itemId": 204,
+      "minLevel": 14,
+      "attunement": true
+    },
+    {
+      "id": "boots-of-speed",
+      "name": "boots of speed",
+      "ru": "Сапоги скорости",
+      "url": "https://dnd.su/items/205-boots_of_speed/",
+      "kind": "item",
+      "itemId": 205,
+      "minLevel": 14,
+      "attunement": true
+    },
+    {
+      "id": "common-magic-item",
+      "name": "Common Magic Item",
+      "ru": "Обычный магический предмет, кроме зелий и свитков",
+      "url": "https://dnd.su/class/137-artificer/#infusions",
+      "kind": "category",
+      "minLevel": 2
+    }
+  ]
+}

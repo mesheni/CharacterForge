@@ -4,9 +4,11 @@ import {
   CircleHelp, Compass, Dice5, Feather, Flame, Footprints, Gem, Heart, ImagePlus, Library, Minus,
   Plus, ScrollText, Search, Shield, Sparkles, Sword, Swords, Trash2, Users, X,
 } from 'lucide-react'
-import { abilities, abilityName, abilityShort, catalogs, goldDice14, itemLabel, packageLabel, spellLabel, type ClassInfo, type Edition, type Item, type Option } from './catalog'
+import { abilities, abilityName, abilityShort, enabledContent, goldDice14, itemLabel, packageLabel, spellLabel, type ClassInfo, type Edition, type Item, type Option } from './catalog'
 import { createDraft, derive, multiclassRequirements, pointCost, rollDie, rollScores, sign, STANDARD, type Choice, type Draft, type Level, type Sheet } from './rules'
 import { deleteDraft, loadDrafts, saveDraft } from './storage'
+import { ReferenceBrowser } from './reference-browser'
+import { normalizeName } from './reference'
 import { CharacterSheet } from './sheet'
 
 const ART = import.meta.env.BASE_URL + 'art/adventurer.webp'
@@ -33,10 +35,10 @@ function Brand() {
   return <span className="brand"><span className="brand-mark"><Dice5 size={25} strokeWidth={1.75} /></span><span>Кузница <strong>персонажей</strong><small>РЕДАКТОР D&D</small></span></span>
 }
 
-function Dialog({title, close, children}:{title:string;close:()=>void;children:ReactNode}) {
+function Dialog({title, close, children,wide=false}:{title:string;close:()=>void;children:ReactNode;wide?:boolean}) {
   const ref=useRef<HTMLDialogElement>(null)
   useEffect(()=>{ref.current?.showModal()},[])
-  return <dialog ref={ref} onCancel={close} onClick={event=>{if(event.target===event.currentTarget)close()}}>
+  return <dialog ref={ref} className={wide?'wide-dialog':undefined} onCancel={close} onClick={event=>{if(event.target===event.currentTarget)close()}}>
     <div className="dialog-content"><div className="section-header"><h2>{title}</h2><button className="icon-button" type="button" onClick={close} aria-label="Закрыть"><X size={19}/></button></div>{children}</div>
   </dialog>
 }
@@ -45,7 +47,8 @@ function ChoiceField({choice,change,spells}:{choice:Choice;change:(value:string[
   const [search,setSearch]=useState('')
   const [open,setOpen]=useState(false)
   const [detail,setDetail]=useState('')
-  const visible=choice.options.filter(option=>[option.name,option.id,option.description].some(value=>value?.toLowerCase().includes(search.toLowerCase())))
+  const match=normalizeName(search)
+  const visible=choice.options.filter(option=>[option.name,option.id,option.description].some(value=>value&&normalizeName(value).includes(match)))
   const many=choice.options.length>10
   const toggle=(id:string)=>{
     if(choice.value.includes(id))change(choice.value.filter(value=>value!==id))
@@ -64,12 +67,13 @@ function ChoiceField({choice,change,spells}:{choice:Choice;change:(value:string[
           <button type="button" aria-pressed={choice.value.includes(option.id)} className="choice-chip" disabled={choice.count>1&&choice.value.length>=choice.count&&!choice.value.includes(option.id)} onClick={()=>toggle(option.id)} title={option.description}>
             {choice.value.includes(option.id)?<Check size={14}/>:<span className="choice-dot"/>}<span>{option.name}{option.description && <small>{option.description}</small>}</span>
           </button>
-          {spells?.some(spell=>spell.id===option.id)&&<button type="button" className="icon-button spell-info" aria-label={'О заклинании '+option.name} onClick={()=>setDetail(option.id)}><CircleHelp size={15}/></button>}
+          {spells?.some(spell=>spell.id===option.id)?<button type="button" className="icon-button spell-info" aria-label={'О заклинании '+option.name} onClick={()=>setDetail(option.id)}><CircleHelp size={15}/></button>:
+            option.url&&<a className="icon-button spell-info" href={option.url} target="_blank" rel="noreferrer" aria-label={option.name+' на dnd.su'}><CircleHelp size={15}/></a>}
         </div>)}
         {visible.length===0&&<p className="muted empty">Нет совпадений.</p>}
       </div>
     </>}
-    {found&&<Dialog title={spellLabel(found)} close={()=>setDetail('')}><p className="muted">{found.name} · {found.level===0?'Заговор':'Уровень '+found.level}</p><p className="reference-text">{found.text}</p></Dialog>}
+    {found&&<Dialog title={spellLabel(found)} close={()=>setDetail('')}><p className="muted">{found.name} · {found.level===0?'Заговор':'Уровень '+found.level}</p>{found.text&&<p className="reference-text">{found.text}</p>}{found.url&&<a className="reference-link" href={found.url} target="_blank" rel="noreferrer">Описание на dnd.su <ChevronRight size={14}/></a>}</Dialog>}
   </fieldset>
 }
 
@@ -102,6 +106,11 @@ function Setup({draft,update,edition,locked}:{draft:Draft;update:Change;edition:
           <span className="radio-indicator">{draft.edition===year&&<Check size={12}/>}</span>
         </button>)}
       </div>
+      <label className="field campaign-sources">Материалы кампании
+        <select value={enabledContent(draft.options.content)} onChange={event=>{const content=event.target.value as Draft['options']['content'];update(d=>({...d,options:{...d.options,content}}))}}>
+          <option value="official">Официальные книги и дополнения</option><option value="srd">Открытые правила SRD</option><option value="all">Всё из справочника, включая Homebrew</option>
+        </select>
+      </label>
       {locked&&<p className="field-note">Редакция закреплена за этим героем. Другую редакцию можно выбрать при создании нового персонажа.</p>}
       {draft.edition==='2014'&&<div className="setting-row">
         <label><input type="checkbox" checked={draft.options.feats} onChange={event=>{const checked=event.target.checked;update(d=>({...d,options:{...d.options,feats:checked}}))}}/> Черты разрешены</label>
@@ -127,16 +136,34 @@ function OptionCard({option,active,onClick,icon:Icon}:{option:Option;active:bool
   </button>
 }
 
+function OriginOptions({options,value,change,iconFor,searchLabel}:{options:Option[];value?:string;change:(value:string)=>void;iconFor?:(id:string)=>typeof Sword|undefined;searchLabel:string}) {
+  const [query,setQuery]=useState('')
+  const [limit,setLimit]=useState(24)
+  const words=normalizeName(query)
+  const results=options.filter(option=>normalizeName([option.name,option.id,option.source].filter(Boolean).join(' ')).includes(words))
+  return <>
+    {options.length>10&&<label className="search-field origin-search"><Search size={16}/><input aria-label={searchLabel} placeholder={searchLabel} value={query} onChange={event=>{setQuery(event.target.value);setLimit(24)}}/></label>}
+    <div className={'option-grid '+(iconFor?'classes-grid':'')}>
+      {results.slice(0,limit).map(option=><div className="origin-card" key={option.id}>
+        <OptionCard option={{...option,description:option.description??option.source}} active={value===option.id} icon={iconFor?.(option.id)} onClick={()=>change(option.id)}/>
+        {option.url&&<a href={option.url} target="_blank" rel="noreferrer" className="source-link" aria-label={option.name+' на dnd.su'}>dnd.su <ChevronRight size={12}/></a>}
+      </div>)}
+    </div>
+    {results.length===0&&<p className="field-note">Нет совпадений.</p>}
+    {results.length>limit&&<button type="button" className="secondary more-options" onClick={()=>setLimit(limit+24)}>Показать ещё · {results.length-limit}</button>}
+  </>
+}
 function Origin({draft,sheet,update}:{draft:Draft;sheet:Sheet;update:Change}) {
   return <>
     <Panel title={draft.edition==='2014'?'Народ':'Вид персонажа'} icon={Flame}>
-      <div className="option-grid">{sheet.catalog.species.map(option=><OptionCard option={option} key={option.id} active={draft.species===option.id} onClick={()=>update(d=>({...d,species:option.id}))}/>)}</div>
+      <OriginOptions options={sheet.catalog.species} value={draft.species} searchLabel="Поиск происхождения" change={species=>update(d=>({...d,species}))}/>
     </Panel>
     <Panel title="Предыстория" icon={ScrollText}>
-      <div className="option-grid">{sheet.catalog.backgrounds.map(option=><OptionCard option={option} key={option.id} active={draft.background===option.id} onClick={()=>update(d=>({...d,background:option.id}))}/>)}</div>
+      <OriginOptions options={sheet.catalog.backgrounds} value={draft.background} searchLabel="Поиск предыстории" change={background=>update(d=>({...d,background}))}/>
     </Panel>
     <Panel title="Начальный класс" icon={Swords}>
-      <div className="option-grid classes-grid">{sheet.catalog.classes.map(option=><OptionCard option={option} key={option.id} active={draft.levels[0]?.classId===option.id} icon={CLASSES_ICONS[option.id]} onClick={()=>update(d=>withLevel(d,1,{...d.levels[0],classId:option.id,choices:d.levels[0]?.choices??{}}))}/>)}</div>
+      <OriginOptions options={sheet.catalog.classes} value={draft.levels[0]?.classId} searchLabel="Поиск класса" iconFor={id=>CLASSES_ICONS[id]??Gem}
+        change={classId=>update(d=>withLevel(d,1,{...d.levels[0],classId,choices:d.levels[0]?.choices??{}}))}/>
     </Panel>
     {!!sheet.choices[0]?.length&&<Panel title="Детали происхождения" icon={Gem}><Choices choices={sheet.choices[0]} onChange={(id,value)=>update(d=>({...d,origin:{...d.origin,[id]:value}}))} sheet={sheet}/></Panel>}
   </>
@@ -227,7 +254,7 @@ function Advancement({draft,sheet,update,level,navigate}:{draft:Draft;sheet:Shee
       {row?.hpMode==='roll'&&<div className="inline-actions">{row.hpRoll?<strong>Выпало {row.hpRoll}</strong>:<button type="button" className="secondary" onClick={()=>setLevel(previous=>({...previous,hpRoll:rollDie(cls.hp)}))}><Dice5 size={16}/> Бросить кость хитов</button>}</div>}
     </Panel>}
     {!!sheet.gained[level]?.length&&<Panel title="Полученные способности" icon={Sparkles}><div className="gain-list">
-      {sheet.gained[level].map((feature,index)=><details key={feature.name+index}><summary>{feature.name}<small>{feature.source}</small></summary>{feature.detail&&<p className="reference-text">{feature.detail}</p>}</details>)}
+      {sheet.gained[level].map((feature,index)=><details key={feature.name+index}><summary>{feature.name}<small>{feature.source}</small></summary>{feature.detail&&<p className="reference-text">{feature.detail}</p>}{feature.url&&<a className="reference-link" href={feature.url} target="_blank" rel="noreferrer">Открыть источник <ChevronRight size={14}/></a>}</details>)}
     </div></Panel>}
     {entries.length>0&&<Panel title="Выборы уровня" icon={Gem}><Choices key={level+':'+cls?.id} choices={entries} onChange={choose} sheet={sheet}/>
       {cls&&row?.choices['starting-gear']?.[0]==='cash'&&draft.edition==='2014'&&<div className="inline-actions">{row.choices['wealth-roll']?.[0]?<strong>Результат: {row.choices['wealth-roll'][0]}</strong>:<button type="button" className="secondary" onClick={()=>choose('wealth-roll',[String(Array.from({length:goldDice14(cls.id)},()=>rollDie(4)).reduce((a,b)=>a+b,0))])}><Dice5 size={16}/> Бросить начальное золото</button>}</div>}
@@ -296,6 +323,8 @@ function Story({draft,sheet,update}:{draft:Draft;sheet:Sheet;update:Change}) {
       update(d=>({...d,portrait:url}));setPortraitError('')
     }catch{setPortraitError('Не удалось открыть изображение. Выберите другой файл.')}
   }
+  const manual={features:'',proficiencies:'',hp:0,ac:0,speed:0,initiative:0,...draft.customRules}
+  const setManual=(key:keyof NonNullable<Draft['customRules']>,value:string|number)=>update(d=>({...d,customRules:{...manual,[key]:value}}))
   return <>
     <Panel title="Имя и облик" icon={Feather}>
       <div className="identity-grid"><label className="field">Имя персонажа <input required maxLength={100} value={draft.name} onChange={e=>setText('name',e.target.value)} placeholder="Имя героя"/></label>
@@ -310,7 +339,14 @@ function Story({draft,sheet,update}:{draft:Draft;sheet:Sheet;update:Change}) {
       <label className="field">Связи<textarea maxLength={4000} rows={2} value={draft.bonds} onChange={e=>setText('bonds',e.target.value)} placeholder="Люди, места и обещания"/></label>
       <label className="field">Цели<textarea maxLength={4000} rows={2} value={draft.goals} onChange={e=>setText('goals',e.target.value)} placeholder="Чего герой хочет добиться?"/></label>
     </Panel>
-    <Panel title="Инвентарь и монеты" icon={Gem} description="Добавьте покупки или снаряжение, выданное мастером."><GearEditor draft={draft} sheet={sheet} update={update}/></Panel>
+    <details className="panel manual-rules"><summary>Дополнительные правила кампании</summary>
+      <p className="field-note">Сюда можно внести эффекты из книги или домашние правила, которые рассчитываются вручную.</p>
+      <label className="field">Черты, способности и заметки<textarea rows={3} maxLength={12000} value={manual.features} onChange={event=>setManual('features',event.target.value)}/></label>
+      <label className="field">Дополнительные владения<input value={manual.proficiencies} onChange={event=>setManual('proficiencies',event.target.value)} placeholder="Через запятую"/></label>
+      <div className="manual-grid">{([['hp','Хиты'],['ac','Класс доспеха'],['speed','Скорость, фт.'],['initiative','Инициатива']] as const).map(([id,caption])=>
+        <label key={id} className="field">{caption}<input type="number" min={-999} max={999} value={manual[id]} onChange={event=>setManual(id,Math.min(999,Math.max(-999,Math.trunc(Number(event.target.value)||0))))}/></label>)}</div>
+    </details>
+    <Panel title="Инвентарь и монеты"  icon={Gem} description="Добавьте покупки или снаряжение, выданное мастером."><GearEditor draft={draft} sheet={sheet} update={update}/></Panel>
   </>
 }
 
@@ -338,7 +374,7 @@ function Overview({draft,sheet,expanded,close}:{draft:Draft;sheet:Sheet;expanded
 
 function RulesDialog({close}:{close:()=>void}) {
   return <Dialog title="Источники правил" close={close}><div className="rules-dialog">
-    <p>D&D 2014 использует SRD 5.1. D&D 2024 использует SRD 5.2.1. Каталоги включают материалы этих редакций с русскими названиями и английскими справочными описаниями.</p>
+    <p>D&D 2014 использует SRD 5.1. D&D 2024 использует SRD 5.2.1. Для расширенного каталога добавлены названия, игровые параметры и ссылки на отдельные карточки <a href="https://dnd.su/" target="_blank" rel="noreferrer">dnd.su</a> и <a href="https://next.dnd.su/" target="_blank" rel="noreferrer">next.dnd.su</a>.</p>
     <p lang="en">This work includes material taken from the System Reference Document 5.1 (“SRD 5.1”) by Wizards of the Coast LLC and available at <a href="https://dnd.wizards.com/resources/systems-reference-document">dnd.wizards.com/resources/systems-reference-document</a>. The SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License, available at <a href={LICENSE_URL}>creativecommons.org/licenses/by/4.0/legalcode</a>.</p>
     <p lang="en">This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at <a href={RULES_URL}>www.dndbeyond.com/srd</a>. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at <a href={LICENSE_URL}>creativecommons.org/licenses/by/4.0/legalcode</a>.</p>
   </div></Dialog>
@@ -423,7 +459,7 @@ export function App() {
   return <div className="site-shell">
     <header className="site-header"><div className="header-inner">
       <button className="brand-button" type="button" onClick={()=>navigate('setup')} aria-label="Кузница персонажей · кампания"><Brand/></button>
-      <div className="header-actions"><button type="button" className="header-link" aria-label="Справочник" onClick={()=>setModal('rules')}><BookOpen size={17}/><span>Справочник</span></button>
+      <div className="header-actions"><button type="button" className="header-link" aria-label="Справочник" onClick={()=>setModal('reference')}><BookOpen size={17}/><span>Справочник</span></button>
         <button type="button" className="secondary header-library" onClick={openDrafts}><Users size={17}/><span>Мои персонажи</span></button></div>
     </div></header>
     <nav className="progress-nav" aria-label="Этапы создания"><div className="progress-inner">
@@ -443,7 +479,7 @@ export function App() {
           <button type="button" className="secondary mobile-summary" onClick={()=>setShowOverview(true)}><Shield size={16}/> Сводка героя</button>
         </div>
         <div className="workspace-content" aria-busy={loading}>
-          {draft.step==='setup'&&<Setup draft={draft} update={update} locked={!!(draft.species||draft.background||draft.levels[0]?.classId||draft.base.length)} edition={edition=>update(d=>d.edition===edition?d:{...createDraft(edition),id:d.id,target:d.target})}/>}
+          {draft.step==='setup'&&<Setup draft={draft} update={update} locked={!!(draft.species||draft.background||draft.levels[0]?.classId||draft.base.length)} edition={edition=>update(d=>d.edition===edition?d:{...createDraft(edition),id:d.id,target:d.target,options:{feats:edition==='2024',multiclass:edition==='2024',content:d.options.content}})}/>}
           {draft.step==='origin'&&<Origin draft={draft} sheet={sheet} update={update}/>}
           {draft.step==='abilities'&&<Abilities draft={draft} sheet={sheet} update={update}/>}
           {!!level&&<Advancement draft={draft} sheet={sheet} update={update} level={level} navigate={navigate}/>}
@@ -466,6 +502,7 @@ export function App() {
       <Overview draft={draft} sheet={sheet} expanded={showOverview} close={()=>setShowOverview(false)}/>
     </main>
     <footer className="site-footer"><div className="footer-inner"><span>Кузница персонажей</span><span className="footer-center">D&D {draft.edition} · SRD {draft.rules}</span><button type="button" onClick={()=>setModal('rules')}>Источники и лицензия <ChevronRight size={14}/></button></div></footer>
+    {modal==='reference'&&<Dialog title="Справочник D&D" wide close={()=>setModal('')}><ReferenceBrowser initialEdition={draft.edition}/></Dialog>}
     {modal==='rules'&&<RulesDialog close={()=>setModal('')}/>}
     {modal==='drafts'&&<Dialog title="Мои персонажи" close={()=>{setModal('');setConfirm('')}}>
       <div className="draft-list">{drafts.map(entry=><div key={entry.id} className="draft-row"><button type="button" className="draft-open" onClick={()=>{setDraft({...entry,updated:Date.now()});setModal('');setTried(false);setPdfError('');window.scrollTo(0,0)}}><strong>{entry.name||'Безымянный герой'}</strong><small>D&D {entry.edition} · уровень {entry.target}</small></button>

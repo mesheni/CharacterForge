@@ -1,4 +1,4 @@
-import { Document, Font, Image, Page, StyleSheet, Text, View, pdf } from '@react-pdf/renderer'
+import { Document, Font, Image, Link, Page, StyleSheet, Text, View, pdf } from '@react-pdf/renderer'
 import { abilities, abilityName, spellLabel } from './catalog'
 import { sign, type Draft, type Sheet } from './rules'
 import { biography, coins, combatValues, sheetIdentity } from './sheet'
@@ -22,6 +22,7 @@ const styles=StyleSheet.create({
   left:{flexGrow:1,flexBasis:0,marginRight:8},
   right:{maxWidth:'62%',textAlign:'right',fontWeight:700},
   info:{marginVertical:3,paddingHorizontal:4},
+  link:{color:'#79512c',fontSize:8,paddingHorizontal:4,marginBottom:3},
   feature:{fontWeight:700,marginTop:4,paddingHorizontal:4},
   manual:{marginTop:8,borderWidth:0.6,borderColor:'#b4a499',padding:7,lineHeight:1.8},
   footer:{position:'absolute',bottom:18,left:35,right:35,fontSize:8,color:'#63574c',borderTop:0.6,borderTopColor:'#c9b7a4',paddingTop:4},
@@ -50,6 +51,7 @@ function CharacterDocument({draft,sheet}:{draft:Draft;sheet:Sheet}) {
       <Group title="Владения и языки"><Text style={styles.info}>{[...sheet.profs,...sheet.tools].join(', ')||'—'}</Text><Text style={styles.info}>{sheet.languages.join(', ')}</Text></Group>
       {sheet.features.length>0&&<Group title="Черты и способности">
         {sheet.features.map((feature,i)=><View key={i}><Text minPresenceAhead={12} style={styles.feature}>{feature.name} · {feature.source}</Text>
+          {feature.url&&<Link style={styles.link} src={feature.url}>Описание в справочнике</Link>}
           {feature.detail&&paragraphs(feature.detail).map((part,index)=><Text key={index} style={styles.info}>{part}</Text>)}
         </View>)}
       </Group>}

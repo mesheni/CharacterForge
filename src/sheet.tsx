@@ -51,13 +51,13 @@ export function CharacterSheet({draft,sheet,jump}:{draft:Draft;sheet:Sheet;jump:
     <section className="panel sheet-card" id="features">
       <h2><Sparkles size={20}/> Черты и способности</h2>
       {sheet.features.length===0&&<p className="muted">Особенности появятся после выбора класса и происхождения.</p>}
-      <div className="gain-list">{sheet.features.map((feature,index)=><details key={feature.name+index}><summary>{feature.name}<small>{feature.source}{feature.level?' · '+feature.level+' ур.':''}</small></summary>{feature.detail&&<p className="reference-text">{feature.detail}</p>}</details>)}</div>
+      <div className="gain-list">{sheet.features.map((feature,index)=><details key={feature.name+index}><summary>{feature.name}<small>{feature.source}{feature.level?' · '+feature.level+' ур.':''}</small></summary>{feature.detail&&<p className="reference-text">{feature.detail}</p>}{feature.url&&<a className="reference-link" href={feature.url} target="_blank" rel="noreferrer">Открыть источник <ChevronRight size={14}/></a>}</details>)}</div>
     </section>
     {sections.some(section=>section.id==='magic')&&<section className="panel sheet-card" id="magic"><h2><BookOpen size={20}/> Заклинания</h2>
       {sheet.slots.length>0&&<div className="combat-grid">{sheet.slots.map((count,index)=><div key={index}><span>Ячейки {index+1}-го уровня</span><strong>{count}</strong></div>)}</div>}
       {sheet.pact&&<p><strong>Магия договора</strong> · {sheet.pact.count} яч. {sheet.pact.level}-го уровня</p>}
       {sheet.magic.map((source,index)=><div className="magic-source" key={index}><h3>{source.name}</h3><p>{abilityName[source.ability]} · Сл {source.dc} · атака {sign(source.attack)}</p>
-        <div className="gain-list">{source.spells.map(({spell,status})=><details key={spell.id}><summary>{spellLabel(spell)}<small>{spell.level===0?'Заговор':'Ур. '+spell.level} · {status}</small></summary><p className="reference-text">{spell.text}</p></details>)}</div>
+        <div className="gain-list">{source.spells.map(({spell,status})=><details key={spell.id}><summary>{spellLabel(spell)}<small>{spell.level===0?'Заговор':'Ур. '+spell.level} · {status}</small></summary>{spell.text&&<p className="reference-text">{spell.text}</p>}{spell.url&&<a className="reference-link" href={spell.url} target="_blank" rel="noreferrer">Описание на dnd.su <ChevronRight size={14}/></a>}</details>)}</div>
       </div>)}
     </section>}
     <section className="panel sheet-card" id="equipment"><h2><Gem size={20}/> Инвентарь</h2><p>{coins(draft,sheet)}</p>

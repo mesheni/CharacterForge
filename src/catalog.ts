@@ -1,3 +1,4 @@
+import { artificerLegacy, artificerRevision, displaySource, inMode, normalizeName, reference, spellIdFor, type ContentMode, type ReferenceBackground, type ReferenceEntry, type ReferenceFeat, type ReferenceSpecies, type ReferenceSubclass } from './reference'
 import source14 from './data/srd2014.json'
 import source24 from './data/srd2024.json'
 import extra14 from './data/srd2014-extra.json'
@@ -31,12 +32,12 @@ export const artisanTools = ['Алхимика', 'Гончара', 'Каллиг
 export const games = ['Игральные кости', 'Игральные карты', 'Драконьи шахматы', 'Трёхдраконовое анте']
 export const slug = (value: string) => value.toLowerCase().normalize('NFKD').replace(/[’']/g, '').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')
 
-export type Item = { id:string; name:string; kind:string; cost?:string|number; damage?:string; ac?:number|string; properties?:string|string[]; mastery?:string; category?:string; range?:string; text?:string; strength?:number }
-export type Spell = { id:string; name:string; level:number; classes:string[]; school?:string; text?:string; range?:string; casting?:string; duration?:string; components?:string; ritual?:boolean }
+export type Item = { id:string; name:string; ru?:string; url?:string; source?:string; rarity?:string; attunement?:boolean; kind:string; cost?:string|number; damage?:string; ac?:number|string; properties?:string|string[]; mastery?:string; category?:string; range?:string; text?:string; strength?:number }
+export type Spell = { id:string; name:string; ru?:string; url?:string; source?:string; sourceGroup?:string; subclassIds?:number[]; concentration?:boolean; level:number; classes:string[]; school?:string; text?:string; range?:string; casting?:string; duration?:string; components?:string; ritual?:boolean }
 export type Progress = { slots?:number[]; cantrips?:number; prepared?:number; known?:number; mastery?:number; invocations?:number; pactSlots?:number; pactLevel?:number; [key:string]: number | number[] | string | undefined }
 type SourceItem = Item & { armorType?:string; weaponType?:string; ranged?:boolean };
-type Source = { spellProgressions?:Record<string,Record<string,Progress>>; magicItems?:SourceItem[]; invocations?: (Option & {text?:string; min?:number; requires?:string; repeatable?:boolean})[]; speciesDescriptions?:Record<string,string>; progressions?:Record<string,Record<string,Progress|string[]>>; feats?:Record<string,Option[]>; classDescriptions?:Record<string,Record<string,string>>; subclassFeatures?:Record<string,Record<string,string[]>>; spells:Spell[]; features:Record<string, Record<string, string[]>>; descriptions?:Record<string,string>; items?:SourceItem[]; subclasses?:Record<string,string|{name:string;features:Record<string,string[]>}> }
-export type Option = { id:string; name:string; description?:string }
+type Source = { spellProgressions?:Record<string,Record<string,Progress>>; magicItems?:SourceItem[]; invocations?: (Option & {text?:string; minLevel?:number; requiresInvocation?:string; repeatable?:boolean})[]; speciesDescriptions?:Record<string,string>; progressions?:Record<string,Record<string,Progress|string[]>>; feats?:Record<string,Option[]>; classDescriptions?:Record<string,Record<string,string>>; subclassFeatures?:Record<string,Record<string,string[]>>; spells:Spell[]; features:Record<string, Record<string, string[]>>; descriptions?:Record<string,string>; items?:SourceItem[]; subclasses?:Record<string,string|{name:string;features:Record<string,string[]>}> }
+export type Option = { id:string; name:string; description?:string; url?:string; source?:string; manual?:boolean }
 export type Package = { gold:number; items:string[]; selects?:string[][] }
 
 const classRows = [
@@ -85,7 +86,7 @@ const packs14: Record<string, Package> = {
   wizard:pk(0,'spellbook','quarterstaff|dagger','component-pouch|arcane-focus','scholar-s-pack|explorer-s-pack'),
 }
 const style14: Record<string,string> = { monk:'shortsword', rogue:'rapier shortsword longsword hand-crossbow', sorcerer:'dagger dart sling quarterstaff light-crossbow', wizard:'dagger dart sling quarterstaff light-crossbow', druid:'club dagger dart javelin mace quarterstaff scimitar sickle sling spear' }
-const startingWealth14: Record<string,number> = { barbarian:2,bard:5,cleric:5,druid:2,fighter:5,monk:5,paladin:5,ranger:5,rogue:4,sorcerer:3,warlock:4,wizard:4 }
+const startingWealth14: Record<string,number> = { barbarian:2,bard:5,cleric:5,druid:2,fighter:5,monk:5,paladin:5,ranger:5,rogue:4,sorcerer:3,warlock:4,wizard:4,artificer:5 }
 export function goldDice14(id:string) { return startingWealth14[id] || 0 }
 const subclass14:Record<string,number> = { barbarian:3,bard:3,cleric:1,druid:2,fighter:3,monk:3,paladin:3,ranger:3,rogue:3,sorcerer:1,warlock:1,wizard:2 }
 export type ClassInfo = Option & { subclass:string; hp:number; primary:Ability[]; saves:Ability[]; skillCount:number; skills:Skill[]; profs:string[]; multiclass:string[]; pack:Package; cash:number; spellAbility?:Ability; subclassAt:number }
@@ -111,7 +112,7 @@ function makeClasses(edition:Edition): ClassInfo[] {
       pack:edition==='2024'?packs24[id][0]:packs14[id],cash:edition==='2024'?packs24[id][1]:0,spellAbility:spellAbilities[id],subclassAt:edition==='2024'?3:subclass14[id]}
   })
 }
-export type Species = Option & { speed:number; size:string; traits:string[]; bonuses?:Partial<Record<Ability,number>>; lineages?:Option[]; languages?:string[] }
+export type Species = Option & { speed:number; size:string; traits:string[]; bonuses?:Partial<Record<Ability,number>>; lineages?:Option[]; languages?:string[]; languageCount?:number; reference?:ReferenceSpecies }
 const names = (pairs: string) => pairs.split('|').map(part=>{ const [id,name,description]=part.split(':'); return { id,name,description } })
 const dragon = names('black:Чёрный:Кислота|blue:Синий:Электричество|brass:Латунный:Огонь|bronze:Бронзовый:Электричество|copper:Медный:Кислота|gold:Золотой:Огонь|green:Зелёный:Яд|red:Красный:Огонь|silver:Серебряный:Холод|white:Белый:Холод')
 const species24: Species[] = [
@@ -137,7 +138,7 @@ const species14: Species[] = [
   {id:'half-orc',name:'Полуорк',description:'Сила +2, Телосложение +1. Стойкость и свирепость.',speed:30,size:'Средний',traits:['Тёмное зрение 60 фт.','Угрожающий вид','Непоколебимая стойкость','Свирепые атаки'],bonuses:{str:2,con:1},languages:['Орочий']},
   {...findSpecies('tiefling'),size:'Средний',bonuses:{int:1,cha:2},traits:['Тёмное зрение 60 фт.','Адское сопротивление','Инфернальное наследие'],lineages:undefined,languages:['Инфернальный'],description:'Интеллект +1, Харизма +2. Магия Нижних планов.'},
 ]
-export type Background = Option & { skills:Skill[]; scores:Ability[]; feat?:string; tool?:string; pack:Package }
+export type Background = Option & { skills:Skill[]; scores:Ability[]; feat?:string; featCategory?:string; tool?:string; pack:Package; reference?:ReferenceBackground; languageCount?:number; trait?:string; cash?:number }
 const backgrounds24: Background[] = [
   {id:'acolyte',name:'Послушник',description:'Герой, воспитанный в храме или религиозном ордене.',skills:['insight','religion'],scores:['int','wis','cha'],feat:'initiate-cleric',tool:'Инструменты каллиграфа',pack:pk(8,'calligraphers-supplies|book|holy-symbol|parchment*10|robe')},
   {id:'criminal',name:'Преступник',description:'Уличная школа ловкости и тихих дел.',skills:['sleight','stealth'],scores:['dex','con','int'],feat:'alert',tool:'Воровские инструменты',pack:pk(16,'dagger*2|thieves-tools|crowbar|pouch*2|travelers-clothes')},
@@ -168,8 +169,8 @@ const commonItems: Item[] = [
 ]
 const alternateIds: Record<string,string> = { 'padded':'padded-armor','leather':'leather-armor','studded-leather':'studded-leather-armor','hide':'hide-armor','splint':'splint-armor','plate':'plate-armor','crossbow-light':'light-crossbow','crossbow-hand':'hand-crossbow','crossbow-heavy':'heavy-crossbow' }
 const spellNames: Record<string,string> = Object.fromEntries(names('acid-splash:Брызги кислоты|aid:Подмога|alarm:Сигнал тревоги|animal-friendship:Дружба с животными|bane:Порча|bless:Благословение|burning-hands:Огненные ладони|charm-person:Очарование личности|chill-touch:Леденящее прикосновение|command:Приказ|cure-wounds:Лечение ран|dancing-lights:Пляшущие огоньки|detect-magic:Обнаружение магии|detect-poison-and-disease:Обнаружение яда и болезней|disguise-self:Маскировка|divine-favor:Божественное благоволение|eldritch-blast:Мистический заряд|entangle:Опутывание|feather-fall:Плавное падение|fire-bolt:Огненный снаряд|fireball:Огненный шар|fog-cloud:Туманное облако|goodberry:Чудо-ягоды|guidance:Указание|guiding-bolt:Направляющий снаряд|healing-word:Лечащее слово|hex:Сглаз|hunters-mark:Метка охотника|inflict-wounds:Нанесение ран|light:Свет|longstrider:Скороход|mage-armor:Доспехи мага|mage-hand:Волшебная рука|magic-missile:Волшебная стрела|mending:Починка|message:Сообщение|minor-illusion:Малая иллюзия|misty-step:Туманный шаг|poison-spray:Ядовитые брызги|prestidigitation:Фокусы|produce-flame:Сотворение пламени|protection-from-evil-and-good:Защита от добра и зла|ray-of-frost:Луч холода|resistance:Сопротивление|sacred-flame:Священное пламя|shield:Щит|shield-of-faith:Щит веры|shillelagh:Дубинка|shocking-grasp:Электрошок|silent-image:Безмолвный образ|sleep:Сон|spare-the-dying:Уход за умирающим|speak-with-animals:Разговор с животными|thaumaturgy:Чудотворство|thunderwave:Волна грома|true-strike:Верный удар|vicious-mockery:Злая насмешка|wish:Исполнение желаний|counterspell:Контрзаклинание|darkness:Тьма|daylight:Дневной свет|detect-thoughts:Обнаружение мыслей|dispel-magic:Рассеивание магии|divine-smite:Божественная кара|faerie-fire:Огонь фей|find-familiar:Поиск фамильяра|fly:Полёт|haste:Ускорение|hellish-rebuke:Адское возмездие|identify:Опознание|invisibility:Невидимость|knock:Открывание|levitate:Левитация|mirror-image:Отражения|revivify:Возрождение|scorching-ray:Палящий луч|slow:Замедление|spiritual-weapon:Духовное оружие|stinking-cloud:Зловонное облако|teleport:Телепортация|web:Паутина').map(x=>[x.id,x.name]))
-export const spellLabel = (spell:Spell) => (spellRu as Record<string,string>)[spell.id] ?? spellNames[spell.id] ?? spell.name
-export const itemLabel = (item:Item) => commonItems.find(entry=>entry.id===item.id)?.name ?? (itemRu as Record<string,string>)[item.id] ?? item.name
+export const spellLabel = (spell:Spell) => spell.ru ?? (spellRu as Record<string,string>)[spell.id] ?? spellNames[spell.id] ?? spell.name
+export const itemLabel = (item:Item) => commonItems.find(entry=>entry.id===item.id)?.name ?? item.ru ?? (itemRu as Record<string,string>)[item.id] ?? item.name
 
 function makeCatalog(edition:Edition, source:Source) {
   const items = new Map(commonItems.map(item=>[item.id,item]))
@@ -189,11 +190,100 @@ function makeCatalog(edition:Edition, source:Source) {
       items.set(id,{...item,damage})
     }
   }
-  return {classes:makeClasses(edition),species:edition==='2024'?species24:species14,backgrounds:edition==='2024'?backgrounds24:backgrounds14,
-    spells:source.spells,features:source.features,descriptions:source.descriptions??{},classDescriptions:source.classDescriptions??{},subclasses:source.subclasses??{},subclassFeatures,progressions:source.spellProgressions??source.progressions??{},feats:source.feats??{},invocations:source.invocations??[],speciesDescriptions:source.speciesDescriptions??{},items:[...items.values()]}
+  const classes=makeClasses(edition)
+  const subclassOptions:Record<string,ReferenceSubclass[]> = Object.fromEntries(classes.map(cls=>{
+    const sourceName=source.subclasses?.[cls.id]
+    const name=typeof sourceName==='string'?sourceName:sourceName?.name??cls.subclass
+    const ru=edition==='2024'&&cls.id==='wizard'?'Воплотитель':cls.subclass
+    return [cls.id,[{id:'default',classId:cls.id,name,ru,url:'',source:'SRD'}]]
+  }))
+  return {classes,species:edition==='2024'?species24:species14,backgrounds:edition==='2024'?backgrounds24:backgrounds14,
+    spells:source.spells,features:source.features,descriptions:source.descriptions??{},classDescriptions:source.classDescriptions??{},subclasses:source.subclasses??{},subclassFeatures,progressions:source.spellProgressions??source.progressions??{},feats:source.feats??{},subclassOptions,referenceFeats:[] as ReferenceFeat[],referenceClasses:[] as ReferenceEntry[],invocations:source.invocations??[],speciesDescriptions:source.speciesDescriptions??{},items:[...items.values()]}
 }
 export const catalogs = {'2014':makeCatalog('2014', {...source14, magicItems:extra14.magicItems} as Source),'2024':makeCatalog('2024', source24 as Source)}
 export type Catalog = typeof catalogs[Edition]
+const memo = new Map<string,Catalog>()
+const aliasesForSubclass:Record<string,string[]> = {
+  barbarian:['berserker','path of the berserker'],bard:['lore','college of lore'],cleric:['life','life domain'],druid:['land','circle of the land'],
+  fighter:['champion'],monk:['open hand','way of the open hand','warrior of the open hand'],paladin:['devotion','oath of devotion'],
+  ranger:['hunter'],rogue:['thief'],sorcerer:['draconic bloodline','draconic sorcery'],warlock:['fiend','the fiend','fiend patron'],
+  wizard:['evocation','school of evocation','evoker'],
+}
+const artificerPack14 = pk(0,'light-crossbow|bolts*20|thieves-tools|dungeoneer-s-pack','studded-leather-armor|scale-mail','simple-weapon','simple-weapon')
+function artificer(edition:Edition):ClassInfo {
+  return {id:'artificer',name:edition==='2014'?'Изобретатель':artificerRevision.ru,description:'Создаёт магические предметы и колдует с помощью инструментов.',subclass:'Алхимик',
+    hp:8,primary:['int'],saves:['con','int'],skillCount:2,skills:['arcana','history','investigation','medicine','nature','perception','sleight'],
+    profs:['light','medium','shield','simple'],multiclass:['light','medium','shield'],pack:edition==='2014'?artificerPack14:{gold:artificerRevision.pack.gold,items:artificerRevision.pack.items.map(id=>id==='dungeoneers-pack'?'dungeoneer-s-pack':id)},cash:150,spellAbility:'int',subclassAt:3}
+}
+const artificerFeatures14:Record<string,string[]> = {1:['Магическое мастерство','Spellcasting'],2:['Инфузии предметов'],3:['Правильный инструмент для работы'],4:['Ability Score Improvement'],6:['Экспертиза в инструментах'],7:['Проблеск гениальности'],8:['Ability Score Improvement'],10:['Мастер магических предметов'],11:['Хранящий заклинание предмет'],12:['Ability Score Improvement'],14:['Знаток магических предметов'],16:['Ability Score Improvement'],18:['Великий мастер магических предметов'],19:['Ability Score Improvement'],20:['Душа изобретателя']}
+export const enabledContent = (mode?:ContentMode) => mode??'srd'
+function withSource(entry:ReferenceEntry) {
+  return {url:entry.url,source:displaySource(entry)}
+}
+const sizeLabel = (value:string|undefined) => value?.toLowerCase().includes('medium')||value?.toLowerCase().includes('small')
+  ? (value.toLowerCase().includes('small')?value.toLowerCase().includes('medium')?'Маленький или средний':'Маленький':'Средний') : value
+export function catalogFor(edition:Edition,requested?:ContentMode):Catalog {
+  const mode=enabledContent(requested)
+  const key=edition+':'+mode
+  const existing=memo.get(key)
+  if(existing)return existing
+  const base=catalogs[edition]
+  const ref=reference[edition]
+  const spells=new Map(base.spells.map(spell=>[spell.id,spell]))
+  for(const card of ref.spells){
+    const id=spellIdFor(card.id)
+    const current=spells.get(id)
+    if(!current&&!inMode(card,mode))continue
+    spells.set(id,{
+      ...card,...current,id,ru:card.ru,source:displaySource(card),url:card.url,
+      classes:current&&mode==='srd'?current.classes:[...new Set([...(current?.classes??[]),...card.classes,...(card.optionalClasses??[])])],
+      ritual:card.ritual??current?.ritual,
+    })
+  }
+  const species=new Map(base.species.map(entry=>[entry.id,entry]))
+  for(const card of ref.species){
+    const current=species.get(card.id)
+    if(current)species.set(card.id,{...current,...withSource(card),reference:card,languageCount:card.languageCount??current.languageCount})
+    else if(inMode(card,mode)&&!card.referenceOnly)species.set(card.id,{id:card.id,name:card.ru,...withSource(card),reference:card,speed:card.speed??30,
+      size:sizeLabel(card.size)??'Средний',traits:card.traits??[],bonuses:card.bonuses,languages:card.languages,lineages:card.lineages,
+      languageCount:card.languageCount,manual:!card.speed||edition==='2014'&&!card.bonuses&&!card.abilityBoost&&!card.abilityPatterns})
+  }
+  const backgrounds=new Map(base.backgrounds.map(entry=>[entry.id,entry]))
+  for(const card of ref.backgrounds){
+    const current=backgrounds.get(card.id)
+    if(current)backgrounds.set(card.id,{...current,...withSource(card),reference:card,cash:card.cashGold})
+    else if(inMode(card,mode)&&!card.referenceOnly)backgrounds.set(card.id,{id:card.id,name:card.ru,...withSource(card),reference:card,
+      skills:card.skills??[],scores:card.scores??[],feat:card.feat,featCategory:card.featCategory,tool:card.tool,trait:card.feature??card.trait,languageCount:card.languageCount,cash:card.cashGold,
+      pack:{gold:card.gold??0,items:card.items??[]},manual:card.skills?.length!==2||edition==='2024'&&card.scores?.length!==3})
+  }
+  const active = (mode==='srd'?base.classes:[...base.classes,artificer(edition)]).map(cls=>{
+    const match=ref.classes.find(entry=>entry.id===cls.id&&inMode(entry,'official'))
+    return match?{...cls,...withSource(match)}:cls
+  })
+  const subclassOptions={...base.subclassOptions}
+  for(const cls of active){
+    const defaultOption=subclassOptions[cls.id]?.[0]
+    const cards=ref.subclasses.filter(entry=>entry.classId===cls.id)
+    const equivalent=defaultOption&&cards.filter(card=>inMode(card,'official')).find(card=>[defaultOption.name,...(aliasesForSubclass[cls.id]??[])].some(name=>normalizeName(name)===normalizeName(card.name)||normalizeName(name)===normalizeName(card.id)))
+    subclassOptions[cls.id]=[
+      ...(defaultOption?[equivalent?{...equivalent,id:'default',ru:defaultOption.ru}:defaultOption]:[]),
+      ...cards.filter(card=>card!==equivalent&&inMode(card,mode)),
+    ]
+  }
+  const items=new Map(base.items.map(item=>[item.id,item]))
+  const byName=new Map(base.items.map(item=>[normalizeName(item.name),item.id]))
+  for(const card of ref.items){
+    const id=alternateIds[card.id]??(items.has(card.id)?card.id:byName.get(normalizeName(card.name))??card.id)
+    const current=items.get(id)
+    if(!current&&!inMode(card,mode))continue
+    items.set(id,{...card,kind:card.kind??'gear',...current,id,ru:card.ru,url:card.url,source:displaySource(card),rarity:card.rarity,attunement:card.attunement})
+  }
+  const catalog={...base,classes:active,subclassOptions,spells:[...spells.values()],species:[...species.values()],backgrounds:[...backgrounds.values()],items:[...items.values()],
+    features:mode==='srd'?base.features:{...base.features,artificer:edition==='2014'?artificerFeatures14:Object.fromEntries(Object.entries(artificerRevision.features).map(([level,entries])=>[level,entries.map(entry=>entry.name)]))},
+    referenceFeats:ref.feats.filter(entry=>inMode(entry,mode)),referenceClasses:ref.classes.filter(entry=>inMode(entry,mode))}
+  memo.set(key,catalog)
+  return catalog
+}
 export const weaponGroups = ['simple-weapon','simple-melee','simple-pair','martial-melee','martial-shield','martial-pair']
 export const fixedPackages:Record<string,string[]> = {
   'fighter-leather':['leather-armor','longbow','arrow*20'],
@@ -205,5 +295,5 @@ export function packageLabel(id:string,catalog:Catalog) {
   const [key,count] = id.split('*')
   const item = catalog.items.find(entry=>entry.id===key)
   const title = packageNames[key] ?? (item ? itemLabel(item) : key)
-  return count ? title+' × '+count : title
+  return count ? title+' × '+count : title.replace(/^text:/,'')
 }

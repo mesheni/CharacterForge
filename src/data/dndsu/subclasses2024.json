@@ -1,0 +1,5362 @@
+[
+  {
+    "id": "alchemist",
+    "classId": "artificer",
+    "name": "Alchemist",
+    "ru": "Алхимик",
+    "source": "Eberron: Forge of the Artificer",
+    "category": "published",
+    "url": "https://next.dnd.su/class/artificer/alchemist",
+    "features": {
+      "3": [
+        {
+          "name": "Инструменты специализации",
+          "en": "Tools of the Trade"
+        },
+        {
+          "name": "Заклинания Алхимика",
+          "en": "Alchemist Spells",
+          "spellIds": [
+            "healing-word",
+            "ray-of-sickness"
+          ]
+        },
+        {
+          "name": "Экспериментальный эликсир",
+          "en": "Experimental Elixir"
+        }
+      ],
+      "5": [
+        {
+          "name": "Учёный-алхимик",
+          "en": "Alchemical Savant"
+        },
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "melfs-acid-arrow",
+            "flaming-sphere"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Восстанавливающие реагенты",
+          "en": "Restorative Reagents"
+        },
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "gaseous-form",
+            "mass-healing-word"
+          ]
+        }
+      ],
+      "13": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "vitriolic-sphere",
+            "death-ward"
+          ]
+        }
+      ],
+      "15": [
+        {
+          "name": "Мастерство алхимика",
+          "en": "Chemical Mastery"
+        }
+      ],
+      "17": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "cloudkill",
+            "raise-dead"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "artillerist",
+    "classId": "artificer",
+    "name": "Artillerist",
+    "ru": "Артиллерист",
+    "source": "Eberron: Forge of the Artificer",
+    "category": "published",
+    "url": "https://next.dnd.su/class/artificer/artillerist",
+    "features": {
+      "3": [
+        {
+          "name": "Инструменты специализации",
+          "en": "Tools of the Trade"
+        },
+        {
+          "name": "Заклинания Артиллериста",
+          "en": "Artillerist Spells",
+          "spellIds": [
+            "thunderwave",
+            "shield"
+          ]
+        },
+        {
+          "name": "Мистическая пушка",
+          "en": "Eldritch Cannon"
+        }
+      ],
+      "5": [
+        {
+          "name": "Магострельное оружие",
+          "en": "Arcane Firearm"
+        },
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "shatter",
+            "scorching-ray"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Взрывная пушка",
+          "en": "Explosive Cannon"
+        },
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "fireball",
+            "wind-wall"
+          ]
+        }
+      ],
+      "13": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "ice-storm",
+            "wall-of-fire"
+          ]
+        }
+      ],
+      "15": [
+        {
+          "name": "Укреплённая позиция",
+          "en": "Fortified Position"
+        }
+      ],
+      "17": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "cone-of-cold",
+            "wall-of-force"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "battle-smith",
+    "classId": "artificer",
+    "name": "Battle Smith",
+    "ru": "Боевой кузнец",
+    "source": "Eberron: Forge of the Artificer",
+    "category": "published",
+    "url": "https://next.dnd.su/class/artificer/battle-smith",
+    "features": {
+      "3": [
+        {
+          "name": "Инструменты специализации",
+          "en": "Tools of the Trade"
+        },
+        {
+          "name": "Заклинания Боевого кузнеца",
+          "en": "X Spells",
+          "spellIds": [
+            "heroism",
+            "shield"
+          ]
+        },
+        {
+          "name": "Боевая готовность",
+          "en": "Battle Ready"
+        },
+        {
+          "name": "Стальной защитник",
+          "en": "Steel Defender"
+        }
+      ],
+      "5": [
+        {
+          "name": "Дополнительная атака",
+          "en": "Extra Attack"
+        },
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "warding-bond",
+            "shining-smite"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Магическая встряска",
+          "en": "Arcane Jolt"
+        },
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "aura-of-vitality",
+            "conjure-barrage"
+          ]
+        }
+      ],
+      "13": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "aura-of-purity",
+            "fire-shield"
+          ]
+        }
+      ],
+      "15": [
+        {
+          "name": "Улучшенный защитник",
+          "en": "Improved Defender"
+        }
+      ],
+      "17": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "banishing-smite",
+            "mass-cure-wounds"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "armorer",
+    "classId": "artificer",
+    "name": "Armorer",
+    "ru": "Бронник",
+    "source": "Eberron: Forge of the Artificer",
+    "category": "published",
+    "url": "https://next.dnd.su/class/artificer/armorer",
+    "features": {
+      "3": [
+        {
+          "name": "Инструменты специализации",
+          "en": "Tools of the Trade"
+        },
+        {
+          "name": "Заклинания Бронника",
+          "en": "Armorer Spells",
+          "spellIds": [
+            "thunderwave",
+            "magic-missile"
+          ]
+        },
+        {
+          "name": "Арканный доспех",
+          "en": "Arcane Armor"
+        },
+        {
+          "name": "Модель доспеха",
+          "en": "Armor Model"
+        }
+      ],
+      "5": [
+        {
+          "name": "Дополнительная атака",
+          "en": "Extra Attack"
+        },
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "shatter",
+            "mirror-image"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Лучший бронник",
+          "en": "Improved Armorer"
+        },
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "hypnotic-pattern",
+            "lightning-bolt"
+          ]
+        }
+      ],
+      "13": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "greater-invisibility",
+            "fire-shield"
+          ]
+        }
+      ],
+      "15": [
+        {
+          "name": "Идеальный доспех",
+          "en": "Perfected Armor"
+        }
+      ],
+      "17": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "passwall",
+            "wall-of-force"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "cartographer",
+    "classId": "artificer",
+    "name": "Cartographer",
+    "ru": "Картограф",
+    "source": "Eberron: Forge of the Artificer",
+    "category": "published",
+    "url": "https://next.dnd.su/class/artificer/cartographer",
+    "features": {
+      "3": [
+        {
+          "name": "Инструменты специализации",
+          "en": "Tools of the Trade"
+        },
+        {
+          "name": "Заклинания Картографа",
+          "en": "Cartographer Spells",
+          "spellIds": [
+            "healing-word",
+            "guiding-bolt",
+            "faerie-fire"
+          ]
+        },
+        {
+          "name": "Атлас приключений",
+          "en": "Adventurer’s Atlas"
+        },
+        {
+          "name": "Магия карты",
+          "en": "Mapping Magic"
+        }
+      ],
+      "5": [
+        {
+          "name": "Направленная точность",
+          "en": "Guided Precision"
+        },
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "locate-object",
+            "mind-spike"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Гениальный ход",
+          "en": "Ingenious Movement"
+        },
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "clairvoyance",
+            "call-lightning"
+          ]
+        }
+      ],
+      "13": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "banishment",
+            "locate-creature"
+          ]
+        }
+      ],
+      "15": [
+        {
+          "name": "Превосходный атлас",
+          "en": "Superior Atlas"
+        }
+      ],
+      "17": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "scrying",
+            "teleportation-circle"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "reanimator",
+    "classId": "artificer",
+    "name": "Reanimator",
+    "ru": "Реаниматор",
+    "source": "Ravenloft: The Horrors Within",
+    "category": "published",
+    "url": "https://next.dnd.su/class/artificer/reanimator",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания Реаниматора",
+          "en": "Reanimator Spells",
+          "spellIds": [
+            "witch-bolt",
+            "false-life",
+            "spare-the-dying"
+          ]
+        },
+        {
+          "name": "Навыки Реаниматора",
+          "en": "Reanimator’s Skill Set"
+        },
+        {
+          "name": "Реанимированный спутник",
+          "en": "Reanimated Companion"
+        }
+      ],
+      "5": [
+        {
+          "name": "Чуждые модификации",
+          "en": "Strange Modifications"
+        },
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "blindness-deafness",
+            "enhance-ability"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Улучшенная реанимация",
+          "en": "Improved Reanimation"
+        },
+        {
+          "name": "Ужасные модификации",
+          "en": "Macabre Modifications"
+        },
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "lightning-bolt",
+            "animate-dead"
+          ]
+        }
+      ],
+      "13": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "death-ward",
+            "blight"
+          ]
+        }
+      ],
+      "15": [
+        {
+          "name": "Отточенная реанимация",
+          "en": "Refined Reanimation"
+        }
+      ],
+      "17": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "raise-dead",
+            "antilife-shell"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "valor",
+    "classId": "bard",
+    "name": "College of Valor",
+    "ru": "Коллегия доблести",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/bard/valor",
+    "features": {
+      "3": [
+        {
+          "name": "Боевое вдохновение",
+          "en": "Combat Inspiration"
+        },
+        {
+          "name": "Боевая подготовка",
+          "en": "Martial Training"
+        }
+      ],
+      "6": [
+        {
+          "name": "Дополнительная атака",
+          "en": "Extra Attack"
+        }
+      ],
+      "14": [
+        {
+          "name": "Боевая магия",
+          "en": "Battle Magic"
+        }
+      ]
+    }
+  },
+  {
+    "id": "lore",
+    "classId": "bard",
+    "name": "College of Lore",
+    "ru": "Коллегия знаний",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/bard/lore",
+    "features": {
+      "3": [
+        {
+          "name": "Дополнительные навыки",
+          "en": "Bonus Proficiencies"
+        },
+        {
+          "name": "Острое словцо",
+          "en": "Cutting Words"
+        }
+      ],
+      "6": [
+        {
+          "name": "Магические открытия",
+          "en": "Magical Discoveries"
+        }
+      ],
+      "14": [
+        {
+          "name": "Непревзойдённый навык",
+          "en": "Peerless Skill"
+        }
+      ]
+    }
+  },
+  {
+    "id": "glamour",
+    "classId": "bard",
+    "name": "College of Glamour",
+    "ru": "Коллегия очарования",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/bard/glamour",
+    "features": {
+      "3": [
+        {
+          "name": "Чарующая магия",
+          "en": "Beguiling Magic"
+        },
+        {
+          "name": "Ореол вдохновения",
+          "en": "Mantle of Inspiration"
+        }
+      ],
+      "6": [
+        {
+          "name": "Ореол величия",
+          "en": "Mantle of Majesty"
+        }
+      ],
+      "14": [
+        {
+          "name": "Несокрушимое величие",
+          "en": "Unbreakable Majesty"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dance",
+    "classId": "bard",
+    "name": "College of Dance",
+    "ru": "Коллегия танца",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/bard/dance",
+    "features": {
+      "3": [
+        {
+          "name": "Ослепительные фуэте",
+          "en": "Dazzling Footwork"
+        }
+      ],
+      "6": [
+        {
+          "name": "Вдохновляющие движения",
+          "en": "Inspiring Movement"
+        },
+        {
+          "name": "Совместный танец",
+          "en": "Tandem Footwork"
+        }
+      ],
+      "14": [
+        {
+          "name": "Ведущее уклонение",
+          "en": "Leading Evasion"
+        }
+      ]
+    }
+  },
+  {
+    "id": "college-of-the-moon",
+    "classId": "bard",
+    "name": "College of the Moon",
+    "ru": "Коллегия луны",
+    "source": "Forgotten Realms: Heroes of Faerun",
+    "category": "published",
+    "url": "https://next.dnd.su/class/bard/moon",
+    "features": {
+      "3": [
+        {
+          "name": "Вдохновение луны",
+          "en": "Moon's Inspiration"
+        },
+        {
+          "name": "Древние знания",
+          "en": "Primal Lore"
+        }
+      ],
+      "6": [
+        {
+          "name": "Благословение лунного света",
+          "en": "Blessing of Moonlight"
+        }
+      ],
+      "14": [
+        {
+          "name": "Вечернее великолепие",
+          "en": "Eventide's Splendor"
+        }
+      ]
+    }
+  },
+  {
+    "id": "college-of-the-spirits",
+    "classId": "bard",
+    "name": "College of the Spirits",
+    "ru": "Коллегия духов",
+    "source": "Ravenloft: The Horrors Within",
+    "category": "published",
+    "url": "https://next.dnd.su/class/bard/spirits",
+    "features": {
+      "3": [
+        {
+          "name": "Проводник",
+          "en": "Channeler"
+        },
+        {
+          "name": "Замогильные духи",
+          "en": "Spirits from Beyond"
+        }
+      ],
+      "6": [
+        {
+          "name": "Улучшенный призыв",
+          "en": "Empowered Channeling"
+        }
+      ],
+      "14": [
+        {
+          "name": "Мистическая связь",
+          "en": "Mystical Connection"
+        }
+      ]
+    }
+  },
+  {
+    "id": "berserker",
+    "classId": "barbarian",
+    "name": "Path of the Berserker",
+    "ru": "Путь берсерка",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/barbarian/berserker",
+    "features": {
+      "3": [
+        {
+          "name": "Бешенство",
+          "en": "Frenzy"
+        }
+      ],
+      "6": [
+        {
+          "name": "Бездумная ярость",
+          "en": "Mindless Rage"
+        }
+      ],
+      "10": [
+        {
+          "name": "Ответный удар",
+          "en": "Retaliation"
+        }
+      ],
+      "14": [
+        {
+          "name": "Устрашающее присутствие",
+          "en": "Intimidating Presence"
+        }
+      ]
+    }
+  },
+  {
+    "id": "wild-heart",
+    "classId": "barbarian",
+    "name": "Path of the Wild Heart",
+    "ru": "Путь дикого сердца",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/barbarian/wild-heart",
+    "features": {
+      "3": [
+        {
+          "name": "Говорящий с животными",
+          "en": "Animal Speaker"
+        },
+        {
+          "name": "Ярость дикой природы",
+          "en": "Rage of the Wilds"
+        }
+      ],
+      "6": [
+        {
+          "name": "Аспект дикой природы",
+          "en": "Aspect of the Wilds"
+        }
+      ],
+      "10": [
+        {
+          "name": "Говорящий с природой",
+          "en": "Nature Speaker"
+        }
+      ],
+      "14": [
+        {
+          "name": "Сила дикой природы",
+          "en": "Power of the Wilds"
+        }
+      ]
+    }
+  },
+  {
+    "id": "world-tree",
+    "classId": "barbarian",
+    "name": "Path of the World Tree",
+    "ru": "Путь Мирового древа",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/barbarian/world-tree",
+    "features": {
+      "3": [
+        {
+          "name": "Жизненная сила Древа",
+          "en": "Vitality of the Tree"
+        }
+      ],
+      "6": [
+        {
+          "name": "Ветви Древа",
+          "en": "Branches of the Tree"
+        }
+      ],
+      "10": [
+        {
+          "name": "Колотящее дубьё",
+          "en": "Battering Roots"
+        }
+      ],
+      "14": [
+        {
+          "name": "Путешествие по Древу",
+          "en": "Travel along the Tree"
+        }
+      ]
+    }
+  },
+  {
+    "id": "zealot",
+    "classId": "barbarian",
+    "name": "Path of the Zealot",
+    "ru": "Путь фанатика",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/barbarian/zealot",
+    "features": {
+      "3": [
+        {
+          "name": "Божественная ярость",
+          "en": "Divine Fury"
+        },
+        {
+          "name": "Воин богов",
+          "en": "Warrior of the Gods"
+        }
+      ],
+      "6": [
+        {
+          "name": "Фанатичная сосредоточенность",
+          "en": "Fanatical Focus"
+        }
+      ],
+      "10": [
+        {
+          "name": "Фанатичное присутствие",
+          "en": "Zealous Presence"
+        }
+      ],
+      "14": [
+        {
+          "name": "Ярость богов",
+          "en": "Rage of the Gods"
+        }
+      ]
+    }
+  },
+  {
+    "id": "battlerager",
+    "classId": "barbarian",
+    "name": "Battlerager",
+    "ru": "Путь бушующего в бою",
+    "source": "Homebrew",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/barbarian/e-battlerager",
+    "features": {
+      "3": [
+        {
+          "name": "Броня бушующего в бою",
+          "en": "Armor of the Battlerager"
+        },
+        {
+          "name": "Смертельный клинч",
+          "en": "Deadly Clinch"
+        },
+        {
+          "name": "Славная смерть!",
+          "en": "Honorable Death!"
+        }
+      ],
+      "6": [
+        {
+          "name": "Достойная цель",
+          "en": "Worthy Aim"
+        }
+      ],
+      "10": [
+        {
+          "name": "Неостановимый",
+          "en": "Unstoppable"
+        }
+      ],
+      "14": [
+        {
+          "name": "Уничтожение",
+          "en": "Obliteration"
+        }
+      ]
+    },
+    "siteDefault": false,
+    "group": "Ennin"
+  },
+  {
+    "id": "e-wild-magic",
+    "classId": "barbarian",
+    "name": "Path of the Wild Magic",
+    "ru": "Путь дикой магии",
+    "source": "Homebrew",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/barbarian/e-wild-magic",
+    "features": {
+      "3": [
+        {
+          "name": "Магическая осведомлённость",
+          "en": "Magic Awareness"
+        },
+        {
+          "name": "Всплеск дикой магии",
+          "en": "Wild Surge"
+        }
+      ],
+      "6": [
+        {
+          "name": "Поддерживающая магия",
+          "en": "Bolstering Magic"
+        },
+        {
+          "name": "Дикая отдача",
+          "en": "Wild Backlash"
+        }
+      ],
+      "10": [
+        {
+          "name": "Контролируемый всплеск",
+          "en": "Controlled Surge"
+        }
+      ],
+      "14": [
+        {
+          "name": "Проводник дикости",
+          "en": "Wild Conduit"
+        }
+      ]
+    },
+    "siteDefault": false,
+    "group": "Ennin"
+  },
+  {
+    "id": "battlemaster",
+    "classId": "fighter",
+    "name": "Battle Master",
+    "ru": "Мастер боя",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/fighter/battlemaster",
+    "features": {
+      "3": [
+        {
+          "name": "Боевое превосходство",
+          "en": "Combat Superiority"
+        },
+        {
+          "name": "Изучающий войну",
+          "en": "Student of War"
+        }
+      ],
+      "7": [
+        {
+          "name": "Познай своего врага",
+          "en": "Know Your Enemy"
+        }
+      ],
+      "10": [
+        {
+          "name": "Улучшенное боевое превосходство",
+          "en": "Improved Combat Superiority"
+        }
+      ],
+      "15": [
+        {
+          "name": "Неутомимость",
+          "en": "Relentless"
+        }
+      ],
+      "18": [
+        {
+          "name": "Абсолютное боевое превосходство",
+          "en": "Ultimate Combat Superiority"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eldritch-knight",
+    "classId": "fighter",
+    "name": "Eldritch Knight",
+    "ru": "Мистический рыцарь",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/fighter/eldritch-knight",
+    "features": {
+      "3": [
+        {
+          "name": "Сотворение заклинаний",
+          "en": "Spellcasting"
+        },
+        {
+          "name": "Связь с оружием",
+          "en": "War Bond"
+        }
+      ],
+      "7": [
+        {
+          "name": "Боевая магия",
+          "en": "War Magic"
+        }
+      ],
+      "10": [
+        {
+          "name": "Мистический удар",
+          "en": "Eldritch Strike"
+        }
+      ],
+      "15": [
+        {
+          "name": "Волшебный рывок",
+          "en": "Arcane Charge"
+        }
+      ],
+      "18": [
+        {
+          "name": "Улучшенная боевая магия",
+          "en": "Improved War Magic"
+        }
+      ]
+    }
+  },
+  {
+    "id": "psi-warrior",
+    "classId": "fighter",
+    "name": "Psi Warrior",
+    "ru": "Пси-воин",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/fighter/psi-warrior",
+    "features": {
+      "3": [
+        {
+          "name": "Псионическая сила",
+          "en": "Psionic Power"
+        }
+      ],
+      "7": [
+        {
+          "name": "Адепт-телекинетик",
+          "en": "Telekinetic Adept"
+        }
+      ],
+      "10": [
+        {
+          "name": "Защищённый разум",
+          "en": "Guarded Mind"
+        }
+      ],
+      "15": [
+        {
+          "name": "Оплот силы",
+          "en": "Bulwark of Force"
+        }
+      ],
+      "18": [
+        {
+          "name": "Мастер телекинеза",
+          "en": "Telekinetic Master"
+        }
+      ]
+    }
+  },
+  {
+    "id": "champion",
+    "classId": "fighter",
+    "name": "Champion",
+    "ru": "Чемпион",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/fighter/champion",
+    "features": {
+      "3": [
+        {
+          "name": "Улучшенные критические попадания",
+          "en": "Improved Critical"
+        },
+        {
+          "name": "Выдающийся атлет",
+          "en": "Remarkable Athlete"
+        }
+      ],
+      "7": [
+        {
+          "name": "Дополнительный боевой стиль",
+          "en": "Additional Fighting Style"
+        }
+      ],
+      "10": [
+        {
+          "name": "Героический воин",
+          "en": "Heroic Warrior"
+        }
+      ],
+      "15": [
+        {
+          "name": "Превосходные критические попадания",
+          "en": "Superior Critical"
+        }
+      ],
+      "18": [
+        {
+          "name": "Вызов смерти",
+          "en": "Survivor"
+        }
+      ]
+    }
+  },
+  {
+    "id": "banneret",
+    "classId": "fighter",
+    "name": "Purple Dragon Knight",
+    "ru": "Баннерет",
+    "source": "Forgotten Realms: Heroes of Faerun",
+    "category": "published",
+    "url": "https://next.dnd.su/class/fighter/banneret",
+    "features": {
+      "3": [
+        {
+          "name": "Посланник рыцарства",
+          "en": "Knightly Envoy"
+        },
+        {
+          "name": "Групповое оздоровление",
+          "en": "Group Recovery"
+        }
+      ],
+      "7": [
+        {
+          "name": "Групповая тактика",
+          "en": "Team Tactics"
+        }
+      ],
+      "10": [
+        {
+          "name": "Воодушевляющий всплеск",
+          "en": "Rallying Surge"
+        }
+      ],
+      "15": [
+        {
+          "name": "Устойчивость команды",
+          "en": "Shared Resilience"
+        }
+      ],
+      "18": [
+        {
+          "name": "Вдохновляющий командир",
+          "en": "Inspiring Commander"
+        }
+      ]
+    }
+  },
+  {
+    "id": "arcane-archer",
+    "classId": "fighter",
+    "name": "Arcane Archer",
+    "ru": "Чародейный стрелок",
+    "source": "Arcana Unleashed",
+    "category": "published",
+    "url": "https://next.dnd.su/class/fighter/arcane-archer",
+    "features": {
+      "3": [
+        {
+          "name": "Знания чародейных стрелков",
+          "en": "Arcane Archer Lore"
+        },
+        {
+          "name": "Чародейный выстрел",
+          "en": "Arcane Shot"
+        }
+      ],
+      "7": [
+        {
+          "name": "Странствующая стрела",
+          "en": "Curving Shot"
+        },
+        {
+          "name": "Магические боеприпасы",
+          "en": "Magical Ammunition"
+        }
+      ],
+      "10": [
+        {
+          "name": "Заготовленный выстрел",
+          "en": "Ever-Ready Shot"
+        }
+      ],
+      "15": [
+        {
+          "name": "Неукротимая телепортация",
+          "en": "Indomitable Teleport"
+        }
+      ],
+      "18": [
+        {
+          "name": "Мастерская стрельба",
+          "en": "Masterful Shots"
+        }
+      ]
+    }
+  },
+  {
+    "id": "evoker",
+    "classId": "wizard",
+    "name": "Evoker",
+    "ru": "Воплотитель",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/wizard/evoker",
+    "features": {
+      "3": [
+        {
+          "name": "Учёный-Воплотитель",
+          "en": "Evocation Savant"
+        },
+        {
+          "name": "Мощные заговоры",
+          "en": "Potent Cantrip"
+        }
+      ],
+      "6": [
+        {
+          "name": "Построение заклинаний",
+          "en": "Sculpt Spells"
+        }
+      ],
+      "10": [
+        {
+          "name": "Усиленное воплощение",
+          "en": "Empowered Evocation"
+        }
+      ],
+      "14": [
+        {
+          "name": "Перегрузка",
+          "en": "Overchannel"
+        }
+      ]
+    }
+  },
+  {
+    "id": "illusionist",
+    "classId": "wizard",
+    "name": "Illusionist",
+    "ru": "Иллюзионист",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/wizard/illusionist",
+    "features": {
+      "3": [
+        {
+          "name": "Учёный-Иллюзионист",
+          "en": "Illusion Savant"
+        },
+        {
+          "name": "Улучшенные иллюзии",
+          "en": "Improved Illusions"
+        }
+      ],
+      "6": [
+        {
+          "name": "Призрачные существа",
+          "en": "Phantasmal Creatures"
+        }
+      ],
+      "10": [
+        {
+          "name": "Собственная иллюзорность",
+          "en": "Illusory Self"
+        }
+      ],
+      "14": [
+        {
+          "name": "Иллюзорная реальность",
+          "en": "Illusory Reality"
+        }
+      ]
+    }
+  },
+  {
+    "id": "necromancer",
+    "classId": "wizard",
+    "name": "Necromancer",
+    "ru": "Некромант",
+    "source": "Arcana Unleashed",
+    "category": "published",
+    "url": "https://next.dnd.su/class/wizard/necromancer",
+    "features": {
+      "3": [
+        {
+          "name": "Учёный-Некромант",
+          "en": "Necromancy Savant"
+        },
+        {
+          "name": "Некромантический гримуар",
+          "en": "Necromancy Spellbook"
+        }
+      ],
+      "6": [
+        {
+          "name": "Сила могил",
+          "en": "Grave Power"
+        },
+        {
+          "name": "Неживые рабы",
+          "en": "Undead Thralls"
+        }
+      ],
+      "10": [
+        {
+          "name": "Жатва немёртвых",
+          "en": "Harvest Undead"
+        }
+      ],
+      "14": [
+        {
+          "name": "Повелитель смерти",
+          "en": "Death's Master"
+        }
+      ]
+    }
+  },
+  {
+    "id": "abjurer",
+    "classId": "wizard",
+    "name": "Abjurer",
+    "ru": "Оградитель",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/wizard/abjurer",
+    "features": {
+      "3": [
+        {
+          "name": "Учёный-Оградитель",
+          "en": "Abjuration Savant"
+        },
+        {
+          "name": "Волшебный щит",
+          "en": "Arcane Ward"
+        }
+      ],
+      "6": [
+        {
+          "name": "Проецированный щит",
+          "en": "Projected Ward"
+        }
+      ],
+      "10": [
+        {
+          "name": "Разрушитель заклинаний",
+          "en": "Spell Breaker"
+        }
+      ],
+      "14": [
+        {
+          "name": "Сопротивление заклинаниям",
+          "en": "Spell Resistance"
+        }
+      ]
+    }
+  },
+  {
+    "id": "enchanter",
+    "classId": "wizard",
+    "name": "Enchanter",
+    "ru": "Очарователь",
+    "source": "Arcana Unleashed",
+    "category": "published",
+    "url": "https://next.dnd.su/class/wizard/enchanter",
+    "features": {
+      "3": [
+        {
+          "name": "Учёный-Очарователь",
+          "en": "Enchantment Savant"
+        },
+        {
+          "name": "Чарующий оратор",
+          "en": "Enchanting Conversationalist"
+        },
+        {
+          "name": "Гипнотизирующее присутствие",
+          "en": "Hypnotic Presence"
+        }
+      ],
+      "6": [
+        {
+          "name": "Разделённое очарование",
+          "en": "Split Enchantment"
+        }
+      ],
+      "10": [
+        {
+          "name": "Инстинктивное очарование",
+          "en": "Instinctive Charm"
+        }
+      ],
+      "14": [
+        {
+          "name": "Изменённые воспоминания",
+          "en": "Alter Memories"
+        }
+      ]
+    }
+  },
+  {
+    "id": "transmuter",
+    "classId": "wizard",
+    "name": "Transmuter",
+    "ru": "Преобразователь",
+    "source": "Arcana Unleashed",
+    "category": "published",
+    "url": "https://next.dnd.su/class/wizard/transmuter",
+    "features": {
+      "3": [
+        {
+          "name": "Учёный-Преобразователь",
+          "en": "Transmutation Savant"
+        },
+        {
+          "name": "Камень преобразования",
+          "en": "Transmuter’s Stone"
+        },
+        {
+          "name": "Волшебное превращение",
+          "en": "Wondrous Alteration"
+        }
+      ],
+      "6": [
+        {
+          "name": "Усиленное преобразование",
+          "en": "Empowered Transmutation"
+        }
+      ],
+      "10": [
+        {
+          "name": "Могущественный камень",
+          "en": "Potent Stone"
+        },
+        {
+          "name": "Мастер превращения",
+          "en": "Shape-Shifter"
+        }
+      ],
+      "14": [
+        {
+          "name": "Мастер преобразования",
+          "en": "Master Transmuter"
+        }
+      ]
+    }
+  },
+  {
+    "id": "conjurer",
+    "classId": "wizard",
+    "name": "Conjurer",
+    "ru": "Призыватель",
+    "source": "Arcana Unleashed",
+    "category": "published",
+    "url": "https://next.dnd.su/class/wizard/conjurer",
+    "features": {
+      "3": [
+        {
+          "name": "Учёный-Призыватель",
+          "en": "Conjuration Savant"
+        },
+        {
+          "name": "Безопасный перенос",
+          "en": "Benign Transposition"
+        }
+      ],
+      "6": [
+        {
+          "name": "Дальний перенос",
+          "en": "Distant Transposition"
+        },
+        {
+          "name": "Надёжный вызов",
+          "en": "Durable Summons"
+        }
+      ],
+      "10": [
+        {
+          "name": "Сфокусированный призыв",
+          "en": "Focused Conjuration"
+        }
+      ],
+      "14": [
+        {
+          "name": "Разделённый вызов",
+          "en": "Splintered Summons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "diviner",
+    "classId": "wizard",
+    "name": "Diviner",
+    "ru": "Прорицатель",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/wizard/diviner",
+    "features": {
+      "3": [
+        {
+          "name": "Учёный-Прорицатель",
+          "en": "Divination Savant"
+        },
+        {
+          "name": "Знамение",
+          "en": "Portent"
+        }
+      ],
+      "6": [
+        {
+          "name": "Эксперт прорицания",
+          "en": "Expert Divination"
+        }
+      ],
+      "10": [
+        {
+          "name": "Третий глаз",
+          "en": "The Third Eye"
+        }
+      ],
+      "14": [
+        {
+          "name": "Великое знамение",
+          "en": "Greater Portent"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bladesinger",
+    "classId": "wizard",
+    "name": "Bladesinger",
+    "ru": "Певец клинка",
+    "source": "Forgotten Realms: Heroes of Faerun",
+    "category": "published",
+    "url": "https://next.dnd.su/class/wizard/bladesinger",
+    "features": {
+      "3": [
+        {
+          "name": "Песнь клинка",
+          "en": "Bladesong"
+        },
+        {
+          "name": "Учение песни и войны",
+          "en": "Training in War and Song"
+        }
+      ],
+      "6": [
+        {
+          "name": "Дополнительная атака",
+          "en": "Extra Attack"
+        }
+      ],
+      "10": [
+        {
+          "name": "Песнь защиты",
+          "en": "Song of Defense"
+        }
+      ],
+      "14": [
+        {
+          "name": "Песнь победы",
+          "en": "Song of Victory"
+        }
+      ]
+    }
+  },
+  {
+    "id": "stars",
+    "classId": "druid",
+    "name": "Circle of Stars",
+    "ru": "Круг звёзд",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/druid/stars",
+    "features": {
+      "3": [
+        {
+          "name": "Звёздная карта",
+          "en": "Star Map"
+        },
+        {
+          "name": "Звёздный облик",
+          "en": "Starry Form"
+        }
+      ],
+      "6": [
+        {
+          "name": "Космическое знамение",
+          "en": "Cosmic Omen"
+        }
+      ],
+      "10": [
+        {
+          "name": "Мерцающие созвездия",
+          "en": "Twinkling Constellations"
+        }
+      ],
+      "14": [
+        {
+          "name": "Звёздное тело",
+          "en": "Full of Stars"
+        }
+      ]
+    }
+  },
+  {
+    "id": "land",
+    "classId": "druid",
+    "name": "Circle of the Land",
+    "ru": "Круг земли",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/druid/land",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания круга земли",
+          "en": "Circle of the Land Spells"
+        },
+        {
+          "name": "Помощь земли",
+          "en": "Land’s Aid"
+        }
+      ],
+      "6": [
+        {
+          "name": "Естественное восстановление",
+          "en": "Natural Recovery"
+        }
+      ],
+      "10": [
+        {
+          "name": "Покровительство природы",
+          "en": "Nature’s Ward"
+        }
+      ],
+      "14": [
+        {
+          "name": "Природное убежище",
+          "en": "Nature’s Sanctuary"
+        }
+      ]
+    }
+  },
+  {
+    "id": "moon",
+    "classId": "druid",
+    "name": "Circle of the Moon",
+    "ru": "Круг луны",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/druid/moon",
+    "features": {
+      "3": [
+        {
+          "name": "Облики Круга",
+          "en": "Circle Forms"
+        },
+        {
+          "name": "Заклинания Круга луны",
+          "en": "Circle of the Moon Spells",
+          "spellIds": [
+            "starry-wisp",
+            "cure-wounds",
+            "moonbeam"
+          ]
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "conjure-animals"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Улучшенные облики Круга",
+          "en": "Improved Circle Forms"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "fount-of-moonlight"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "mass-cure-wounds"
+          ]
+        }
+      ],
+      "10": [
+        {
+          "name": "Шаг в лунный свет",
+          "en": "Moonlight Step"
+        }
+      ],
+      "14": [
+        {
+          "name": "Лунный облик",
+          "en": "Lunar Form"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sea",
+    "classId": "druid",
+    "name": "Circle of the Sea",
+    "ru": "Круг моря",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/druid/sea",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания круга моря",
+          "en": "Circle of the Sea Spells",
+          "spellIds": [
+            "thunderwave",
+            "shatter",
+            "ray-of-frost",
+            "gust-of-wind",
+            "fog-cloud"
+          ]
+        },
+        {
+          "name": "Гнев морей",
+          "en": "Wrath of the Sea"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "lightning-bolt",
+            "water-breathing"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Связь с водами",
+          "en": "Aquatic Affinity"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "control-water",
+            "ice-storm"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "conjure-elemental",
+            "hold-monster"
+          ]
+        }
+      ],
+      "10": [
+        {
+          "name": "Рождённый бурей",
+          "en": "Stormborn"
+        }
+      ],
+      "14": [
+        {
+          "name": "Дар океана",
+          "en": "Oceanic Gift"
+        }
+      ]
+    }
+  },
+  {
+    "id": "war-domain",
+    "classId": "cleric",
+    "name": "War Domain",
+    "ru": "Домен войны",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/cleric/war",
+    "features": {
+      "3": [
+        {
+          "name": "Боевой священник",
+          "en": "War Priest"
+        },
+        {
+          "name": "Заклинания домена войны",
+          "en": "War Domain Spells",
+          "spellIds": [
+            "spiritual-weapon",
+            "magic-weapon",
+            "guiding-bolt",
+            "shield-of-faith"
+          ]
+        },
+        {
+          "name": "Направленный удар",
+          "en": "Guided Strike"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "spirit-guardians",
+            "crusaders-mantle"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Благословение бога войны",
+          "en": "War God’s Blessing"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "fire-shield",
+            "freedom-of-movement"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "steel-wind-strike",
+            "hold-monster"
+          ]
+        }
+      ],
+      "17": [
+        {
+          "name": "Воплощение битвы",
+          "en": "Avatar of Battle"
+        }
+      ]
+    }
+  },
+  {
+    "id": "life-domain",
+    "classId": "cleric",
+    "name": "Life Domain",
+    "ru": "Домен жизни",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/cleric/life",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания домена жизни",
+          "en": "Life Domain Spells",
+          "spellIds": [
+            "bless",
+            "cure-wounds",
+            "lesser-restoration",
+            "aid"
+          ]
+        },
+        {
+          "name": "Поборник жизни",
+          "en": "Disciple of Life"
+        },
+        {
+          "name": "Сохранение жизни",
+          "en": "Preserve Life"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "revivify",
+            "mass-healing-word"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Благословенный целитель",
+          "en": "Blessed Healer"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "aura-of-life",
+            "death-ward"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "greater-restoration",
+            "mass-cure-wounds"
+          ]
+        }
+      ],
+      "17": [
+        {
+          "name": "Высшее исцеление",
+          "en": "Supreme Healing"
+        }
+      ]
+    }
+  },
+  {
+    "id": "trickery-domain",
+    "classId": "cleric",
+    "name": "Trickery Domain",
+    "ru": "Домен обмана",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/cleric/trickery",
+    "features": {
+      "3": [
+        {
+          "name": "Благословение обманщика",
+          "en": "Blessing of the Trickster"
+        },
+        {
+          "name": "Двуличность",
+          "en": "Invoke Duplicity"
+        },
+        {
+          "name": "Заклинания домена обмана",
+          "en": "Trickery Domain Spells",
+          "spellIds": [
+            "pass-without-trace",
+            "disguise-self",
+            "invisibility",
+            "charm-person"
+          ]
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "hypnotic-pattern",
+            "nondetection"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Рокировка",
+          "en": "Trickster’s Transposition"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "dimension-door",
+            "confusion"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "modify-memory",
+            "dominate-person"
+          ]
+        }
+      ],
+      "17": [
+        {
+          "name": "Улучшенная двуличность",
+          "en": "Improved Duplicity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "light-domain",
+    "classId": "cleric",
+    "name": "Light Domain",
+    "ru": "Домен света",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/cleric/light",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания домена света",
+          "en": "Light Domain Spells",
+          "spellIds": [
+            "see-invisibility",
+            "burning-hands",
+            "faerie-fire",
+            "scorching-ray"
+          ]
+        },
+        {
+          "name": "Ограждающая вспышка",
+          "en": "Warding Flare"
+        },
+        {
+          "name": "Сияние рассвета",
+          "en": "Radiance of the Dawn"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "daylight",
+            "fireball"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Улучшенная ограждающая вспышка",
+          "en": "Improved Warding Flare"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "arcane-eye",
+            "wall-of-fire"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "scrying",
+            "flame-strike"
+          ]
+        }
+      ],
+      "17": [
+        {
+          "name": "Корона света",
+          "en": "Corona of Light"
+        }
+      ]
+    }
+  },
+  {
+    "id": "knowledge-domain",
+    "classId": "cleric",
+    "name": "Knowledge Domain",
+    "ru": "Домен знаний",
+    "source": "Forgotten Realms: Heroes of Faerun",
+    "category": "published",
+    "url": "https://next.dnd.su/class/cleric/knowledge",
+    "features": {
+      "3": [
+        {
+          "name": "Благословенные знания",
+          "en": "Blessings of Knowledge"
+        },
+        {
+          "name": "Заклинания домена знаний",
+          "en": "Knowledge Domain Spells",
+          "spellIds": [
+            "detect-magic",
+            "detect-thoughts",
+            "identify",
+            "comprehend-languages",
+            "command",
+            "mind-spike"
+          ]
+        },
+        {
+          "name": "Магия разума",
+          "en": "Mind Magic"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "nondetection",
+            "dispel-magic",
+            "tongues"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Разум освобождённый",
+          "en": "Unfettered Mind"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "banishment",
+            "arcane-eye",
+            "confusion"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "legend-lore",
+            "scrying",
+            "synaptic-static"
+          ]
+        }
+      ],
+      "17": [
+        {
+          "name": "Божественное предзнание",
+          "en": "Divine Foreknowledge"
+        }
+      ]
+    }
+  },
+  {
+    "id": "grave-domain",
+    "classId": "cleric",
+    "name": "Grave Domain",
+    "ru": "Домен упокоения",
+    "source": "Ravenloft: The Horrors Within",
+    "category": "published",
+    "url": "https://next.dnd.su/class/cleric/grave",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания домена упокоения",
+          "en": "Grave Domain Spells",
+          "spellIds": [
+            "ray-of-enfeeblement",
+            "gentle-repose",
+            "detect-evil-and-good",
+            "false-life",
+            "spare-the-dying"
+          ]
+        },
+        {
+          "name": "Круговорот жизни и смерти",
+          "en": "Circle of Mortality"
+        },
+        {
+          "name": "Путь к могиле",
+          "en": "Path to the Grave"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "revivify",
+            "vampiric-touch"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Страж на пороге смерти",
+          "en": "Sentinel at Death’s Door"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "death-ward",
+            "blight"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "raise-dead",
+            "dispel-evil-and-good"
+          ]
+        }
+      ],
+      "17": [
+        {
+          "name": "Божественный жнец",
+          "en": "Divine Reaper"
+        }
+      ]
+    }
+  },
+  {
+    "id": "arcana-domain",
+    "classId": "cleric",
+    "name": "Arcana Domain",
+    "ru": "Домен магии",
+    "source": "Arcana Unleashed",
+    "category": "published",
+    "url": "https://next.dnd.su/class/cleric/arcana",
+    "features": {
+      "3": [
+        {
+          "name": "Изменение магии",
+          "en": "Modify Magic"
+        },
+        {
+          "name": "Заклинания домена магии",
+          "en": "Arcana Domain Spells",
+          "spellIds": [
+            "nystuls-magic-aura",
+            "magic-missile",
+            "magic-weapon",
+            "detect-magic"
+          ]
+        },
+        {
+          "name": "Изучающий магию",
+          "en": "Student of Arcana"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "counterspell",
+            "dispel-magic"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Рассеивающее восстановление",
+          "en": "Dispelling Recovery"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "arcane-eye",
+            "leomunds-secret-chest"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "bigbys-hand",
+            "teleportation-circle"
+          ]
+        }
+      ],
+      "17": [
+        {
+          "name": "Магическая искусность",
+          "en": "Magical Mastery"
+        }
+      ]
+    }
+  },
+  {
+    "id": "archfey",
+    "classId": "warlock",
+    "name": "Archfey Patron",
+    "ru": "Архифея",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/warlock/archfey",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания Архифеи",
+          "en": "Archfey Spells",
+          "spellIds": [
+            "phantasmal-force",
+            "faerie-fire",
+            "misty-step",
+            "calm-emotions",
+            "sleep"
+          ]
+        },
+        {
+          "name": "Шаг феи",
+          "en": "Steps of the Fey"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "blink",
+            "plant-growth"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Туманное исчезновение",
+          "en": "Misty Escape"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "greater-invisibility",
+            "dominate-beast"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "dominate-person",
+            "seeming"
+          ]
+        }
+      ],
+      "10": [
+        {
+          "name": "Чарующая защита",
+          "en": "Beguiling Defenses"
+        }
+      ],
+      "14": [
+        {
+          "name": "Завораживающая магия",
+          "en": "Bewitching Magic"
+        }
+      ]
+    }
+  },
+  {
+    "id": "greate-old-one-patron",
+    "classId": "warlock",
+    "name": "Great Old One Patron",
+    "ru": "Великий древний",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/warlock/great-old-one",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания Великого древнего",
+          "en": "Great Old One Spells",
+          "spellIds": [
+            "detect-thoughts",
+            "dissonant-whispers",
+            "phantasmal-force",
+            "tashas-hideous-laughter"
+          ]
+        },
+        {
+          "name": "Пробуждённый разум",
+          "en": "Awakened Mind"
+        },
+        {
+          "name": "Психические заклинания",
+          "en": "Psychic Spells"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "clairvoyance",
+            "hunger-of-hadar"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Провидящий боец",
+          "en": "Clairvoyant Combatant"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "confusion",
+            "summon-aberration"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "modify-memory",
+            "telekinesis"
+          ]
+        }
+      ],
+      "10": [
+        {
+          "name": "Мистический сглаз",
+          "en": "Eldritch Hex"
+        },
+        {
+          "name": "Ментальный щит",
+          "en": "Thought Shield"
+        }
+      ],
+      "14": [
+        {
+          "name": "Порабощение",
+          "en": "Create Thrall"
+        }
+      ]
+    }
+  },
+  {
+    "id": "fiend-patron",
+    "classId": "warlock",
+    "name": "Fiend Patron",
+    "ru": "Исчадие",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/warlock/fiend",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания Исчадия",
+          "en": "Fiend Spells",
+          "spellIds": [
+            "burning-hands",
+            "command",
+            "scorching-ray",
+            "suggestion"
+          ]
+        },
+        {
+          "name": "Благословение темнейшего",
+          "en": "Dark One’s Blessing"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "fireball",
+            "stinking-cloud"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Удача темнейшего",
+          "en": "Dark One’s Own Luck"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "fire-shield",
+            "wall-of-fire"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "geas",
+            "insect-plague"
+          ]
+        }
+      ],
+      "10": [
+        {
+          "name": "Устойчивость исчадия",
+          "en": "Fiendish Resilience"
+        }
+      ],
+      "14": [
+        {
+          "name": "Бросок через преисподнюю",
+          "en": "Hurl Through Hell"
+        }
+      ]
+    }
+  },
+  {
+    "id": "celestial-patron",
+    "classId": "warlock",
+    "name": "Celestial Patron",
+    "ru": "Небожитель",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/warlock/celestial",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания Небожителя",
+          "en": "Celestial Spells",
+          "spellIds": [
+            "aid",
+            "cure-wounds",
+            "guiding-bolt",
+            "lesser-restoration",
+            "light",
+            "sacred-flame"
+          ]
+        },
+        {
+          "name": "Лечащий свет",
+          "en": "Healing Light"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "daylight",
+            "revivify"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Сияющая душа",
+          "en": "Radiant Soul"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "guardian-of-faith",
+            "wall-of-fire"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "greater-restoration",
+            "summon-celestial"
+          ]
+        }
+      ],
+      "10": [
+        {
+          "name": "Небесная стойкость",
+          "en": "Celestial Resilience"
+        }
+      ],
+      "14": [
+        {
+          "name": "Опаляющее возмездие",
+          "en": "Searing Vengeance"
+        }
+      ]
+    }
+  },
+  {
+    "id": "undead",
+    "classId": "warlock",
+    "name": "Undead Patron",
+    "ru": "Нежить",
+    "source": "Ravenloft: The Horrors Within",
+    "category": "published",
+    "url": "https://next.dnd.su/class/warlock/undead",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания покровителя-Нежити",
+          "en": "Undead Patron Spells",
+          "spellIds": [
+            "phantasmal-force",
+            "blindness-deafness",
+            "ray-of-sickness",
+            "bane"
+          ]
+        },
+        {
+          "name": "Аватар ужаса",
+          "en": "Form of Dread"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "summon-undead",
+            "speak-with-dead"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Прикосновение могилы",
+          "en": "Grave Touched"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "phantasmal-killer",
+            "greater-invisibility"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "cloudkill",
+            "antilife-shell"
+          ]
+        }
+      ],
+      "10": [
+        {
+          "name": "Некротическая оболочка",
+          "en": "Necrotic Husk"
+        }
+      ],
+      "14": [
+        {
+          "name": "Совершенный ужас",
+          "en": "Superior Dread"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vestige-patron",
+    "classId": "warlock",
+    "name": "Vestige Patron",
+    "ru": "Предтеча",
+    "source": "Arcana Unleashed",
+    "category": "published",
+    "url": "https://next.dnd.su/class/warlock/vestige",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания Предтечи",
+          "en": "Vestige Spells"
+        },
+        {
+          "name": "Спутник-предтеча",
+          "en": "Vestige Companion"
+        }
+      ],
+      "6": [
+        {
+          "name": "Мощь предтечи",
+          "en": "Vestige Power"
+        }
+      ],
+      "10": [
+        {
+          "name": "Восстановление предтечи",
+          "en": "Vestige Recovery"
+        }
+      ],
+      "14": [
+        {
+          "name": "Подобие жизни",
+          "en": "Semblance of Life"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cosmic",
+    "classId": "warlock",
+    "name": "Cosmic Patron",
+    "ru": "Космический покровитель",
+    "source": "Dungeons of Drakkenheim",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/warlock/ecosmic",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания Космического покровителя",
+          "en": "Cosmic Patron Spells",
+          "spellIds": [
+            "magic-missile",
+            "augury",
+            "moonbeam",
+            "eldritch-blast",
+            "guidance",
+            "faerie-fire",
+            "scorching-ray"
+          ]
+        },
+        {
+          "name": "Космическое проведение",
+          "en": "Cosmic Guidance"
+        },
+        {
+          "name": "Орбита",
+          "en": "Orbit"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "spirit-guardians",
+            "blink"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Парад планет",
+          "en": "Planetary Alignment"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "wall-of-fire",
+            "fire-shield"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "greater-restoration",
+            "flame-strike"
+          ]
+        }
+      ],
+      "10": [
+        {
+          "name": "Удар метеора",
+          "en": "Meteoric Impact"
+        }
+      ],
+      "14": [
+        {
+          "name": "Сверхновая",
+          "en": "Supernova"
+        }
+      ]
+    },
+    "siteDefault": false,
+    "group": "Ennin"
+  },
+  {
+    "id": "warrior-of-the-hand",
+    "classId": "monk",
+    "name": "Warrior of the Open Hand",
+    "ru": "Воин открытой ладони",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/monk/open-hand",
+    "features": {
+      "3": [
+        {
+          "name": "Техники открытой ладони",
+          "en": "Open Hand Techniques"
+        }
+      ],
+      "6": [
+        {
+          "name": "Целостность тела",
+          "en": "Wholeness of Body"
+        }
+      ],
+      "11": [
+        {
+          "name": "Быстрые ноги",
+          "en": "Fleet Step"
+        }
+      ],
+      "17": [
+        {
+          "name": "Дрожащая ладонь",
+          "en": "Quivering Palm"
+        }
+      ]
+    }
+  },
+  {
+    "id": "warrior-of-shadow",
+    "classId": "monk",
+    "name": "Warrior of Shadow",
+    "ru": "Воин тени",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/monk/shadow",
+    "features": {
+      "3": [
+        {
+          "name": "Тёмные искусства",
+          "en": "Shadow Arts"
+        }
+      ],
+      "6": [
+        {
+          "name": "Шаг в тень",
+          "en": "Shadow Step"
+        }
+      ],
+      "11": [
+        {
+          "name": "Улучшенный шаг в тень",
+          "en": "Improved Shadow Step"
+        }
+      ],
+      "17": [
+        {
+          "name": "Покров теней",
+          "en": "Cloak of Shadows"
+        }
+      ]
+    }
+  },
+  {
+    "id": "warrior-of-mercy",
+    "classId": "monk",
+    "name": "Warrior of Mercy",
+    "ru": "Воин милосердия",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/monk/mercy",
+    "features": {
+      "3": [
+        {
+          "name": "Орудия милосердия",
+          "en": "Implements of Mercy"
+        },
+        {
+          "name": "Исцеляющая рука",
+          "en": "Hand of healing"
+        },
+        {
+          "name": "Повреждающая рука",
+          "en": "Hand of Harm"
+        }
+      ],
+      "6": [
+        {
+          "name": "Прикосновение целителя",
+          "en": "Physician's Touch"
+        }
+      ],
+      "11": [
+        {
+          "name": "Шквал исцеления и повреждения",
+          "en": "Flurry of Healing and Harm"
+        }
+      ],
+      "17": [
+        {
+          "name": "Рука абсолютного милосердия",
+          "en": "Hand of Ultimate Mercy"
+        }
+      ]
+    }
+  },
+  {
+    "id": "warrior-of-the-elements",
+    "classId": "monk",
+    "name": "Warrior of the Elements",
+    "ru": "Воин cтихий",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/monk/elements",
+    "features": {
+      "3": [
+        {
+          "name": "Сродство со стихиями",
+          "en": "Elemental Attunement"
+        },
+        {
+          "name": "Управление стихиями",
+          "en": "Manipulate Elements"
+        }
+      ],
+      "6": [
+        {
+          "name": "Стихийный выброс",
+          "en": "Environmental Burst"
+        }
+      ],
+      "11": [
+        {
+          "name": "Поступь стихий",
+          "en": "Stride of Elements"
+        }
+      ],
+      "17": [
+        {
+          "name": "Воплощение стихий",
+          "en": "Elemental Epitome"
+        }
+      ]
+    }
+  },
+  {
+    "id": "warrior-of-the-mystic-arts",
+    "classId": "monk",
+    "name": "Warrior of the Mystic Arts",
+    "ru": "Мистический воин",
+    "source": "Arcana Unleashed",
+    "category": "published",
+    "url": "https://next.dnd.su/class/monk/mystic",
+    "features": {
+      "3": [
+        {
+          "name": "Сотворение заклинаний",
+          "en": "Spellcasting"
+        }
+      ],
+      "6": [
+        {
+          "name": "Стиль мистического воина",
+          "en": "Mystic Fighting Style"
+        },
+        {
+          "name": "Мистическая сосредоточенность",
+          "en": "Mystic Focus"
+        }
+      ],
+      "11": [
+        {
+          "name": "Сфокусированный удар",
+          "en": "Focused Strike"
+        }
+      ],
+      "17": [
+        {
+          "name": "Улучшенный стиль мистического воина",
+          "en": "Improved Mystic Fighting Style"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mystic-brews",
+    "classId": "monk",
+    "name": "Mystic Brews",
+    "ru": "Воин таинственных отваров",
+    "source": "World of Warcraft",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/monk/brews",
+    "features": {
+      "3": [
+        {
+          "name": "Дополнительные владения",
+          "en": "Bonus Proficiencies"
+        },
+        {
+          "name": "Техника пьяного кулака",
+          "en": "Drunken Technique"
+        }
+      ],
+      "6": [
+        {
+          "name": "Шатающаяся походка",
+          "en": "Tipsy Sway"
+        },
+        {
+          "name": "Таинственные отвары",
+          "en": "Mystic Brew"
+        }
+      ],
+      "11": [
+        {
+          "name": "Искушённый хмелевар",
+          "en": "Wizened Brewer"
+        }
+      ],
+      "17": [
+        {
+          "name": "Мастер-хмелевар",
+          "en": "Master Brewer"
+        },
+        {
+          "name": "Хмельное неистовство",
+          "en": "Intoxicated Frenzy"
+        }
+      ]
+    }
+  },
+  {
+    "id": "warrior-of-the-serpent",
+    "classId": "monk",
+    "name": "Warrior of the Serpent",
+    "ru": "Воин змеи",
+    "source": "Homebrew",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/monk/e-serpent",
+    "features": {
+      "3": [
+        {
+          "name": "Стиль змеи",
+          "en": "Serpent Style"
+        },
+        {
+          "name": "Прыжок змеи",
+          "en": "Serpent Spring"
+        }
+      ],
+      "6": [
+        {
+          "name": "Змеиные удары",
+          "en": "Serpent Strikes"
+        }
+      ],
+      "11": [
+        {
+          "name": "Змеиные стойки",
+          "en": "Serpent Stances"
+        }
+      ],
+      "17": [
+        {
+          "name": "Королевская кобра",
+          "en": "Supreme Serpent"
+        }
+      ]
+    },
+    "siteDefault": false,
+    "group": "Ennin"
+  },
+  {
+    "id": "oath-of-devotion",
+    "classId": "paladin",
+    "name": "Oath of Devotion",
+    "ru": "Клятва преданности",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/paladin/devotion",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания Клятвы преданности",
+          "en": "Oath of Devotion Spells",
+          "spellIds": [
+            "protection-from-evil-and-good",
+            "shield-of-faith"
+          ]
+        },
+        {
+          "name": "Священное оружие",
+          "en": "Sacred Weapon"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "zone-of-truth",
+            "aid"
+          ]
+        }
+      ],
+      "7": [
+        {
+          "name": "Аура преданности",
+          "en": "Aura of Devotion"
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "beacon-of-hope",
+            "dispel-magic"
+          ]
+        }
+      ],
+      "13": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "freedom-of-movement",
+            "guardian-of-faith"
+          ]
+        }
+      ],
+      "15": [
+        {
+          "name": "Кара защитника",
+          "en": "Smite of Protection"
+        }
+      ],
+      "17": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "flame-strike",
+            "commune"
+          ]
+        }
+      ],
+      "20": [
+        {
+          "name": "Святой нимб",
+          "en": "Holy Nimbus"
+        }
+      ]
+    }
+  },
+  {
+    "id": "oath-of-glory",
+    "classId": "paladin",
+    "name": "Oath of Glory",
+    "ru": "Клятва славы",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/paladin/glory",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания Клятвы славы",
+          "en": "Oath of Glory Spells",
+          "spellIds": [
+            "heroism",
+            "guiding-bolt"
+          ]
+        },
+        {
+          "name": "Воодушевляющий удар",
+          "en": "Inspiring Smite"
+        },
+        {
+          "name": "Несравненный атлет",
+          "en": "Peerless Athlete"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "magic-weapon",
+            "enhance-ability"
+          ]
+        }
+      ],
+      "7": [
+        {
+          "name": "Аура рвения",
+          "en": "Aura of Alacrity"
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "protection-from-energy",
+            "haste"
+          ]
+        }
+      ],
+      "13": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "compulsion",
+            "freedom-of-movement"
+          ]
+        }
+      ],
+      "15": [
+        {
+          "name": "Блестящая оборона",
+          "en": "Glorious Defense"
+        }
+      ],
+      "17": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "legend-lore",
+            "yolandes-regal-presence"
+          ]
+        }
+      ],
+      "20": [
+        {
+          "name": "Живая легенда",
+          "en": "Living Legend"
+        }
+      ]
+    }
+  },
+  {
+    "id": "oath-of-vengeance",
+    "classId": "paladin",
+    "name": "Oath of Vengeance",
+    "ru": "Клятва возмездия",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/paladin/vengeance",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания Клятвы возмездия",
+          "en": "Oath of Vengeance Spells",
+          "spellIds": [
+            "hunters-mark",
+            "bane"
+          ]
+        },
+        {
+          "name": "Обет вражды",
+          "en": "Vow of Enmity"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "misty-step",
+            "hold-person"
+          ]
+        }
+      ],
+      "7": [
+        {
+          "name": "Неумолимый мститель",
+          "en": "Relentless Avenger"
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "protection-from-energy",
+            "haste"
+          ]
+        }
+      ],
+      "13": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "banishment",
+            "dimension-door"
+          ]
+        }
+      ],
+      "15": [
+        {
+          "name": "Душа мести",
+          "en": "Soul of Vengeance"
+        }
+      ],
+      "17": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "scrying",
+            "hold-monster"
+          ]
+        }
+      ],
+      "20": [
+        {
+          "name": "Ангел отмщения",
+          "en": "Avenging Angel"
+        }
+      ]
+    }
+  },
+  {
+    "id": "oath-of-the-ancients",
+    "classId": "paladin",
+    "name": "Oath of the Ancients",
+    "ru": "Клятва древних",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/paladin/ancients",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания Клятвы древних",
+          "en": "Oath of the Ancients Spells",
+          "spellIds": [
+            "ensnaring-strike",
+            "speak-with-animals"
+          ]
+        },
+        {
+          "name": "Гнев природы",
+          "en": "Nature’s Wrath"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "moonbeam",
+            "misty-step"
+          ]
+        }
+      ],
+      "7": [
+        {
+          "name": "Аура опеки",
+          "en": "Aura of Warding"
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "protection-from-energy",
+            "plant-growth"
+          ]
+        }
+      ],
+      "13": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "ice-storm",
+            "stoneskin"
+          ]
+        }
+      ],
+      "15": [
+        {
+          "name": "Бессмертный страж",
+          "en": "Undying Sentinel"
+        }
+      ],
+      "17": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "tree-stride",
+            "commune-with-nature"
+          ]
+        }
+      ],
+      "20": [
+        {
+          "name": "Древний чемпион",
+          "en": "Elder Champion"
+        }
+      ]
+    }
+  },
+  {
+    "id": "oath-of-the-noble-genies",
+    "classId": "paladin",
+    "name": "Oath of the Noble Genies",
+    "ru": "Клятва благородных гениев",
+    "source": "Forgotten Realms: Heroes of Faerun",
+    "category": "published",
+    "url": "https://next.dnd.su/class/paladin/noble-genies",
+    "features": {
+      "3": [
+        {
+          "name": "Стихийная кара",
+          "en": "Elemental Smite"
+        },
+        {
+          "name": "Заклинания гениев",
+          "en": "Genie Spells",
+          "spellIds": [
+            "thunderous-smite",
+            "chromatic-orb",
+            "elementalism"
+          ]
+        },
+        {
+          "name": "Великолепие гения",
+          "en": "Genie's Splendor"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "phantasmal-force",
+            "mirror-image"
+          ]
+        }
+      ],
+      "7": [
+        {
+          "name": "Аура стихийной защиты",
+          "en": "Aura of Elemental Shielding"
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "gaseous-form",
+            "fly"
+          ]
+        }
+      ],
+      "13": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "summon-elemental",
+            "conjure-minor-elementals"
+          ]
+        }
+      ],
+      "15": [
+        {
+          "name": "Стихийное возмездие",
+          "en": "Elemental Rebuke"
+        }
+      ],
+      "17": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "banishing-smite",
+            "contact-other-plane"
+          ]
+        }
+      ],
+      "20": [
+        {
+          "name": "Благородный гений",
+          "en": "Noble Scion"
+        }
+      ]
+    }
+  },
+  {
+    "id": "thief",
+    "classId": "rogue",
+    "name": "Thief",
+    "ru": "Вор",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/rogue/thief",
+    "features": {
+      "3": [
+        {
+          "name": "Быстрые руки",
+          "en": "Fast Hands"
+        },
+        {
+          "name": "Взлом с проникновением",
+          "en": "Second-Story Work"
+        }
+      ],
+      "9": [
+        {
+          "name": "Совершенная скрытность",
+          "en": "Supreme Sneak"
+        }
+      ],
+      "13": [
+        {
+          "name": "Использование магических предметов",
+          "en": "Use Magic Device"
+        }
+      ],
+      "17": [
+        {
+          "name": "Воровские рефлексы",
+          "en": "Thief’s Reflexes"
+        }
+      ]
+    }
+  },
+  {
+    "id": "soulknife",
+    "classId": "rogue",
+    "name": "Soulknife",
+    "ru": "Клинок душ",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/rogue/soulknife",
+    "features": {
+      "3": [
+        {
+          "name": "Псионическая сила",
+          "en": "Psionic Power"
+        },
+        {
+          "name": "Психические клинки",
+          "en": "Psychic Blades"
+        }
+      ],
+      "9": [
+        {
+          "name": "Клинки души",
+          "en": "Soul Blades"
+        }
+      ],
+      "13": [
+        {
+          "name": "Психическая завеса",
+          "en": "Psychic Veil"
+        }
+      ],
+      "17": [
+        {
+          "name": "Раздирание разума",
+          "en": "Rend Mind"
+        }
+      ]
+    }
+  },
+  {
+    "id": "arcane-trickster",
+    "classId": "rogue",
+    "name": "Arcane Trickster",
+    "ru": "Мистический ловкач",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/rogue/arcane-trickster",
+    "features": {
+      "3": [
+        {
+          "name": "Сотворение заклинаний",
+          "en": "Spellcasting"
+        },
+        {
+          "name": "Ловкость волшебной руки",
+          "en": "Mage Hand Legerdemain"
+        }
+      ],
+      "9": [
+        {
+          "name": "Магическая засада",
+          "en": "Magical Ambush"
+        }
+      ],
+      "13": [
+        {
+          "name": "Многогранный ловкач",
+          "en": "Versatile Trickster"
+        }
+      ],
+      "17": [
+        {
+          "name": "Вор заклинаний",
+          "en": "Spell Thief"
+        }
+      ]
+    }
+  },
+  {
+    "id": "assassin",
+    "classId": "rogue",
+    "name": "Assassin",
+    "ru": "Убийца",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/rogue/assassin",
+    "features": {
+      "3": [
+        {
+          "name": "Ликвидация",
+          "en": "Assassinate"
+        },
+        {
+          "name": "Инструменты убийцы",
+          "en": "Assassin’s Tools"
+        }
+      ],
+      "9": [
+        {
+          "name": "Мастер проникновения",
+          "en": "Infiltration Expertise"
+        }
+      ],
+      "13": [
+        {
+          "name": "Покрытое ядом оружие",
+          "en": "Envenom Weapons"
+        }
+      ],
+      "17": [
+        {
+          "name": "Смертельный удар",
+          "en": "Death Strike"
+        }
+      ]
+    }
+  },
+  {
+    "id": "scion-of-the-three",
+    "classId": "rogue",
+    "name": "Scion of the Three",
+    "ru": "Наследник троицы",
+    "source": "Forgotten Realms: Heroes of Faerun",
+    "category": "published",
+    "url": "https://next.dnd.su/class/rogue/scion-of-the-three",
+    "features": {
+      "3": [
+        {
+          "name": "Кровожадность",
+          "en": "Bloodthirst"
+        },
+        {
+          "name": "Ужасная преданность",
+          "en": "Dread Allegiance"
+        }
+      ],
+      "9": [
+        {
+          "name": "Удар страха",
+          "en": "Strike Fear"
+        }
+      ],
+      "13": [
+        {
+          "name": "Аура злобы",
+          "en": "Aura of Malevolence"
+        }
+      ],
+      "17": [
+        {
+          "name": "Воплощение ужаса",
+          "en": "Dread Incarnate"
+        }
+      ]
+    }
+  },
+  {
+    "id": "phantom",
+    "classId": "rogue",
+    "name": "Phantom",
+    "ru": "Фантом",
+    "source": "Ravenloft: The Horrors Within",
+    "category": "published",
+    "url": "https://next.dnd.su/class/rogue/phantom",
+    "features": {
+      "3": [
+        {
+          "name": "Шёпот мёртвых",
+          "en": "Whispers of the Dead"
+        },
+        {
+          "name": "Могильные стенания",
+          "en": "Wails from the Grave"
+        }
+      ],
+      "9": [
+        {
+          "name": "Сувениры усопших",
+          "en": "Tokens of the Departed"
+        },
+        {
+          "name": "Голос мёртвых",
+          "en": "Voice of Death"
+        }
+      ],
+      "13": [
+        {
+          "name": "Призрачная походка",
+          "en": "Ghost Walk"
+        }
+      ],
+      "17": [
+        {
+          "name": "Друг смерти",
+          "en": "Death’s Friend"
+        }
+      ]
+    }
+  },
+  {
+    "id": "hunter-ranger",
+    "classId": "ranger",
+    "name": "Hunter",
+    "ru": "Охотник",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/ranger/hunter",
+    "features": {
+      "3": [
+        {
+          "name": "Знания охотника",
+          "en": "Hunter’s Lore"
+        },
+        {
+          "name": "Добыча охотника",
+          "en": "Hunter’s Prey"
+        }
+      ],
+      "7": [
+        {
+          "name": "Оборонительная тактика",
+          "en": "Defensive Tactics"
+        }
+      ],
+      "11": [
+        {
+          "name": "Добыча превосходного охотника",
+          "en": "Superior Hunter’s Prey"
+        }
+      ],
+      "15": [
+        {
+          "name": "Защита превосходного охотника",
+          "en": "Superior Hunter’s Defense"
+        }
+      ]
+    }
+  },
+  {
+    "id": "beastmaster",
+    "classId": "ranger",
+    "name": "Beast Master",
+    "ru": "Повелитель зверей",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/ranger/beastmaster",
+    "features": {
+      "3": [
+        {
+          "name": "Первичный спутник",
+          "en": "Primal Companion"
+        }
+      ],
+      "7": [
+        {
+          "name": "Исключительная дрессировка",
+          "en": "Exceptional Training"
+        }
+      ],
+      "11": [
+        {
+          "name": "Звериная ярость",
+          "en": "Bestial Fury"
+        }
+      ],
+      "15": [
+        {
+          "name": "Общие заклинания",
+          "en": "Share Spells"
+        }
+      ]
+    }
+  },
+  {
+    "id": "fey-wanderer",
+    "classId": "ranger",
+    "name": "Fey Wanderer",
+    "ru": "Странник фей",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/ranger/fey-wanderer",
+    "features": {
+      "3": [
+        {
+          "name": "Ужасающие удары",
+          "en": "Dreadful Strikes"
+        },
+        {
+          "name": "Заклинания странника фей",
+          "en": "Fey Wanderer Spells",
+          "spellIds": [
+            "charm-person"
+          ]
+        },
+        {
+          "name": "Потустороннее очарование",
+          "en": "Otherworldly Glamour"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "misty-step"
+          ]
+        }
+      ],
+      "7": [
+        {
+          "name": "Заманивающий трюк",
+          "en": "Beguiling Twist"
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "summon-fey"
+          ]
+        }
+      ],
+      "11": [
+        {
+          "name": "Подкрепление фей",
+          "en": "Fey Reinforcements"
+        }
+      ],
+      "13": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "dimension-door"
+          ]
+        }
+      ],
+      "15": [
+        {
+          "name": "Туманный странник",
+          "en": "Misty Wanderer"
+        }
+      ],
+      "17": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "mislead"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "gloom-stalker",
+    "classId": "ranger",
+    "name": "Gloom Stalker",
+    "ru": "Сумрачный охотник",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/ranger/gloom-stalker",
+    "features": {
+      "3": [
+        {
+          "name": "Угроза из засады",
+          "en": "Dread Ambusher"
+        },
+        {
+          "name": "Заклинания сумрачного охотника",
+          "en": "Gloom Stalker Spells",
+          "spellIds": [
+            "disguise-self"
+          ]
+        },
+        {
+          "name": "Теневой взор",
+          "en": "Umbral Sight"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "rope-trick"
+          ]
+        }
+      ],
+      "7": [
+        {
+          "name": "Железный разум",
+          "en": "Iron Mind"
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "fear"
+          ]
+        }
+      ],
+      "11": [
+        {
+          "name": "Охотничья ярость",
+          "en": "Stalker’s Flurry"
+        }
+      ],
+      "13": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "greater-invisibility"
+          ]
+        }
+      ],
+      "15": [
+        {
+          "name": "Теневое уклонение",
+          "en": "Shadowy Dodge"
+        }
+      ],
+      "17": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "seeming"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "winter-walker",
+    "classId": "ranger",
+    "name": "Winter Walker",
+    "ru": "Зимний ходок",
+    "source": "Forgotten Realms: Heroes of Faerun",
+    "category": "published",
+    "url": "https://next.dnd.su/class/ranger/winter-walker",
+    "features": {
+      "3": [
+        {
+          "name": "Ледяной исследователь",
+          "en": "Frigid Explorer"
+        },
+        {
+          "name": "Изморозь охотника",
+          "en": "Hunter's Rime"
+        },
+        {
+          "name": "Заклинания зимнего ходока",
+          "en": "Winter Walker Spells",
+          "spellIds": [
+            "ice-knife"
+          ]
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "hold-person"
+          ]
+        }
+      ],
+      "7": [
+        {
+          "name": "Укрепляющий дух",
+          "en": "Fortifying Soul"
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "remove-curse"
+          ]
+        }
+      ],
+      "11": [
+        {
+          "name": "Выстужающее возмездие",
+          "en": "Chilling Retribution"
+        }
+      ],
+      "13": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "ice-storm"
+          ]
+        }
+      ],
+      "15": [
+        {
+          "name": "Морозный призрак",
+          "en": "Frozen Haunt"
+        }
+      ],
+      "17": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "cone-of-cold"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hollow-warden",
+    "classId": "ranger",
+    "name": "Hollow Warden",
+    "ru": "Страж пустошей",
+    "source": "Ravenloft: The Horrors Within",
+    "category": "published",
+    "url": "https://next.dnd.su/class/ranger/hollow-warden",
+    "features": {
+      "3": [
+        {
+          "name": "Ярость дикой природы",
+          "en": "Wrath of the Wild"
+        },
+        {
+          "name": "Заклинания стража пустошей",
+          "en": "Hollow Warden Spells",
+          "spellIds": [
+            "wrathful-smite"
+          ]
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "alter-self"
+          ]
+        }
+      ],
+      "7": [
+        {
+          "name": "Алчущая мощь",
+          "en": "Hungering Might"
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "phantom-steed"
+          ]
+        }
+      ],
+      "11": [
+        {
+          "name": "Гниль и жестокость",
+          "en": "Rot and Violence"
+        }
+      ],
+      "13": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "dominate-beast"
+          ]
+        }
+      ],
+      "15": [
+        {
+          "name": "Древняя мощь",
+          "en": "Ancient Might"
+        }
+      ],
+      "17": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "steel-wind-strike"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "aberrant-sorcery",
+    "classId": "sorcerer",
+    "name": "Aberrant Sorcery",
+    "ru": "Аберрантное чародейство",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/sorcerer/aberrant",
+    "features": {
+      "3": [
+        {
+          "name": "Псионические заклинания",
+          "en": "Psionic Spells",
+          "spellIds": [
+            "dissonant-whispers",
+            "detect-thoughts",
+            "mind-sliver",
+            "arms-of-hadar",
+            "calm-emotions"
+          ]
+        },
+        {
+          "name": "Телепатическая речь",
+          "en": "Telepathic Speech"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "hunger-of-hadar",
+            "sending"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Псионическое чародейство",
+          "en": "Psionic Sorcery"
+        },
+        {
+          "name": "Психическая защита",
+          "en": "Psychic Defenses"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "summon-aberration",
+            "evards-black-tentacles"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "rarys-telepathic-bond",
+            "telekinesis"
+          ]
+        }
+      ],
+      "14": [
+        {
+          "name": "Откровение во плоти",
+          "en": "Revelation in Flesh"
+        }
+      ],
+      "18": [
+        {
+          "name": "Искажающий взрыв",
+          "en": "Warping Implosion"
+        }
+      ]
+    }
+  },
+  {
+    "id": "draconic-sorcery",
+    "classId": "sorcerer",
+    "name": "Draconic Sorcery",
+    "ru": "Драконье чародейство",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/sorcerer/draconic",
+    "features": {
+      "3": [
+        {
+          "name": "Драконьи заклинания",
+          "en": "Draconic Spells",
+          "spellIds": [
+            "dragons-breath",
+            "command",
+            "alter-self",
+            "chromatic-orb"
+          ]
+        },
+        {
+          "name": "Драконья устойчивость",
+          "en": "Draconic Resilience"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "fly",
+            "fear"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Родство со стихией",
+          "en": "Elemental Affinity"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "arcane-eye",
+            "charm-monster"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "summon-dragon",
+            "legend-lore"
+          ]
+        }
+      ],
+      "14": [
+        {
+          "name": "Крылья дракона",
+          "en": "Dragon Wings"
+        }
+      ],
+      "18": [
+        {
+          "name": "Дракон-спутник",
+          "en": "Dragon Companion"
+        }
+      ]
+    }
+  },
+  {
+    "id": "clockwork-sorcery",
+    "classId": "sorcerer",
+    "name": "Clockwork Sorcery",
+    "ru": "Заводное чародейство",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/sorcerer/clockwork",
+    "features": {
+      "3": [
+        {
+          "name": "Заводные заклинания",
+          "en": "Clockwork Spells",
+          "spellIds": [
+            "protection-from-evil-and-good",
+            "lesser-restoration",
+            "aid",
+            "alarm"
+          ]
+        },
+        {
+          "name": "Восстановление баланса",
+          "en": "Restore Balance"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "protection-from-energy",
+            "dispel-magic"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Бастион закона",
+          "en": "Bastion of Law"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "summon-construct",
+            "freedom-of-movement"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "greater-restoration",
+            "wall-of-force"
+          ]
+        }
+      ],
+      "14": [
+        {
+          "name": "Транс упорядоченности",
+          "en": "Trance of Order"
+        }
+      ],
+      "18": [
+        {
+          "name": "Заводная кавалькада",
+          "en": "Clockwork Cavalcade"
+        }
+      ]
+    }
+  },
+  {
+    "id": "wild-magic-sorcery",
+    "classId": "sorcerer",
+    "name": "Wild Magic Sorcery",
+    "ru": "Чародейство дикой магии",
+    "source": "Player's Handbook 2024",
+    "category": "published",
+    "url": "https://next.dnd.su/class/sorcerer/wild-magic",
+    "features": {
+      "3": [
+        {
+          "name": "Всплеск дикой магии",
+          "en": "Wild Magic Surge"
+        },
+        {
+          "name": "Волны хаоса",
+          "en": "Tides of Chaos"
+        }
+      ],
+      "6": [
+        {
+          "name": "Искривление удачи",
+          "en": "Bend Luck"
+        }
+      ],
+      "14": [
+        {
+          "name": "Контролируемый хаос",
+          "en": "Controlled Chaos"
+        }
+      ],
+      "18": [
+        {
+          "name": "Укрощённый всплеск дикой магии",
+          "en": "Tamed Surge"
+        }
+      ]
+    }
+  },
+  {
+    "id": "spellfire-sorcery",
+    "classId": "sorcerer",
+    "name": "Spellfire Sorcery",
+    "ru": "Чародейство чаропламени",
+    "source": "Forgotten Realms: Heroes of Faerun",
+    "category": "published",
+    "url": "https://next.dnd.su/class/sorcerer/spellfire",
+    "features": {
+      "3": [
+        {
+          "name": "Прорыв чаропламени",
+          "en": "Spellfire Burst"
+        },
+        {
+          "name": "Заклинания чаропламени",
+          "en": "Spellfire Spells",
+          "spellIds": [
+            "cure-wounds",
+            "lesser-restoration",
+            "guiding-bolt",
+            "scorching-ray"
+          ]
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "aura-of-vitality",
+            "dispel-magic"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Поглощение заклинаний",
+          "en": "Absorb Spells"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "fire-shield",
+            "wall-of-fire"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "greater-restoration",
+            "flame-strike"
+          ]
+        }
+      ],
+      "14": [
+        {
+          "name": "Освоенное чаропламя",
+          "en": "Honed Spellfire"
+        }
+      ],
+      "18": [
+        {
+          "name": "Корона чаропламени",
+          "en": "Crown of Spellfire"
+        }
+      ]
+    }
+  },
+  {
+    "id": "shadow-sorcery",
+    "classId": "sorcerer",
+    "name": "Shadow Sorcery",
+    "ru": "Теневое чародейство",
+    "source": "Ravenloft: The Horrors Within",
+    "category": "published",
+    "url": "https://next.dnd.su/class/sorcerer/shadow",
+    "features": {
+      "3": [
+        {
+          "name": "Сила тени",
+          "en": "Power of Shadow"
+        },
+        {
+          "name": "Заклинания теней",
+          "en": "Shadow Spells",
+          "spellIds": [
+            "pass-without-trace",
+            "inflict-wounds",
+            "bane",
+            "darkness"
+          ]
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "hunger-of-hadar",
+            "nondetection"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Звери дурных знамений",
+          "en": "Beasts of Ill Omen"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "phantasmal-killer",
+            "greater-invisibility"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "contagion",
+            "creation"
+          ]
+        }
+      ],
+      "14": [
+        {
+          "name": "Хождение по теням",
+          "en": "Shadow Walk"
+        }
+      ],
+      "18": [
+        {
+          "name": "Форма абсолютной тени",
+          "en": "Umbral Form"
+        }
+      ]
+    }
+  },
+  {
+    "id": "blood",
+    "classId": "wow-death-knight",
+    "name": "Blood",
+    "ru": "Кровь",
+    "source": "World of Warcraft",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/wow/death-knight/blood",
+    "features": {
+      "1": [
+        {
+          "name": "Специализация",
+          "en": "Specialization"
+        },
+        {
+          "name": "Оружейное мастерство",
+          "en": "Weapon Mastery"
+        }
+      ],
+      "2": [
+        {
+          "name": "Боевой стиль",
+          "en": "Fighting Style"
+        }
+      ],
+      "4": [
+        {
+          "name": "Увеличение характеристик",
+          "en": "Ability Score Improvement"
+        }
+      ],
+      "8": [
+        {
+          "name": "Увеличение характеристик",
+          "en": "Ability Score Improvement"
+        }
+      ],
+      "12": [
+        {
+          "name": "Увеличение характеристик",
+          "en": "Ability Score Improvement"
+        }
+      ],
+      "16": [
+        {
+          "name": "Увеличение характеристик",
+          "en": "Ability Score Improvement"
+        }
+      ]
+    }
+  },
+  {
+    "id": "frost",
+    "classId": "wow-death-knight",
+    "name": "Frost",
+    "ru": "Лёд",
+    "source": "World of Warcraft",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/wow/death-knight/frost",
+    "features": {
+      "1": [
+        {
+          "name": "Специализация",
+          "en": "Specialization"
+        },
+        {
+          "name": "Оружейное мастерство",
+          "en": "Weapon Mastery"
+        }
+      ],
+      "2": [
+        {
+          "name": "Боевой стиль",
+          "en": "Fighting Style"
+        }
+      ],
+      "4": [
+        {
+          "name": "Увеличение характеристик",
+          "en": "Ability Score Improvement"
+        }
+      ],
+      "8": [
+        {
+          "name": "Увеличение характеристик",
+          "en": "Ability Score Improvement"
+        }
+      ],
+      "12": [
+        {
+          "name": "Увеличение характеристик",
+          "en": "Ability Score Improvement"
+        }
+      ],
+      "16": [
+        {
+          "name": "Увеличение характеристик",
+          "en": "Ability Score Improvement"
+        }
+      ]
+    }
+  },
+  {
+    "id": "unholy",
+    "classId": "wow-death-knight",
+    "name": "Unholy",
+    "ru": "Нечестивости",
+    "source": "World of Warcraft",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/wow/death-knight/unholy",
+    "features": {
+      "1": [
+        {
+          "name": "Специализация",
+          "en": "Specialization"
+        },
+        {
+          "name": "Оружейное мастерство",
+          "en": "Weapon Mastery"
+        }
+      ],
+      "2": [
+        {
+          "name": "Боевой стиль",
+          "en": "Fighting Style"
+        }
+      ],
+      "4": [
+        {
+          "name": "Увеличение характеристик",
+          "en": "Ability Score Improvement"
+        }
+      ],
+      "8": [
+        {
+          "name": "Увеличение характеристик",
+          "en": "Ability Score Improvement"
+        }
+      ],
+      "12": [
+        {
+          "name": "Увеличение характеристик",
+          "en": "Ability Score Improvement"
+        }
+      ],
+      "16": [
+        {
+          "name": "Увеличение характеристик",
+          "en": "Ability Score Improvement"
+        }
+      ]
+    }
+  },
+  {
+    "id": "archfey",
+    "classId": "wow-warlock",
+    "name": "Archfey",
+    "ru": "Архифея",
+    "source": "Player's Handbook 2024",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/wow/warlock/archfey",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания Архифеи",
+          "en": "Archfey Spells",
+          "spellIds": [
+            "phantasmal-force",
+            "faerie-fire",
+            "misty-step",
+            "calm-emotions",
+            "sleep"
+          ]
+        },
+        {
+          "name": "Шаг феи",
+          "en": "Steps of the Fey"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "blink",
+            "plant-growth"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Туманное исчезновение",
+          "en": "Misty Escape"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "greater-invisibility",
+            "dominate-beast"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "dominate-person",
+            "seeming"
+          ]
+        }
+      ],
+      "10": [
+        {
+          "name": "Чарующая защита",
+          "en": "Beguiling Defenses"
+        }
+      ],
+      "14": [
+        {
+          "name": "Завораживающая магия",
+          "en": "Bewitching Magic"
+        }
+      ]
+    }
+  },
+  {
+    "id": "greate-old-one-patron",
+    "classId": "wow-warlock",
+    "name": "Greate Old One Patron",
+    "ru": "Великий древний",
+    "source": "Player's Handbook 2024",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/wow/warlock/great-old-one",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания Великого древнего",
+          "en": "Great Old One Spells",
+          "spellIds": [
+            "detect-thoughts",
+            "dissonant-whispers",
+            "phantasmal-force",
+            "tashas-hideous-laughter"
+          ]
+        },
+        {
+          "name": "Пробуждённый разум",
+          "en": "Awakened Mind"
+        },
+        {
+          "name": "Психические заклинания",
+          "en": "Psychic Spells"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "clairvoyance",
+            "hunger-of-hadar"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Провидящий боец",
+          "en": "Clairvoyant Combatant"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "confusion",
+            "summon-aberration"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "modify-memory",
+            "telekinesis"
+          ]
+        }
+      ],
+      "10": [
+        {
+          "name": "Мистический сглаз",
+          "en": "Eldritch Hex"
+        },
+        {
+          "name": "Ментальный щит",
+          "en": "Thought Shield"
+        }
+      ],
+      "14": [
+        {
+          "name": "Порабощение",
+          "en": "Create Thrall"
+        }
+      ]
+    }
+  },
+  {
+    "id": "fiend-patron",
+    "classId": "wow-warlock",
+    "name": "Fiend Patron",
+    "ru": "Исчадие",
+    "source": "Player's Handbook 2024",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/wow/warlock/fiend",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания Исчадия",
+          "en": "Fiend Spells",
+          "spellIds": [
+            "burning-hands",
+            "command",
+            "scorching-ray",
+            "suggestion"
+          ]
+        },
+        {
+          "name": "Благословение темнейшего",
+          "en": "Dark One’s Blessing"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "fireball",
+            "stinking-cloud"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Удача темнейшего",
+          "en": "Dark One’s Own Luck"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "fire-shield",
+            "wall-of-fire"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "geas",
+            "insect-plague"
+          ]
+        }
+      ],
+      "10": [
+        {
+          "name": "Устойчивость исчадия",
+          "en": "Fiendish Resilience"
+        }
+      ],
+      "14": [
+        {
+          "name": "Бросок через преисподнюю",
+          "en": "Hurl Through Hell"
+        }
+      ]
+    }
+  },
+  {
+    "id": "celestial-patron",
+    "classId": "wow-warlock",
+    "name": "Celestial Patron",
+    "ru": "Небожитель",
+    "source": "Player's Handbook 2024",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/wow/warlock/celestial",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания Небожителя",
+          "en": "Celestial Spells",
+          "spellIds": [
+            "aid",
+            "cure-wounds",
+            "guiding-bolt",
+            "lesser-restoration",
+            "light",
+            "sacred-flame"
+          ]
+        },
+        {
+          "name": "Лечащий свет",
+          "en": "Healing Light"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "daylight",
+            "revivify"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Сияющая душа",
+          "en": "Radiant Soul"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "guardian-of-faith",
+            "wall-of-fire"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "greater-restoration",
+            "summon-celestial"
+          ]
+        }
+      ],
+      "10": [
+        {
+          "name": "Небесная стойкость",
+          "en": "Celestial Resilience"
+        }
+      ],
+      "14": [
+        {
+          "name": "Опаляющее возмездие",
+          "en": "Searing Vengeance"
+        }
+      ]
+    }
+  },
+  {
+    "id": "undead",
+    "classId": "wow-warlock",
+    "name": "Undead",
+    "ru": "Нежить",
+    "source": "Ravenloft: The Horrors Within",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/wow/warlock/undead",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания покровителя-Нежити",
+          "en": "Undead Patron Spells",
+          "spellIds": [
+            "phantasmal-force",
+            "blindness-deafness",
+            "ray-of-sickness",
+            "bane"
+          ]
+        },
+        {
+          "name": "Аватар ужаса",
+          "en": "Form of Dread"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "summon-undead",
+            "speak-with-dead"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Прикосновение могилы",
+          "en": "Grave Touched"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "phantasmal-killer",
+            "greater-invisibility"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "cloudkill",
+            "antilife-shell"
+          ]
+        }
+      ],
+      "10": [
+        {
+          "name": "Некротическая оболочка",
+          "en": "Necrotic Husk"
+        }
+      ],
+      "14": [
+        {
+          "name": "Совершенный ужас",
+          "en": "Superior Dread"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vestige-patron",
+    "classId": "wow-warlock",
+    "name": "Vestige Patron",
+    "ru": "Предтеча",
+    "source": "Arcana Unleashed",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/wow/warlock/vestige",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания Предтечи",
+          "en": "Vestige Spells"
+        },
+        {
+          "name": "Спутник-предтеча",
+          "en": "Vestige Companion"
+        }
+      ],
+      "6": [
+        {
+          "name": "Мощь предтечи",
+          "en": "Vestige Power"
+        }
+      ],
+      "10": [
+        {
+          "name": "Восстановление предтечи",
+          "en": "Vestige Recovery"
+        }
+      ],
+      "14": [
+        {
+          "name": "Подобие жизни",
+          "en": "Semblance of Life"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cosmic",
+    "classId": "wow-warlock",
+    "name": "Cosmic",
+    "ru": "Космический покровитель",
+    "source": "Dungeons of Drakkenheim",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/wow/warlock/ecosmic",
+    "features": {
+      "3": [
+        {
+          "name": "Заклинания Космического покровителя",
+          "en": "Cosmic Patron Spells",
+          "spellIds": [
+            "magic-missile",
+            "augury",
+            "moonbeam",
+            "eldritch-blast",
+            "guidance",
+            "faerie-fire",
+            "scorching-ray"
+          ]
+        },
+        {
+          "name": "Космическое проведение",
+          "en": "Cosmic Guidance"
+        },
+        {
+          "name": "Орбита",
+          "en": "Orbit"
+        }
+      ],
+      "5": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "spirit-guardians",
+            "blink"
+          ]
+        }
+      ],
+      "6": [
+        {
+          "name": "Парад планет",
+          "en": "Planetary Alignment"
+        }
+      ],
+      "7": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "wall-of-fire",
+            "fire-shield"
+          ]
+        }
+      ],
+      "9": [
+        {
+          "name": "Заклинания подкласса",
+          "spellIds": [
+            "greater-restoration",
+            "flame-strike"
+          ]
+        }
+      ],
+      "10": [
+        {
+          "name": "Удар метеора",
+          "en": "Meteoric Impact"
+        }
+      ],
+      "14": [
+        {
+          "name": "Сверхновая",
+          "en": "Supernova"
+        }
+      ]
+    },
+    "siteDefault": false,
+    "group": "Ennin"
+  },
+  {
+    "id": "squared-circle",
+    "classId": "pugilist",
+    "name": "Squared Circle",
+    "ru": "Борец ринга",
+    "source": "The Pugilist Class",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/pugilist/squared-circle",
+    "features": {
+      "3": [
+        {
+          "name": "Партер",
+          "en": "Groundwork"
+        },
+        {
+          "name": "Мышечная масса",
+          "en": "Muscle Mass"
+        }
+      ],
+      "6": [
+        {
+          "name": "Живой щит",
+          "en": "Meat Shield"
+        }
+      ],
+      "11": [
+        {
+          "name": "Тяжеловес",
+          "en": "Heavyweight"
+        }
+      ],
+      "17": [
+        {
+          "name": "Чистое добивание",
+          "en": "Clean Finish"
+        }
+      ]
+    }
+  },
+  {
+    "id": "piss-and-vinegar",
+    "classId": "pugilist",
+    "name": "Piss and Vinegar",
+    "ru": "Бретёр",
+    "source": "The Pugilist Class",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/pugilist/piss-and-vinegar",
+    "features": {
+      "3": [
+        {
+          "name": "Скверный характер",
+          "en": "Bad Attitude"
+        },
+        {
+          "name": "Скабрёзный салют",
+          "en": "Salty Salute"
+        }
+      ],
+      "6": [
+        {
+          "name": "Грязные приёмы",
+          "en": "Dirty Tricks"
+        }
+      ],
+      "11": [
+        {
+          "name": "В пешие дали",
+          "en": "Mean Old Cuss"
+        }
+      ],
+      "17": [
+        {
+          "name": "Самые грязные приёмы",
+          "en": "Dirtier Tricks"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dog-and-hound",
+    "classId": "pugilist",
+    "name": "Dog and Hound",
+    "ru": "Бродяга и дворняга",
+    "source": "The Pugilist Class",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/pugilist/dog-and-hound",
+    "features": {
+      "3": [
+        {
+          "name": "Лучший друг бродяги",
+          "en": "Brawler's Best Friend"
+        },
+        {
+          "name": "Удалая шавка",
+          "en": "Mutt With Moxie"
+        }
+      ],
+      "6": [
+        {
+          "name": "Скоординированная атака",
+          "en": "Coordinated Attack"
+        }
+      ],
+      "11": [
+        {
+          "name": "Лучший друг дворняги",
+          "en": "Hound's Best Friend"
+        }
+      ],
+      "17": [
+        {
+          "name": "С цепи",
+          "en": "Off The Chain"
+        }
+      ]
+    }
+  },
+  {
+    "id": "hand-of-dread",
+    "classId": "pugilist",
+    "name": "Hand of Dread",
+    "ru": "Десница ужаса",
+    "source": "The Pugilist Class",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/pugilist/hand-of-dread",
+    "features": {
+      "3": [
+        {
+          "name": "Чёрная магия",
+          "en": "Black Magic"
+        },
+        {
+          "name": "Десница ужаса",
+          "en": "Hand of Dread"
+        }
+      ],
+      "6": [
+        {
+          "name": "Сделка с дьяволом",
+          "en": "Deal with the Devil"
+        }
+      ],
+      "11": [
+        {
+          "name": "Чудовищный рост",
+          "en": "Grotesque Growth"
+        }
+      ],
+      "17": [
+        {
+          "name": "Фонтан кишок",
+          "en": "Fountain of Viscera"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sweet-science",
+    "classId": "pugilist",
+    "name": "Sweet Science",
+    "ru": "Знаток науки тумаков",
+    "source": "The Pugilist Class",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/pugilist/sweet-science",
+    "features": {
+      "3": [
+        {
+          "name": "Набитые кулаки",
+          "en": "Bare Knuckle Boxer"
+        },
+        {
+          "name": "Перекрёстный удар",
+          "en": "Cross Counter"
+        }
+      ],
+      "6": [
+        {
+          "name": "Серия ударов",
+          "en": "Combo Maker"
+        }
+      ],
+      "11": [
+        {
+          "name": "Прерванная серия",
+          "en": "Combo Breaker"
+        }
+      ],
+      "17": [
+        {
+          "name": "Нокаут",
+          "en": "Knock Out"
+        }
+      ]
+    }
+  },
+  {
+    "id": "street-saint",
+    "classId": "pugilist",
+    "name": "Street Saint",
+    "ru": "Святой улиц",
+    "source": "The Pugilist Class",
+    "category": "homebrew",
+    "url": "https://next.dnd.su/class/pugilist/street-saint",
+    "features": {
+      "3": [
+        {
+          "name": "Проведение божественности",
+          "en": "Channel Divinity"
+        },
+        {
+          "name": "Возложение рук",
+          "en": "Lay On Hands"
+        }
+      ],
+      "6": [
+        {
+          "name": "Истерзан но непоколебим",
+          "en": "Ravaged but Resolute"
+        }
+      ],
+      "11": [
+        {
+          "name": "Аура стойкости",
+          "en": "Aura of Resilience"
+        }
+      ],
+      "17": [
+        {
+          "name": "Освящённые длани",
+          "en": "Hallowed Hands"
+        }
+      ]
+    }
+  }
+]

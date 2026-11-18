@@ -1,0 +1,5695 @@
+{
+  "species": [
+    {
+      "id": "gnome",
+      "name": "Gnome",
+      "ru": "Гном",
+      "url": "https://dnd.su/race/83-gnome/",
+      "source": "PH14",
+      "speed": 25,
+      "traits": [
+        "Тёмное зрение 60 фт.",
+        "Гномья хитрость",
+        "Ремесленные знания",
+        "Жестянщик"
+      ],
+      "size": "Маленький",
+      "bonuses": {
+        "int": 2,
+        "con": 1
+      },
+      "languages": [
+        "Гномий"
+      ],
+      "tools": [
+        "Инструменты ремонтника"
+      ],
+      "baseVariant": "rock"
+    },
+    {
+      "id": "dwarf",
+      "name": "Dwarf",
+      "ru": "Дварф",
+      "url": "https://dnd.su/race/78-dwarf/",
+      "source": "PH14",
+      "size": "Средний",
+      "speed": 25,
+      "traits": [
+        "Тёмное зрение 60 фт.",
+        "Дварфийская устойчивость",
+        "Дварфийская боевая тренировка",
+        "Владение инструментами",
+        "Знание камня",
+        "Дварфийская крепость"
+      ],
+      "bonuses": {
+        "con": 2,
+        "wis": 1
+      },
+      "languages": [
+        "Дварфский"
+      ],
+      "profs": [
+        "battleaxe",
+        "handaxe",
+        "light-hammer",
+        "warhammer"
+      ],
+      "hpPerLevel": 1,
+      "baseVariant": "hill"
+    },
+    {
+      "id": "dragonborn",
+      "name": "Dragonborn",
+      "ru": "Драконорождённый",
+      "url": "https://dnd.su/race/82-dragonborn/",
+      "source": "PH14",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Драконье происхождение",
+        "Оружие дыхания",
+        "Сопротивление урону"
+      ],
+      "bonuses": {
+        "str": 2,
+        "cha": 1
+      },
+      "languages": [
+        "Драконий"
+      ]
+    },
+    {
+      "id": "half-orc",
+      "name": "Half-orc",
+      "ru": "Полуорк",
+      "url": "https://dnd.su/race/85-half-orc/",
+      "source": "PH14",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Тёмное зрение 60 фт.",
+        "Угрожающий вид",
+        "Непоколебимая стойкость",
+        "Свирепые атаки"
+      ],
+      "bonuses": {
+        "str": 2,
+        "con": 1
+      },
+      "languages": [
+        "Орочий"
+      ],
+      "skills": [
+        "intimidation"
+      ]
+    },
+    {
+      "id": "halfling",
+      "name": "Halfling",
+      "ru": "Полурослик",
+      "url": "https://dnd.su/race/80-halfling/",
+      "source": "PH14",
+      "speed": 25,
+      "traits": [
+        "Везучий",
+        "Храбрый",
+        "Проворство полуросликов",
+        "Естественная скрытность"
+      ],
+      "size": "Маленький",
+      "bonuses": {
+        "dex": 2,
+        "cha": 1
+      },
+      "languages": [
+        "Полуросликовый"
+      ],
+      "baseVariant": "lightfoot"
+    },
+    {
+      "id": "half-elf",
+      "name": "Half-elf",
+      "ru": "Полуэльф",
+      "url": "https://dnd.su/race/84-half-elf/",
+      "source": "PH14",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Тёмное зрение 60 фт.",
+        "Наследие фей",
+        "Универсальность навыков"
+      ],
+      "bonuses": {
+        "cha": 2
+      },
+      "languages": [
+        "Эльфийский"
+      ],
+      "languageCount": 1,
+      "abilityBoost": {
+        "count": 2,
+        "amount": 1,
+        "exclude": [
+          "cha"
+        ]
+      },
+      "skillCount": 2
+    },
+    {
+      "id": "tiefling",
+      "name": "Tiefling",
+      "ru": "Тифлинг",
+      "url": "https://dnd.su/race/86-tiefling/",
+      "source": "PH14",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Тёмное зрение 60 фт.",
+        "Адское сопротивление",
+        "Наследие Ада"
+      ],
+      "bonuses": {
+        "int": 1,
+        "cha": 2
+      },
+      "languages": [
+        "Инфернальный"
+      ],
+      "innateSpells": [
+        {
+          "id": "thaumaturgy",
+          "level": 1,
+          "ability": "cha"
+        },
+        {
+          "id": "hellish-rebuke",
+          "level": 3,
+          "ability": "cha"
+        },
+        {
+          "id": "darkness",
+          "level": 5,
+          "ability": "cha"
+        }
+      ]
+    },
+    {
+      "id": "human",
+      "name": "Human",
+      "ru": "Человек",
+      "url": "https://dnd.su/race/81-human/",
+      "source": "PH14",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [],
+      "bonuses": {
+        "str": 1,
+        "dex": 1,
+        "con": 1,
+        "int": 1,
+        "wis": 1,
+        "cha": 1
+      },
+      "languageCount": 1,
+      "baseVariant": "standard"
+    },
+    {
+      "id": "elf",
+      "name": "Elf",
+      "ru": "Эльф",
+      "url": "https://dnd.su/race/79-elf/",
+      "source": "PH14",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Тёмное зрение 60 фт.",
+        "Обострённые чувства",
+        "Наследие фей",
+        "Транс",
+        "Владение эльфийским оружием",
+        "Заговор",
+        "Дополнительный язык"
+      ],
+      "bonuses": {
+        "dex": 2,
+        "int": 1
+      },
+      "languages": [
+        "Эльфийский"
+      ],
+      "languageCount": 1,
+      "profs": [
+        "longsword",
+        "shortsword",
+        "shortbow",
+        "longbow"
+      ],
+      "skills": [
+        "perception"
+      ],
+      "spellChoice": {
+        "classId": "wizard",
+        "ability": "int",
+        "level": 0
+      },
+      "baseVariant": "high"
+    },
+    {
+      "id": "aarakocra",
+      "name": "Aarakocra",
+      "ru": "Ааракокра",
+      "url": "https://dnd.su/race/92-aarakocra/",
+      "source": "POA",
+      "size": "Средний",
+      "speed": 25,
+      "traits": [
+        "Ааракокры любого пола могут иметь одно из этих коротких имён",
+        "Полёт",
+        "Когти",
+        "Язык"
+      ],
+      "bonuses": {
+        "dex": 2,
+        "wis": 1
+      }
+    },
+    {
+      "id": "aasimar",
+      "name": "Aasimar",
+      "ru": "Аасимар",
+      "url": "https://dnd.su/race/161-aasimar/",
+      "source": "VGM",
+      "speed": 30,
+      "traits": [
+        "Тёмное зрение",
+        "Небесное сопротивление",
+        "Исцеляющие руки",
+        "Несущий свет",
+        "Разновидности",
+        "Сияющая душа",
+        "Испускание сияния",
+        "Саван смерти"
+      ],
+      "bonuses": {
+        "cha": 2
+      },
+      "languages": [
+        "Небесный"
+      ]
+    },
+    {
+      "id": "autognome",
+      "name": "Autognome",
+      "ru": "Автогном",
+      "url": "https://dnd.su/multiverse/race/214-autognome/",
+      "source": "SAS",
+      "size": "Маленький",
+      "speed": 30,
+      "traits": [
+        "Вид существа",
+        "Усиленный каркас",
+        "Механическая природа",
+        "Отдых стража",
+        "Особая сборка",
+        "Лечащая машина"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "astral-elf",
+      "name": "Astral elf",
+      "ru": "Астральный эльф",
+      "url": "https://dnd.su/multiverse/race/213-astral-elf/",
+      "source": "SAS",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Вид существа",
+        "Астральное пламя",
+        "Тёмное зрение",
+        "Обострённые чувства",
+        "Наследие фей",
+        "Звёздный шаг",
+        "Астральный транс"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "bugbear",
+      "name": "Bugbear",
+      "ru": "Багбир",
+      "url": "https://dnd.su/race/167-bugbear/",
+      "source": "VGM",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Тёмное зрение",
+        "Мощное телосложение",
+        "Скрытность",
+        "Внезапное нападение",
+        "Разновидности",
+        "Источник: Eberron: Rising from the Last War",
+        "Мужские имена",
+        "Женские имена",
+        "Длинные конечности"
+      ],
+      "bonuses": {
+        "str": 2,
+        "dex": 1
+      },
+      "languages": [
+        "Гоблинский"
+      ]
+    },
+    {
+      "id": "vedalken",
+      "name": "Vedalken",
+      "ru": "Ведалкен",
+      "url": "https://dnd.su/race/162-vedalken/",
+      "source": "GGR",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Мужские имена",
+        "Женские имена",
+        "Бесстрастие ведалкенов",
+        "Неустанная скрупулёзность",
+        "Частично амфибия"
+      ],
+      "bonuses": {
+        "int": 2,
+        "wis": 1
+      },
+      "languageCount": 1
+    },
+    {
+      "id": "verdan",
+      "name": "Verdan",
+      "ru": "Вердан",
+      "url": "https://dnd.su/race/163-verdan/",
+      "source": "AI",
+      "speed": 30,
+      "traits": [
+        "Имена верданов",
+        "Чёрная исцеляющая кровь",
+        "Ограниченная телепатия",
+        "Убедительный",
+        "Телепатическая проницательность",
+        "Язык"
+      ],
+      "bonuses": {
+        "cha": 2,
+        "con": 1
+      }
+    },
+    {
+      "id": "simic-hybrid",
+      "name": "Simic hybrid",
+      "ru": "Гибрид Симиков",
+      "url": "https://dnd.su/race/164-simic-hybrid/",
+      "source": "GGR",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Тёмное зрение"
+      ],
+      "bonuses": {
+        "con": 2
+      },
+      "languages": [
+        "Эльфийский"
+      ]
+    },
+    {
+      "id": "gith",
+      "name": "Gith",
+      "ru": "Гит",
+      "url": "https://dnd.su/race/165-gith/",
+      "source": "MTF",
+      "speed": 30,
+      "traits": [
+        "Подрасы",
+        "Рост",
+        "Вес",
+        "Мужские имена гитцераев",
+        "Женские имена гитцераев",
+        "Ментальная дисциплина",
+        "Псионика гитцераев",
+        "Мужские имена гитъянки",
+        "Женские имена гитъянки",
+        "Воинское воспитание",
+        "жирным шрифтом"
+      ],
+      "bonuses": {
+        "int": 1
+      }
+    },
+    {
+      "id": "giff",
+      "name": "Giff",
+      "ru": "Гифф",
+      "url": "https://dnd.su/multiverse/race/215-giff/",
+      "source": "SAS",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Вид существа",
+        "Астральная искра",
+        "Владение огнестрельным оружием",
+        "Сила бегемота"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "goblin",
+      "name": "Goblin",
+      "ru": "Гоблин",
+      "url": "https://dnd.su/race/166-goblin/",
+      "source": "VGM",
+      "size": "Маленький",
+      "speed": 30,
+      "traits": [
+        "Тёмное зрение",
+        "Разъяренная мелкота",
+        "Шустрый побег",
+        "Разновидности",
+        "Источник: Eberron: Rising from the Last War",
+        "Мужские имена",
+        "Женские имена",
+        "Ярость мелкого",
+        "Проворное бегство",
+        "Источник: Guildmasters’ Guide to Ravnica",
+        "Маленький и жилистый",
+        "Несдерживаемые эмоции",
+        "Имена гоблинов",
+        "Источник: “Adventure with Muk”",
+        "Общение с маленькими зверями"
+      ],
+      "bonuses": {
+        "dex": 2,
+        "con": 1
+      },
+      "languages": [
+        "Гоблинский"
+      ]
+    },
+    {
+      "id": "goliath",
+      "name": "Goliath",
+      "ru": "Голиаф",
+      "url": "https://dnd.su/race/103-goliath/",
+      "source": "VGM",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Имена при рождении",
+        "Прозвища",
+        "Имена кланов",
+        "Истинный атлет",
+        "Выносливость камня",
+        "Сильные руки",
+        "Рождённый в горах",
+        "Источник: Chronicles of Eberron",
+        "Рожденный в пустыне"
+      ],
+      "bonuses": {
+        "str": 2,
+        "con": 1
+      },
+      "languages": [
+        "Великаний"
+      ]
+    },
+    {
+      "id": "grung",
+      "name": "Grung",
+      "ru": "Грунг",
+      "url": "https://dnd.su/race/169-grung/",
+      "source": "OGA",
+      "speed": 25,
+      "traits": [
+        "Зелёные грунги",
+        "Красные грунги",
+        "Древесная бдительность",
+        "Амфибия",
+        "Иммунитет к ядам",
+        "Ядовитая кожа",
+        "Прыжок с места",
+        "Зависимость от воды"
+      ],
+      "bonuses": {
+        "dex": 2,
+        "con": 1
+      },
+      "size": "Маленький или средний"
+    },
+    {
+      "id": "genasi",
+      "name": "Genasi",
+      "ru": "Дженази",
+      "url": "https://dnd.su/race/102-genasi/",
+      "source": "POA",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Дженази воздуха",
+        "Дженази земли",
+        "Дженази огня",
+        "дженази воды",
+        "Подраса",
+        "Бесконечное дыхание",
+        "Общение с ветром",
+        "Хождение по земле",
+        "Слияние с камнем",
+        "Тёмное зрение",
+        "Сопротивление огню",
+        "Выброс пламени",
+        "Сопротивление кислоте",
+        "Амфибия",
+        "Пловец",
+        "Призыв волны"
+      ],
+      "bonuses": {
+        "con": 2
+      },
+      "languages": [
+        "Первичный"
+      ]
+    },
+    {
+      "id": "harengon",
+      "name": "Harengon",
+      "ru": "Зайцегон",
+      "url": "https://dnd.su/race/207-harengon/",
+      "source": "WBW",
+      "speed": 30,
+      "traits": [
+        "Вид существа",
+        "Заячье сердце",
+        "Сильные ноги",
+        "Кроличий прыжок"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "size": "Маленький или средний",
+      "languageCount": 1
+    },
+    {
+      "id": "kalashtar",
+      "name": "Kalashtar",
+      "ru": "Калаштар",
+      "url": "https://dnd.su/race/171-kalashtar/",
+      "source": "RLW",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Мужские имена куори",
+        "Женские имена куори",
+        "Имена калаштаров",
+        "Двойственность разума",
+        "Ментальная дисциплина",
+        "Связь разумов",
+        "Отделённый от снов"
+      ],
+      "bonuses": {
+        "wis": 2,
+        "cha": 1
+      },
+      "languageCount": 1
+    },
+    {
+      "id": "kender",
+      "name": "Kender",
+      "ru": "Кендер",
+      "url": "https://dnd.su/race/285-kender/",
+      "source": "SDQ",
+      "traits": [
+        "Любопытство кендеров"
+      ],
+      "size": "Маленький",
+      "speed": 30
+    },
+    {
+      "id": "kenku",
+      "name": "Kenku",
+      "ru": "Кенку",
+      "url": "https://dnd.su/race/172-kenku/",
+      "source": "VGM",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Мастер подделок",
+        "Подготовка Кенку",
+        "Имитирование"
+      ],
+      "bonuses": {
+        "dex": 2,
+        "wis": 1
+      },
+      "languages": [
+        "Первичный",
+        "Ауран"
+      ]
+    },
+    {
+      "id": "centaur",
+      "name": "Centaur",
+      "ru": "Кентавр",
+      "url": "https://dnd.su/race/173-centaur/",
+      "source": "GGR",
+      "size": "Средний",
+      "speed": 40,
+      "traits": [
+        "Мужские имена",
+        "Женские имена",
+        "Модификатор размера",
+        "Высота",
+        "Вес в фунтах",
+        "Фея",
+        "Разбег",
+        "Копыта",
+        "Лошадиное телосложение",
+        "Уцелевший",
+        "Разновидности",
+        "Женские имена Лагонны",
+        "Мужские имена Лагонны",
+        "Женские имена Фереса",
+        "Мужские имена Фереса",
+        "Почётные звания Фересов",
+        "Выживший"
+      ],
+      "bonuses": {
+        "str": 2,
+        "wis": 1
+      },
+      "languages": [
+        "Сильван"
+      ]
+    },
+    {
+      "id": "kobold",
+      "name": "Kobold",
+      "ru": "Кобольд",
+      "url": "https://dnd.su/race/175-kobold/",
+      "source": "VGM",
+      "size": "Маленький",
+      "speed": 30,
+      "traits": [
+        "Тёмное зрение",
+        "Склонись, съёжься и умоляй",
+        "Тактика стаи",
+        "Чувствительность к солнечному свету"
+      ],
+      "bonuses": {
+        "dex": 2
+      },
+      "languages": [
+        "Драконий"
+      ]
+    },
+    {
+      "id": "warforged",
+      "name": "Warforged",
+      "ru": "Кованый",
+      "url": "https://dnd.su/race/174-warforged/",
+      "source": "RLW",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Имена кованых",
+        "Стойкость кованых",
+        "Отдых стража",
+        "Встроенная защита",
+        "Специальная сборка",
+        "Источник: Chronicles of Eberron",
+        "Вид существа",
+        "Живой конструкт"
+      ],
+      "bonuses": {
+        "con": 2
+      },
+      "languageCount": 1
+    },
+    {
+      "id": "leonin",
+      "name": "Leonin",
+      "ru": "Леонин",
+      "url": "https://dnd.su/race/176-leonin/",
+      "source": "MOT",
+      "speed": 35,
+      "size": "Средний",
+      "traits": [
+        "Женские имена",
+        "Мужские имена",
+        "Названия прайдов",
+        "Тёмное зрение",
+        "Когти",
+        "Инстинкты охотника",
+        "Устрашающий рёв"
+      ],
+      "bonuses": {
+        "con": 2,
+        "str": 1
+      }
+    },
+    {
+      "id": "locathah",
+      "name": "Locathah",
+      "ru": "Локата",
+      "url": "https://dnd.su/race/178-locathah/",
+      "source": "LR",
+      "speed": 30,
+      "size": "Средний",
+      "traits": [
+        "Природный доспех",
+        "Наблюдательный и спортивный",
+        "Воля Левиафана",
+        "Частичная земноводность",
+        "Язык"
+      ],
+      "bonuses": {
+        "str": 2,
+        "dex": 1
+      }
+    },
+    {
+      "id": "loxodon",
+      "name": "Loxodon",
+      "ru": "Локсодон",
+      "url": "https://dnd.su/race/177-loxodon/",
+      "source": "GGR",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Мужские имена",
+        "Женские имена",
+        "Крупное телосложение",
+        "Спокойствие локсодонов",
+        "Природный доспех",
+        "Хобот",
+        "Обострённый нюх"
+      ],
+      "bonuses": {
+        "con": 2,
+        "wis": 1
+      }
+    },
+    {
+      "id": "lizardfolk",
+      "name": "Lizardfolk",
+      "ru": "Людоящер",
+      "url": "https://dnd.su/race/179-lizardfolk/",
+      "source": "VGM",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Имена людоящеров",
+        "Укус",
+        "Умелый ремесленник",
+        "Задерживание дыхания",
+        "Знания охотника",
+        "Природный доспех",
+        "Голодная пасть"
+      ],
+      "bonuses": {
+        "con": 2,
+        "wis": 1
+      },
+      "languages": [
+        "Драконий"
+      ]
+    },
+    {
+      "id": "minotaur",
+      "name": "Minotaur",
+      "ru": "Минотавр",
+      "url": "https://dnd.su/race/181-minotaur/",
+      "source": "GGR",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Мужские имена",
+        "Женские имена",
+        "Рога",
+        "Пронзающий натиск",
+        "Сокрушительные рога",
+        "Впечатляющий вид",
+        "Разновидности"
+      ],
+      "bonuses": {
+        "str": 2,
+        "con": 1
+      }
+    },
+    {
+      "id": "orc",
+      "name": "Orc",
+      "ru": "Орк",
+      "url": "https://dnd.su/race/187-orc/",
+      "source": "VGM",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Мужские имена",
+        "Женские имена",
+        "Прозвища",
+        "Тёмное зрение",
+        "Агрессивный",
+        "Чутьё дикаря",
+        "Мощное телосложение",
+        "Источник: Eberron: Rising from the Last War",
+        "Источник: Explorer’s Guide to Wildemount"
+      ],
+      "bonuses": {
+        "str": 2,
+        "con": 1
+      },
+      "languages": [
+        "Орочий"
+      ]
+    },
+    {
+      "id": "plasmoid",
+      "name": "Plasmoid",
+      "ru": "Плазмоид",
+      "url": "https://dnd.su/multiverse/race/217-plasmoid/",
+      "source": "SAS",
+      "speed": 30,
+      "traits": [
+        "Вид существа",
+        "Аморфный",
+        "Тёмное зрение",
+        "Задержка дыхания",
+        "Естественная стойкость",
+        "Собственное изменение"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "size": "Маленький или средний"
+    },
+    {
+      "id": "satyr",
+      "name": "Satyr",
+      "ru": "Сатир",
+      "url": "https://dnd.su/race/182-satyr/",
+      "source": "MOT",
+      "speed": 35,
+      "size": "Средний",
+      "traits": [
+        "Женские имена",
+        "Мужские имена",
+        "Прозвища",
+        "Фея",
+        "Таран",
+        "Сопротивление магии",
+        "Зрелищные прыжки",
+        "Гуляка"
+      ],
+      "bonuses": {
+        "cha": 2,
+        "dex": 1
+      },
+      "languages": [
+        "Сильван"
+      ]
+    },
+    {
+      "id": "owlin",
+      "name": "Owlin",
+      "ru": "Совлин",
+      "url": "https://dnd.su/race/206-owlin/",
+      "source": "SCC",
+      "speed": 30,
+      "traits": [
+        "Вид существа",
+        "Тёмное зрение",
+        "Полёт",
+        "Тихие перья"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "size": "Маленький или средний",
+      "languageCount": 1
+    },
+    {
+      "id": "tabaxi",
+      "name": "Tabaxi",
+      "ru": "Табакси",
+      "url": "https://dnd.su/race/183-tabaxi/",
+      "source": "VGM",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Имена табакси",
+        "Кланы табакси",
+        "Тёмное зрение",
+        "Кошачье проворство",
+        "Кошачьи когти",
+        "Кошачьи способности"
+      ],
+      "bonuses": {
+        "dex": 2,
+        "cha": 1
+      },
+      "languageCount": 1
+    },
+    {
+      "id": "tortle",
+      "name": "Tortle",
+      "ru": "Тортл",
+      "url": "https://dnd.su/race/184-tortle/",
+      "source": "TP",
+      "size": "Средний",
+      "traits": [
+        "Мужские и женские имена",
+        "Когти",
+        "Задерживание дыхания",
+        "Природный доспех",
+        "Панцирная защита",
+        "Инстинкт выживания"
+      ],
+      "bonuses": {
+        "str": 2,
+        "wis": 1
+      },
+      "speed": 30,
+      "languages": [
+        "Акван"
+      ]
+    },
+    {
+      "id": "thri-kreen",
+      "name": "Thri-kreen",
+      "ru": "Три-крин",
+      "url": "https://dnd.su/multiverse/race/218-thri-kreen/",
+      "source": "SAS",
+      "speed": 30,
+      "traits": [
+        "Вид существа",
+        "Панцирь-хамелеон",
+        "Тёмное зрение",
+        "Вторые руки",
+        "Телепатия три-кринов"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "size": "Маленький или средний"
+    },
+    {
+      "id": "triton",
+      "name": "Triton",
+      "ru": "Тритон",
+      "url": "https://dnd.su/race/188-triton/",
+      "source": "VGM",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Женские имена тритонов",
+        "Мужские имена т",
+        "Фамилии тритонов",
+        "Модификатор размера",
+        "Высота",
+        "Вес в фунтах",
+        "Амфибия",
+        "Управление воздухом и водой",
+        "Тёмное зрение",
+        "Посланник моря",
+        "Стражи глубин",
+        "Разновидности",
+        "Женские имена",
+        "Мужские имена"
+      ],
+      "bonuses": {
+        "con": 1
+      },
+      "languages": [
+        "Первичный"
+      ]
+    },
+    {
+      "id": "firbolg",
+      "name": "Firbolg",
+      "ru": "Фирболг",
+      "url": "https://dnd.su/race/185-firbolg/",
+      "source": "VGM",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Магия фирболгов",
+        "Незримая поступь",
+        "Мощное телосложение",
+        "Язык зверей и листвы"
+      ],
+      "bonuses": {
+        "wis": 2,
+        "str": 1
+      },
+      "languages": [
+        "Эльфийский",
+        "Великаний"
+      ]
+    },
+    {
+      "id": "fairy",
+      "name": "Fairy",
+      "ru": "Фэйри",
+      "url": "https://dnd.su/race/204-fairy/",
+      "source": "WBW",
+      "size": "Маленький",
+      "speed": 30,
+      "traits": [
+        "Вид существа",
+        "Магия фей",
+        "Полёт"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "languageCount": 1
+    },
+    {
+      "id": "hadozee",
+      "name": "Hadozee",
+      "ru": "Хадози",
+      "url": "https://dnd.su/multiverse/race/216-hadozee/",
+      "source": "SAS",
+      "speed": 30,
+      "traits": [
+        "Вид существа",
+        "Ловкие ступни",
+        "Планирование",
+        "Вёрткость хадози"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "size": "Маленький или средний"
+    },
+    {
+      "id": "hobgoblin",
+      "name": "Hobgoblin",
+      "ru": "Хобгоблин",
+      "url": "https://dnd.su/race/168-hobgoblin/",
+      "source": "VGM",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Тёмное зрение",
+        "Боевая подготовка",
+        "Сохранить лицо",
+        "Разновидности",
+        "Источник: Eberron: Rising from the Last War",
+        "Мужские имена",
+        "Женские имена",
+        "Спасение репутации"
+      ],
+      "bonuses": {
+        "con": 2,
+        "int": 1
+      },
+      "languages": [
+        "Гоблинский"
+      ]
+    },
+    {
+      "id": "changeling",
+      "name": "Changeling",
+      "ru": "Чейнджлинг",
+      "url": "https://dnd.su/race/170-changeling/",
+      "source": "RLW",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Имена чейнджлингов"
+      ],
+      "bonuses": {
+        "cha": 2
+      }
+    },
+    {
+      "id": "shifter",
+      "name": "Shifter",
+      "ru": "Шифтер",
+      "url": "https://dnd.su/race/186-shifter/",
+      "source": "RLW",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Имена Шифтеров",
+        "Тёмное зрение",
+        "Смена формы",
+        "Подрасы",
+        "Крепкий",
+        "Особенности смены формы",
+        "Жестокость",
+        "Грация",
+        "Следопыт от природы",
+        "П"
+      ],
+      "bonuses": {
+        "con": 2,
+        "str": 1
+      }
+    },
+    {
+      "id": "yuan-ti-pureblood",
+      "name": "Yuan-ti Pureblood",
+      "ru": "Юань-ти",
+      "url": "https://dnd.su/race/189-yuan-ti-pureblood/",
+      "source": "VGM",
+      "size": "Средний",
+      "speed": 30,
+      "traits": [
+        "Имена юань–ти",
+        "Тёмное зрение",
+        "Врождённая магия",
+        "Сопротивление магии"
+      ],
+      "bonuses": {
+        "cha": 2,
+        "int": 1
+      },
+      "languages": [
+        "Драконий",
+        "Бездны"
+      ]
+    },
+    {
+      "id": "hexblood",
+      "name": "Hexblood",
+      "ru": "Ведьмовская кровь",
+      "url": "https://dnd.su/race/192-hexblood/",
+      "source": "VRGR",
+      "speed": 30,
+      "traits": [
+        "Смотрите статью",
+        "Хазлан",
+        "Картакасс",
+        "Тепест",
+        "Вид существа",
+        "Наследие предков",
+        "Тёмное зрение",
+        "Жуткий сувенир",
+        "Телепатическое послание",
+        "Удалённое наблюдение",
+        "Ведьмовская магия"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "size": "Маленький или средний",
+      "languageCount": 1
+    },
+    {
+      "id": "reborn",
+      "name": "Reborn",
+      "ru": "Возрождённый",
+      "url": "https://dnd.su/race/193-reborn/",
+      "source": "VRGR",
+      "speed": 30,
+      "traits": [
+        "Смотрите статью",
+        "Хар’Акир",
+        "Ламордия",
+        "Мордент",
+        "Вид существа",
+        "Наследие предков",
+        "Бессмертная природа",
+        "Знания из прошлой жизни"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "size": "Маленький или средний",
+      "languageCount": 1
+    },
+    {
+      "id": "dhampir",
+      "name": "Dhampir",
+      "ru": "Дампир",
+      "url": "https://dnd.su/race/191-dhampir/",
+      "source": "VRGR",
+      "speed": 35,
+      "traits": [
+        "Смотрите статью",
+        "Баровия",
+        "Даркон",
+        "И'Кат",
+        "Вид существа",
+        "Наследие предков",
+        "Тёмное зрение",
+        "Природа нежити",
+        "Паучье лазание",
+        "Укус вампира"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "size": "Маленький или средний",
+      "languageCount": 1
+    },
+    {
+      "id": "custom-lineage",
+      "name": "Custom lineage",
+      "ru": "Своё происхождение",
+      "url": "https://dnd.su/race/223-custom-lineage/",
+      "source": "TCE",
+      "speed": 30,
+      "traits": [
+        "Вид существа",
+        "Черта",
+        "Выборочная особенность"
+      ],
+      "size": "Маленький или средний",
+      "languageCount": 1
+    },
+    {
+      "id": "aarakocra-mpmm",
+      "name": "Aarakocra",
+      "ru": "Ааракокра",
+      "url": "https://dnd.su/multiverse/race/278-aarakocra/",
+      "source": "MPMM",
+      "traits": [
+        "Вид существа",
+        "Полёт"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "size": "Средний",
+      "speed": 30,
+      "languageCount": 1
+    },
+    {
+      "id": "aasimar-mpmm",
+      "name": "Aasimar",
+      "ru": "Аасимар",
+      "url": "https://dnd.su/multiverse/race/280-aasimar/",
+      "source": "MPMM",
+      "speed": 30,
+      "traits": [
+        "Небесное сопротивление",
+        "Тёмное зрение",
+        "Несущий свет",
+        "Небесное откровение"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "size": "Маленький или средний",
+      "languageCount": 1
+    },
+    {
+      "id": "bugbear-mpmm",
+      "name": "Bugbear",
+      "ru": "Багбир",
+      "url": "https://dnd.su/multiverse/race/281-bugbear/",
+      "source": "MPMM",
+      "traits": [
+        "Длинные конечности"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "size": "Средний",
+      "speed": 30,
+      "languageCount": 1
+    },
+    {
+      "id": "githzerai",
+      "name": "Githzerai",
+      "ru": "Гитцерай",
+      "url": "https://dnd.su/multiverse/race/293-githzerai/",
+      "source": "MPMM",
+      "size": "Средний",
+      "traits": [
+        "Вид существа",
+        "Ментальная дисциплина"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "speed": 30,
+      "languageCount": 1
+    },
+    {
+      "id": "githyanki",
+      "name": "Githyanki",
+      "ru": "Гитъянки",
+      "url": "https://dnd.su/multiverse/race/292-githyanki/",
+      "source": "MPMM",
+      "size": "Средний",
+      "traits": [
+        "Астральное знание",
+        "Псионика гитъянки",
+        "Сопротивление психической энергии"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "speed": 30,
+      "languageCount": 1
+    },
+    {
+      "id": "deep-gnome",
+      "name": "Deep Gnome",
+      "ru": "Глубинный гном",
+      "url": "https://dnd.su/multiverse/race/286-deep-gnome/",
+      "source": "MPMM",
+      "speed": 30,
+      "size": "Маленький",
+      "traits": [
+        "Вид существа",
+        "Тёмное зрение",
+        "Дар свирфнеблина"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "languageCount": 1
+    },
+    {
+      "id": "goblin-mpmm",
+      "name": "Goblin",
+      "ru": "Гоблин",
+      "url": "https://dnd.su/multiverse/race/294-goblin/",
+      "source": "MPMM",
+      "traits": [
+        "Ярость мелкого",
+        "Шустрый побег"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "speed": 30,
+      "size": "Маленький",
+      "languageCount": 1
+    },
+    {
+      "id": "goliath-mpmm",
+      "name": "Goliath",
+      "ru": "Голиаф",
+      "url": "https://dnd.su/multiverse/race/295-goliath/",
+      "source": "MPMM",
+      "size": "Средний",
+      "traits": [
+        "Вид существа",
+        "Маленький великан",
+        "Выносливость камня"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "speed": 30,
+      "languageCount": 1
+    },
+    {
+      "id": "genasi-mpmm",
+      "name": "Genasi",
+      "ru": "Дженази",
+      "url": "https://dnd.su/multiverse/race/291-genasi/",
+      "source": "MPMM",
+      "speed": 35,
+      "traits": [
+        "Вид существа",
+        "Бесконечное дыхание",
+        "Общение с ветром",
+        "Хождение по земле",
+        "Слияние с камнем",
+        "Сопротивление огню",
+        "Выброс пламени",
+        "Сопротивление кислоте",
+        "Амфибия",
+        "Призыв волны"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "size": "Маленький или средний",
+      "languageCount": 1
+    },
+    {
+      "id": "duergar",
+      "name": "Duergar",
+      "ru": "Дуэргар",
+      "url": "https://dnd.su/multiverse/race/287-duergar/",
+      "source": "MPMM",
+      "size": "Средний",
+      "traits": [
+        "Вид существа",
+        "Тёмное зрение",
+        "Псионическая стойкость"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "speed": 30,
+      "languageCount": 1
+    },
+    {
+      "id": "harengon-mpmm",
+      "name": "Harengon",
+      "ru": "Зайцегон",
+      "url": "https://dnd.su/multiverse/race/296-harengon/",
+      "source": "MPMM",
+      "speed": 30,
+      "traits": [
+        "Вид существа",
+        "Заячья резвость",
+        "Удачный манёвр",
+        "Кроличий прыжок"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "size": "Маленький или средний",
+      "languageCount": 1
+    },
+    {
+      "id": "kenku-mpmm",
+      "name": "Kenku",
+      "ru": "Кенку",
+      "url": "https://dnd.su/multiverse/race/298-kenku/",
+      "source": "MPMM",
+      "traits": [
+        "Вид существа",
+        "Воспоминания кенку",
+        "Имитирование"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "speed": 30,
+      "size": "Маленький или средний",
+      "languageCount": 1
+    },
+    {
+      "id": "centaur-mpmm",
+      "name": "Centaur",
+      "ru": "Кентавр",
+      "url": "https://dnd.su/multiverse/race/282-centaur/",
+      "source": "MPMM",
+      "size": "Средний",
+      "traits": [
+        "Близость с природой"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "speed": 40,
+      "languageCount": 1
+    },
+    {
+      "id": "kobold-mpmm",
+      "name": "Kobold",
+      "ru": "Кобольд",
+      "url": "https://dnd.su/multiverse/race/299-kobold/",
+      "source": "MPMM",
+      "size": "Маленький",
+      "speed": 30,
+      "traits": [
+        "Тёмное зрение",
+        "Рёв дракона",
+        "Наследие кобольдов"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "languageCount": 1
+    },
+    {
+      "id": "lizardfolk-mpmm",
+      "name": "Lizardfolk",
+      "ru": "Людоящер",
+      "url": "https://dnd.su/multiverse/race/300-lizardfolk/",
+      "source": "MPMM",
+      "size": "Средний",
+      "traits": [
+        "Голодная пасть"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "speed": 30,
+      "languageCount": 1
+    },
+    {
+      "id": "minotaur-mpmm",
+      "name": "Minotaur",
+      "ru": "Минотавр",
+      "url": "https://dnd.su/multiverse/race/301-minotaur/",
+      "source": "MPMM",
+      "speed": 30,
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "size": "Средний",
+      "languageCount": 1,
+      "traits": [
+        "Рога",
+        "Натиск рогами",
+        "Сокрушительные рога",
+        "Чувство направления"
+      ]
+    },
+    {
+      "id": "sea-elf",
+      "name": "Sea Elf",
+      "ru": "Морской эльф",
+      "url": "https://dnd.su/multiverse/race/304-sea-elf/",
+      "source": "MPMM",
+      "speed": 30,
+      "traits": [
+        "Вид существа",
+        "Наследие фей",
+        "Друг морей",
+        "Транс"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "size": "Средний",
+      "languageCount": 1
+    },
+    {
+      "id": "orc-mpmm",
+      "name": "Orc",
+      "ru": "Орк",
+      "url": "https://dnd.su/multiverse/race/302-orc/",
+      "source": "MPMM",
+      "size": "Средний",
+      "traits": [
+        "Вид существа"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "speed": 30,
+      "languageCount": 1
+    },
+    {
+      "id": "satyr-mpmm",
+      "name": "Satyr",
+      "ru": "Сатир",
+      "url": "https://dnd.su/multiverse/race/303-satyr/",
+      "source": "MPMM",
+      "speed": 35,
+      "traits": [
+        "Вид существа"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "size": "Средний"
+    },
+    {
+      "id": "tabaxi-mpmm",
+      "name": "Tabaxi",
+      "ru": "Табакси",
+      "url": "https://dnd.su/multiverse/race/307-tabaxi/",
+      "source": "MPMM",
+      "traits": [
+        "Вид существа"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "speed": 30,
+      "size": "Маленький или средний",
+      "languageCount": 1
+    },
+    {
+      "id": "tortle-mpmm",
+      "name": "Tortle",
+      "ru": "Тортл",
+      "url": "https://dnd.su/multiverse/race/309-tortle/",
+      "source": "MPMM",
+      "traits": [
+        "Вид существа",
+        "Когти",
+        "Задерживание дыхания"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "speed": 30,
+      "size": "Маленький или средний",
+      "languageCount": 1
+    },
+    {
+      "id": "triton-mpmm",
+      "name": "Triton",
+      "ru": "Тритон",
+      "url": "https://dnd.su/multiverse/race/310-triton/",
+      "source": "MPMM",
+      "traits": [
+        "Вид существа",
+        "Амфибия"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "speed": 30,
+      "size": "Средний",
+      "languageCount": 1
+    },
+    {
+      "id": "firbolg-mpmm",
+      "name": "Firbolg",
+      "ru": "Фирболг",
+      "url": "https://dnd.su/multiverse/race/290-firbolg/",
+      "source": "MPMM",
+      "traits": [
+        "Магия фирболгов",
+        "Незримая поступь"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "size": "Средний",
+      "speed": 30,
+      "languageCount": 1
+    },
+    {
+      "id": "fairy-mpmm",
+      "name": "Fairy",
+      "ru": "Фэйри",
+      "url": "https://dnd.su/multiverse/race/289-fairy/",
+      "source": "MPMM",
+      "size": "Маленький",
+      "speed": 30,
+      "traits": [
+        "Вид существа",
+        "Магия фей",
+        "Полёт"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "languageCount": 1
+    },
+    {
+      "id": "hobgoblin-mpmm",
+      "name": "Hobgoblin",
+      "ru": "Хобгоблин",
+      "url": "https://dnd.su/multiverse/race/297-hobgoblin/",
+      "source": "MPMM",
+      "traits": [
+        "Дар фей",
+        "Удача множества"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "speed": 30,
+      "size": "Средний",
+      "languageCount": 1
+    },
+    {
+      "id": "changeling-mpmm",
+      "name": "Changeling",
+      "ru": "Чейнджлинг",
+      "url": "https://dnd.su/multiverse/race/283-changeling/",
+      "source": "MPMM",
+      "speed": 30,
+      "traits": [
+        "Вид существа"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "size": "Маленький или средний",
+      "languageCount": 1
+    },
+    {
+      "id": "shadar-kai",
+      "name": "Shadar-Kai",
+      "ru": "Шадар-кай",
+      "url": "https://dnd.su/multiverse/race/305-shadar-kai/",
+      "source": "MPMM",
+      "speed": 30,
+      "traits": [
+        "Вид существа",
+        "Наследие фей",
+        "Благословение Королевы воронов",
+        "Транс"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "size": "Средний",
+      "languageCount": 1
+    },
+    {
+      "id": "shifter-mpmm",
+      "name": "Shifter",
+      "ru": "Шифтер",
+      "url": "https://dnd.su/multiverse/race/306-shifter/",
+      "source": "MPMM",
+      "size": "Средний",
+      "traits": [
+        "Смена формы"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "speed": 30,
+      "languageCount": 1
+    },
+    {
+      "id": "eladrin",
+      "name": "Eladrin",
+      "ru": "Эладрин",
+      "url": "https://dnd.su/multiverse/race/288-eladrin/",
+      "source": "MPMM",
+      "traits": [
+        "Тёмное зрение",
+        "Фейский шаг",
+        "Обострённые чувства"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "speed": 30,
+      "size": "Средний",
+      "languageCount": 1
+    },
+    {
+      "id": "yuan-ti",
+      "name": "Yuan-Ti",
+      "ru": "Юань-ти",
+      "url": "https://dnd.su/multiverse/race/311-yuan-ti/",
+      "source": "MPMM",
+      "traits": [
+        "Вид существа",
+        "Сопротивление магии",
+        "Сопротивление яду"
+      ],
+      "abilityPatterns": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "speed": 30,
+      "size": "Маленький или средний",
+      "languageCount": 1
+    },
+    {
+      "id": "glitchling",
+      "name": "Glitchling",
+      "ru": "Глючный",
+      "url": "https://dnd.su/homebrew/race/367-glitchling/",
+      "source": "UA, HB",
+      "unofficial": true
+    },
+    {
+      "id": "revenant",
+      "name": "Revenant",
+      "ru": "Ревенант",
+      "url": "https://dnd.su/homebrew/race/275-revenant/",
+      "source": "UA, HB",
+      "unofficial": true
+    },
+    {
+      "id": "hobgoblin-of-the-feywild",
+      "name": "Hobgoblin of the Feywild",
+      "ru": "Хобгоблин из Страны Фей",
+      "url": "https://dnd.su/homebrew/race/205-hobgoblin-of-the-feywild/",
+      "source": "UA, HB",
+      "unofficial": true
+    },
+    {
+      "id": "aven",
+      "name": "Aven",
+      "ru": "Авен",
+      "url": "https://dnd.su/homebrew/race/329-aven/",
+      "source": "PS:A, HB",
+      "unofficial": true
+    },
+    {
+      "id": "minotaur-ps-a-hb",
+      "name": "Minotaur",
+      "ru": "Минотавр",
+      "url": "https://dnd.su/homebrew/race/328-minotaur/",
+      "source": "PS:A, HB",
+      "unofficial": true
+    },
+    {
+      "id": "naga",
+      "name": "Naga",
+      "ru": "Нага",
+      "url": "https://dnd.su/homebrew/race/221-naga/",
+      "source": "PS:A, HB",
+      "unofficial": true
+    },
+    {
+      "id": "khenra",
+      "name": "Khenra",
+      "ru": "Хенра",
+      "url": "https://dnd.su/homebrew/race/333-khenra/",
+      "source": "PS:A, HB",
+      "unofficial": true
+    },
+    {
+      "id": "human-ps-a-hb",
+      "name": "Human",
+      "ru": "Человек",
+      "url": "https://dnd.su/homebrew/race/332-human/",
+      "source": "PS:A, HB",
+      "unofficial": true
+    },
+    {
+      "id": "people-of-innistrad",
+      "name": "People of Innistrad",
+      "ru": "Люди Иннистрада",
+      "url": "https://dnd.su/homebrew/race/336-people-of-innistrad/",
+      "source": "PS:In, HB",
+      "unofficial": true
+    },
+    {
+      "id": "gnoll",
+      "name": "Gnoll",
+      "ru": "Гнолл",
+      "url": "https://dnd.su/homebrew/race/435-gnoll/",
+      "source": "HB:MHH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "gnome-hb-mhh-hb",
+      "name": "Gnome",
+      "ru": "Гном",
+      "url": "https://dnd.su/homebrew/race/436-gnome/",
+      "source": "HB:MHH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "dhampir-hb-mhh-hb",
+      "name": "Dhampir",
+      "ru": "Дампир",
+      "url": "https://dnd.su/homebrew/race/431-dhampir/",
+      "source": "HB:MHH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "dwarf-hb-mhh-hb",
+      "name": "Dwarf",
+      "ru": "Дварф",
+      "url": "https://dnd.su/homebrew/race/432-dwarf/",
+      "source": "HB:MHH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "winterfolk-halflings",
+      "name": "Winterfolk halflings",
+      "ru": "Зиморождённые полурослики",
+      "url": "https://dnd.su/homebrew/race/444-winterfolk-halflings/",
+      "source": "HB:MHH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "centaur-hb-mhh-hb",
+      "name": "Centaur",
+      "ru": "Кентавр",
+      "url": "https://dnd.su/homebrew/race/430-centaur/",
+      "source": "HB:MHH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "kobolds-of-midgard",
+      "name": "Kobolds of Midgard",
+      "ru": "Кобольд Мидгарда",
+      "url": "https://dnd.su/homebrew/race/438-kobolds-of-midgard/",
+      "source": "HB:MHH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "gearforged",
+      "name": "Gearforged",
+      "ru": "Кованый",
+      "url": "https://dnd.su/homebrew/race/434-gearforged/",
+      "source": "HB:MHH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "human-of-midgard",
+      "name": "Human of Midgard",
+      "ru": "Люди Мидгарда",
+      "url": "https://dnd.su/homebrew/race/437-human-of-midgard/",
+      "source": "HB:MHH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "ravenfolk",
+      "name": "Ravenfolk",
+      "ru": "Людоворон",
+      "url": "https://dnd.su/homebrew/race/441-ravenfolk/",
+      "source": "HB:MHH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "ratfolk",
+      "name": "Ratfolk",
+      "ru": "Людокрыса",
+      "url": "https://dnd.su/homebrew/race/440-ratfolk/",
+      "source": "HB:MHH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "bearfolk",
+      "name": "Bearfolk",
+      "ru": "Людомедведь",
+      "url": "https://dnd.su/homebrew/race/429-bearfolk/",
+      "source": "HB:MHH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "minotaur-hb-mhh-hb",
+      "name": "Minotaur",
+      "ru": "Минотавр",
+      "url": "https://dnd.su/homebrew/race/439-minotaur/",
+      "source": "HB:MHH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "shadow-fey",
+      "name": "Shadow fey",
+      "ru": "Теневая фея",
+      "url": "https://dnd.su/homebrew/race/442-shadow-fey/",
+      "source": "HB:MHH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "trollkin",
+      "name": "Trollkin",
+      "ru": "Троллеобразный",
+      "url": "https://dnd.su/homebrew/race/443-trollkin/",
+      "source": "HB:MHH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "elf-hb-mhh-hb",
+      "name": "Elf",
+      "ru": "Эльф",
+      "url": "https://dnd.su/homebrew/race/433-elf/",
+      "source": "HB:MHH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "accursed-tiefling",
+      "name": "Accursed Tiefling",
+      "ru": "Анафемный тифлинг",
+      "url": "https://dnd.su/homebrew/race/461-accursed-tiefling/",
+      "source": "HB:SGEH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "elkian",
+      "name": "Elkian",
+      "ru": "Вапитианец",
+      "url": "https://dnd.su/homebrew/race/405-elkian/",
+      "source": "HB",
+      "unofficial": true
+    },
+    {
+      "id": "vegepygmy",
+      "name": "Vegepygmy",
+      "ru": "Вегепигмей",
+      "url": "https://dnd.su/homebrew/race/112-vegepygmy/",
+      "source": "HB:SC, HB",
+      "unofficial": true
+    },
+    {
+      "id": "deep-one-dwarf-yha-nthlei",
+      "name": "Deep One Dwarf (Y'ha-nthlei)",
+      "ru": "Глубинный дварф (Й'ха-нтлей)",
+      "url": "https://dnd.su/homebrew/race/471-deep-one-dwarf-yha-nthlei/",
+      "source": "HB:SGEH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "gobbok",
+      "name": "Gobbok",
+      "ru": "Гоббок",
+      "url": "https://dnd.su/homebrew/race/581-gobbok/",
+      "source": "HB:HGMH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "golynn",
+      "name": "Golynn",
+      "ru": "Голинн",
+      "url": "https://dnd.su/homebrew/race/582-golynn/",
+      "source": "HB:HGMH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "graceza",
+      "name": "Graceza",
+      "ru": "Грацеза",
+      "url": "https://dnd.su/homebrew/race/556-graceza/",
+      "source": "HB:MF, HB",
+      "unofficial": true
+    },
+    {
+      "id": "dhampir-hb-mf-hb",
+      "name": "Dhampir",
+      "ru": "Дампир",
+      "url": "https://dnd.su/homebrew/race/522-dhampir/",
+      "source": "HB:MF, HB",
+      "unofficial": true
+    },
+    {
+      "id": "drevan",
+      "name": "Drevan",
+      "ru": "Древан",
+      "url": "https://dnd.su/homebrew/race/521-drevan/",
+      "source": "HB:MF, HB",
+      "unofficial": true
+    },
+    {
+      "id": "isetsu",
+      "name": "Isetsu",
+      "ru": "Исэцу",
+      "url": "https://dnd.su/homebrew/race/543-isetsu/",
+      "source": "HB:RGYR, HB",
+      "unofficial": true
+    },
+    {
+      "id": "cadaver",
+      "name": "Cadaver",
+      "ru": "Кадавр",
+      "url": "https://dnd.su/homebrew/race/562-cadaver/",
+      "source": "HB:MF, HB",
+      "unofficial": true
+    },
+    {
+      "id": "kitsune",
+      "name": "Kitsune",
+      "ru": "Кицунэ",
+      "url": "https://dnd.su/homebrew/race/538-kitsune/",
+      "source": "HB:RGYR, HB",
+      "unofficial": true
+    },
+    {
+      "id": "catfolk",
+      "name": "Catfolk",
+      "ru": "Котовец",
+      "url": "https://dnd.su/homebrew/race/496-catfolk/",
+      "source": "HB:MF, HB",
+      "unofficial": true
+    },
+    {
+      "id": "lipsick",
+      "name": "Lipsick",
+      "ru": "Липсик",
+      "url": "https://dnd.su/homebrew/race/520-lipsick/",
+      "source": "HB:MF, HB",
+      "unofficial": true
+    },
+    {
+      "id": "lotol",
+      "name": "Lotol",
+      "ru": "Лотол",
+      "url": "https://dnd.su/homebrew/race/583-lotol/",
+      "source": "HB:HGMH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "lion-turtle",
+      "name": "Lion Turtle",
+      "ru": "Львиная черепаха",
+      "url": "https://dnd.su/homebrew/race/546-lion-turtle/",
+      "source": "HB:RGYR, HB",
+      "unofficial": true
+    },
+    {
+      "id": "manikin",
+      "name": "Manikin",
+      "ru": "Манекен",
+      "url": "https://dnd.su/homebrew/race/460-manikin/",
+      "source": "HB:SGEH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "mycelian",
+      "name": "Mycelian",
+      "ru": "Мицелиан",
+      "url": "https://dnd.su/homebrew/race/584-mycelian/",
+      "source": "HB:HGMH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "mousefolk",
+      "name": "Mousefolk",
+      "ru": "Мышинец",
+      "url": "https://dnd.su/homebrew/race/494-mousefolk/",
+      "source": "HB:MF, HB",
+      "unofficial": true
+    },
+    {
+      "id": "hishikin",
+      "name": "Hishikin",
+      "ru": "Нисикин",
+      "url": "https://dnd.su/homebrew/race/544-hishikin/",
+      "source": "HB:RGYR, HB",
+      "unofficial": true
+    },
+    {
+      "id": "ombrask",
+      "name": "Ombrask",
+      "ru": "Омбраск",
+      "url": "https://dnd.su/homebrew/race/585-ombrask/",
+      "source": "HB:HGMH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "oniborne",
+      "name": "Oniborne",
+      "ru": "Онирождённый",
+      "url": "https://dnd.su/homebrew/race/545-oniborne/",
+      "source": "HB:RGYR, HB",
+      "unofficial": true
+    },
+    {
+      "id": "demidritch",
+      "name": "Demidritch",
+      "ru": "Полусторонний",
+      "url": "https://dnd.su/homebrew/race/459-demidritch/",
+      "source": "HB:SGEH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "scourgeborne",
+      "name": "Scourgeborne",
+      "ru": "Порождение Бедствия",
+      "url": "https://dnd.su/homebrew/race/462-scourgeborne/",
+      "source": "HB:SGEH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "awakened",
+      "name": "Awakened",
+      "ru": "Пробуждённый",
+      "url": "https://dnd.su/homebrew/race/111-awakened/",
+      "source": "HB:SC, HB",
+      "unofficial": true
+    },
+    {
+      "id": "cursed-blood",
+      "name": "Cursed-Blood",
+      "ru": "Проклятокровый",
+      "url": "https://dnd.su/homebrew/race/470-cursed-blood/",
+      "source": "HB:SGEH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "ryujin",
+      "name": "Ryujin",
+      "ru": "Рюдзин",
+      "url": "https://dnd.su/homebrew/race/547-ryujin/",
+      "source": "HB:RGYR, HB",
+      "unofficial": true
+    },
+    {
+      "id": "silva",
+      "name": "Silva",
+      "ru": "Сильва",
+      "url": "https://dnd.su/homebrew/race/110-silva/",
+      "source": "HB:SC, HB",
+      "unofficial": true
+    },
+    {
+      "id": "slimee",
+      "name": "Slimee",
+      "ru": "Склизыш",
+      "url": "https://dnd.su/homebrew/race/560-slimee/",
+      "source": "HB:MF, HB",
+      "unofficial": true
+    },
+    {
+      "id": "oozekin",
+      "name": "Oozekin",
+      "ru": "Слизевик",
+      "url": "https://dnd.su/homebrew/race/586-oozekin/",
+      "source": "HB:HGMH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "sticktikal",
+      "name": "Stick'Ti'Kal",
+      "ru": "Стик'Ти'Кал",
+      "url": "https://dnd.su/homebrew/race/561-sticktikal/",
+      "source": "HB:MF, HB",
+      "unofficial": true
+    },
+    {
+      "id": "cnidaran",
+      "name": "Cnidaran",
+      "ru": "Стрекающие",
+      "url": "https://dnd.su/homebrew/race/579-cnidaran/",
+      "source": "HB:HGMH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "teratect",
+      "name": "Teratect",
+      "ru": "Тератект",
+      "url": "https://dnd.su/homebrew/race/475-teratect/",
+      "source": "HB:CN, HB",
+      "unofficial": true
+    },
+    {
+      "id": "smoldering",
+      "name": "Smoldering",
+      "ru": "Тлеющий",
+      "url": "https://dnd.su/homebrew/race/474-smoldering/",
+      "source": "HB:CN, HB",
+      "unofficial": true
+    },
+    {
+      "id": "tengu",
+      "name": "Tengu",
+      "ru": "Тэнгу",
+      "url": "https://dnd.su/homebrew/race/548-tengu/",
+      "source": "HB:RGYR, HB",
+      "unofficial": true
+    },
+    {
+      "id": "florene",
+      "name": "Florene",
+      "ru": "Флорен",
+      "url": "https://dnd.su/homebrew/race/466-florene/",
+      "source": "HB:CN, HB",
+      "unofficial": true
+    },
+    {
+      "id": "fuyohren",
+      "name": "Fuyohren",
+      "ru": "Фунаюрэй",
+      "url": "https://dnd.su/homebrew/race/540-fuyohren/",
+      "source": "HB:RGYR, HB",
+      "unofficial": true
+    },
+    {
+      "id": "hanamori",
+      "name": "Hanamori",
+      "ru": "Ханамори",
+      "url": "https://dnd.su/homebrew/race/541-hanamori/",
+      "source": "HB:RGYR, HB",
+      "unofficial": true
+    },
+    {
+      "id": "haniwa",
+      "name": "Haniwa",
+      "ru": "Ханива",
+      "url": "https://dnd.su/homebrew/race/542-haniwa/",
+      "source": "HB:RGYR, HB",
+      "unofficial": true
+    },
+    {
+      "id": "cyclopian",
+      "name": "Cyclopian",
+      "ru": "Циклопианец",
+      "url": "https://dnd.su/homebrew/race/580-cyclopian/",
+      "source": "HB:HGMH, HB",
+      "unofficial": true
+    },
+    {
+      "id": "enkoh",
+      "name": "Enkoh",
+      "ru": "Энкох",
+      "url": "https://dnd.su/homebrew/race/539-enkoh/",
+      "source": "HB:RGYR, HB",
+      "unofficial": true
+    },
+    {
+      "id": "dwarf-mountain",
+      "name": "Mountain Dwarf",
+      "ru": "Горный дварф",
+      "url": "https://dnd.su/race/78-dwarf/#mountain",
+      "source": "PH14",
+      "variantOf": "dwarf",
+      "speed": 25,
+      "size": "Средний",
+      "traits": [
+        "Тёмное зрение 60 фт.",
+        "Дварфийская устойчивость",
+        "Дварфийская боевая тренировка",
+        "Владение инструментами",
+        "Знание камня",
+        "Владение дварфийскими доспехами"
+      ],
+      "bonuses": {
+        "con": 2,
+        "str": 2
+      },
+      "languages": [
+        "Дварфский"
+      ],
+      "profs": [
+        "battleaxe",
+        "handaxe",
+        "light-hammer",
+        "warhammer",
+        "light",
+        "medium"
+      ]
+    },
+    {
+      "id": "elf-wood",
+      "name": "Wood Elf",
+      "ru": "Лесной эльф",
+      "url": "https://dnd.su/race/79-elf/#wood",
+      "source": "PH14",
+      "variantOf": "elf",
+      "speed": 35,
+      "size": "Средний",
+      "traits": [
+        "Тёмное зрение 60 фт.",
+        "Обострённые чувства",
+        "Наследие фей",
+        "Транс",
+        "Владение эльфийским оружием",
+        "Быстрые ноги",
+        "Маскировка в дикой природе"
+      ],
+      "bonuses": {
+        "dex": 2,
+        "wis": 1
+      },
+      "languages": [
+        "Эльфийский"
+      ],
+      "profs": [
+        "longsword",
+        "shortsword",
+        "shortbow",
+        "longbow"
+      ],
+      "skills": [
+        "perception"
+      ]
+    },
+    {
+      "id": "elf-drow",
+      "name": "Drow",
+      "ru": "Дроу",
+      "url": "https://dnd.su/race/79-elf/#drow",
+      "source": "PH14",
+      "variantOf": "elf",
+      "speed": 30,
+      "size": "Средний",
+      "traits": [
+        "Тёмное зрение 120 фт.",
+        "Обострённые чувства",
+        "Наследие фей",
+        "Транс",
+        "Чувствительность к солнечному свету",
+        "Магия дроу",
+        "Владение оружием дроу"
+      ],
+      "bonuses": {
+        "dex": 2,
+        "cha": 1
+      },
+      "languages": [
+        "Эльфийский"
+      ],
+      "profs": [
+        "rapier",
+        "shortsword",
+        "hand-crossbow"
+      ],
+      "skills": [
+        "perception"
+      ],
+      "innateSpells": [
+        {
+          "id": "dancing-lights",
+          "level": 1,
+          "ability": "cha"
+        },
+        {
+          "id": "faerie-fire",
+          "level": 3,
+          "ability": "cha"
+        },
+        {
+          "id": "darkness",
+          "level": 5,
+          "ability": "cha"
+        }
+      ]
+    },
+    {
+      "id": "halfling-stout",
+      "name": "Stout Halfling",
+      "ru": "Коренастый полурослик",
+      "url": "https://dnd.su/race/80-halfling/#stout",
+      "source": "PH14",
+      "variantOf": "halfling",
+      "speed": 25,
+      "size": "Маленький",
+      "traits": [
+        "Везучий",
+        "Храбрый",
+        "Проворство полуросликов",
+        "Устойчивость коренастых"
+      ],
+      "bonuses": {
+        "dex": 2,
+        "con": 1
+      },
+      "languages": [
+        "Полуросликовый"
+      ]
+    },
+    {
+      "id": "gnome-forest",
+      "name": "Forest Gnome",
+      "ru": "Лесной гном",
+      "url": "https://dnd.su/race/83-gnome/#forest",
+      "source": "PH14",
+      "variantOf": "gnome",
+      "speed": 25,
+      "size": "Маленький",
+      "traits": [
+        "Тёмное зрение 60 фт.",
+        "Гномья хитрость",
+        "Природная иллюзия",
+        "Общение с маленькими зверями"
+      ],
+      "bonuses": {
+        "int": 2,
+        "dex": 1
+      },
+      "languages": [
+        "Гномий"
+      ],
+      "innateSpells": [
+        {
+          "id": "minor-illusion",
+          "level": 1,
+          "ability": "int"
+        }
+      ]
+    },
+    {
+      "id": "human-variant",
+      "name": "Variant Human",
+      "ru": "Человек (альтернативный вариант)",
+      "url": "https://dnd.su/race/81-human/#alternativnye_osobennosti_ljudej",
+      "source": "PH14",
+      "variantOf": "human",
+      "speed": 30,
+      "size": "Средний",
+      "traits": [],
+      "bonuses": {},
+      "languageCount": 1,
+      "abilityBoost": {
+        "count": 2,
+        "amount": 1,
+        "exclude": []
+      },
+      "skillCount": 1,
+      "featChoice": true
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": "entertainer",
+      "name": "Entertainer",
+      "ru": "Артист",
+      "url": "https://dnd.su/backgrounds/757-entertainer/",
+      "source": "PH14",
+      "skills": [
+        "acrobatics",
+        "performance"
+      ],
+      "tool": "Набор для грима",
+      "tools": [
+        "Набор для грима",
+        "instrument"
+      ],
+      "gold": 15,
+      "items": [
+        "instrument",
+        "Сувенир поклонника",
+        "costume",
+        "pouch"
+      ],
+      "feature": "По многочисленным просьбам"
+    },
+    {
+      "id": "urchin",
+      "name": "Urchin",
+      "ru": "Беспризорник",
+      "url": "https://dnd.su/backgrounds/758-urchin/",
+      "source": "PH14",
+      "skills": [
+        "sleight",
+        "stealth"
+      ],
+      "tool": "Воровские инструменты",
+      "tools": [
+        "Воровские инструменты",
+        "набор для грима"
+      ],
+      "gold": 10,
+      "items": [
+        "dagger",
+        "Карта родного города",
+        "Ручная мышь",
+        "Памятная безделушка",
+        "common-clothes",
+        "pouch"
+      ],
+      "feature": "Городские тайны"
+    },
+    {
+      "id": "noble",
+      "name": "Noble",
+      "ru": "Благородный",
+      "url": "https://dnd.su/backgrounds/759-noble/",
+      "source": "PH14",
+      "skills": [
+        "history",
+        "persuasion"
+      ],
+      "tool": "game",
+      "languageCount": 1,
+      "gold": 25,
+      "items": [
+        "fine-clothes",
+        "signet-ring",
+        "Генеалогическое древо",
+        "pouch"
+      ],
+      "feature": "Привилегированность"
+    },
+    {
+      "id": "guild-artisan",
+      "name": "Guild artisan",
+      "ru": "Гильдейский ремесленник",
+      "url": "https://dnd.su/backgrounds/760-guild-artisan/",
+      "source": "PH14",
+      "skills": [
+        "insight",
+        "persuasion"
+      ],
+      "tool": "artisan",
+      "languageCount": 1,
+      "gold": 15,
+      "items": [
+        "artisan",
+        "Рекомендация гильдии",
+        "travelers-clothes",
+        "pouch"
+      ],
+      "feature": "Членство в гильдии"
+    },
+    {
+      "id": "sailor",
+      "name": "Sailor",
+      "ru": "Моряк",
+      "url": "https://dnd.su/backgrounds/761-sailor/",
+      "source": "PH14",
+      "skills": [
+        "athletics",
+        "perception"
+      ],
+      "tool": "Инструменты навигатора",
+      "tools": [
+        "Инструменты навигатора",
+        "транспорт (водный)"
+      ],
+      "gold": 10,
+      "items": [
+        "club",
+        "Шёлковая верёвка (50 фт.)",
+        "Талисман",
+        "common-clothes",
+        "pouch"
+      ],
+      "feature": "Поездка на корабле"
+    },
+    {
+      "id": "sage",
+      "name": "Sage",
+      "ru": "Мудрец",
+      "url": "https://dnd.su/backgrounds/762-sage/",
+      "source": "PH14",
+      "skills": [
+        "history",
+        "arcana"
+      ],
+      "languageCount": 2,
+      "gold": 10,
+      "items": [
+        "ink",
+        "ink-pen",
+        "dagger",
+        "Письмо от коллеги",
+        "common-clothes",
+        "pouch"
+      ],
+      "feature": "Исследователь"
+    },
+    {
+      "id": "folk-hero",
+      "name": "Folk hero",
+      "ru": "Народный герой",
+      "url": "https://dnd.su/backgrounds/763-folk-hero/",
+      "source": "PH14",
+      "skills": [
+        "survival",
+        "animals"
+      ],
+      "tool": "транспортное средство (наземное)",
+      "gold": 10,
+      "items": [
+        "artisan",
+        "shovel",
+        "pot-iron",
+        "common-clothes",
+        "pouch"
+      ],
+      "feature": "Деревенское гостеприимство"
+    },
+    {
+      "id": "hermit",
+      "name": "Hermit",
+      "ru": "Отшельник",
+      "url": "https://dnd.su/backgrounds/764-hermit/",
+      "source": "PH14",
+      "skills": [
+        "medicine",
+        "religion"
+      ],
+      "tool": "Набор травника",
+      "languageCount": 1,
+      "gold": 5,
+      "items": [
+        "map-or-scroll-case",
+        "blanket",
+        "common-clothes",
+        "herbalism-kit"
+      ],
+      "feature": "Откровение"
+    },
+    {
+      "id": "pirate",
+      "name": "Pirate",
+      "ru": "Пират",
+      "url": "https://dnd.su/backgrounds/770-pirate/",
+      "source": "PH14",
+      "skills": [
+        "athletics",
+        "perception"
+      ],
+      "tool": "Инструменты навигатора",
+      "tools": [
+        "Инструменты навигатора",
+        "транспорт (водный)"
+      ],
+      "gold": 10,
+      "items": [
+        "club",
+        "Шёлковая верёвка (50 фт.)",
+        "Талисман",
+        "common-clothes",
+        "pouch"
+      ],
+      "feature": "Дурная репутация"
+    },
+    {
+      "id": "criminal",
+      "name": "Criminal",
+      "ru": "Преступник",
+      "url": "https://dnd.su/backgrounds/765-criminal/",
+      "source": "PH14",
+      "skills": [
+        "deception",
+        "stealth"
+      ],
+      "tool": "Воровские инструменты",
+      "tools": [
+        "Воровские инструменты",
+        "game"
+      ],
+      "gold": 15,
+      "items": [
+        "crowbar",
+        "Тёмная одежда с капюшоном",
+        "pouch"
+      ],
+      "feature": "Криминальные связи"
+    },
+    {
+      "id": "acolyte",
+      "name": "Acolyte",
+      "ru": "Прислужник",
+      "url": "https://dnd.su/backgrounds/766-acolyte/",
+      "source": "PH14",
+      "skills": [
+        "insight",
+        "religion"
+      ],
+      "languageCount": 2,
+      "gold": 15,
+      "items": [
+        "holy-symbol",
+        "Молитвенник или молитвенный барабан",
+        "Благовония*5",
+        "Ряса",
+        "common-clothes",
+        "pouch"
+      ],
+      "feature": "Приют для верующих"
+    },
+    {
+      "id": "soldier",
+      "name": "Soldier",
+      "ru": "Солдат",
+      "url": "https://dnd.su/backgrounds/767-soldier/",
+      "source": "PH14",
+      "skills": [
+        "athletics",
+        "intimidation"
+      ],
+      "tool": "game",
+      "tools": [
+        "game",
+        "транспорт (сухопутный)"
+      ],
+      "gold": 10,
+      "items": [
+        "Воинский знак",
+        "Боевой трофей",
+        "game",
+        "common-clothes",
+        "pouch"
+      ],
+      "feature": "Воинское звание"
+    },
+    {
+      "id": "outlander",
+      "name": "Outlander",
+      "ru": "Чужеземец",
+      "url": "https://dnd.su/backgrounds/768-outlander/",
+      "source": "PH14",
+      "skills": [
+        "athletics",
+        "survival"
+      ],
+      "tool": "instrument",
+      "languageCount": 1,
+      "gold": 10,
+      "items": [
+        "quarterstaff",
+        "hunting-trap",
+        "Охотничий трофей",
+        "travelers-clothes",
+        "pouch"
+      ],
+      "feature": "Странник"
+    },
+    {
+      "id": "charlatan",
+      "name": "Charlatan",
+      "ru": "Шарлатан",
+      "url": "https://dnd.su/backgrounds/769-charlatan/",
+      "source": "PH14",
+      "skills": [
+        "sleight",
+        "deception"
+      ],
+      "tool": "Набор для грима",
+      "tools": [
+        "Набор для грима",
+        "набор для фальсификации"
+      ],
+      "gold": 15,
+      "items": [
+        "fine-clothes",
+        "disguise-kit",
+        "Реквизит для мошенничества",
+        "pouch"
+      ],
+      "feature": "Поддельная личность"
+    },
+    {
+      "id": "gambler",
+      "name": "Gambler",
+      "ru": "Азартный игрок",
+      "url": "https://dnd.su/backgrounds/811-gambler/",
+      "source": "AI",
+      "skills": [
+        "deception",
+        "insight"
+      ],
+      "tool": "game",
+      "languageCount": 1,
+      "gold": 15,
+      "items": [
+        "Один тип игрового набора",
+        "талисман",
+        "комплект отличной одежды и поясной кошель"
+      ],
+      "feature": "Не говори мне о шансах"
+    },
+    {
+      "id": "plaintiff",
+      "name": "Plaintiff",
+      "ru": "Истец",
+      "url": "https://dnd.su/backgrounds/812-plaintiff/",
+      "source": "AI",
+      "skills": [
+        "medicine",
+        "persuasion"
+      ],
+      "tool": "artisan",
+      "languageCount": 1,
+      "gold": 20,
+      "items": [
+        "Набор ремесленных инструментов",
+        "fine-clothes"
+      ],
+      "feature": "Юридическая подкованность"
+    },
+    {
+      "id": "failed-merchant",
+      "name": "Failed Merchant",
+      "ru": "Неудавшийся торговец",
+      "url": "https://dnd.su/backgrounds/810-failed-merchant/",
+      "source": "AI",
+      "skills": [
+        "investigation",
+        "persuasion"
+      ],
+      "tool": "artisan",
+      "languageCount": 1,
+      "gold": 10,
+      "items": [
+        "Один набор ремесленных инструментов",
+        "торговые весы",
+        "комплект отличной одежды и поясной кошель"
+      ],
+      "feature": "Цепочка поставок"
+    },
+    {
+      "id": "celebrity-adventurers-scion",
+      "name": "Celebrity Adventurer",
+      "ru": "Потомок знаменитого авантюриста",
+      "url": "https://dnd.su/backgrounds/809-celebrity-adventurers-scion/",
+      "source": "AI",
+      "skills": [
+        "perception",
+        "performance"
+      ],
+      "tool": "Набор для грима",
+      "languageCount": 2,
+      "gold": 30,
+      "items": [
+        "disguise-kit",
+        "комплект отличной одежды и поясной кошель"
+      ],
+      "feature": "Известное имя"
+    },
+    {
+      "id": "rival-intern",
+      "name": "Rival Intern",
+      "ru": "Стажёр конкурента",
+      "url": "https://dnd.su/backgrounds/813-rival-intern/",
+      "source": "AI",
+      "skills": [
+        "history",
+        "investigation"
+      ],
+      "tool": "artisan",
+      "languageCount": 1,
+      "gold": 10,
+      "items": [
+        "Набор ремесленных инструментов",
+        "бухгалтерская книга от вашего предыдущего работодателя",
+        "содержащая немного полезной информации",
+        "комплект отличной одежды и поясной кошель"
+      ],
+      "feature": "Информатор"
+    },
+    {
+      "id": "giant-foundling",
+      "name": "Giant foundling",
+      "ru": "Великаний подкидыш",
+      "url": "https://dnd.su/backgrounds/820-giant-foundling/",
+      "source": "BPGG",
+      "skills": [
+        "survival",
+        "intimidation"
+      ],
+      "languageCount": 1,
+      "gold": 10,
+      "items": [
+        "рюкзак",
+        "travelers-clothes",
+        "маленький камень или ветка",
+        "напоминающие вам о доме",
+        "и кошель"
+      ],
+      "feature": "Удар великанов"
+    },
+    {
+      "id": "rune-carver",
+      "name": "Rune carver",
+      "ru": "Резчик рун",
+      "url": "https://dnd.su/backgrounds/822-rune-carver/",
+      "source": "BPGG",
+      "skills": [
+        "perception",
+        "history"
+      ],
+      "tool": "artisan",
+      "gold": 10,
+      "items": [
+        "набор ремесленных инструментов (на ваш выбор)",
+        "маленький нож",
+        "точильный камень",
+        "комплект обычной одежды и кошель"
+      ],
+      "feature": "Ваятель рун"
+    },
+    {
+      "id": "rewarded",
+      "name": "Rewarded",
+      "ru": "Награждённый",
+      "url": "https://dnd.su/backgrounds/858-rewarded/",
+      "source": "BMT",
+      "skills": [
+        "insight",
+        "persuasion"
+      ],
+      "tool": "game",
+      "tools": [
+        "game",
+        "игральные карты или ставка трёх драконов)"
+      ],
+      "languageCount": 1,
+      "gold": 18,
+      "items": [
+        "Бутылочка с чёрными чернилами",
+        "чернильная ручка",
+        "пять листов бумаги",
+        "game",
+        "signet-ring",
+        "комплект отличной одежды и кошель"
+      ],
+      "feature": "Улыбка фортуны"
+    },
+    {
+      "id": "ruined",
+      "name": "Ruined",
+      "ru": "Разорённый",
+      "url": "https://dnd.su/backgrounds/859-ruined/",
+      "source": "BMT",
+      "skills": [
+        "survival",
+        "stealth"
+      ],
+      "tool": "game",
+      "tools": [
+        "game",
+        "игральные карты или ставка трёх драконов)"
+      ],
+      "languageCount": 1,
+      "gold": 13,
+      "items": [
+        "треснувшие песочные часы",
+        "комплект ржавых наручников",
+        "полупустая бутылка",
+        "охотничья ловушка",
+        "game",
+        "комплект дорожной одежды и кошель"
+      ],
+      "feature": "Я обязательно выживу"
+    },
+    {
+      "id": "house-agent",
+      "name": "House Agent",
+      "ru": "Агент Дома",
+      "url": "https://dnd.su/backgrounds/788-house-agent/",
+      "source": "RLW",
+      "skills": [
+        "investigation",
+        "persuasion"
+      ],
+      "tool": "Два инструмента из Таблицы “Владения инструментами Дома”",
+      "gold": 20,
+      "items": [
+        "fine-clothes",
+        "перстень дома с печаткой",
+        "документ удостоверяющий личность",
+        "и кошель"
+      ],
+      "feature": "Связь с домом"
+    },
+    {
+      "id": "volstrucker-agent",
+      "name": "Volstrucker Agent",
+      "ru": "Агент-Волстракер",
+      "url": "https://dnd.su/backgrounds/816-volstrucker-agent/",
+      "source": "EGW",
+      "skills": [
+        "deception",
+        "stealth"
+      ],
+      "tool": "Инструменты отравителя",
+      "languageCount": 1,
+      "gold": 10,
+      "items": [
+        "common-clothes",
+        "чёрный плащ с капюшоном",
+        "инструменты отравителя и кошель"
+      ],
+      "feature": "Теневая сеть"
+    },
+    {
+      "id": "adaptaciia-predystorii-egw",
+      "name": "Background adaptations",
+      "ru": "Адаптация предысторий EGW",
+      "url": "https://dnd.su/backgrounds/848-adaptaciia-predystorii-egw/",
+      "source": "EGW",
+      "referenceOnly": true
+    },
+    {
+      "id": "grinner",
+      "name": "Grinner",
+      "ru": "Ухмылка",
+      "url": "https://dnd.su/backgrounds/817-grinner/",
+      "source": "EGW",
+      "skills": [
+        "deception",
+        "performance"
+      ],
+      "tool": "instrument",
+      "tools": [
+        "instrument",
+        "воровские инструменты"
+      ],
+      "gold": 15,
+      "items": [
+        "fine-clothes",
+        "disguise-kit",
+        "музыкальный инструмент на ваш выбор",
+        "позолоченное кольцо с изображением улыбающегося лица",
+        "pouch"
+      ],
+      "feature": "Баллада об ухмыляющемся дураке"
+    },
+    {
+      "id": "golgari-agent",
+      "name": "Golgari Agent",
+      "ru": "Агент Голгари",
+      "url": "https://dnd.su/backgrounds/802-golgari-agent/",
+      "source": "GGR",
+      "skills": [
+        "survival",
+        "nature"
+      ],
+      "tool": "Набор отравителя",
+      "languageCount": 1,
+      "gold": 10,
+      "items": [
+        "Инсигния Голгари",
+        "набор отравителя",
+        "питомец жук или паук",
+        "комплект обычной одежды и кошель"
+      ],
+      "feature": "Подземные ходы"
+    },
+    {
+      "id": "gruul-anarch",
+      "name": "Gruul Anarch",
+      "ru": "Анарх Груулов",
+      "url": "https://dnd.su/backgrounds/803-gruul-anarch/",
+      "source": "GGR",
+      "skills": [
+        "athletics",
+        "animals"
+      ],
+      "tool": "Набор травника",
+      "languageCount": 1,
+      "gold": 10,
+      "items": [
+        "Инсигния Груулов",
+        "охотничий капкан",
+        "herbalism-kit",
+        "череп кабана",
+        "шкура животного",
+        "комплект дорожной одежды и кошель"
+      ],
+      "feature": "Убежище среди руин"
+    },
+    {
+      "id": "izzet-engineer",
+      "name": "Izzet Engineer",
+      "ru": "Инженер Иззетов",
+      "url": "https://dnd.su/backgrounds/804-izzet-engineer/",
+      "source": "GGR",
+      "skills": [
+        "arcana",
+        "investigation"
+      ],
+      "tool": "artisan",
+      "languageCount": 1,
+      "gold": 5,
+      "items": [
+        "Инсигния Иззетов",
+        "один вид ремесленных инструментов",
+        "обугленные и искривленные остатки неудавшегося эксперимента",
+        "молоток",
+        "блок и лебёдка",
+        "комплект обычной одежды и кошель"
+      ],
+      "feature": "Городская инфраструктура"
+    },
+    {
+      "id": "rakdos-cultist",
+      "name": "Rakdos Cultist",
+      "ru": "Культист Ракдоса",
+      "url": "https://dnd.su/backgrounds/806-rakdos-cultist/",
+      "source": "GGR",
+      "skills": [
+        "acrobatics",
+        "performance"
+      ],
+      "tool": "instrument",
+      "gold": 10,
+      "items": [
+        "Инсигния Ракдоса",
+        "instrument",
+        "costume",
+        "закрытый фонарь из кованного железа",
+        "10-футовая цепь с шипами",
+        "трутница",
+        "факелов*10",
+        "common-clothes",
+        "pouch"
+      ],
+      "feature": "Устрашающая репутация"
+    },
+    {
+      "id": "boros-legionnaire",
+      "name": "Boros Legionnaire",
+      "ru": "Легионер Боросов",
+      "url": "https://dnd.su/backgrounds/800-boros-legionnaire/",
+      "source": "GGR",
+      "skills": [
+        "athletics",
+        "intimidation"
+      ],
+      "tool": "game",
+      "languageCount": 1,
+      "gold": 2,
+      "items": [
+        "Знак отличия Боросов",
+        "перо из крыла ангела",
+        "изодранная часть знамени Боросов (сувенир со знаменитой битвы)",
+        "комплект обычной одежды и кошель"
+      ],
+      "feature": "Пункт легиона"
+    },
+    {
+      "id": "dimir-operative",
+      "name": "Dimir Operative",
+      "ru": "Оперативник Димиров",
+      "url": "https://dnd.su/backgrounds/801-dimir-operative/",
+      "source": "GGR",
+      "skills": [
+        "deception",
+        "stealth"
+      ],
+      "tool": "Набор для грима",
+      "languageCount": 1,
+      "items": [
+        "Инсигния Димиров",
+        "три маленьких ножа",
+        "комплект обычной тёмной одежды и стартовое снаряжение вашей второстепенной гильдии (оп"
+      ],
+      "feature": "Поддельная личность"
+    },
+    {
+      "id": "selesnya-initiate",
+      "name": "Selesnya Initiate",
+      "ru": "Посвящённый Селезнии",
+      "url": "https://dnd.su/backgrounds/807-selesnya-initiate/",
+      "source": "GGR",
+      "skills": [
+        "nature",
+        "persuasion"
+      ],
+      "tool": "instrument",
+      "languageCount": 1,
+      "gold": 5,
+      "items": [
+        "инсигния Селезнии",
+        "комплект целителя",
+        "облачение",
+        "комплект обычной одежды и кошель"
+      ],
+      "feature": "Убежище конклава"
+    },
+    {
+      "id": "orzhov-representative",
+      "name": "Orzhov Representative",
+      "ru": "Представитель Орзовов",
+      "url": "https://dnd.su/backgrounds/805-orzhov-representative/",
+      "source": "GGR",
+      "skills": [
+        "intimidation",
+        "religion"
+      ],
+      "languageCount": 2,
+      "items": [
+        "Инсигния Орзовов",
+        "цепь длиной в фут из десяти золотых монет",
+        "ряса",
+        "комплект отличной одежды и кошель с 1 пм (монета номиналом 10 зино чеканки Орзовов)"
+      ],
+      "feature": "Рычаги давления"
+    },
+    {
+      "id": "simic-scientist",
+      "name": "Simic Scientist",
+      "ru": "Учёный Симиков",
+      "url": "https://dnd.su/backgrounds/808-simic-scientist/",
+      "source": "GGR",
+      "skills": [
+        "arcana",
+        "medicine"
+      ],
+      "languageCount": 2,
+      "gold": 10,
+      "items": [
+        "Инсигния Симиков",
+        "common-clothes",
+        "книга с исследовательскими заметками",
+        "перьевая ручка",
+        "бутылочка с чернилами осьминога",
+        "фляга с маслом (сделанного из медузы)",
+        "склянка с кислотой (полученной из пищеварительных соков)",
+        "склянка с рыбьей чешуёй",
+        "склянка с морскими водорослями",
+        "склянка с жалом медузы",
+        "стеклянная бутылка с не идентифицированной слизью и кошель"
+      ],
+      "feature": "Исследователь"
+    },
+    {
+      "id": "azorius-functionary",
+      "name": "Azorius Functionary",
+      "ru": "Функционер Азориусов",
+      "url": "https://dnd.su/backgrounds/799-azorius-functionary/",
+      "source": "GGR",
+      "skills": [
+        "insight",
+        "intimidation"
+      ],
+      "languageCount": 2,
+      "gold": 10,
+      "items": [
+        "Инсигния Азориусов",
+        "свиток с текстом закона",
+        "важного для вас",
+        "флакон синих чернил",
+        "писчее перо",
+        "комплект отличной одежды и поясной кошель"
+      ],
+      "feature": "Представитель закона"
+    },
+    {
+      "id": "athlete",
+      "name": "Athlete",
+      "ru": "Атлет",
+      "url": "https://dnd.su/backgrounds/787-athlete/",
+      "source": "MOT",
+      "skills": [
+        "athletics",
+        "acrobatics"
+      ],
+      "tool": "Транспорт (сухопутный)",
+      "languageCount": 1,
+      "gold": 10,
+      "items": [
+        "Бронзовый диск или кожаный мяч",
+        "талисман на удачу или трофей прошлого",
+        "комплект дорожной одежды и мешочек"
+      ],
+      "feature": "Отголоски победы"
+    },
+    {
+      "id": "planar-philosopher",
+      "name": "Planar philosopher",
+      "ru": "Планарный философ",
+      "url": "https://dnd.su/backgrounds/821-planar-philosopher/",
+      "source": "PAM",
+      "skills": [
+        "arcana"
+      ],
+      "languageCount": 2,
+      "gold": 10,
+      "items": [
+        "портальный ключ (например, пакетик с золотыми чайными листьями или зуб планарного звер",
+        "манифест с изложением вашей философии",
+        "комплект обычной одежды в стиле вашей фракции и мешочек с монетами разных миров и план"
+      ],
+      "feature": "Утверждение"
+    },
+    {
+      "id": "gate-warden",
+      "name": "Gate warden",
+      "ru": "Хранитель врат",
+      "url": "https://dnd.su/backgrounds/823-gate-warden/",
+      "source": "PAM",
+      "skills": [
+        "survival",
+        "persuasion"
+      ],
+      "languageCount": 2,
+      "gold": 10,
+      "items": [
+        "связка ключей от неизвестных замков",
+        "пустая книга",
+        "чернильная ручка или перо",
+        "бутылочка с чернилами",
+        "комплект дорожной одежды и кошель"
+      ],
+      "feature": "Планарное влияние"
+    },
+    {
+      "id": "astral-drifter",
+      "name": "Astral Drifter",
+      "ru": "Астральный бродяга",
+      "url": "https://dnd.su/multiverse/backgrounds/815-astral-drifter/",
+      "source": "SAS",
+      "skills": [
+        "insight",
+        "religion"
+      ],
+      "languageCount": 2,
+      "gold": 10,
+      "items": [
+        "travelers-clothes",
+        "дневник",
+        "чернильная ручка",
+        "бутылочка чернил и кошель"
+      ],
+      "feature": "Божественный контакт"
+    },
+    {
+      "id": "wildspacer",
+      "name": "Wildspacer",
+      "ru": "Дикий космонавт",
+      "url": "https://dnd.su/multiverse/backgrounds/814-wildspacer/",
+      "source": "SAS",
+      "skills": [
+        "athletics",
+        "survival"
+      ],
+      "tool": "инструменты навигатора",
+      "tools": [
+        "инструменты навигатора",
+        "транспортные средства (космос)"
+      ],
+      "gold": 10,
+      "items": [
+        "страховочная булавка (дубина)",
+        "travelers-clothes",
+        "grappling-hook",
+        "футов пеньковой веревки и мешочек*50"
+      ],
+      "feature": "Адаптация дикого космоса"
+    },
+    {
+      "id": "mercenary-veteran",
+      "name": "Mercenary Veteran",
+      "ru": "Ветеран наёмник",
+      "url": "https://dnd.su/backgrounds/780-mercenary-veteran/",
+      "source": "SCAG",
+      "skills": [
+        "athletics",
+        "persuasion"
+      ],
+      "tool": "game",
+      "tools": [
+        "game",
+        "транспортное средство (наземное)"
+      ],
+      "gold": 10,
+      "items": [
+        "Униформа вашей организации (аналогично комплекту дорожной одежды по качеству)",
+        "знак отличия вашего ранга",
+        "игровой набор на ваш выбор",
+        "кошель с остатком вашего жалования (10 зм)"
+      ],
+      "feature": "Жизнь наемника"
+    },
+    {
+      "id": "urban-bounty-hunter",
+      "name": "Urban Bounty Hunter",
+      "ru": "Городской охотник за головами",
+      "url": "https://dnd.su/backgrounds/781-urban-bounty-hunter/",
+      "source": "SCAG",
+      "skillChoices": {
+        "count": 2,
+        "options": [
+          "deception",
+          "insight",
+          "persuasion",
+          "stealth"
+        ]
+      },
+      "tool": "game",
+      "tools": [
+        "game",
+        "instrument",
+        "воровские инструменты"
+      ],
+      "gold": 20,
+      "items": [
+        "Одежды",
+        "соответствующие вашей специализации",
+        "pouch"
+      ],
+      "feature": "Ухо к земле"
+    },
+    {
+      "id": "city-watch",
+      "name": "City Watch",
+      "ru": "Городской стражник",
+      "url": "https://dnd.su/backgrounds/772-city-watch/",
+      "source": "SCAG",
+      "skills": [
+        "athletics",
+        "insight"
+      ],
+      "languageCount": 2,
+      "gold": 10,
+      "items": [
+        "Униформа вашего подразделения со знаками отличия",
+        "рожок",
+        "которым можно позвать на помощь",
+        "наручники",
+        "pouch"
+      ],
+      "feature": "Намётанный глаз"
+    },
+    {
+      "id": "far-traveler",
+      "name": "Far Traveler",
+      "ru": "Дальний путешественник",
+      "url": "https://dnd.su/backgrounds/777-far-traveler/",
+      "source": "SCAG",
+      "skills": [
+        "insight",
+        "perception"
+      ],
+      "tool": "instrument",
+      "tools": [
+        "instrument",
+        "game"
+      ],
+      "languageCount": 1,
+      "gold": 10,
+      "items": [
+        "travelers-clothes",
+        "любой музыкальный инструмент или игровой набор",
+        "которым вы владеете",
+        "схематичная карта с вашей родины",
+        "на которой отмечено ваше местонахождение на Фаэруне",
+        "небольшое ювелирное украшение стоимостью",
+        "украшенное в стиле вашей родины",
+        "pouch"
+      ],
+      "feature": "Все взгляды прикованы к вам"
+    },
+    {
+      "id": "waterdhavian-noble",
+      "name": "Waterdhavian Noble",
+      "ru": "Дворянин Глубоководья",
+      "url": "https://dnd.su/backgrounds/771-waterdhavian-noble/",
+      "source": "SCAG"
+    },
+    {
+      "id": "clan-crafter",
+      "name": "Clan Crafter",
+      "ru": "Клановый ремесленник",
+      "url": "https://dnd.su/backgrounds/773-clan-crafter/",
+      "source": "SCAG",
+      "skills": [
+        "history",
+        "insight"
+      ],
+      "tool": "Один любой тип инструментов ремесленника",
+      "languageCount": 2,
+      "items": [
+        "Набор инструментов ремесленника",
+        "которым вы владеете; специальное долото",
+        "которое вы используете",
+        "чтобы поставить метку вашего клана ремесленников на вашу продукцию; комплект дорожной "
+      ],
+      "feature": "Уважение крепкого народа"
+    },
+    {
+      "id": "inheritor",
+      "name": "Inheritor",
+      "ru": "Наследник",
+      "url": "https://dnd.su/backgrounds/778-inheritor/",
+      "source": "SCAG",
+      "skills": [
+        "survival",
+        "arcana",
+        "history",
+        "religion"
+      ],
+      "tool": "instrument",
+      "tools": [
+        "instrument",
+        "game"
+      ],
+      "languageCount": 1,
+      "gold": 15,
+      "items": [
+        "Ваше наследство",
+        "travelers-clothes",
+        "инструмент",
+        "владение которым вы выбрали для этой предыстории",
+        "pouch"
+      ],
+      "feature": "Наследие"
+    },
+    {
+      "id": "faction-agent",
+      "name": "Faction Agent",
+      "ru": "Представитель фракции",
+      "url": "https://dnd.su/backgrounds/776-faction-agent/",
+      "source": "SCAG",
+      "skills": [
+        "insight"
+      ],
+      "languageCount": 2,
+      "gold": 15,
+      "items": [
+        "Значок или эмблема вашей фракции",
+        "копия устава или другого основного текста вашей организации (или шифр-книга для тайных",
+        "комплект обычной одежды и кошель"
+      ],
+      "feature": "Убежище"
+    },
+    {
+      "id": "courtier",
+      "name": "Courtier",
+      "ru": "Придворный",
+      "url": "https://dnd.su/backgrounds/775-courtier/",
+      "source": "SCAG",
+      "skills": [
+        "insight",
+        "persuasion"
+      ],
+      "languageCount": 2,
+      "gold": 5,
+      "items": [
+        "Набор дорогой одежды",
+        "pouch"
+      ],
+      "feature": "Придворный функционер"
+    },
+    {
+      "id": "knight-of-the-order",
+      "name": "Knight of the Order",
+      "ru": "Рыцарь ордена",
+      "url": "https://dnd.su/backgrounds/779-knight-of-the-order/",
+      "source": "SCAG",
+      "skills": [
+        "persuasion",
+        "arcana",
+        "history",
+        "nature",
+        "religion"
+      ],
+      "tool": "game",
+      "tools": [
+        "game",
+        "instrument"
+      ],
+      "languageCount": 1,
+      "gold": 10,
+      "items": [
+        "travelers-clothes",
+        "перстень-печатка",
+        "знамя или печать",
+        "определяющая ваш ранг в ордене",
+        "pouch"
+      ],
+      "feature": "Рыцарские связи"
+    },
+    {
+      "id": "uthgardt-tribe-member",
+      "name": "Uthgardt Tribe Member",
+      "ru": "Утгардтский соплеменник",
+      "url": "https://dnd.su/backgrounds/782-uthgardt-tribe-member/",
+      "source": "SCAG",
+      "skills": [
+        "athletics",
+        "survival"
+      ],
+      "tool": "Музыкальные",
+      "languageCount": 1,
+      "gold": 10,
+      "items": [
+        "Охотничья ловушка",
+        "фигурка тотема или татуировки",
+        "отмечающие вашу принадлежность к Утгару и вашему племенному тотему",
+        "travelers-clothes",
+        "pouch"
+      ],
+      "feature": "Утгардтское наследие"
+    },
+    {
+      "id": "cloistered-scholar",
+      "name": "Cloistered Scholar",
+      "ru": "Учёный-затворник",
+      "url": "https://dnd.su/backgrounds/774-cloistered-scholar/",
+      "source": "SCAG",
+      "skillChoices": {
+        "count": 2,
+        "options": [
+          "history",
+          "arcana",
+          "nature",
+          "religion"
+        ]
+      },
+      "languageCount": 2,
+      "gold": 10,
+      "items": [
+        "ряса учёного из вашего монастыря",
+        "набор писца (маленький кошель с пером, чернилами, свитками пергамента и ножом для зато",
+        "временно взятая книга по предмету вашего изучения",
+        "pouch"
+      ],
+      "feature": "Доступ к библиотеке"
+    },
+    {
+      "id": "adaptaciia-predystorii-vrgr",
+      "name": "Background adaptations",
+      "ru": "Адаптация предысторий VRGR",
+      "url": "https://dnd.su/backgrounds/845-adaptaciia-predystorii-vrgr/",
+      "source": "VRGR",
+      "referenceOnly": true
+    },
+    {
+      "id": "investigator",
+      "name": "Investigator",
+      "ru": "Следователь",
+      "url": "https://dnd.su/backgrounds/790-investigator/",
+      "source": "VRGR",
+      "skillChoices": {
+        "count": 2,
+        "options": [
+          "perception",
+          "insight",
+          "investigation"
+        ]
+      },
+      "tool": "Набор для грима",
+      "tools": [
+        "Набор для грима",
+        "воровские инструменты"
+      ],
+      "gold": 10,
+      "items": [
+        "Увеличительное стекло",
+        "улики из прошлого дела (выберите одну или сделайте бросок на безделушку по таблице «Уж",
+        "common-clothes"
+      ],
+      "feature": "Официальный запрос"
+    },
+    {
+      "id": "baldurs-gate-entertainer",
+      "name": "Baldur",
+      "ru": "Артист Врат Балдура",
+      "url": "https://dnd.su/backgrounds/832-baldurs-gate-entertainer/",
+      "source": "BGDA",
+      "skills": [
+        "acrobatics",
+        "performance"
+      ],
+      "tool": "Набор для грима",
+      "tools": [
+        "Набор для грима",
+        "instrument"
+      ],
+      "gold": 15,
+      "items": [
+        "instrument",
+        "подарок от поклонницы (любовное письмо, локон волос или безделушка)",
+        "costume",
+        "pouch"
+      ]
+    },
+    {
+      "id": "faceless",
+      "name": "Faceless",
+      "ru": "Безликий",
+      "url": "https://dnd.su/backgrounds/833-faceless/",
+      "source": "BGDA",
+      "skills": [
+        "intimidation",
+        "deception"
+      ],
+      "tool": "Набор для грима",
+      "languageCount": 1,
+      "gold": 10,
+      "items": [
+        "disguise-kit",
+        "costume",
+        "pouch"
+      ],
+      "feature": "Две личности"
+    },
+    {
+      "id": "baldurs-gate-urchin",
+      "name": "Baldur",
+      "ru": "Беспризорник Врат Балдура",
+      "url": "https://dnd.su/backgrounds/835-baldurs-gate-urchin/",
+      "source": "BGDA",
+      "skills": [
+        "sleight",
+        "stealth"
+      ],
+      "tool": "Воровские инструменты",
+      "tools": [
+        "Воровские инструменты",
+        "набор для грима"
+      ],
+      "gold": 10,
+      "items": [
+        "Маленький нож",
+        "карта города",
+        "в котором вы выросли",
+        "ручная мышь",
+        "безделушка в память о родителях",
+        "common-clothes",
+        "pouch"
+      ]
+    },
+    {
+      "id": "baldurs-gate-noble",
+      "name": "Baldur",
+      "ru": "Благородный Врат Балдура",
+      "url": "https://dnd.su/backgrounds/834-baldurs-gate-noble/",
+      "source": "BGDA",
+      "skills": [
+        "history",
+        "persuasion"
+      ],
+      "tool": "game",
+      "languageCount": 1,
+      "gold": 25,
+      "items": [
+        "fine-clothes",
+        "signet-ring",
+        "свиток с генеалогическим древом",
+        "pouch"
+      ]
+    },
+    {
+      "id": "baldurs-gate-guild-artisan",
+      "name": "Baldur",
+      "ru": "Гильдейский ремесленник Врат Балдура",
+      "url": "https://dnd.su/backgrounds/842-baldurs-gate-guild-artisan/",
+      "source": "BGDA",
+      "skills": [
+        "insight",
+        "persuasion"
+      ],
+      "tool": "artisan",
+      "languageCount": 1,
+      "gold": 15,
+      "items": [
+        "Один вид ремесленных инструментов",
+        "рекомендательное письмо из гильдии",
+        "travelers-clothes",
+        "pouch"
+      ]
+    },
+    {
+      "id": "baldurs-gate-sailor",
+      "name": "Baldur",
+      "ru": "Моряк Врат Балдура",
+      "url": "https://dnd.su/backgrounds/836-baldurs-gate-sailor/",
+      "source": "BGDA",
+      "skills": [
+        "athletics",
+        "perception"
+      ],
+      "tool": "Инструменты навигатора",
+      "tools": [
+        "Инструменты навигатора",
+        "транспорт (водный)"
+      ],
+      "gold": 10,
+      "items": [
+        "Кофель-нагель (дубинка)",
+        "футов шёлковой верёвки*50",
+        "талисман",
+        "такой как кроличья лапка или камень с дыркой (можете совершить бросок по таблице безде",
+        "common-clothes",
+        "pouch"
+      ]
+    },
+    {
+      "id": "baldurs-gate-sage",
+      "name": "Baldur",
+      "ru": "Мудрец Врат Балдура",
+      "url": "https://dnd.su/backgrounds/837-baldurs-gate-sage/",
+      "source": "BGDA",
+      "skills": [
+        "history",
+        "arcana"
+      ],
+      "languageCount": 2,
+      "gold": 10,
+      "items": [
+        "Бутылочка чернил",
+        "писчее перо",
+        "dagger",
+        "письмо от мёртвого коллеги с вопросом",
+        "на который вы пока не можете ответить",
+        "common-clothes",
+        "pouch"
+      ]
+    },
+    {
+      "id": "baldurs-gate-folk-hero",
+      "name": "Baldur",
+      "ru": "Народный герой Врат Балдура",
+      "url": "https://dnd.su/backgrounds/838-baldurs-gate-folk-hero/",
+      "source": "BGDA",
+      "skills": [
+        "survival",
+        "animals"
+      ],
+      "tool": "транспортное средство (наземное)",
+      "gold": 10,
+      "items": [
+        "artisan",
+        "лопата",
+        "железный горшок",
+        "common-clothes",
+        "pouch"
+      ]
+    },
+    {
+      "id": "baldurs-gate-hermit",
+      "name": "Baldur",
+      "ru": "Отшельник Врат Балдура",
+      "url": "https://dnd.su/backgrounds/839-baldurs-gate-hermit/",
+      "source": "BGDA",
+      "skills": [
+        "medicine",
+        "religion"
+      ],
+      "tool": "Набор травника",
+      "languageCount": 1,
+      "gold": 5,
+      "items": [
+        "Контейнер для свитков",
+        "битком набитый вашими молитвами и изысканиями",
+        "тёплое одеяло",
+        "common-clothes",
+        "herbalism-kit"
+      ]
+    },
+    {
+      "id": "baldurs-gate-criminal",
+      "name": "Baldur",
+      "ru": "Преступник Врат Балдура",
+      "url": "https://dnd.su/backgrounds/841-baldurs-gate-criminal/",
+      "source": "BGDA",
+      "skills": [
+        "deception",
+        "stealth"
+      ],
+      "tool": "Воровские инструменты",
+      "tools": [
+        "Воровские инструменты",
+        "game"
+      ],
+      "gold": 15,
+      "items": [
+        "crowbar",
+        "комплект обычной тёмной одежды с капюшоном",
+        "pouch"
+      ]
+    },
+    {
+      "id": "baldurs-gate-acolyte",
+      "name": "Baldur",
+      "ru": "Прислужник Врат Балдура",
+      "url": "https://dnd.su/backgrounds/840-baldurs-gate-acolyte/",
+      "source": "BGDA",
+      "skills": [
+        "insight",
+        "religion"
+      ],
+      "languageCount": 2,
+      "gold": 15,
+      "items": [
+        "holy-symbol",
+        "молитвенник или молитвенный барабан",
+        "палочек благовоний*5",
+        "ряса",
+        "common-clothes",
+        "pouch"
+      ]
+    },
+    {
+      "id": "baldurs-gate-soldier",
+      "name": "Baldur",
+      "ru": "Солдат Врат Балдура",
+      "url": "https://dnd.su/backgrounds/843-baldurs-gate-soldier/",
+      "source": "BGDA",
+      "skills": [
+        "athletics",
+        "intimidation"
+      ],
+      "tool": "game",
+      "tools": [
+        "game",
+        "транспорт (сухопутный)"
+      ],
+      "gold": 10,
+      "items": [
+        "Знак отличия",
+        "трофей с убитого врага (кинжал, сломанный клинок или кусок знамени)",
+        "набор игровых костей или колода карт",
+        "common-clothes",
+        "pouch"
+      ]
+    },
+    {
+      "id": "baldurs-gate-outlander",
+      "name": "Baldur",
+      "ru": "Чужеземец Врат Балдура",
+      "url": "https://dnd.su/backgrounds/844-baldurs-gate-outlander/",
+      "source": "BGDA",
+      "skills": [
+        "athletics",
+        "survival"
+      ],
+      "tool": "instrument",
+      "languageCount": 1,
+      "gold": 10,
+      "items": [
+        "quarterstaff",
+        "капкан",
+        "трофей с убитого животного",
+        "travelers-clothes",
+        "pouch"
+      ]
+    },
+    {
+      "id": "baldurs-gate-charlatan",
+      "name": "Baldur",
+      "ru": "Шарлатан Врат Балдура",
+      "url": "https://dnd.su/backgrounds/830-baldurs-gate-charlatan/",
+      "source": "BGDA",
+      "skills": [
+        "sleight",
+        "deception"
+      ],
+      "tool": "Набор для грима",
+      "tools": [
+        "Набор для грима",
+        "набор для фальсификации"
+      ],
+      "gold": 15,
+      "items": [
+        "fine-clothes",
+        "disguise-kit",
+        "приспособление для жульничества на ваш выбор (десять запечатанных бутылей с подкрашенн",
+        "pouch"
+      ]
+    },
+    {
+      "id": "haunted-one",
+      "name": "Haunted One",
+      "ru": "Преследуемый",
+      "url": "https://dnd.su/backgrounds/789-haunted-one/",
+      "source": "COS",
+      "skillChoices": {
+        "count": 2,
+        "options": [
+          "arcana",
+          "investigation",
+          "religion",
+          "survival"
+        ]
+      },
+      "languageCount": 2,
+      "items": [
+        "Набор охотника на монстров (см. врезку)",
+        "одна безделушка особой важности (выберите её сами или при помощи броска определите слу",
+        "common-clothes",
+        "и 1 см"
+      ],
+      "feature": "Сердце тьмы"
+    },
+    {
+      "id": "adaptaciia-predystorii-sdq",
+      "name": "Background adaptations",
+      "ru": "Адаптация предысторий SDQ",
+      "url": "https://dnd.su/backgrounds/856-adaptaciia-predystorii-sdq/",
+      "source": "SDQ",
+      "referenceOnly": true
+    },
+    {
+      "id": "mage-of-high-sorcery",
+      "name": "Mage of High Sorcery",
+      "ru": "Маг Высшего Волшебства",
+      "url": "https://dnd.su/backgrounds/855-mage-of-high-sorcery/",
+      "source": "SDQ",
+      "skills": [
+        "history",
+        "arcana"
+      ],
+      "languageCount": 2,
+      "gold": 10,
+      "items": [
+        "Бутыль цветных чернил",
+        "чернильное перо",
+        "набор обычной одежды и кошель"
+      ],
+      "feature": "Посвященный в высшее волшебство"
+    },
+    {
+      "id": "knight-of-solamnia",
+      "name": "Knight of Solamnia",
+      "ru": "Соламнийский Рыцарь",
+      "url": "https://dnd.su/backgrounds/854-knight-of-solamnia/",
+      "source": "SDQ",
+      "skills": [
+        "athletics",
+        "survival"
+      ],
+      "languageCount": 2,
+      "gold": 10,
+      "items": [
+        "Один знак отличия",
+        "колода карт",
+        "комплект обычной одежды и кошель"
+      ],
+      "feature": "Оруженосец соламнии"
+    },
+    {
+      "id": "smuggler",
+      "name": "Smuggler",
+      "ru": "Контрабандист",
+      "url": "https://dnd.su/backgrounds/784-smuggler/",
+      "source": "GOS",
+      "skills": [
+        "athletics",
+        "deception"
+      ],
+      "tool": "Транспорт (водный)",
+      "gold": 15,
+      "items": [
+        "Модный кожаный жилет или пара кожаных ботинок",
+        "комплект обычной одежды и кожаный кошель"
+      ],
+      "feature": "Залечь на дно"
+    },
+    {
+      "id": "shipwright",
+      "name": "Shipwright",
+      "ru": "Корабел",
+      "url": "https://dnd.su/backgrounds/785-shipwright/",
+      "source": "GOS",
+      "skills": [
+        "history",
+        "perception"
+      ],
+      "tool": "Инструменты плотника",
+      "tools": [
+        "Инструменты плотника",
+        "транспорт (водный)"
+      ],
+      "gold": 10,
+      "items": [
+        "Любимый набор инструментов плотника",
+        "пустая книга",
+        "унция чернил",
+        "чернильная ручка",
+        "комплект дорожной одежды и кожаный кошель"
+      ],
+      "feature": "Я залатаю!"
+    },
+    {
+      "id": "marine",
+      "name": "Marine",
+      "ru": "Морской пехотинец",
+      "url": "https://dnd.su/backgrounds/786-marine/",
+      "source": "GOS",
+      "skills": [
+        "athletics",
+        "survival"
+      ],
+      "tool": "Транспорт (водный, наземный)",
+      "gold": 10,
+      "items": [
+        "Принадлежавший павшему товарищу кинжал",
+        "сложенный флаг с эмблемой вашего корабля или отряда",
+        "комплект дорожной одежды и поясной кошель",
+        "содержащий"
+      ],
+      "feature": "Выносливый"
+    },
+    {
+      "id": "fisher",
+      "name": "Fisher",
+      "ru": "Рыбак",
+      "url": "https://dnd.su/backgrounds/783-fisher/",
+      "source": "GOS",
+      "skills": [
+        "history",
+        "survival"
+      ],
+      "languageCount": 1,
+      "gold": 10,
+      "items": [
+        "Комплект для рыбалки",
+        "сеть",
+        "любимая рыболовная приманка или промасленные кожаные болотные сапоги",
+        "комплект дорожной одежды и поясной кошель",
+        "содержащий"
+      ],
+      "feature": "Богатый улов"
+    },
+    {
+      "id": "adaptaciia-predystorii-hdq",
+      "name": "Background adaptations",
+      "ru": "Адаптация предысторий HDQ",
+      "url": "https://dnd.su/backgrounds/847-adaptaciia-predystorii-hdq/",
+      "source": "HDQ",
+      "referenceOnly": true
+    },
+    {
+      "id": "adaptaciia-predystorii-ota",
+      "name": "Background adaptations",
+      "ru": "Адаптация предысторий OTA",
+      "url": "https://dnd.su/backgrounds/846-adaptaciia-predystorii-ota/",
+      "source": "OTA",
+      "referenceOnly": true
+    },
+    {
+      "id": "witherbloom-student",
+      "name": "Witherbloom Student",
+      "ru": "Студент Визерблума",
+      "url": "https://dnd.su/backgrounds/798-witherbloom-student/",
+      "source": "SCC",
+      "skills": [
+        "nature",
+        "survival"
+      ],
+      "tool": "Набор травника",
+      "languageCount": 1,
+      "gold": 15,
+      "items": [
+        "Бутыль чёрных чернил",
+        "писчее перо",
+        "книга по идентификации растений",
+        "железный горшок",
+        "herbalism-kit",
+        "школьная униформа и поясной кошель"
+      ],
+      "feature": "Поступивший в визерблум"
+    },
+    {
+      "id": "quandrix-student",
+      "name": "Quandrix Student",
+      "ru": "Студент Квандрикса",
+      "url": "https://dnd.su/backgrounds/796-quandrix-student/",
+      "source": "SCC",
+      "skills": [
+        "arcana",
+        "nature"
+      ],
+      "tool": "artisan",
+      "languageCount": 1,
+      "gold": 15,
+      "items": [
+        "Бутылочка чёрных чернил",
+        "писчее перо",
+        "абак",
+        "книга по теории магии",
+        "школьная униформа и поясной кошель"
+      ],
+      "feature": "Поступивший в квандрикс"
+    },
+    {
+      "id": "lorehold-student",
+      "name": "Lorehold Student",
+      "ru": "Студент Лорхолда",
+      "url": "https://dnd.su/backgrounds/794-lorehold-student/",
+      "source": "SCC",
+      "skills": [
+        "history",
+        "religion"
+      ],
+      "languageCount": 2,
+      "gold": 15,
+      "items": [
+        "Бутыль чёрных чернил",
+        "писчее перо",
+        "молоток",
+        "закрытый фонарь",
+        "трутница",
+        "том по истории",
+        "школьная униформа",
+        "pouch"
+      ],
+      "feature": "Поступление в лорхолд"
+    },
+    {
+      "id": "prismari-student",
+      "name": "Prismari Student",
+      "ru": "Студент Призмари",
+      "url": "https://dnd.su/backgrounds/795-prismari-student/",
+      "source": "SCC",
+      "skills": [
+        "acrobatics",
+        "performance"
+      ],
+      "tool": "instrument",
+      "languageCount": 1,
+      "gold": 10,
+      "items": [
+        "Бутыль чёрных чернил",
+        "писчее перо",
+        "набор ремесленных инструментов или музыкальный инструмент (на ваш выбор)",
+        "школьная униформа и поясной кошель"
+      ],
+      "feature": "Поступивший в призмари"
+    },
+    {
+      "id": "silverquill-student",
+      "name": "Silverquill Student",
+      "ru": "Студент Сильверквилла",
+      "url": "https://dnd.su/backgrounds/797-silverquill-student/",
+      "source": "SCC",
+      "skills": [
+        "intimidation",
+        "persuasion"
+      ],
+      "languageCount": 2,
+      "gold": 15,
+      "items": [
+        "Бутыль чёрных чернил",
+        "писчее перо",
+        "книга поэзии",
+        "школьная униформа и поясной кошель"
+      ],
+      "feature": "Поступивший в сильверквилл"
+    },
+    {
+      "id": "anthropologist",
+      "name": "Anthropologist",
+      "ru": "Антрополог",
+      "url": "https://dnd.su/backgrounds/756-anthropologist/",
+      "source": "TOA",
+      "skills": [
+        "insight",
+        "religion"
+      ],
+      "gold": 10,
+      "items": [
+        "Дневник в кожаной обложке",
+        "бутылочка чернил",
+        "писчее перо",
+        "travelers-clothes",
+        "одна безделушка с уникальными метками и кошель"
+      ],
+      "feature": "Младший лингвист"
+    },
+    {
+      "id": "archaeologist",
+      "name": "Archaeologist",
+      "ru": "Археолог",
+      "url": "https://dnd.su/backgrounds/791-archaeologist/",
+      "source": "TOA",
+      "skills": [
+        "history",
+        "survival"
+      ],
+      "tool": "Инструменты картографа",
+      "tools": [
+        "Инструменты картографа",
+        "инструменты навигатора"
+      ],
+      "gold": 25,
+      "items": [
+        "Деревянный тубус",
+        "содержащий карту затерянного города или подземелья",
+        "фонарь",
+        "кирка",
+        "travelers-clothes",
+        "лопата",
+        "двухместная палатка",
+        "одна безделушка с последних раскопок и кошель"
+      ],
+      "feature": "Исторические знания"
+    },
+    {
+      "id": "witchlight-hand",
+      "name": "Witchlight Hand",
+      "ru": "Подручный Ведьмосвета",
+      "url": "https://dnd.su/backgrounds/793-witchlight-hand/",
+      "source": "WBW",
+      "skills": [
+        "performance",
+        "sleight"
+      ],
+      "tool": "Набор для грима",
+      "tools": [
+        "Набор для грима",
+        "instrument"
+      ],
+      "languageCount": 1,
+      "gold": 8,
+      "items": [
+        "Набор для грима или музыкальный инструмент на ваш выбор",
+        "колода карт",
+        "карнавальный костюм или униформа",
+        "одна безделушка (определяемая броском по таблице Фейских Безделушек)",
+        "pouch"
+      ],
+      "feature": "Работник карнавала"
+    },
+    {
+      "id": "feylost",
+      "name": "Feylost",
+      "ru": "Потерявшийся в царстве фей",
+      "url": "https://dnd.su/backgrounds/792-feylost/",
+      "source": "WBW",
+      "skills": [
+        "deception",
+        "survival"
+      ],
+      "tool": "instrument",
+      "languageCount": 1,
+      "gold": 8,
+      "items": [
+        "Музыкальные инструменты (один вид на ваш выбор)",
+        "travelers-clothes",
+        "три безделушки (каждая определяется броском по таблице Безделушки Страны Фей) и кошель"
+      ],
+      "feature": "Связь с царством фей"
+    }
+  ],
+  "feats": [
+    {
+      "id": "actor",
+      "name": "Actor",
+      "ru": "Артистичный",
+      "url": "https://dnd.su/feats/101-actor/",
+      "source": "PH14",
+      "abilityOptions": [
+        "cha"
+      ]
+    },
+    {
+      "id": "athlete",
+      "name": "Athlete",
+      "ru": "Атлетичный",
+      "url": "https://dnd.su/feats/102-athlete/",
+      "source": "PH14",
+      "abilityOptions": [
+        "str",
+        "dex"
+      ]
+    },
+    {
+      "id": "alert",
+      "name": "Alert",
+      "ru": "Бдительный",
+      "url": "https://dnd.su/feats/103-alert/",
+      "source": "PH14"
+    },
+    {
+      "id": "war-caster",
+      "name": "War Caster",
+      "ru": "Боевой заклинатель",
+      "url": "https://dnd.su/feats/104-war-caster/",
+      "source": "PH14",
+      "prerequisite": "Способность накладывать хотя бы одно заклинание"
+    },
+    {
+      "id": "grappler",
+      "name": "Grappler",
+      "ru": "Борец",
+      "url": "https://dnd.su/feats/105-grappler/",
+      "source": "PH14",
+      "prerequisite": "Сила 13 или выше"
+    },
+    {
+      "id": "lucky",
+      "name": "Lucky",
+      "ru": "Везунчик",
+      "url": "https://dnd.su/feats/106-lucky/",
+      "source": "PH14"
+    },
+    {
+      "id": "mounted-combatant",
+      "name": "Mounted combatant",
+      "ru": "Верховой боец",
+      "url": "https://dnd.su/feats/107-mounted-combatant/",
+      "source": "PH14"
+    },
+    {
+      "id": "observant",
+      "name": "Observant",
+      "ru": "Внимательный",
+      "url": "https://dnd.su/feats/108-observant/",
+      "source": "PH14",
+      "abilityOptions": [
+        "int",
+        "wis"
+      ]
+    },
+    {
+      "id": "martial-adept",
+      "name": "Martial adept",
+      "ru": "Воинский адепт",
+      "url": "https://dnd.su/feats/109-martial-adept/",
+      "source": "PH14"
+    },
+    {
+      "id": "inspiring-leader",
+      "name": "Inspiring leader",
+      "ru": "Воодушевляющий лидер",
+      "url": "https://dnd.su/feats/110-inspiring-leader/",
+      "source": "PH14",
+      "prerequisite": "Харизма 13 или выше"
+    },
+    {
+      "id": "savage-attacker",
+      "name": "Savage attacker",
+      "ru": "Дикий атакующий",
+      "url": "https://dnd.su/feats/111-savage-attacker/",
+      "source": "PH14"
+    },
+    {
+      "id": "tavern-brawler",
+      "name": "Tavern brawler",
+      "ru": "Драчун",
+      "url": "https://dnd.su/feats/112-tavern-brawler/",
+      "source": "PH14",
+      "abilityOptions": [
+        "str",
+        "con"
+      ]
+    },
+    {
+      "id": "lightly-armored",
+      "name": "Lightly armored",
+      "ru": "Знаток лёгких доспехов",
+      "url": "https://dnd.su/feats/113-lightly-armored/",
+      "source": "PH14",
+      "abilityOptions": [
+        "str",
+        "dex"
+      ]
+    },
+    {
+      "id": "moderately-armored",
+      "name": "Moderately armored",
+      "ru": "Знаток средних доспехов",
+      "url": "https://dnd.su/feats/114-moderately-armored/",
+      "source": "PH14",
+      "prerequisite": "Владение лёгкими доспехами",
+      "abilityOptions": [
+        "str",
+        "dex"
+      ]
+    },
+    {
+      "id": "heavily-armored",
+      "name": "Heavily armored",
+      "ru": "Знаток тяжёлых доспехов",
+      "url": "https://dnd.su/feats/115-heavily-armored/",
+      "source": "PH14",
+      "prerequisite": "Владение средними доспехами",
+      "abilityOptions": [
+        "str"
+      ]
+    },
+    {
+      "id": "dual-wielder",
+      "name": "Dual wielder",
+      "ru": "Использование двух оружий",
+      "url": "https://dnd.su/feats/116-dual-wielder/",
+      "source": "PH14"
+    },
+    {
+      "id": "dungeon-delver",
+      "name": "Dungeon delver",
+      "ru": "Исследователь подземелий",
+      "url": "https://dnd.su/feats/117-dungeon-delver/",
+      "source": "PH14"
+    },
+    {
+      "id": "tough",
+      "name": "Tough",
+      "ru": "Крепкий",
+      "url": "https://dnd.su/feats/118-tough/",
+      "source": "PH14"
+    },
+    {
+      "id": "healer",
+      "name": "Healer",
+      "ru": "Лекарь",
+      "url": "https://dnd.su/feats/119-healer/",
+      "source": "PH14"
+    },
+    {
+      "id": "great-weapon-master",
+      "name": "Great weapon master",
+      "ru": "Мастер большого оружия",
+      "url": "https://dnd.su/feats/120-great-weapon-master/",
+      "source": "PH14"
+    },
+    {
+      "id": "polearm-master",
+      "name": "Polearm master",
+      "ru": "Мастер древкового оружия",
+      "url": "https://dnd.su/feats/121-polearm-master/",
+      "source": "PH14"
+    },
+    {
+      "id": "weapon-master",
+      "name": "Weapon master",
+      "ru": "Мастер оружия",
+      "url": "https://dnd.su/feats/122-weapon-master/",
+      "source": "PH14",
+      "abilityOptions": [
+        "str",
+        "dex"
+      ]
+    },
+    {
+      "id": "medium-armor-master",
+      "name": "Medium armor master",
+      "ru": "Мастер средних доспехов",
+      "url": "https://dnd.su/feats/123-medium-armor-master/",
+      "source": "PH14",
+      "prerequisite": "Владение средними доспехами"
+    },
+    {
+      "id": "heavy-armor-master",
+      "name": "Heavy armor master",
+      "ru": "Мастер тяжёлых доспехов",
+      "url": "https://dnd.su/feats/124-heavy-armor-master/",
+      "source": "PH14",
+      "prerequisite": "Владение тяжёлыми доспехами",
+      "abilityOptions": [
+        "str"
+      ]
+    },
+    {
+      "id": "shield-master",
+      "name": "Shield master",
+      "ru": "Мастер щитов",
+      "url": "https://dnd.su/feats/125-shield-master/",
+      "source": "PH14"
+    },
+    {
+      "id": "spell-sniper",
+      "name": "Spell sniper",
+      "ru": "Меткие заклинания",
+      "url": "https://dnd.su/feats/126-spell-sniper/",
+      "source": "PH14",
+      "prerequisite": "Способность накладывать хотя бы одно заклинание"
+    },
+    {
+      "id": "sharpshooter",
+      "name": "Sharpshooter",
+      "ru": "Меткий стрелок",
+      "url": "https://dnd.su/feats/127-sharpshooter/",
+      "source": "PH14"
+    },
+    {
+      "id": "charger",
+      "name": "Charger",
+      "ru": "Налётчик",
+      "url": "https://dnd.su/feats/128-charger/",
+      "source": "PH14"
+    },
+    {
+      "id": "defensive-duelist",
+      "name": "Defensive duelist",
+      "ru": "Оборонительный дуэлянт",
+      "url": "https://dnd.su/feats/129-defensive-duelist/",
+      "source": "PH14",
+      "prerequisite": "Ловкость 13 или выше"
+    },
+    {
+      "id": "skilled",
+      "name": "Skilled",
+      "ru": "Одарённый",
+      "url": "https://dnd.su/feats/130-skilled/",
+      "source": "PH14"
+    },
+    {
+      "id": "keen-mind",
+      "name": "Keen mind",
+      "ru": "Отличная память",
+      "url": "https://dnd.su/feats/131-keen-mind/",
+      "source": "PH14",
+      "abilityOptions": [
+        "int"
+      ]
+    },
+    {
+      "id": "mobile",
+      "name": "Mobile",
+      "ru": "Подвижный",
+      "url": "https://dnd.su/feats/132-mobile/",
+      "source": "PH14"
+    },
+    {
+      "id": "magic-initiate",
+      "name": "Magic initiate",
+      "ru": "Посвящённый в магию",
+      "url": "https://dnd.su/feats/133-magic-initiate/",
+      "source": "PH14"
+    },
+    {
+      "id": "skulker",
+      "name": "Skulker",
+      "ru": "Проныра",
+      "url": "https://dnd.su/feats/134-skulker/",
+      "source": "PH14",
+      "prerequisite": "Ловкость 13 или выше"
+    },
+    {
+      "id": "ritual-caster",
+      "name": "Ritual caster",
+      "ru": "Ритуальный заклинатель",
+      "url": "https://dnd.su/feats/135-ritual-caster/",
+      "source": "PH14",
+      "prerequisite": "Интеллект или Мудрость 13 или выше"
+    },
+    {
+      "id": "elemental-adept",
+      "name": "Elemental adept",
+      "ru": "Стихийный адепт",
+      "url": "https://dnd.su/feats/136-elemental-adept/",
+      "source": "PH14",
+      "prerequisite": "Способность накладывать хотя бы одно заклинание"
+    },
+    {
+      "id": "durable",
+      "name": "Durable",
+      "ru": "Стойкий",
+      "url": "https://dnd.su/feats/137-durable/",
+      "source": "PH14",
+      "abilityOptions": [
+        "con"
+      ]
+    },
+    {
+      "id": "sentinel",
+      "name": "Sentinel",
+      "ru": "Страж",
+      "url": "https://dnd.su/feats/138-sentinel/",
+      "source": "PH14"
+    },
+    {
+      "id": "mage-slayer",
+      "name": "Mage slayer",
+      "ru": "Убийца магов",
+      "url": "https://dnd.su/feats/139-mage-slayer/",
+      "source": "PH14"
+    },
+    {
+      "id": "resilient",
+      "name": "Resilient",
+      "ru": "Устойчивый",
+      "url": "https://dnd.su/feats/140-resilient/",
+      "source": "PH14"
+    },
+    {
+      "id": "crossbow-expert",
+      "name": "Crossbow expert",
+      "ru": "Эксперт в арбалетах",
+      "url": "https://dnd.su/feats/141-crossbow-expert/",
+      "source": "PH14"
+    },
+    {
+      "id": "linguist",
+      "name": "Linguist",
+      "ru": "Языковед",
+      "url": "https://dnd.su/feats/142-linguist/",
+      "source": "PH14",
+      "abilityOptions": [
+        "int"
+      ]
+    },
+    {
+      "id": "rune-shaper",
+      "name": "Rune shaper",
+      "ru": "Ваятель рун",
+      "url": "https://dnd.su/feats/218-rune-shaper/",
+      "source": "BPGG",
+      "prerequisite": "умение «Использование заклинаний» или предыстория «Резчик рун»"
+    },
+    {
+      "id": "soul-of-the-storm-giant",
+      "name": "Soul of the storm giant",
+      "ru": "Душа штормового великана",
+      "url": "https://dnd.su/feats/213-soul-of-the-storm-giant/",
+      "source": "BPGG",
+      "prerequisite": "4 уровень, черта «Удар Великанов (Штормовой удар)»"
+    },
+    {
+      "id": "guile-of-the-cloud-giant",
+      "name": "Guile of the cloud giant",
+      "ru": "Коварство облачного великана",
+      "url": "https://dnd.su/feats/215-guile-of-the-cloud-giant/",
+      "source": "BPGG",
+      "prerequisite": "4 уровень, черта «Удар Великанов (Облачный удар)»"
+    },
+    {
+      "id": "fury-of-the-frost-giant",
+      "name": "Fury of the frost giant",
+      "ru": "Неистовство ледяного великана",
+      "url": "https://dnd.su/feats/216-fury-of-the-frost-giant/",
+      "source": "BPGG",
+      "prerequisite": "4 уровень, черта «Удар Великанов (Ледяной удар)»"
+    },
+    {
+      "id": "embar-of-the-fire-giant",
+      "name": "Embar of the fire giant",
+      "ru": "Пылкость огненного великана",
+      "url": "https://dnd.su/feats/217-embar-of-the-fire-giant/",
+      "source": "BPGG",
+      "prerequisite": "4 уровень, черта «Удар Великанов (Огненный удар)»"
+    },
+    {
+      "id": "vigor-of-the-hill-giant",
+      "name": "Vigor of the hill giant",
+      "ru": "Стойкость холмового великана",
+      "url": "https://dnd.su/feats/220-vigor-of-the-hill-giant/",
+      "source": "BPGG",
+      "prerequisite": "4 уровень, черта «Удар Великанов (Холмовой удар)»"
+    },
+    {
+      "id": "strike-of-the-giants",
+      "name": "Strike of the giants",
+      "ru": "Удар великанов",
+      "url": "https://dnd.su/feats/234-strike-of-the-giants/",
+      "source": "BPGG",
+      "prerequisite": "владение воинским оружием или предыстория «Великаний подкидыш»"
+    },
+    {
+      "id": "keenness-of-the-stone-giant",
+      "name": "Keenness of the stone giant",
+      "ru": "Чуткость каменного великана",
+      "url": "https://dnd.su/feats/221-keenness-of-the-stone-giant/",
+      "source": "BPGG",
+      "prerequisite": "4 уровень, черта «Удар Великанов (Каменный удар)»"
+    },
+    {
+      "id": "cartomancer",
+      "name": "Cartomancer",
+      "ru": "Картомант",
+      "url": "https://dnd.su/feats/224-cartomancer/",
+      "source": "BMT",
+      "prerequisite": "4 уровень, умение «Использование заклинаний»"
+    },
+    {
+      "id": "aberrant-dragonmark",
+      "name": "Aberrant dragonmark",
+      "ru": "Искажённая метка дракона",
+      "url": "https://dnd.su/feats/173-aberrant-dragonmark/",
+      "source": "RLW",
+      "prerequisite": "Отсутствие другой Метки Дракона",
+      "abilityOptions": [
+        "con"
+      ]
+    },
+    {
+      "id": "revenant-blade",
+      "name": "Revenant blade",
+      "ru": "Призрачный клинок",
+      "url": "https://dnd.su/feats/174-revenant-blade/",
+      "source": "RLW",
+      "prerequisite": "Эльф",
+      "abilityOptions": [
+        "str",
+        "dex"
+      ]
+    },
+    {
+      "id": "gift-of-metallic-dragon",
+      "name": "Gift of metallic dragon",
+      "ru": "Дар металлического дракона",
+      "url": "https://dnd.su/feats/175-gift-of-metallic-dragon/",
+      "source": "FTD"
+    },
+    {
+      "id": "gift-of-gem-dragon",
+      "name": "Gift of gem dragon",
+      "ru": "Дар самоцветного дракона",
+      "url": "https://dnd.su/feats/176-gift-of-gem-dragon/",
+      "source": "FTD"
+    },
+    {
+      "id": "gift-of-chromatic-dragon",
+      "name": "Gift of chromatic dragon",
+      "ru": "Дар цветного дракона",
+      "url": "https://dnd.su/feats/177-gift-of-chromatic-dragon/",
+      "source": "FTD"
+    },
+    {
+      "id": "agent-of-order",
+      "name": "Agent of order",
+      "ru": "Агент Порядка",
+      "url": "https://dnd.su/feats/222-agent-of-order/",
+      "source": "PAM",
+      "prerequisite": "4 уровень, черта «Наследник внешних планов (законный внешний план)»"
+    },
+    {
+      "id": "baleful-scion",
+      "name": "Baleful scion",
+      "ru": "Зловещий наследник",
+      "url": "https://dnd.su/feats/223-baleful-scion/",
+      "source": "PAM",
+      "prerequisite": "4 уровень, «Наследник внешних планов (злой внешний план)»"
+    },
+    {
+      "id": "cohort-of-chaos",
+      "name": "Cohort of chaos",
+      "ru": "Когорта Хаоса",
+      "url": "https://dnd.su/feats/225-cohort-of-chaos/",
+      "source": "PAM",
+      "prerequisite": "4 уровень, «Наследник внешних планов (хаотичный внешний план)»"
+    },
+    {
+      "id": "scion-of-the-outer-planes",
+      "name": "Scion of the outer planes",
+      "ru": "Наследник внешних планов",
+      "url": "https://dnd.su/feats/233-scion-of-the-outer-planes/",
+      "source": "PAM",
+      "prerequisite": "кампания в сеттинге «Planescape»"
+    },
+    {
+      "id": "planar-wanderer",
+      "name": "Planar wanderer",
+      "ru": "Планарный странник",
+      "url": "https://dnd.su/feats/227-planar-wanderer/",
+      "source": "PAM"
+    },
+    {
+      "id": "outlands-envoy",
+      "name": "Outlands envoy",
+      "ru": "Посол Внешних земель",
+      "url": "https://dnd.su/feats/226-outlands-envoy/",
+      "source": "PAM",
+      "prerequisite": "4 уровень, «Наследник внешних планов (Внешние земли)»"
+    },
+    {
+      "id": "righteous-heritor",
+      "name": "Righteous heritor",
+      "ru": "Праведный наследник",
+      "url": "https://dnd.su/feats/228-righteous-heritor/",
+      "source": "PAM",
+      "prerequisite": "4 уровень, черта «Наследник внешних планов (добрый внешний план)»"
+    },
+    {
+      "id": "svirfneblin-magic",
+      "name": "Svirfneblin magic",
+      "ru": "Магия свирфнеблинов",
+      "url": "https://dnd.su/feats/178-svirfneblin-magic/",
+      "source": "SCAG",
+      "prerequisite": "Гном (глубинный гном)"
+    },
+    {
+      "id": "metamagic-adept",
+      "name": "Metamagic adept",
+      "ru": "Адепт метамагии",
+      "url": "https://dnd.su/feats/158-metamagic-adept/",
+      "source": "TCE",
+      "prerequisite": "умение «Использование заклинаний» или «Магия договора»"
+    },
+    {
+      "id": "eldritch-adept",
+      "name": "Eldritch adept",
+      "ru": "Адепт таинств",
+      "url": "https://dnd.su/feats/159-eldritch-adept/",
+      "source": "TCE",
+      "prerequisite": "умение «Использование заклинаний» или «Магия договора»"
+    },
+    {
+      "id": "shadow-touched",
+      "name": "Shadow touched",
+      "ru": "Затронутый тенью",
+      "url": "https://dnd.su/feats/160-shadow-touched/",
+      "source": "TCE",
+      "abilityOptions": [
+        "int",
+        "wis",
+        "cha"
+      ]
+    },
+    {
+      "id": "fey-touched",
+      "name": "Fey touched",
+      "ru": "Затронутый феями",
+      "url": "https://dnd.su/feats/161-fey-touched/",
+      "source": "TCE",
+      "abilityOptions": [
+        "int",
+        "wis",
+        "cha"
+      ]
+    },
+    {
+      "id": "gunner",
+      "name": "Gunner",
+      "ru": "Знаток огнестрельного оружия",
+      "url": "https://dnd.su/feats/162-gunner/",
+      "source": "TCE",
+      "abilityOptions": [
+        "dex"
+      ]
+    },
+    {
+      "id": "crusher",
+      "name": "Crusher",
+      "ru": "Крушитель",
+      "url": "https://dnd.su/feats/163-crusher/",
+      "source": "TCE",
+      "abilityOptions": [
+        "str",
+        "con"
+      ]
+    },
+    {
+      "id": "poisoner",
+      "name": "Poisoner",
+      "ru": "Отравитель",
+      "url": "https://dnd.su/feats/164-poisoner/",
+      "source": "TCE"
+    },
+    {
+      "id": "fighting-initiate",
+      "name": "Fighting initiate",
+      "ru": "Посвящённый в боевое искусство",
+      "url": "https://dnd.su/feats/165-fighting-initiate/",
+      "source": "TCE",
+      "prerequisite": "владение хотя бы одним воинским оружием"
+    },
+    {
+      "id": "artificer-initiate",
+      "name": "Artificer initiate",
+      "ru": "Посвящённый в изобретательство",
+      "url": "https://dnd.su/feats/166-artificer-initiate/",
+      "source": "TCE"
+    },
+    {
+      "id": "piercer",
+      "name": "Piercer",
+      "ru": "Пронзатель",
+      "url": "https://dnd.su/feats/167-piercer/",
+      "source": "TCE",
+      "abilityOptions": [
+        "str",
+        "dex"
+      ]
+    },
+    {
+      "id": "slasher",
+      "name": "Slasher",
+      "ru": "Рубака",
+      "url": "https://dnd.su/feats/168-slasher/",
+      "source": "TCE",
+      "abilityOptions": [
+        "str",
+        "dex"
+      ]
+    },
+    {
+      "id": "telekinetic",
+      "name": "Telekinetic",
+      "ru": "Телекинетик",
+      "url": "https://dnd.su/feats/169-telekinetic/",
+      "source": "TCE",
+      "abilityOptions": [
+        "int",
+        "wis",
+        "cha"
+      ]
+    },
+    {
+      "id": "telepathic",
+      "name": "Telepathic",
+      "ru": "Телепат",
+      "url": "https://dnd.su/feats/170-telepathic/",
+      "source": "TCE",
+      "abilityOptions": [
+        "int",
+        "wis",
+        "cha"
+      ]
+    },
+    {
+      "id": "chef",
+      "name": "Chef",
+      "ru": "Шеф-повар",
+      "url": "https://dnd.su/feats/171-chef/",
+      "source": "TCE",
+      "abilityOptions": [
+        "con",
+        "wis"
+      ]
+    },
+    {
+      "id": "skill-expert",
+      "name": "Skill expert",
+      "ru": "Эксперт в навыке",
+      "url": "https://dnd.su/feats/172-skill-expert/",
+      "source": "TCE"
+    },
+    {
+      "id": "bountiful-luck",
+      "name": "Bountiful luck",
+      "ru": "Бездонная удача",
+      "url": "https://dnd.su/feats/143-bountiful-luck/",
+      "source": "XGE",
+      "prerequisite": "Полурослик"
+    },
+    {
+      "id": "second-chance",
+      "name": "Second chance",
+      "ru": "Второй шанс",
+      "url": "https://dnd.su/feats/144-second-chance/",
+      "source": "XGE",
+      "prerequisite": "Полурослик",
+      "abilityOptions": [
+        "dex",
+        "con",
+        "cha"
+      ]
+    },
+    {
+      "id": "prodigy",
+      "name": "Prodigy",
+      "ru": "Вундеркинд",
+      "url": "https://dnd.su/feats/145-prodigy/",
+      "source": "XGE",
+      "prerequisite": "Полуэльф, Полуорк или Человек"
+    },
+    {
+      "id": "drow-high-magic",
+      "name": "Drow high magic",
+      "ru": "Высшая магия дроу",
+      "url": "https://dnd.su/feats/146-drow-high-magic/",
+      "source": "XGE",
+      "prerequisite": "Эльф (дроу)"
+    },
+    {
+      "id": "dwarven-fortitude",
+      "name": "Dwarven Fortitude",
+      "ru": "Дварфийская стойкость",
+      "url": "https://dnd.su/feats/147-dwarven-fortitude/",
+      "source": "XGE",
+      "prerequisite": "Дварф",
+      "abilityOptions": [
+        "con"
+      ]
+    },
+    {
+      "id": "dragon-fear",
+      "name": "Dragon fear",
+      "ru": "Драконий страх",
+      "url": "https://dnd.su/feats/148-dragon-fear/",
+      "source": "XGE",
+      "prerequisite": "Драконорождённый",
+      "abilityOptions": [
+        "str",
+        "con",
+        "cha"
+      ]
+    },
+    {
+      "id": "dragon-hide",
+      "name": "Dragon hide",
+      "ru": "Драконья шкура",
+      "url": "https://dnd.su/feats/149-dragon-hide/",
+      "source": "XGE",
+      "prerequisite": "Драконорождённый",
+      "abilityOptions": [
+        "str",
+        "con",
+        "cha"
+      ]
+    },
+    {
+      "id": "infernal-constitution",
+      "name": "Infernal constitution",
+      "ru": "Инфернальное телосложение",
+      "url": "https://dnd.su/feats/150-infernal-constitution/",
+      "source": "XGE",
+      "prerequisite": "Тифлинг",
+      "abilityOptions": [
+        "con"
+      ]
+    },
+    {
+      "id": "fade-away",
+      "name": "Fade away",
+      "ru": "Исчезновение",
+      "url": "https://dnd.su/feats/151-fade-away/",
+      "source": "XGE",
+      "prerequisite": "Гном",
+      "abilityOptions": [
+        "dex",
+        "int"
+      ]
+    },
+    {
+      "id": "wood-elf-magic",
+      "name": "Wood elf magic",
+      "ru": "Магия лесных эльфов",
+      "url": "https://dnd.su/feats/152-wood-elf-magic/",
+      "source": "XGE",
+      "prerequisite": "Эльф (лесной)"
+    },
+    {
+      "id": "squat-nimbleness",
+      "name": "Squat nimbleness",
+      "ru": "Низкорослое проворство",
+      "url": "https://dnd.su/feats/153-squat-nimbleness/",
+      "source": "XGE",
+      "prerequisite": "Дварф или Маленькая раса",
+      "abilityOptions": [
+        "str",
+        "dex"
+      ]
+    },
+    {
+      "id": "orcish-fury",
+      "name": "Orcish fury",
+      "ru": "Орочье буйство",
+      "url": "https://dnd.su/feats/154-orcish-fury/",
+      "source": "XGE",
+      "prerequisite": "Полуорк",
+      "abilityOptions": [
+        "str",
+        "con"
+      ]
+    },
+    {
+      "id": "flames-of-phlegethos",
+      "name": "Flames of Phlegethos",
+      "ru": "Пламя Флегетоса",
+      "url": "https://dnd.su/feats/155-flames-of-phlegethos/",
+      "source": "XGE",
+      "prerequisite": "Тифлинг",
+      "abilityOptions": [
+        "int",
+        "cha"
+      ]
+    },
+    {
+      "id": "fey-teleportation",
+      "name": "Fey teleportation",
+      "ru": "Телепортация фей",
+      "url": "https://dnd.su/feats/156-fey-teleportation/",
+      "source": "XGE",
+      "prerequisite": "Эльф (высший)",
+      "abilityOptions": [
+        "int",
+        "cha"
+      ]
+    },
+    {
+      "id": "elven-accuracy",
+      "name": "Elven accuracy",
+      "ru": "Эльфийская точность",
+      "url": "https://dnd.su/feats/157-elven-accuracy/",
+      "source": "XGE",
+      "prerequisite": "Эльф или Полуэльф",
+      "abilityOptions": [
+        "dex",
+        "int",
+        "wis",
+        "cha"
+      ]
+    },
+    {
+      "id": "adept-of-the-white-robes",
+      "name": "Adept of the White Robes",
+      "ru": "Адепт Белых одежд",
+      "url": "https://dnd.su/feats/251-adept-of-the-white-robes/",
+      "source": "SDQ",
+      "prerequisite": "4 уровень, черта «Посвящённый в Высшее волшебство» (Солинари)"
+    },
+    {
+      "id": "adept-of-the-red-robes",
+      "name": "Adept of the Red Robes",
+      "ru": "Адепт Красных одежд",
+      "url": "https://dnd.su/feats/250-adept-of-the-red-robes/",
+      "source": "SDQ",
+      "prerequisite": "4 уровень, черта «Посвящённый в Высшее волшебство» (Лунитари)"
+    },
+    {
+      "id": "adept-of-the-black-robes",
+      "name": "Adept of the Black Robes",
+      "ru": "Адепт Чёрных одежд",
+      "url": "https://dnd.su/feats/249-adept-of-the-black-robes/",
+      "source": "SDQ",
+      "prerequisite": "4 уровень, черта «Посвящённый в Высшее волшебство» (Нуитари)"
+    },
+    {
+      "id": "divinely-favored",
+      "name": "Divinely Favored",
+      "ru": "Любимец богов",
+      "url": "https://dnd.su/feats/247-divinely-favored/",
+      "source": "SDQ",
+      "prerequisite": "4 уровень, кампания «Саге о Копье»"
+    },
+    {
+      "id": "squire-of-solamnia",
+      "name": "Squire of Solamnia",
+      "ru": "Оруженосец рыцаря Соламнии",
+      "url": "https://dnd.su/feats/252-squire-of-solamnia/",
+      "source": "SDQ",
+      "prerequisite": "кампания «Саге о Копье»; Воин или Паладин или предыстория «Соламнийский Рыцарь»"
+    },
+    {
+      "id": "initiate-of-high-sorcery",
+      "name": "Initiate of High Sorcery",
+      "ru": "Посвящённый в Высшее волшебство",
+      "url": "https://dnd.su/feats/248-initiate-of-high-sorcery/",
+      "source": "SDQ",
+      "prerequisite": "кампания в Саге о Копье; Чародей, Волшебник или предыстория «Маг Высшего Волшебства»"
+    },
+    {
+      "id": "knight-of-the-crown",
+      "name": "Knight of the Crown",
+      "ru": "Рыцарь Короны",
+      "url": "https://dnd.su/feats/253-knight-of-the-crown/",
+      "source": "SDQ",
+      "prerequisite": "4 уровень, предыстория «Соламнийский Рыцарь»"
+    },
+    {
+      "id": "knight-of-the-sword",
+      "name": "Knight of the Sword",
+      "ru": "Рыцарь Меча",
+      "url": "https://dnd.su/feats/255-knight-of-the-sword/",
+      "source": "SDQ",
+      "prerequisite": "4 уровень, предыстория «Соламнийский Рыцарь»"
+    },
+    {
+      "id": "knight-of-the-rose",
+      "name": "Knight of the Rose",
+      "ru": "Рыцарь Розы",
+      "url": "https://dnd.su/feats/254-knight-of-the-rose/",
+      "source": "SDQ",
+      "prerequisite": "4 уровень, предыстория «Соламнийский Рыцарь»"
+    },
+    {
+      "id": "strixhaven-initiate",
+      "name": "Strixhaven initiate",
+      "ru": "Поступивший в Стриксхейвен",
+      "url": "https://dnd.su/feats/179-strixhaven-initiate/",
+      "source": "SCC"
+    },
+    {
+      "id": "strixhaven-mascot",
+      "name": "Strixhaven Mascot",
+      "ru": "Талисман Стриксхейвена",
+      "url": "https://dnd.su/feats/180-strixhaven-mascot/",
+      "source": "SCC",
+      "prerequisite": "4 уровень, черта «Поступивший в Стриксхейвен»"
+    }
+  ]
+}

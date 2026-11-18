@@ -326,3 +326,31 @@ dialog::backdrop { background:#09090abf; }
 @media (prefers-reduced-motion: no-preference) {
   button, a, input, select, textarea { transition:border-color .15s, background-color .15s, color .15s; }
 }
+.campaign-sources { margin-top:14px; }
+.wide-dialog { width:min(760px,calc(100% - 28px)); }
+.reference-browser { display:grid; gap:10px; }
+.reference-tabs { margin-bottom:2px; }
+.reference-filters { display:grid; grid-template-columns:minmax(0,1.5fr) 1fr .8fr; gap:9px; align-items:end; }
+.reference-filters .field { margin:0; }
+.reference-filters .toggle { grid-column:1/-1; font-size:.77rem; color:var(--soft); }
+.reference-filters .field > select { width:100%; }
+.reference-list { display:grid; gap:4px; max-height:42vh; overflow:auto; margin-bottom:4px; }
+.reference-row { display:flex; gap:12px; align-items:center; justify-content:space-between; padding:9px; border:1px solid var(--border); border-radius:6px; background:#202124; font-size:.79rem; }
+.reference-row > div { min-width:0; }
+.reference-row span { display:block; margin-top:4px; color:var(--muted); font-size:.71rem; overflow-wrap:anywhere; }
+.reference-row a,.reference-link,.source-link { display:inline-flex; align-items:center; gap:3px; color:var(--gold); text-decoration:none; white-space:nowrap; font-size:.72rem; }
+.reference-row a:hover,.reference-link:hover,.source-link:hover { text-decoration:underline; }
+.reference-link { margin:5px 10px 9px; }
+.origin-card { min-width:0; display:grid; align-content:start; }
+.origin-card .option-card { width:100%; }
+.origin-search { margin-bottom:9px; }
+.source-link { justify-self:start; margin-top:3px; padding:3px 7px; }
+.more-options { margin-top:10px; }
+.manual-rules>summary { cursor:pointer; font-weight:600; }
+.manual-rules .field { margin-top:10px; }
+.manual-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; }
+@media (max-width:480px) {
+  .reference-filters { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .reference-filters > .field:first-child { grid-column:1/-1; }
+  .manual-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
