@@ -1,0 +1,65 @@
+giant-fly|Гигантская муха
+ape|Человекообразная обезьяна
+baboon|Павиан
+badger|Барсук
+bat|Летучая мышь
+black-bear|Чёрный медведь
+blood-hawk|Кровавый ястреб
+boar|Кабан
+brown-bear|Бурый медведь
+camel|Верблюд
+cat|Кошка
+constrictor-snake|Удав
+crab|Краб
+crocodile|Крокодил
+deer|Олень
+dire-wolf|Лютый волк
+draft-horse|Тягловая лошадь
+eagle|Орёл
+elk|Лось
+frog|Лягушка
+giant-badger|Гигантский барсук
+giant-bat|Гигантская летучая мышь
+giant-centipede|Гигантская многоножка
+giant-crab|Гигантский краб
+giant-fire-beetle|Гигантский огненный жук
+giant-frog|Гигантская лягушка
+giant-goat|Гигантская коза
+giant-hyena|Гигантская гиена
+giant-lizard|Гигантская ящерица
+giant-octopus|Гигантский осьминог
+giant-rat|Гигантская крыса
+giant-seahorse|Гигантский морской конёк
+giant-spider|Гигантский паук
+giant-toad|Гигантская жаба
+giant-venomous-snake|Гигантская ядовитая змея
+giant-wasp|Гигантская оса
+giant-weasel|Гигантская ласка
+giant-wolf-spider|Гигантский паук-волк
+goat|Коза
+hawk|Ястреб
+hyena|Гиена
+jackal|Шакал
+lion|Лев
+lizard|Ящерица
+mastiff|Мастиф
+mule|Мул
+octopus|Осьминог
+owl|Сова
+panther|Пантера
+piranha|Пиранья
+pony|Пони
+pteranodon|Птеранодон
+rat|Крыса
+raven|Ворон
+reef-shark|Рифовая акула
+riding-horse|Верховая лошадь
+scorpion|Скорпион
+seahorse|Морской конёк
+spider|Паук
+tiger|Тигр
+venomous-snake|Ядовитая змея
+vulture|Стервятник
+warhorse|Боевой конь
+weasel|Ласка
+wolf|Волк
